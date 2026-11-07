@@ -1,0 +1,1504 @@
+{
+ "matchId": 43098,
+ "at": "2026-11-07T23:44:07.542Z",
+ "auctionType": "Vickrey",
+ "placement": 3,
+ "nPlayers": 6,
+ "scores": [
+  {
+   "bot": "Tow57-Auctioneer",
+   "score": 91,
+   "balance": 4
+  },
+  {
+   "bot": "aipom",
+   "score": 88,
+   "balance": 17
+  },
+  {
+   "bot": "Astronaut",
+   "score": 84,
+   "balance": 32
+  },
+  {
+   "bot": "Lexicoin",
+   "score": 80,
+   "balance": 13
+  },
+  {
+   "bot": "Odysseus's Voyage",
+   "score": 62,
+   "balance": 10
+  },
+  {
+   "bot": "bot1717",
+   "score": 31,
+   "balance": 57
+  }
+ ],
+ "myScore": 84,
+ "myLeftover": "A",
+ "myWords": [
+  {
+   "bot": "Astronaut",
+   "word": "PANZERS",
+   "reward": 54
+  },
+  {
+   "bot": "Astronaut",
+   "word": "WINTRY",
+   "reward": 30
+  }
+ ],
+ "myWordAttempts": [
+  {
+   "word": "PANZERS",
+   "at": 1794095020506,
+   "ok": true
+  },
+  {
+   "word": "WINTRY",
+   "at": 1794095046544,
+   "ok": true
+  }
+ ],
+ "won": [
+  {
+   "l": "R",
+   "paid": 10,
+   "bid": 10
+  },
+  {
+   "l": "A",
+   "paid": 9,
+   "bid": 11
+  },
+  {
+   "l": "Z",
+   "paid": 36,
+   "bid": 62
+  },
+  {
+   "l": "I",
+   "paid": 14,
+   "bid": 16
+  },
+  {
+   "l": "T",
+   "paid": 14,
+   "bid": 20
+  },
+  {
+   "l": "Y",
+   "paid": 25,
+   "bid": 40
+  },
+  {
+   "l": "N",
+   "paid": 16,
+   "bid": 23
+  },
+  {
+   "l": "R",
+   "paid": 19,
+   "bid": 26
+  },
+  {
+   "l": "A",
+   "paid": 9,
+   "bid": 11
+  }
+ ],
+ "missed": [
+  {
+   "l": "U",
+   "bid": 5,
+   "paid": 13,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "R",
+   "bid": 6,
+   "paid": 16,
+   "winner": "aipom"
+  },
+  {
+   "l": "V",
+   "bid": 7,
+   "paid": 15,
+   "winner": "Lexicoin"
+  },
+  {
+   "l": "N",
+   "bid": 1,
+   "paid": 12,
+   "winner": "bot1717"
+  },
+  {
+   "l": "E",
+   "bid": 9,
+   "paid": 14,
+   "winner": "bot1717"
+  },
+  {
+   "l": "E",
+   "bid": 8,
+   "paid": 14,
+   "winner": "bot1717"
+  },
+  {
+   "l": "N",
+   "bid": 1,
+   "paid": 12,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "O",
+   "bid": 8,
+   "paid": 10,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "U",
+   "bid": 4,
+   "paid": 10,
+   "winner": "bot1717"
+  },
+  {
+   "l": "O",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "L",
+   "bid": 3,
+   "paid": 13,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "P",
+   "bid": 7,
+   "paid": 14,
+   "winner": "aipom"
+  },
+  {
+   "l": "D",
+   "bid": 13,
+   "paid": 13,
+   "winner": "bot1717"
+  },
+  {
+   "l": "O",
+   "bid": 13,
+   "paid": 13,
+   "winner": "aipom"
+  },
+  {
+   "l": "X",
+   "bid": 24,
+   "paid": 28,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "O",
+   "bid": 11,
+   "paid": 11,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "I",
+   "bid": 7,
+   "paid": 11,
+   "winner": "Lexicoin"
+  },
+  {
+   "l": "I",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "T",
+   "bid": 8,
+   "paid": 10,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "O",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "E",
+   "bid": 9,
+   "paid": 10,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "G",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "L",
+   "bid": 4,
+   "paid": 9,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "Y",
+   "bid": 16,
+   "paid": 28,
+   "winner": "aipom"
+  },
+  {
+   "l": "L",
+   "bid": 5,
+   "paid": 12,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "B",
+   "bid": 7,
+   "paid": 14,
+   "winner": "Lexicoin"
+  },
+  {
+   "l": "B",
+   "bid": 5,
+   "paid": 10,
+   "winner": "aipom"
+  },
+  {
+   "l": "I",
+   "bid": 6,
+   "paid": 10,
+   "winner": "Lexicoin"
+  },
+  {
+   "l": "T",
+   "bid": 3,
+   "paid": 10,
+   "winner": "aipom"
+  },
+  {
+   "l": "I",
+   "bid": 7,
+   "paid": 9,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "E",
+   "bid": 7,
+   "paid": 11,
+   "winner": "aipom"
+  },
+  {
+   "l": "E",
+   "bid": 7,
+   "paid": 11,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "E",
+   "bid": 3,
+   "paid": 12,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "U",
+   "bid": 6,
+   "paid": 9,
+   "winner": "aipom"
+  },
+  {
+   "l": "R",
+   "bid": 3,
+   "paid": 10,
+   "winner": "aipom"
+  },
+  {
+   "l": "I",
+   "bid": 4,
+   "paid": 14,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "R",
+   "bid": 3,
+   "paid": 16,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "E",
+   "bid": 6,
+   "paid": 13,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "Q",
+   "bid": 13,
+   "paid": 21,
+   "winner": "Lexicoin"
+  },
+  {
+   "l": "A",
+   "bid": 13,
+   "paid": 13,
+   "winner": "aipom"
+  },
+  {
+   "l": "M",
+   "bid": 20,
+   "paid": 20,
+   "winner": "Lexicoin"
+  },
+  {
+   "l": "M",
+   "bid": 2,
+   "paid": 18,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "K",
+   "bid": 11,
+   "paid": 15,
+   "winner": "aipom"
+  },
+  {
+   "l": "E",
+   "bid": 11,
+   "paid": 14,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "A",
+   "bid": 11,
+   "paid": 13,
+   "winner": "Lexicoin"
+  },
+  {
+   "l": "J",
+   "bid": 7,
+   "paid": 14,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "E",
+   "bid": 11,
+   "paid": 15,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "A",
+   "bid": 11,
+   "paid": 11,
+   "winner": "bot1717"
+  },
+  {
+   "l": "A",
+   "bid": 11,
+   "paid": 11,
+   "winner": "aipom"
+  },
+  {
+   "l": "C",
+   "bid": 11,
+   "paid": 11,
+   "winner": "Lexicoin"
+  },
+  {
+   "l": "S",
+   "bid": 1,
+   "paid": 18,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "V",
+   "bid": 6,
+   "paid": 11,
+   "winner": "aipom"
+  },
+  {
+   "l": "A",
+   "bid": 11,
+   "paid": 11,
+   "winner": "Lexicoin"
+  },
+  {
+   "l": "N",
+   "bid": 1,
+   "paid": 11,
+   "winner": "Lexicoin"
+  },
+  {
+   "l": "A",
+   "bid": 2,
+   "paid": 4,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "S",
+   "bid": 2,
+   "paid": 15,
+   "winner": "Lexicoin"
+  },
+  {
+   "l": "I",
+   "bid": 2,
+   "paid": 15,
+   "winner": "Lexicoin"
+  },
+  {
+   "l": "S",
+   "bid": 2,
+   "paid": 13,
+   "winner": "Tow57-Auctioneer"
+  }
+ ],
+ "maxDecisionMs": 24.808207000023685,
+ "auctions": [
+  {
+   "id": 2828078,
+   "letter": "U",
+   "winner": "Tow57-Auctioneer",
+   "paid": 13,
+   "myBid": 5,
+   "info": {
+    "v0": 28.874634200106133,
+    "v1": 32.11601745008641,
+    "delta": 3.2413832499802773,
+    "lambda": 0.6390918595866916
+   },
+   "ms": 12
+  },
+  {
+   "id": 2828083,
+   "letter": "R",
+   "winner": "aipom",
+   "paid": 16,
+   "myBid": 6,
+   "info": {
+    "v0": 26.787332418776444,
+    "v1": 30.991600864451442,
+    "delta": 4.204268445674998,
+    "lambda": 0.6301088811066341
+   },
+   "ms": 12
+  },
+  {
+   "id": 2828088,
+   "letter": "V",
+   "winner": "Lexicoin",
+   "paid": 15,
+   "myBid": 7,
+   "info": {
+    "v0": 23.90041054038031,
+    "v1": 28.2571897296869,
+    "delta": 4.3567791893065895,
+    "lambda": 0.6211251010693709
+   },
+   "ms": 13
+  },
+  {
+   "id": 2828093,
+   "letter": "N",
+   "winner": "bot1717",
+   "paid": 12,
+   "myBid": 1,
+   "info": {
+    "v0": 25.511831668609247,
+    "v1": 26.418907073337007,
+    "delta": 0.9070754047277596,
+    "lambda": 0.6121404841839178
+   },
+   "ms": 13
+  },
+  {
+   "id": 2828098,
+   "letter": "E",
+   "winner": "bot1717",
+   "paid": 14,
+   "myBid": 9,
+   "info": {
+    "v0": 22.89249841814578,
+    "v1": 28.71930509699078,
+    "delta": 5.826806678844999,
+    "lambda": 0.6031549930531205
+   },
+   "ms": 13
+  },
+  {
+   "id": 2828103,
+   "letter": "E",
+   "winner": "bot1717",
+   "paid": 14,
+   "myBid": 8,
+   "info": {
+    "v0": 24.358882884921083,
+    "v1": 29.183472671348472,
+    "delta": 4.824589786427389,
+    "lambda": 0.5941685880138745
+   },
+   "ms": 12
+  },
+  {
+   "id": 2828108,
+   "letter": "N",
+   "winner": "Tow57-Auctioneer",
+   "paid": 12,
+   "myBid": 1,
+   "info": {
+    "v0": 25.512063768510703,
+    "v1": 26.20945532828907,
+    "delta": 0.6973915597783673,
+    "lambda": 0.5851812269625508
+   },
+   "ms": 16
+  },
+  {
+   "id": 2828113,
+   "letter": "O",
+   "winner": "Tow57-Auctioneer",
+   "paid": 10,
+   "myBid": 8,
+   "info": {
+    "v0": 25.97502878647921,
+    "v1": 31.157994474026534,
+    "delta": 5.182965687547323,
+    "lambda": 0.5761928651639956
+   },
+   "ms": 13
+  },
+  {
+   "id": 2828118,
+   "letter": "U",
+   "winner": "bot1717",
+   "paid": 10,
+   "myBid": 4,
+   "info": {
+    "v0": 24.686891340881605,
+    "v1": 27.255622012504038,
+    "delta": 2.5687306716224327,
+    "lambda": 0.5672034550422764
+   },
+   "ms": 14
+  },
+  {
+   "id": 2828123,
+   "letter": "O",
+   "winner": "Tow57-Auctioneer",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 23.64574984442451,
+    "v1": 29.261991086240513,
+    "delta": 5.616241241816002,
+    "lambda": 0.5582129459510952
+   },
+   "ms": 13
+  },
+  {
+   "id": 2828128,
+   "letter": "L",
+   "winner": "Tow57-Auctioneer",
+   "paid": 13,
+   "myBid": 3,
+   "info": {
+    "v0": 26.658082624583397,
+    "v1": 28.63834694127689,
+    "delta": 1.9802643166934928,
+    "lambda": 0.5492212839215247
+   },
+   "ms": 14
+  },
+  {
+   "id": 2828133,
+   "letter": "P",
+   "winner": "aipom",
+   "paid": 14,
+   "myBid": 7,
+   "info": {
+    "v0": 26.259965859685526,
+    "v1": 30.042322414994118,
+    "delta": 3.782356555308592,
+    "lambda": 0.5402284113844061
+   },
+   "ms": 13
+  },
+  {
+   "id": 2828138,
+   "letter": "D",
+   "winner": "bot1717",
+   "paid": 13,
+   "myBid": 13,
+   "info": {
+    "v0": 25.669809849651518,
+    "v1": 32.95302203844451,
+    "delta": 7.283212188792991,
+    "lambda": 0.5312342668643781
+   },
+   "ms": 16
+  },
+  {
+   "id": 2828143,
+   "letter": "O",
+   "winner": "aipom",
+   "paid": 13,
+   "myBid": 13,
+   "info": {
+    "v0": 24.762568640865595,
+    "v1": 32.05141464476474,
+    "delta": 7.288846003899145,
+    "lambda": 0.5222387846420935
+   },
+   "ms": 13
+  },
+  {
+   "id": 2828148,
+   "letter": "X",
+   "winner": "Odysseus's Voyage",
+   "paid": 28,
+   "myBid": 24,
+   "info": {
+    "v0": 25.81235523928971,
+    "v1": 38.29291259966514,
+    "delta": 12.480557360375425,
+    "lambda": 0.5132418943806824
+   },
+   "ms": 15
+  },
+  {
+   "id": 2828153,
+   "letter": "O",
+   "winner": "Odysseus's Voyage",
+   "paid": 11,
+   "myBid": 11,
+   "info": {
+    "v0": 26.463894823793677,
+    "v1": 32.48126348665313,
+    "delta": 6.01736866285945,
+    "lambda": 0.5042435207119628
+   },
+   "ms": 12
+  },
+  {
+   "id": 2828158,
+   "letter": "I",
+   "winner": "Lexicoin",
+   "paid": 11,
+   "myBid": 7,
+   "info": {
+    "v0": 28.50853895084673,
+    "v1": 32.440436939028885,
+    "delta": 3.931897988182154,
+    "lambda": 0.4952435827772256
+   },
+   "ms": 11
+  },
+  {
+   "id": 2828163,
+   "letter": "I",
+   "winner": "Tow57-Auctioneer",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 26.28653611824731,
+    "v1": 31.279221506126905,
+    "delta": 4.992685387879597,
+    "lambda": 0.48624199371666077
+   },
+   "ms": 22
+  },
+  {
+   "id": 2828168,
+   "letter": "T",
+   "winner": "Tow57-Auctioneer",
+   "paid": 10,
+   "myBid": 8,
+   "info": {
+    "v0": 26.38187829799348,
+    "v1": 30.30095394710624,
+    "delta": 3.9190756491127594,
+    "lambda": 0.4772386601005693
+   },
+   "ms": 25
+  },
+  {
+   "id": 2828173,
+   "letter": "O",
+   "winner": "Tow57-Auctioneer",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 27.81463848974794,
+    "v1": 32.791146469220315,
+    "delta": 4.976507979472377,
+    "lambda": 0.4682334812944538
+   },
+   "ms": 23
+  },
+  {
+   "id": 2828178,
+   "letter": "E",
+   "winner": "Tow57-Auctioneer",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 28.12791938739761,
+    "v1": 32.38755462162603,
+    "delta": 4.259635234228419,
+    "lambda": 0.45922634874881
+   },
+   "ms": 9
+  },
+  {
+   "id": 2828183,
+   "letter": "G",
+   "winner": "Tow57-Auctioneer",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 27.732507996163367,
+    "v1": 32.45734672787234,
+    "delta": 4.724838731708974,
+    "lambda": 0.45021714520296435
+   },
+   "ms": 9
+  },
+  {
+   "id": 2828188,
+   "letter": "L",
+   "winner": "Tow57-Auctioneer",
+   "paid": 9,
+   "myBid": 4,
+   "info": {
+    "v0": 30.254780894361716,
+    "v1": 32.1395429853341,
+    "delta": 1.8847620909723872,
+    "lambda": 0.4412057437905287
+   },
+   "ms": 17
+  },
+  {
+   "id": 2828193,
+   "letter": "Y",
+   "winner": "aipom",
+   "paid": 28,
+   "myBid": 16,
+   "info": {
+    "v0": 28.312230944502105,
+    "v1": 35.2942791669389,
+    "delta": 6.982048222436795,
+    "lambda": 0.432192007031948
+   },
+   "ms": 14
+  },
+  {
+   "id": 2828198,
+   "letter": "L",
+   "winner": "Tow57-Auctioneer",
+   "paid": 12,
+   "myBid": 5,
+   "info": {
+    "v0": 28.755985833639524,
+    "v1": 31.126807114901,
+    "delta": 2.370821281261474,
+    "lambda": 0.42317578569709824
+   },
+   "ms": 14
+  },
+  {
+   "id": 2828203,
+   "letter": "B",
+   "winner": "Lexicoin",
+   "paid": 14,
+   "myBid": 7,
+   "info": {
+    "v0": 28.934153424661275,
+    "v1": 31.950896858830593,
+    "delta": 3.0167434341693173,
+    "lambda": 0.4141569175178807
+   },
+   "ms": 13
+  },
+  {
+   "id": 2828208,
+   "letter": "B",
+   "winner": "aipom",
+   "paid": 10,
+   "myBid": 5,
+   "info": {
+    "v0": 32.11494698850576,
+    "v1": 34.53177160037928,
+    "delta": 2.4168246118735226,
+    "lambda": 0.40513522572712946
+   },
+   "ms": 8
+  },
+  {
+   "id": 2828213,
+   "letter": "R",
+   "winner": "Astronaut",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 29.655782278469957,
+    "v1": 34.00581427126786,
+    "delta": 4.350031992797902,
+    "lambda": 0.3961105173957577
+   },
+   "ms": 7
+  },
+  {
+   "id": 2828218,
+   "letter": "I",
+   "winner": "Lexicoin",
+   "paid": 10,
+   "myBid": 6,
+   "info": {
+    "v0": 34.187186811224585,
+    "v1": 36.72618214370133,
+    "delta": 2.5389953324767447,
+    "lambda": 0.40429457072908986
+   },
+   "ms": 8
+  },
+  {
+   "id": 2828223,
+   "letter": "T",
+   "winner": "aipom",
+   "paid": 10,
+   "myBid": 3,
+   "info": {
+    "v0": 34.11780518401809,
+    "v1": 35.47919956440705,
+    "delta": 1.3613943803889583,
+    "lambda": 0.3948615867039579
+   },
+   "ms": 7
+  },
+  {
+   "id": 2828228,
+   "letter": "I",
+   "winner": "Tow57-Auctioneer",
+   "paid": 9,
+   "myBid": 7,
+   "info": {
+    "v0": 34.885767963242536,
+    "v1": 37.60137802942415,
+    "delta": 2.715610066181611,
+    "lambda": 0.38542472488729396
+   },
+   "ms": 7
+  },
+  {
+   "id": 2828233,
+   "letter": "E",
+   "winner": "aipom",
+   "paid": 11,
+   "myBid": 7,
+   "info": {
+    "v0": 35.25204426137547,
+    "v1": 38.08940753762465,
+    "delta": 2.837363276249185,
+    "lambda": 0.37598369329168513
+   },
+   "ms": 8
+  },
+  {
+   "id": 2828238,
+   "letter": "E",
+   "winner": "Odysseus's Voyage",
+   "paid": 11,
+   "myBid": 7,
+   "info": {
+    "v0": 35.34934475357068,
+    "v1": 37.93133197831541,
+    "delta": 2.5819872247447293,
+    "lambda": 0.36653816971059994
+   },
+   "ms": 7
+  },
+  {
+   "id": 2828243,
+   "letter": "A",
+   "winner": "Astronaut",
+   "paid": 9,
+   "myBid": 11,
+   "info": {
+    "v0": 37.26492923868546,
+    "v1": 41.468749610731315,
+    "delta": 4.203820372045854,
+    "lambda": 0.3570877976843621
+   },
+   "ms": 7
+  },
+  {
+   "id": 2828248,
+   "letter": "E",
+   "winner": "Odysseus's Voyage",
+   "paid": 12,
+   "myBid": 3,
+   "info": {
+    "v0": 38.839728158946144,
+    "v1": 40.219295298709994,
+    "delta": 1.37956713976385,
+    "lambda": 0.3627902691779031
+   },
+   "ms": 17
+  },
+  {
+   "id": 2828253,
+   "letter": "U",
+   "winner": "aipom",
+   "paid": 9,
+   "myBid": 6,
+   "info": {
+    "v0": 39.14580461019767,
+    "v1": 41.39743525221524,
+    "delta": 2.2516306420175667,
+    "lambda": 0.3529164208566676
+   },
+   "ms": 19
+  },
+  {
+   "id": 2828258,
+   "letter": "R",
+   "winner": "aipom",
+   "paid": 10,
+   "myBid": 3,
+   "info": {
+    "v0": 40.74989677787741,
+    "v1": 41.9807740686821,
+    "delta": 1.2308772908046919,
+    "lambda": 0.34303612877572986
+   },
+   "ms": 12
+  },
+  {
+   "id": 2828263,
+   "letter": "I",
+   "winner": "Odysseus's Voyage",
+   "paid": 14,
+   "myBid": 4,
+   "info": {
+    "v0": 41.5457755169071,
+    "v1": 42.91009722819576,
+    "delta": 1.3643217112886603,
+    "lambda": 0.33314881962217874
+   },
+   "ms": 13
+  },
+  {
+   "id": 2828268,
+   "letter": "R",
+   "winner": "Odysseus's Voyage",
+   "paid": 16,
+   "myBid": 3,
+   "info": {
+    "v0": 40.24574204775015,
+    "v1": 41.38939210235471,
+    "delta": 1.1436500546045636,
+    "lambda": 0.32325384950672476
+   },
+   "ms": 13
+  },
+  {
+   "id": 2828273,
+   "letter": "E",
+   "winner": "Odysseus's Voyage",
+   "paid": 13,
+   "myBid": 6,
+   "info": {
+    "v0": 39.87788113525667,
+    "v1": 41.823370638227885,
+    "delta": 1.9454895029712134,
+    "lambda": 0.31335049267750453
+   },
+   "ms": 15
+  },
+  {
+   "id": 2828278,
+   "letter": "Z",
+   "winner": "Astronaut",
+   "paid": 36,
+   "myBid": 62,
+   "info": {
+    "v0": 39.0595256569395,
+    "v1": 58.03244000874721,
+    "delta": 18.97291435180771,
+    "lambda": 0.30343792797968877
+   },
+   "ms": 21
+  },
+  {
+   "id": 2828283,
+   "letter": "I",
+   "winner": "Astronaut",
+   "paid": 14,
+   "myBid": 16,
+   "info": {
+    "v0": 3.1350155683541865,
+    "v1": 7.683654162043595,
+    "delta": 4.548638593689409,
+    "lambda": 0.365876603211651
+   },
+   "ms": 21
+  },
+  {
+   "id": 2828288,
+   "letter": "Q",
+   "winner": "Lexicoin",
+   "paid": 21,
+   "myBid": 13,
+   "info": {
+    "v0": 12.996836855182252,
+    "v1": 16.669408600610407,
+    "delta": 3.6725717454281543,
+    "lambda": 0.2781273158216022
+   },
+   "ms": 9
+  },
+  {
+   "id": 2828293,
+   "letter": "A",
+   "winner": "aipom",
+   "paid": 13,
+   "myBid": 13,
+   "info": {
+    "v0": 13.685555662743875,
+    "v1": 17.39741104370263,
+    "delta": 3.7118553809587542,
+    "lambda": 0.26837227301743694
+   },
+   "ms": 6
+  },
+  {
+   "id": 2828298,
+   "letter": "T",
+   "winner": "Astronaut",
+   "paid": 14,
+   "myBid": 20,
+   "info": {
+    "v0": 12.694453956470369,
+    "v1": 18.05217600086518,
+    "delta": 5.357722044394812,
+    "lambda": 0.2586036644466809
+   },
+   "ms": 6
+  },
+  {
+   "id": 2828303,
+   "letter": "Y",
+   "winner": "Astronaut",
+   "paid": 25,
+   "myBid": 40,
+   "info": {
+    "v0": 17.727479235509545,
+    "v1": 28.482851845083925,
+    "delta": 10.75537260957438,
+    "lambda": 0.26727543880132093
+   },
+   "ms": 4
+  },
+  {
+   "id": 2828308,
+   "letter": "M",
+   "winner": "Lexicoin",
+   "paid": 20,
+   "myBid": 20,
+   "info": {
+    "v0": 25.352766885469507,
+    "v1": 31.41749639423145,
+    "delta": 6.064729508761943,
+    "lambda": 0.3014777593540918
+   },
+   "ms": 4
+  },
+  {
+   "id": 2828313,
+   "letter": "N",
+   "winner": "Astronaut",
+   "paid": 16,
+   "myBid": 23,
+   "info": {
+    "v0": 23.1982604628621,
+    "v1": 30.09401558469101,
+    "delta": 6.895755121828913,
+    "lambda": 0.28909166183525237
+   },
+   "ms": 7
+  },
+  {
+   "id": 2828318,
+   "letter": "R",
+   "winner": "Astronaut",
+   "paid": 19,
+   "myBid": 26,
+   "info": {
+    "v0": 24.168200578583654,
+    "v1": 32.66820057858366,
+    "delta": 8.500000000000004,
+    "lambda": 0.3178789137187853
+   },
+   "ms": 5
+  },
+  {
+   "id": 2828323,
+   "letter": "M",
+   "winner": "Odysseus's Voyage",
+   "paid": 18,
+   "myBid": 2,
+   "info": {
+    "v0": 32.58123784304669,
+    "v1": 33.48123784304668,
+    "delta": 0.8999999999999915,
+    "lambda": 0.38554796182240797
+   },
+   "ms": 4
+  },
+  {
+   "id": 2828328,
+   "letter": "K",
+   "winner": "aipom",
+   "paid": 15,
+   "myBid": 11,
+   "info": {
+    "v0": 32.087172625190824,
+    "v1": 36.90473173566475,
+    "delta": 4.817559110473923,
+    "lambda": 0.36733676087719525
+   },
+   "ms": 3
+  },
+  {
+   "id": 2828333,
+   "letter": "E",
+   "winner": "Tow57-Auctioneer",
+   "paid": 14,
+   "myBid": 11,
+   "info": {
+    "v0": 31.262189149759,
+    "v1": 39,
+    "delta": 7.737810850241001,
+    "lambda": 0.349064798347235
+   },
+   "ms": 2
+  },
+  {
+   "id": 2828338,
+   "letter": "A",
+   "winner": "Lexicoin",
+   "paid": 13,
+   "myBid": 11,
+   "info": {
+    "v0": 31.614738753268934,
+    "v1": 37.36821222397782,
+    "delta": 5.753473470708887,
+    "lambda": 0.33072200338917745
+   },
+   "ms": 4
+  },
+  {
+   "id": 2828343,
+   "letter": "J",
+   "winner": "Odysseus's Voyage",
+   "paid": 14,
+   "myBid": 7,
+   "info": {
+    "v0": 31.308675286306627,
+    "v1": 33.72950861963995,
+    "delta": 2.4208333333333236,
+    "lambda": 0.3122958951594076
+   },
+   "ms": 5
+  },
+  {
+   "id": 2828348,
+   "letter": "E",
+   "winner": "Odysseus's Voyage",
+   "paid": 15,
+   "myBid": 11,
+   "info": {
+    "v0": 30,
+    "v1": 39,
+    "delta": 9,
+    "lambda": 0.29377079716709353
+   },
+   "ms": 3
+  },
+  {
+   "id": 2828353,
+   "letter": "A",
+   "winner": "bot1717",
+   "paid": 11,
+   "myBid": 11,
+   "info": {
+    "v0": 30,
+    "v1": 37.207730834799115,
+    "delta": 7.207730834799115,
+    "lambda": 0.2751267143155546
+   },
+   "ms": 2
+  },
+  {
+   "id": 2828358,
+   "letter": "A",
+   "winner": "aipom",
+   "paid": 11,
+   "myBid": 11,
+   "info": {
+    "v0": 30,
+    "v1": 38.903514030619526,
+    "delta": 8.903514030619526,
+    "lambda": 0.25633768571761983
+   },
+   "ms": 2
+  },
+  {
+   "id": 2828363,
+   "letter": "C",
+   "winner": "Lexicoin",
+   "paid": 11,
+   "myBid": 11,
+   "info": {
+    "v0": 30,
+    "v1": 32.71839302648241,
+    "delta": 2.71839302648241,
+    "lambda": 0.23736929421297728
+   },
+   "ms": 2
+  },
+  {
+   "id": 2828368,
+   "letter": "S",
+   "winner": "Tow57-Auctioneer",
+   "paid": 18,
+   "myBid": 1,
+   "info": {
+    "v0": 30,
+    "v1": 30.299999999999994,
+    "delta": 0.2999999999999936,
+    "lambda": 0.21817476269811312
+   },
+   "ms": 2
+  },
+  {
+   "id": 2828373,
+   "letter": "V",
+   "winner": "aipom",
+   "paid": 11,
+   "myBid": 6,
+   "info": {
+    "v0": 30,
+    "v1": 31.200000000000006,
+    "delta": 1.2000000000000064,
+    "lambda": 0.19868856245063088
+   },
+   "ms": 2
+  },
+  {
+   "id": 2828378,
+   "letter": "A",
+   "winner": "Lexicoin",
+   "paid": 11,
+   "myBid": 11,
+   "info": {
+    "v0": 30,
+    "v1": 39.29434125217958,
+    "delta": 9.294341252179578,
+    "lambda": 0.17881536607945026
+   },
+   "ms": 2
+  },
+  {
+   "id": 2828383,
+   "letter": "A",
+   "winner": "Astronaut",
+   "paid": 9,
+   "myBid": 11,
+   "info": {
+    "v0": 30,
+    "v1": 37.06590323574395,
+    "delta": 7.065903235743953,
+    "lambda": 0.1584095892636132
+   },
+   "ms": 2
+  },
+  {
+   "id": 2828388,
+   "letter": "N",
+   "winner": "Lexicoin",
+   "paid": 11,
+   "myBid": 1,
+   "info": {
+    "v0": 32.09705320027693,
+    "v1": 32.39705320027694,
+    "delta": 0.30000000000001137,
+    "lambda": 0.16290364315806694
+   },
+   "ms": 2
+  },
+  {
+   "id": 2828393,
+   "letter": "A",
+   "winner": "Tow57-Auctioneer",
+   "paid": 4,
+   "myBid": 2,
+   "info": {
+    "v0": 30.82482424064024,
+    "v1": 42.17874520723159,
+    "delta": 11.353920966591353,
+    "lambda": 0.13634844687471553
+   },
+   "ms": 2
+  },
+  {
+   "id": 2828398,
+   "letter": "S",
+   "winner": "Lexicoin",
+   "paid": 15,
+   "myBid": 2,
+   "info": {
+    "v0": 30.759509035939132,
+    "v1": 31.17200903593915,
+    "delta": 0.4125000000000192,
+    "lambda": 0.10732691558866973
+   },
+   "ms": 2
+  },
+  {
+   "id": 2828403,
+   "letter": "I",
+   "winner": "Lexicoin",
+   "paid": 15,
+   "myBid": 2,
+   "info": {
+    "v0": 31.235257688724573,
+    "v1": 31.535257688724588,
+    "delta": 0.3000000000000149,
+    "lambda": 0.07295272776299545
+   },
+   "ms": 2
+  },
+  {
+   "id": 2828408,
+   "letter": "S",
+   "winner": "Tow57-Auctioneer",
+   "paid": 13,
+   "myBid": 2,
+   "info": {
+    "v0": 30.299999999999994,
+    "v1": 30.600000000000012,
+    "delta": 0.3000000000000185,
+    "lambda": 0.03
+   },
+   "ms": 2
+  },
+  {
+   "id": 2828413,
+   "letter": "N",
+   "winner": null,
+   "paid": 0,
+   "myBid": 0,
+   "info": {
+    "v0": 30.299999999999994,
+    "v1": 30.600000000000012,
+    "delta": 0.3000000000000185,
+    "lambda": 0.03
+   },
+   "ms": 1
+  }
+ ],
+ "words": [
+  {
+   "bot": "bot1717",
+   "word": "GENTLED",
+   "reward": 27
+  },
+  {
+   "bot": "Lexicoin",
+   "word": "CHEVIED",
+   "reward": 48
+  },
+  {
+   "bot": "Tow57-Auctioneer",
+   "word": "WITLOOF",
+   "reward": 39
+  },
+  {
+   "bot": "Tow57-Auctioneer",
+   "word": "ONEFOLD",
+   "reward": 33
+  },
+  {
+   "bot": "aipom",
+   "word": "PROBITY",
+   "reward": 42
+  },
+  {
+   "bot": "Odysseus's Voyage",
+   "word": "GOUTIER",
+   "reward": 24
+  },
+  {
+   "bot": "Astronaut",
+   "word": "PANZERS",
+   "reward": 54
+  },
+  {
+   "bot": "aipom",
+   "word": "OUTHEAR",
+   "reward": 30
+  },
+  {
+   "bot": "Odysseus's Voyage",
+   "word": "MIREX",
+   "reward": 28
+  },
+  {
+   "bot": "Tow57-Auctioneer",
+   "word": "GUILES",
+   "reward": 17
+  },
+  {
+   "bot": "Lexicoin",
+   "word": "CABMAN",
+   "reward": 30
+  },
+  {
+   "bot": "Lexicoin",
+   "word": "IS",
+   "reward": 2
+  },
+  {
+   "bot": "aipom",
+   "word": "KAVA",
+   "reward": 16
+  },
+  {
+   "bot": "Astronaut",
+   "word": "WINTRY",
+   "reward": 30
+  },
+  {
+   "bot": "Tow57-Auctioneer",
+   "word": "AS",
+   "reward": 2
+  },
+  {
+   "bot": "Odysseus's Voyage",
+   "word": "JEE",
+   "reward": 10
+  },
+  {
+   "bot": "bot1717",
+   "word": "ADO",
+   "reward": 4
+  }
+ ]
+}

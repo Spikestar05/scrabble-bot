@@ -29,10 +29,24 @@ function makeField(rng: Rng): SeatSpec[] {
       : field === "market" ? "market"
       : field === "self" ? "B"
       : field === "mixed" ? (k < 2 ? "B" : "market")
+      : field === "live" ? (k < 3 ? "V" : "market")
       : "market";
     if (kind === "sim") opp.push({ name: "sim", sim: (["Cheapskate", "ValueBidder", "Aggressive"] as const)[rng.int(0, 2)] });
     else if (kind === "B") opp.push({ name: "B", policy: new Brain(dict, pb, "B") });
-    else opp.push({ name: "M", policy: new MarketBot(dict, r, 0.8 + 0.6 * r(), rng.int(5, 7)) });
+    else if (kind === "V") {
+      // perturbed brain variant: stands in for the diverse live field
+      const v: Partial<Params> = {
+        ...pb,
+        lambda0: 0.4 + 0.5 * r(),
+        horizon: [6, 8, 12, 16][rng.int(0, 3)]!,
+        minPlayLen: [5, 6, 7, 7][rng.int(0, 3)]!,
+        playBonus: r() < 0.5 ? 0 : 0.7,
+        priceScale: 0.8 + 0.5 * r(),
+        mc: 16,
+      };
+      opp.push({ name: "V", policy: new Brain(dict, v, "V") });
+    }
+    else opp.push({ name: "M", policy: new MarketBot(dict, r, 0.9 + 0.5 * r(), field === "live" ? 7 : rng.int(5, 7)) });
   }
   seats.push(...opp);
   // shuffle seat order

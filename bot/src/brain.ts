@@ -85,10 +85,11 @@ export const DEFAULT_PARAMS: Params = {
   budgetRef: 120,
 };
 
-// Mean price paid per letter in live matches (from ~127k auctions).
+// Mean price paid per letter in live real-bot-only matches (3135 matches,
+// no sims seated), A..Z.
 export const PRICE_PRIOR: number[] = [
-  6.5, 9.1, 9.7, 7.5, 6.6, 10.8, 7.0, 11.5, 6.2, 17.6, 13.2, 5.5, 9.2, 5.4, 6.1,
-  9.1, 17.9, 5.5, 6.1, 5.2, 6.2, 9.9, 10.5, 17.9, 11.7, 21.0,
+  10.3, 15.9, 17.0, 13.8, 10.6, 18.7, 12.4, 19.9, 9.8, 27.5, 21.9, 10.4, 16.5,
+  10.2, 9.5, 16.2, 27.2, 10.6, 11.6, 9.9, 9.7, 17.1, 17.9, 29.1, 19.8, 35.2,
 ];
 
 // P(Binomial(n, p) >= m)

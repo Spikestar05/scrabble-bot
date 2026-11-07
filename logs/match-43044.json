@@ -1,0 +1,1462 @@
+{
+ "matchId": 43044,
+ "at": "2026-11-07T23:32:27.163Z",
+ "auctionType": "Vickrey",
+ "placement": 3,
+ "nPlayers": 6,
+ "scores": [
+  {
+   "bot": "gas",
+   "score": 111,
+   "balance": 30
+  },
+  {
+   "bot": "SoapConsumers",
+   "score": 88,
+   "balance": 2
+  },
+  {
+   "bot": "Astronaut",
+   "score": 87,
+   "balance": 42
+  },
+  {
+   "bot": "Abhi-AuctionLab",
+   "score": 68,
+   "balance": 18
+  },
+  {
+   "bot": "peanuts",
+   "score": 50,
+   "balance": 13
+  },
+  {
+   "bot": "TileHoarder",
+   "score": 0,
+   "balance": 100
+  }
+ ],
+ "myScore": 87,
+ "myLeftover": "D",
+ "myWords": [
+  {
+   "bot": "Astronaut",
+   "word": "ABAXIAL",
+   "reward": 48
+  },
+  {
+   "bot": "Astronaut",
+   "word": "TENOTOMY",
+   "reward": 39
+  }
+ ],
+ "myWordAttempts": [
+  {
+   "word": "ABAXIAL",
+   "at": 1794094312660,
+   "ok": true
+  },
+  {
+   "word": "TENOTOMY",
+   "at": 1794094346148,
+   "ok": true
+  }
+ ],
+ "won": [
+  {
+   "l": "L",
+   "paid": 10,
+   "bid": 12
+  },
+  {
+   "l": "X",
+   "paid": 26,
+   "bid": 37
+  },
+  {
+   "l": "B",
+   "paid": 18,
+   "bid": 22
+  },
+  {
+   "l": "I",
+   "paid": 8,
+   "bid": 13
+  },
+  {
+   "l": "M",
+   "paid": 21,
+   "bid": 28
+  },
+  {
+   "l": "E",
+   "paid": 12,
+   "bid": 12
+  },
+  {
+   "l": "T",
+   "paid": 11,
+   "bid": 14
+  },
+  {
+   "l": "N",
+   "paid": 9,
+   "bid": 16
+  },
+  {
+   "l": "T",
+   "paid": 10,
+   "bid": 11
+  },
+  {
+   "l": "Y",
+   "paid": 18,
+   "bid": 23
+  },
+  {
+   "l": "D",
+   "paid": 2,
+   "bid": 5
+  }
+ ],
+ "missed": [
+  {
+   "l": "H",
+   "bid": 16,
+   "paid": 16,
+   "winner": "gas"
+  },
+  {
+   "l": "I",
+   "bid": 4,
+   "paid": 10,
+   "winner": "Abhi-AuctionLab"
+  },
+  {
+   "l": "D",
+   "bid": 10,
+   "paid": 12,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "E",
+   "bid": 4,
+   "paid": 11,
+   "winner": "gas"
+  },
+  {
+   "l": "N",
+   "bid": 9,
+   "paid": 9,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "S",
+   "bid": 9,
+   "paid": 13,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "T",
+   "bid": 9,
+   "paid": 10,
+   "winner": "peanuts"
+  },
+  {
+   "l": "I",
+   "bid": 5,
+   "paid": 12,
+   "winner": "peanuts"
+  },
+  {
+   "l": "E",
+   "bid": 7,
+   "paid": 13,
+   "winner": "peanuts"
+  },
+  {
+   "l": "A",
+   "bid": 1,
+   "paid": 14,
+   "winner": "Abhi-AuctionLab"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 9,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "U",
+   "bid": 5,
+   "paid": 10,
+   "winner": "Abhi-AuctionLab"
+  },
+  {
+   "l": "V",
+   "bid": 17,
+   "paid": 20,
+   "winner": "peanuts"
+  },
+  {
+   "l": "G",
+   "bid": 12,
+   "paid": 14,
+   "winner": "peanuts"
+  },
+  {
+   "l": "E",
+   "bid": 8,
+   "paid": 10,
+   "winner": "peanuts"
+  },
+  {
+   "l": "V",
+   "bid": 17,
+   "paid": 17,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "E",
+   "bid": 9,
+   "paid": 10,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "E",
+   "bid": 6,
+   "paid": 10,
+   "winner": "peanuts"
+  },
+  {
+   "l": "S",
+   "bid": 6,
+   "paid": 13,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "R",
+   "bid": 2,
+   "paid": 10,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "P",
+   "bid": 5,
+   "paid": 8,
+   "winner": "Abhi-AuctionLab"
+  },
+  {
+   "l": "O",
+   "bid": 3,
+   "paid": 8,
+   "winner": "gas"
+  },
+  {
+   "l": "M",
+   "bid": 11,
+   "paid": 20,
+   "winner": "Abhi-AuctionLab"
+  },
+  {
+   "l": "K",
+   "bid": 11,
+   "paid": 21,
+   "winner": "gas"
+  },
+  {
+   "l": "U",
+   "bid": 2,
+   "paid": 8,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "F",
+   "bid": 7,
+   "paid": 11,
+   "winner": "gas"
+  },
+  {
+   "l": "S",
+   "bid": 6,
+   "paid": 15,
+   "winner": "gas"
+  },
+  {
+   "l": "T",
+   "bid": 4,
+   "paid": 15,
+   "winner": "Abhi-AuctionLab"
+  },
+  {
+   "l": "E",
+   "bid": 6,
+   "paid": 13,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "N",
+   "bid": 12,
+   "paid": 12,
+   "winner": "Abhi-AuctionLab"
+  },
+  {
+   "l": "J",
+   "bid": 30,
+   "paid": 30,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "O",
+   "bid": 5,
+   "paid": 9,
+   "winner": "gas"
+  },
+  {
+   "l": "G",
+   "bid": 12,
+   "paid": 12,
+   "winner": "gas"
+  },
+  {
+   "l": "E",
+   "bid": 5,
+   "paid": 9,
+   "winner": "gas"
+  },
+  {
+   "l": "I",
+   "bid": 5,
+   "paid": 9,
+   "winner": "Abhi-AuctionLab"
+  },
+  {
+   "l": "G",
+   "bid": 1,
+   "paid": 17,
+   "winner": "peanuts"
+  },
+  {
+   "l": "Y",
+   "bid": 2,
+   "paid": 11,
+   "winner": "gas"
+  },
+  {
+   "l": "W",
+   "bid": 5,
+   "paid": 12,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "C",
+   "bid": 5,
+   "paid": 12,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "I",
+   "bid": 1,
+   "paid": 10,
+   "winner": "gas"
+  },
+  {
+   "l": "L",
+   "bid": 1,
+   "paid": 10,
+   "winner": "gas"
+  },
+  {
+   "l": "E",
+   "bid": 1,
+   "paid": 9,
+   "winner": "Abhi-AuctionLab"
+  },
+  {
+   "l": "A",
+   "bid": 1,
+   "paid": 8,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "T",
+   "bid": 1,
+   "paid": 9,
+   "winner": "gas"
+  },
+  {
+   "l": "O",
+   "bid": 1,
+   "paid": 9,
+   "winner": "gas"
+  },
+  {
+   "l": "O",
+   "bid": 1,
+   "paid": 7,
+   "winner": "Abhi-AuctionLab"
+  },
+  {
+   "l": "N",
+   "bid": 1,
+   "paid": 7,
+   "winner": "Abhi-AuctionLab"
+  },
+  {
+   "l": "D",
+   "bid": 3,
+   "paid": 9,
+   "winner": "Abhi-AuctionLab"
+  },
+  {
+   "l": "O",
+   "bid": 2,
+   "paid": 6,
+   "winner": "Abhi-AuctionLab"
+  },
+  {
+   "l": "B",
+   "bid": 5,
+   "paid": 14,
+   "winner": "Abhi-AuctionLab"
+  },
+  {
+   "l": "R",
+   "bid": 5,
+   "paid": 5,
+   "winner": "peanuts"
+  }
+ ],
+ "maxDecisionMs": 33.07250599999679,
+ "auctions": [
+  {
+   "id": 2819562,
+   "letter": "H",
+   "winner": "gas",
+   "paid": 16,
+   "myBid": 16,
+   "info": {
+    "v0": 8.418920807176379,
+    "v1": 18.82853842393606,
+    "delta": 10.40961761675968,
+    "lambda": 0.6390918595866916
+   },
+   "ms": 33
+  },
+  {
+   "id": 2819568,
+   "letter": "I",
+   "winner": "Abhi-AuctionLab",
+   "paid": 10,
+   "myBid": 4,
+   "info": {
+    "v0": 7.664214682959304,
+    "v1": 10.390075486987083,
+    "delta": 2.7258608040277794,
+    "lambda": 0.6301088811066341
+   },
+   "ms": 21
+  },
+  {
+   "id": 2819574,
+   "letter": "D",
+   "winner": "SoapConsumers",
+   "paid": 12,
+   "myBid": 10,
+   "info": {
+    "v0": 8.113464857651353,
+    "v1": 14.91356566360391,
+    "delta": 6.800100805952557,
+    "lambda": 0.6211251010693709
+   },
+   "ms": 24
+  },
+  {
+   "id": 2819580,
+   "letter": "E",
+   "winner": "gas",
+   "paid": 11,
+   "myBid": 4,
+   "info": {
+    "v0": 8.64750127780401,
+    "v1": 11.583291141546775,
+    "delta": 2.935789863742766,
+    "lambda": 0.6121404841839178
+   },
+   "ms": 19
+  },
+  {
+   "id": 2819586,
+   "letter": "N",
+   "winner": "SoapConsumers",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 8.008996858191027,
+    "v1": 13.551833596409132,
+    "delta": 5.542836738218105,
+    "lambda": 0.6031549930531205
+   },
+   "ms": 26
+  },
+  {
+   "id": 2819592,
+   "letter": "S",
+   "winner": "SoapConsumers",
+   "paid": 13,
+   "myBid": 9,
+   "info": {
+    "v0": 7.855253476362055,
+    "v1": 13.327710305558563,
+    "delta": 5.472456829196508,
+    "lambda": 0.5941685880138745
+   },
+   "ms": 18
+  },
+  {
+   "id": 2819598,
+   "letter": "T",
+   "winner": "peanuts",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 6.009391466928864,
+    "v1": 11.633685801167097,
+    "delta": 5.6242943342382326,
+    "lambda": 0.5851812269625508
+   },
+   "ms": 30
+  },
+  {
+   "id": 2819603,
+   "letter": "A",
+   "winner": "peanuts",
+   "paid": 16,
+   "myBid": 0,
+   "info": {
+    "v0": 7.515843792734944,
+    "v1": 7.815843792734943,
+    "delta": 0.29999999999999893,
+    "lambda": 0.5761928651639956
+   },
+   "ms": 20
+  },
+  {
+   "id": 2819609,
+   "letter": "I",
+   "winner": "peanuts",
+   "paid": 12,
+   "myBid": 5,
+   "info": {
+    "v0": 5.764971480984253,
+    "v1": 9.099661357010557,
+    "delta": 3.334689876026304,
+    "lambda": 0.5672034550422764
+   },
+   "ms": 21
+  },
+  {
+   "id": 2819615,
+   "letter": "L",
+   "winner": "Astronaut",
+   "paid": 10,
+   "myBid": 12,
+   "info": {
+    "v0": 4.366947583911519,
+    "v1": 11.392953155442036,
+    "delta": 7.026005571530518,
+    "lambda": 0.5582129459510952
+   },
+   "ms": 23
+  },
+  {
+   "id": 2819621,
+   "letter": "E",
+   "winner": "peanuts",
+   "paid": 13,
+   "myBid": 7,
+   "info": {
+    "v0": 12.941910271791983,
+    "v1": 17.347024273179503,
+    "delta": 4.4051140013875205,
+    "lambda": 0.5736429222362268
+   },
+   "ms": 24
+  },
+  {
+   "id": 2819627,
+   "letter": "A",
+   "winner": "Abhi-AuctionLab",
+   "paid": 14,
+   "myBid": 1,
+   "info": {
+    "v0": 12.494518151604247,
+    "v1": 13.13314923019116,
+    "delta": 0.6386310785869131,
+    "lambda": 0.564250173206807
+   },
+   "ms": 19
+  },
+  {
+   "id": 2819633,
+   "letter": "I",
+   "winner": "SoapConsumers",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 11.845434630123881,
+    "v1": 16.839817878250397,
+    "delta": 4.994383248126516,
+    "lambda": 0.5548560956345676
+   },
+   "ms": 23
+  },
+  {
+   "id": 2819639,
+   "letter": "U",
+   "winner": "Abhi-AuctionLab",
+   "paid": 10,
+   "myBid": 5,
+   "info": {
+    "v0": 10.629148412648835,
+    "v1": 13.626907143248465,
+    "delta": 2.99775873059963,
+    "lambda": 0.5454606208778887
+   },
+   "ms": 17
+  },
+  {
+   "id": 2819645,
+   "letter": "V",
+   "winner": "peanuts",
+   "paid": 20,
+   "myBid": 17,
+   "info": {
+    "v0": 14.240620282528242,
+    "v1": 23.658349034981295,
+    "delta": 9.417728752453053,
+    "lambda": 0.5360636754723063
+   },
+   "ms": 17
+  },
+  {
+   "id": 2819651,
+   "letter": "G",
+   "winner": "peanuts",
+   "paid": 14,
+   "myBid": 12,
+   "info": {
+    "v0": 12.463748947074405,
+    "v1": 19.13118540254229,
+    "delta": 6.667436455467884,
+    "lambda": 0.5266651806983211
+   },
+   "ms": 17
+  },
+  {
+   "id": 2819657,
+   "letter": "E",
+   "winner": "peanuts",
+   "paid": 10,
+   "myBid": 8,
+   "info": {
+    "v0": 14.538597908276602,
+    "v1": 18.67818356082099,
+    "delta": 4.139585652544389,
+    "lambda": 0.5172650521017662
+   },
+   "ms": 18
+  },
+  {
+   "id": 2819663,
+   "letter": "V",
+   "winner": "SoapConsumers",
+   "paid": 17,
+   "myBid": 17,
+   "info": {
+    "v0": 13.723019469989685,
+    "v1": 22.541193870770556,
+    "delta": 8.81817440078087,
+    "lambda": 0.5078631989605288
+   },
+   "ms": 32
+  },
+  {
+   "id": 2819669,
+   "letter": "E",
+   "winner": "SoapConsumers",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 14.534080584983508,
+    "v1": 19.20429544915187,
+    "delta": 4.670214864168363,
+    "lambda": 0.4984595236904707
+   },
+   "ms": 17
+  },
+  {
+   "id": 2819675,
+   "letter": "E",
+   "winner": "peanuts",
+   "paid": 10,
+   "myBid": 6,
+   "info": {
+    "v0": 13.198364235170544,
+    "v1": 16.529178694549113,
+    "delta": 3.330814459378569,
+    "lambda": 0.48905392118228763
+   },
+   "ms": 19
+  },
+  {
+   "id": 2819681,
+   "letter": "X",
+   "winner": "Astronaut",
+   "paid": 26,
+   "myBid": 37,
+   "info": {
+    "v0": 17.200610285040636,
+    "v1": 35.37459462800149,
+    "delta": 18.173984342960853,
+    "lambda": 0.47964627805972
+   },
+   "ms": 15
+  },
+  {
+   "id": 2819687,
+   "letter": "S",
+   "winner": "SoapConsumers",
+   "paid": 13,
+   "myBid": 6,
+   "info": {
+    "v0": 31.59678736196822,
+    "v1": 35.19836307873796,
+    "delta": 3.601575716769741,
+    "lambda": 0.5381124123594399
+   },
+   "ms": 11
+  },
+  {
+   "id": 2819693,
+   "letter": "B",
+   "winner": "Astronaut",
+   "paid": 18,
+   "myBid": 22,
+   "info": {
+    "v0": 32.36921032684445,
+    "v1": 44.1300308668599,
+    "delta": 11.760820540015445,
+    "lambda": 0.5273417275811004
+   },
+   "ms": 19
+  },
+  {
+   "id": 2819698,
+   "letter": "R",
+   "winner": "SoapConsumers",
+   "paid": 10,
+   "myBid": 2,
+   "info": {
+    "v0": 39.67086701295805,
+    "v1": 41.30124039075714,
+    "delta": 1.6303733777990885,
+    "lambda": 0.5827675833973037
+   },
+   "ms": 12
+  },
+  {
+   "id": 2819704,
+   "letter": "P",
+   "winner": "Abhi-AuctionLab",
+   "paid": 8,
+   "myBid": 5,
+   "info": {
+    "v0": 40.743931509989046,
+    "v1": 43.85971807521343,
+    "delta": 3.115786565224383,
+    "lambda": 0.5706101130295161
+   },
+   "ms": 11
+  },
+  {
+   "id": 2819710,
+   "letter": "A",
+   "winner": "gas",
+   "paid": 10,
+   "myBid": 0,
+   "info": {
+    "v0": 42.57538846838538,
+    "v1": 42.875388468385374,
+    "delta": 0.29999999999999716,
+    "lambda": 0.558449073657511
+   },
+   "ms": 17
+  },
+  {
+   "id": 2819716,
+   "letter": "O",
+   "winner": "gas",
+   "paid": 8,
+   "myBid": 3,
+   "info": {
+    "v0": 41.07617351985058,
+    "v1": 43.11984191548737,
+    "delta": 2.043668395636793,
+    "lambda": 0.5462842269284903
+   },
+   "ms": 19
+  },
+  {
+   "id": 2819722,
+   "letter": "M",
+   "winner": "Abhi-AuctionLab",
+   "paid": 20,
+   "myBid": 11,
+   "info": {
+    "v0": 40.920391743297195,
+    "v1": 47.124227958507866,
+    "delta": 6.203836215210671,
+    "lambda": 0.5341153126969269
+   },
+   "ms": 17
+  },
+  {
+   "id": 2819728,
+   "letter": "K",
+   "winner": "gas",
+   "paid": 21,
+   "myBid": 11,
+   "info": {
+    "v0": 41.904365011953345,
+    "v1": 47.835084199495505,
+    "delta": 5.930719187542159,
+    "lambda": 0.5219420464652805
+   },
+   "ms": 11
+  },
+  {
+   "id": 2819734,
+   "letter": "U",
+   "winner": "SoapConsumers",
+   "paid": 8,
+   "myBid": 2,
+   "info": {
+    "v0": 43.16115783562298,
+    "v1": 44.55416471628086,
+    "delta": 1.3930068806578788,
+    "lambda": 0.5097641164538217
+   },
+   "ms": 10
+  },
+  {
+   "id": 2819740,
+   "letter": "F",
+   "winner": "gas",
+   "paid": 11,
+   "myBid": 7,
+   "info": {
+    "v0": 43.172337224630354,
+    "v1": 46.66951836615761,
+    "delta": 3.497181141527257,
+    "lambda": 0.49758118023502157
+   },
+   "ms": 9
+  },
+  {
+   "id": 2819746,
+   "letter": "S",
+   "winner": "gas",
+   "paid": 15,
+   "myBid": 6,
+   "info": {
+    "v0": 43.8305864922128,
+    "v1": 46.81309968605012,
+    "delta": 2.9825131938373204,
+    "lambda": 0.48539286085475125
+   },
+   "ms": 12
+  },
+  {
+   "id": 2819752,
+   "letter": "T",
+   "winner": "Abhi-AuctionLab",
+   "paid": 15,
+   "myBid": 4,
+   "info": {
+    "v0": 45.14386668518156,
+    "v1": 47.44625592566454,
+    "delta": 2.302389240482981,
+    "lambda": 0.47319874234616716
+   },
+   "ms": 11
+  },
+  {
+   "id": 2819758,
+   "letter": "I",
+   "winner": "Astronaut",
+   "paid": 8,
+   "myBid": 13,
+   "info": {
+    "v0": 43.065441039726046,
+    "v1": 49.25276287171395,
+    "delta": 6.1873218319879015,
+    "lambda": 0.46099836452180587
+   },
+   "ms": 8
+  },
+  {
+   "id": 2822145,
+   "letter": "E",
+   "winner": "SoapConsumers",
+   "paid": 13,
+   "myBid": 6,
+   "info": {
+    "v0": 1.1120817156986347,
+    "v1": 3.551129400637901,
+    "delta": 2.4390476849392666,
+    "lambda": 0.47874287102692037
+   },
+   "ms": 14
+  },
+  {
+   "id": 2822151,
+   "letter": "N",
+   "winner": "Abhi-AuctionLab",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 7.241738660377723,
+    "v1": 11.600038714845974,
+    "delta": 4.358300054468251,
+    "lambda": 0.3444923803294909
+   },
+   "ms": 11
+  },
+  {
+   "id": 2822157,
+   "letter": "J",
+   "winner": "SoapConsumers",
+   "paid": 30,
+   "myBid": 30,
+   "info": {
+    "v0": 7.602850073842358,
+    "v1": 17.721360309389734,
+    "delta": 10.118510235547376,
+    "lambda": 0.3348479287365308
+   },
+   "ms": 8
+  },
+  {
+   "id": 2822162,
+   "letter": "M",
+   "winner": "Astronaut",
+   "paid": 21,
+   "myBid": 28,
+   "info": {
+    "v0": 8.652097028334376,
+    "v1": 17.95220511740573,
+    "delta": 9.300108089071353,
+    "lambda": 0.3251966275670005
+   },
+   "ms": 9
+  },
+  {
+   "id": 2822168,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 13.761579256922202,
+    "v1": 18.153784481236027,
+    "delta": 4.392205224313825,
+    "lambda": 0.35236675701708264
+   },
+   "ms": 14
+  },
+  {
+   "id": 2822174,
+   "letter": "O",
+   "winner": "gas",
+   "paid": 9,
+   "myBid": 5,
+   "info": {
+    "v0": 19.21861800682918,
+    "v1": 21.18451652094093,
+    "delta": 1.9658985141117533,
+    "lambda": 0.3685781948482559
+   },
+   "ms": 12
+  },
+  {
+   "id": 2822179,
+   "letter": "T",
+   "winner": "Astronaut",
+   "paid": 11,
+   "myBid": 14,
+   "info": {
+    "v0": 18.278179772085775,
+    "v1": 23.276580355844995,
+    "delta": 4.998400583759221,
+    "lambda": 0.3569185508138114
+   },
+   "ms": 7
+  },
+  {
+   "id": 2822184,
+   "letter": "G",
+   "winner": "gas",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 19.55781888652653,
+    "v1": 24.075048852508036,
+    "delta": 4.517229965981507,
+    "lambda": 0.3746238924779442
+   },
+   "ms": 11
+  },
+  {
+   "id": 2822190,
+   "letter": "N",
+   "winner": "Astronaut",
+   "paid": 9,
+   "myBid": 16,
+   "info": {
+    "v0": 19.034130625664677,
+    "v1": 25.173616187153712,
+    "delta": 6.139485561489035,
+    "lambda": 0.36194488975541234
+   },
+   "ms": 9
+  },
+  {
+   "id": 2822196,
+   "letter": "E",
+   "winner": "gas",
+   "paid": 9,
+   "myBid": 5,
+   "info": {
+    "v0": 28.249681439639037,
+    "v1": 30.144371092834987,
+    "delta": 1.8946896531959503,
+    "lambda": 0.37774120313864135
+   },
+   "ms": 12
+  },
+  {
+   "id": 2822202,
+   "letter": "T",
+   "winner": "Astronaut",
+   "paid": 10,
+   "myBid": 11,
+   "info": {
+    "v0": 25.93589229624013,
+    "v1": 29.956506150381994,
+    "delta": 4.020613854141864,
+    "lambda": 0.3639916234483875
+   },
+   "ms": 7
+  },
+  {
+   "id": 2822208,
+   "letter": "I",
+   "winner": "Abhi-AuctionLab",
+   "paid": 9,
+   "myBid": 5,
+   "info": {
+    "v0": 28.77459361977934,
+    "v1": 30.810706694498446,
+    "delta": 2.0361130747191076,
+    "lambda": 0.3888172457943633
+   },
+   "ms": 8
+  },
+  {
+   "id": 2822214,
+   "letter": "Y",
+   "winner": "Astronaut",
+   "paid": 18,
+   "myBid": 23,
+   "info": {
+    "v0": 27.185738468594277,
+    "v1": 39.54716179285416,
+    "delta": 12.361423324259885,
+    "lambda": 0.37350207494273757
+   },
+   "ms": 8
+  },
+  {
+   "id": 2822220,
+   "letter": "A",
+   "winner": "SoapConsumers",
+   "paid": 10,
+   "myBid": 0,
+   "info": {
+    "v0": 39.02776315249654,
+    "v1": 39.32776315249653,
+    "delta": 0.29999999999999005,
+    "lambda": 0.46971835264192446
+   },
+   "ms": 16
+  },
+  {
+   "id": 2822226,
+   "letter": "T",
+   "winner": "peanuts",
+   "paid": 10,
+   "myBid": 0,
+   "info": {
+    "v0": 39.248781240859465,
+    "v1": 39.54878124085945,
+    "delta": 0.29999999999998295,
+    "lambda": 0.4495486709735331
+   },
+   "ms": 16
+  },
+  {
+   "id": 2822232,
+   "letter": "G",
+   "winner": "peanuts",
+   "paid": 17,
+   "myBid": 1,
+   "info": {
+    "v0": 39.433432379782,
+    "v1": 40.12013129462487,
+    "delta": 0.6866989148428715,
+    "lambda": 0.42932804039931055
+   },
+   "ms": 17
+  },
+  {
+   "id": 2822238,
+   "letter": "Y",
+   "winner": "gas",
+   "paid": 11,
+   "myBid": 2,
+   "info": {
+    "v0": 39.31964273181744,
+    "v1": 40.519642731817456,
+    "delta": 1.200000000000017,
+    "lambda": 0.4090489052738922
+   },
+   "ms": 14
+  },
+  {
+   "id": 2822244,
+   "letter": "W",
+   "winner": "SoapConsumers",
+   "paid": 12,
+   "myBid": 5,
+   "info": {
+    "v0": 39.31032915946309,
+    "v1": 44.482326526024146,
+    "delta": 5.171997366561058,
+    "lambda": 0.3887021089112365
+   },
+   "ms": 9
+  },
+  {
+   "id": 2822250,
+   "letter": "C",
+   "winner": "SoapConsumers",
+   "paid": 12,
+   "myBid": 5,
+   "info": {
+    "v0": 39.28071339625608,
+    "v1": 45.43656926628777,
+    "delta": 6.1558558700316865,
+    "lambda": 0.3682764368948024
+   },
+   "ms": 8
+  },
+  {
+   "id": 2822256,
+   "letter": "U",
+   "winner": "gas",
+   "paid": 10,
+   "myBid": 0,
+   "info": {
+    "v0": 39.27121498693359,
+    "v1": 39.57121498693359,
+    "delta": 0.29999999999999716,
+    "lambda": 0.3477579911453301
+   },
+   "ms": 8
+  },
+  {
+   "id": 2822262,
+   "letter": "I",
+   "winner": "gas",
+   "paid": 10,
+   "myBid": 1,
+   "info": {
+    "v0": 39.41000751475827,
+    "v1": 39.75585397831046,
+    "delta": 0.34584646355219206,
+    "lambda": 0.32712931506142195
+   },
+   "ms": 8
+  },
+  {
+   "id": 2822268,
+   "letter": "L",
+   "winner": "gas",
+   "paid": 10,
+   "myBid": 1,
+   "info": {
+    "v0": 39.37084650772209,
+    "v1": 39.86144167963139,
+    "delta": 0.49059517190929824,
+    "lambda": 0.30636814304573223
+   },
+   "ms": 6
+  },
+  {
+   "id": 2822274,
+   "letter": "E",
+   "winner": "Abhi-AuctionLab",
+   "paid": 9,
+   "myBid": 1,
+   "info": {
+    "v0": 39.69624058631003,
+    "v1": 40.183082519836255,
+    "delta": 0.48684193352622174,
+    "lambda": 0.2854455662777772
+   },
+   "ms": 8
+  },
+  {
+   "id": 2822280,
+   "letter": "A",
+   "winner": "SoapConsumers",
+   "paid": 8,
+   "myBid": 1,
+   "info": {
+    "v0": 39.762191274644636,
+    "v1": 40.062191274644626,
+    "delta": 0.29999999999999005,
+    "lambda": 0.26432325942982593
+   },
+   "ms": 11
+  },
+  {
+   "id": 2822286,
+   "letter": "T",
+   "winner": "gas",
+   "paid": 9,
+   "myBid": 1,
+   "info": {
+    "v0": 39.87436521292265,
+    "v1": 40.17436521292262,
+    "delta": 0.29999999999997584,
+    "lambda": 0.24294913372389018
+   },
+   "ms": 10
+  },
+  {
+   "id": 2822292,
+   "letter": "O",
+   "winner": "gas",
+   "paid": 9,
+   "myBid": 1,
+   "info": {
+    "v0": 40.174363965980824,
+    "v1": 40.47436396598081,
+    "delta": 0.29999999999998295,
+    "lambda": 0.22125021946290996
+   },
+   "ms": 6
+  },
+  {
+   "id": 2822298,
+   "letter": "O",
+   "winner": "Abhi-AuctionLab",
+   "paid": 7,
+   "myBid": 1,
+   "info": {
+    "v0": 40.06588649312422,
+    "v1": 40.36588649312421,
+    "delta": 0.29999999999999005,
+    "lambda": 0.19912036455671348
+   },
+   "ms": 10
+  },
+  {
+   "id": 2822304,
+   "letter": "N",
+   "winner": "Abhi-AuctionLab",
+   "paid": 7,
+   "myBid": 1,
+   "info": {
+    "v0": 40.055493124732564,
+    "v1": 40.355493124732554,
+    "delta": 0.29999999999999005,
+    "lambda": 0.17639745316649738
+   },
+   "ms": 3
+  },
+  {
+   "id": 2822310,
+   "letter": "D",
+   "winner": "Abhi-AuctionLab",
+   "paid": 9,
+   "myBid": 3,
+   "info": {
+    "v0": 40.031082502090044,
+    "v1": 40.63108250209006,
+    "delta": 0.6000000000000156,
+    "lambda": 0.15281716304024986
+   },
+   "ms": 5
+  },
+  {
+   "id": 2822316,
+   "letter": "O",
+   "winner": "Abhi-AuctionLab",
+   "paid": 6,
+   "myBid": 2,
+   "info": {
+    "v0": 40.10414182905942,
+    "v1": 40.404141829059405,
+    "delta": 0.29999999999998295,
+    "lambda": 0.12790618080972269
+   },
+   "ms": 3
+  },
+  {
+   "id": 2822322,
+   "letter": "B",
+   "winner": "Abhi-AuctionLab",
+   "paid": 14,
+   "myBid": 5,
+   "info": {
+    "v0": 40.13923070007903,
+    "v1": 42.5798116350637,
+    "delta": 2.4405809349846663,
+    "lambda": 0.10068157126606708
+   },
+   "ms": 5
+  },
+  {
+   "id": 2822328,
+   "letter": "R",
+   "winner": "peanuts",
+   "paid": 5,
+   "myBid": 5,
+   "info": {
+    "v0": 39.44456767339482,
+    "v1": 42.122856179264176,
+    "delta": 2.6782885058693537,
+    "lambda": 0.06843572480433242
+   },
+   "ms": 3
+  },
+  {
+   "id": 2822334,
+   "letter": "D",
+   "winner": "Astronaut",
+   "paid": 2,
+   "myBid": 5,
+   "info": {
+    "v0": 39,
+    "v1": 39.600000000000016,
+    "delta": 0.6000000000000156,
+    "lambda": 0.03
+   },
+   "ms": 7
+  },
+  {
+   "id": 2822340,
+   "letter": "Q",
+   "winner": null,
+   "paid": 0,
+   "myBid": 0,
+   "info": {
+    "v0": 39,
+    "v1": 39.600000000000016,
+    "delta": 0.6000000000000156,
+    "lambda": 0.03
+   },
+   "ms": 2
+  }
+ ],
+ "words": [
+  {
+   "bot": "SoapConsumers",
+   "word": "SWIDDEN",
+   "reward": 36
+  },
+  {
+   "bot": "peanuts",
+   "word": "ELATION",
+   "reward": 21
+  },
+  {
+   "bot": "Abhi-AuctionLab",
+   "word": "FARRIER",
+   "reward": 30
+  },
+  {
+   "bot": "gas",
+   "word": "HOPEFUL",
+   "reward": 45
+  },
+  {
+   "bot": "Astronaut",
+   "word": "ABAXIAL",
+   "reward": 48
+  },
+  {
+   "bot": "SoapConsumers",
+   "word": "SHRIEVE",
+   "reward": 39
+  },
+  {
+   "bot": "peanuts",
+   "word": "VEGETE",
+   "reward": 25
+  },
+  {
+   "bot": "SoapConsumers",
+   "word": "JAW",
+   "reward": 13
+  },
+  {
+   "bot": "gas",
+   "word": "UNYOKES",
+   "reward": 42
+  },
+  {
+   "bot": "Abhi-AuctionLab",
+   "word": "PINETUM",
+   "reward": 33
+  },
+  {
+   "bot": "gas",
+   "word": "GALIOTS",
+   "reward": 24
+  },
+  {
+   "bot": "Abhi-AuctionLab",
+   "word": "NO",
+   "reward": 2
+  },
+  {
+   "bot": "Abhi-AuctionLab",
+   "word": "DO",
+   "reward": 3
+  },
+  {
+   "bot": "peanuts",
+   "word": "RIG",
+   "reward": 4
+  },
+  {
+   "bot": "Astronaut",
+   "word": "TENOTOMY",
+   "reward": 39
+  }
+ ]
+}

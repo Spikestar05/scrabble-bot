@@ -1,0 +1,1503 @@
+{
+ "matchId": 43093,
+ "at": "2026-11-07T23:42:58.809Z",
+ "auctionType": "Vickrey",
+ "placement": 2,
+ "nPlayers": 6,
+ "scores": [
+  {
+   "bot": "Primey",
+   "score": 114,
+   "balance": 40
+  },
+  {
+   "bot": "Astronaut",
+   "score": 84,
+   "balance": 38
+  },
+  {
+   "bot": "QuertyBot",
+   "score": 66,
+   "balance": 9
+  },
+  {
+   "bot": "Malicious",
+   "score": 61,
+   "balance": 21
+  },
+  {
+   "bot": "peanuts",
+   "score": 47,
+   "balance": 14
+  },
+  {
+   "bot": "SoapConsumers",
+   "score": 40,
+   "balance": 5
+  }
+ ],
+ "myScore": 84,
+ "myLeftover": "L",
+ "myWords": [
+  {
+   "bot": "Astronaut",
+   "word": "INEXACT",
+   "reward": 48
+  },
+  {
+   "bot": "Astronaut",
+   "word": "FANCIES",
+   "reward": 36
+  }
+ ],
+ "myWordAttempts": [
+  {
+   "word": "INEXACT",
+   "at": 1794094951753,
+   "ok": true
+  },
+  {
+   "word": "FANCIES",
+   "at": 1794094976795,
+   "ok": true
+  }
+ ],
+ "won": [
+  {
+   "l": "N",
+   "paid": 13,
+   "bid": 14
+  },
+  {
+   "l": "T",
+   "paid": 12,
+   "bid": 15
+  },
+  {
+   "l": "E",
+   "paid": 12,
+   "bid": 16
+  },
+  {
+   "l": "I",
+   "paid": 16,
+   "bid": 20
+  },
+  {
+   "l": "A",
+   "paid": 16,
+   "bid": 17
+  },
+  {
+   "l": "F",
+   "paid": 20,
+   "bid": 33
+  },
+  {
+   "l": "C",
+   "paid": 17,
+   "bid": 34
+  },
+  {
+   "l": "S",
+   "paid": 16,
+   "bid": 18
+  },
+  {
+   "l": "N",
+   "paid": 12,
+   "bid": 14
+  },
+  {
+   "l": "L",
+   "paid": 12,
+   "bid": 12
+  }
+ ],
+ "missed": [
+  {
+   "l": "I",
+   "bid": 2,
+   "paid": 12,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "G",
+   "bid": 4,
+   "paid": 14,
+   "winner": "peanuts"
+  },
+  {
+   "l": "M",
+   "bid": 18,
+   "paid": 18,
+   "winner": "Primey"
+  },
+  {
+   "l": "E",
+   "bid": 5,
+   "paid": 12,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "S",
+   "bid": 7,
+   "paid": 14,
+   "winner": "peanuts"
+  },
+  {
+   "l": "D",
+   "bid": 12,
+   "paid": 15,
+   "winner": "peanuts"
+  },
+  {
+   "l": "E",
+   "bid": 4,
+   "paid": 12,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "N",
+   "bid": 11,
+   "paid": 11,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "N",
+   "bid": 12,
+   "paid": 12,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "Y",
+   "bid": 9,
+   "paid": 23,
+   "winner": "Malicious"
+  },
+  {
+   "l": "E",
+   "bid": 5,
+   "paid": 12,
+   "winner": "peanuts"
+  },
+  {
+   "l": "U",
+   "bid": 8,
+   "paid": 12,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "O",
+   "bid": 10,
+   "paid": 12,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "W",
+   "bid": 4,
+   "paid": 20,
+   "winner": "peanuts"
+  },
+  {
+   "l": "Q",
+   "bid": 7,
+   "paid": 23,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "A",
+   "bid": 3,
+   "paid": 12,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "R",
+   "bid": 10,
+   "paid": 12,
+   "winner": "peanuts"
+  },
+  {
+   "l": "P",
+   "bid": 15,
+   "paid": 17,
+   "winner": "Malicious"
+  },
+  {
+   "l": "J",
+   "bid": 8,
+   "paid": 23,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "G",
+   "bid": 8,
+   "paid": 12,
+   "winner": "peanuts"
+  },
+  {
+   "l": "K",
+   "bid": 9,
+   "paid": 18,
+   "winner": "Malicious"
+  },
+  {
+   "l": "A",
+   "bid": 5,
+   "paid": 13,
+   "winner": "Malicious"
+  },
+  {
+   "l": "R",
+   "bid": 7,
+   "paid": 12,
+   "winner": "Malicious"
+  },
+  {
+   "l": "I",
+   "bid": 2,
+   "paid": 12,
+   "winner": "peanuts"
+  },
+  {
+   "l": "T",
+   "bid": 14,
+   "paid": 14,
+   "winner": "Malicious"
+  },
+  {
+   "l": "E",
+   "bid": 3,
+   "paid": 12,
+   "winner": "peanuts"
+  },
+  {
+   "l": "S",
+   "bid": 3,
+   "paid": 12,
+   "winner": "Malicious"
+  },
+  {
+   "l": "R",
+   "bid": 1,
+   "paid": 11,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "A",
+   "bid": 1,
+   "paid": 12,
+   "winner": "Malicious"
+  },
+  {
+   "l": "Y",
+   "bid": 17,
+   "paid": 17,
+   "winner": "Primey"
+  },
+  {
+   "l": "B",
+   "bid": 5,
+   "paid": 12,
+   "winner": "Primey"
+  },
+  {
+   "l": "O",
+   "bid": 8,
+   "paid": 12,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "A",
+   "bid": 3,
+   "paid": 12,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "E",
+   "bid": 3,
+   "paid": 11,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "H",
+   "bid": 22,
+   "paid": 22,
+   "winner": "Primey"
+  },
+  {
+   "l": "P",
+   "bid": 12,
+   "paid": 13,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "D",
+   "bid": 5,
+   "paid": 10,
+   "winner": "peanuts"
+  },
+  {
+   "l": "E",
+   "bid": 3,
+   "paid": 7,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "E",
+   "bid": 5,
+   "paid": 9,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "U",
+   "bid": 6,
+   "paid": 12,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "A",
+   "bid": 6,
+   "paid": 12,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "N",
+   "bid": 10,
+   "paid": 11,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "O",
+   "bid": 4,
+   "paid": 12,
+   "winner": "Primey"
+  },
+  {
+   "l": "I",
+   "bid": 1,
+   "paid": 11,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "I",
+   "bid": 1,
+   "paid": 15,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "L",
+   "bid": 7,
+   "paid": 9,
+   "winner": "Primey"
+  },
+  {
+   "l": "E",
+   "bid": 14,
+   "paid": 14,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "A",
+   "bid": 9,
+   "paid": 11,
+   "winner": "Primey"
+  },
+  {
+   "l": "L",
+   "bid": 11,
+   "paid": 11,
+   "winner": "Primey"
+  },
+  {
+   "l": "O",
+   "bid": 2,
+   "paid": 7,
+   "winner": "Primey"
+  },
+  {
+   "l": "V",
+   "bid": 14,
+   "paid": 14,
+   "winner": "Primey"
+  },
+  {
+   "l": "V",
+   "bid": 2,
+   "paid": 11,
+   "winner": "Primey"
+  },
+  {
+   "l": "B",
+   "bid": 2,
+   "paid": 9,
+   "winner": "Primey"
+  },
+  {
+   "l": "I",
+   "bid": 2,
+   "paid": 6,
+   "winner": "Primey"
+  },
+  {
+   "l": "U",
+   "bid": 2,
+   "paid": 5,
+   "winner": "Primey"
+  },
+  {
+   "l": "N",
+   "bid": 2,
+   "paid": 10,
+   "winner": "Primey"
+  },
+  {
+   "l": "G",
+   "bid": 19,
+   "paid": 19,
+   "winner": "Malicious"
+  }
+ ],
+ "maxDecisionMs": 22.327259000041522,
+ "auctions": [
+  {
+   "id": 2827738,
+   "letter": "I",
+   "winner": "QuertyBot",
+   "paid": 12,
+   "myBid": 2,
+   "info": {
+    "v0": 37.83017059530909,
+    "v1": 39.29329193322554,
+    "delta": 1.4631213379164478,
+    "lambda": 0.6390918595866916
+   },
+   "ms": 9
+  },
+  {
+   "id": 2827743,
+   "letter": "G",
+   "winner": "peanuts",
+   "paid": 14,
+   "myBid": 4,
+   "info": {
+    "v0": 36.469999187324895,
+    "v1": 38.99479435743755,
+    "delta": 2.524795170112654,
+    "lambda": 0.6301088811066341
+   },
+   "ms": 18
+  },
+  {
+   "id": 2827748,
+   "letter": "M",
+   "winner": "Primey",
+   "paid": 18,
+   "myBid": 18,
+   "info": {
+    "v0": 34.530959077674716,
+    "v1": 46.014662488485975,
+    "delta": 11.483703410811259,
+    "lambda": 0.6211251010693709
+   },
+   "ms": 17
+  },
+  {
+   "id": 2827753,
+   "letter": "E",
+   "winner": "QuertyBot",
+   "paid": 12,
+   "myBid": 5,
+   "info": {
+    "v0": 34.12660327619229,
+    "v1": 37.5495029644507,
+    "delta": 3.4228996882584113,
+    "lambda": 0.6121404841839178
+   },
+   "ms": 19
+  },
+  {
+   "id": 2827758,
+   "letter": "S",
+   "winner": "peanuts",
+   "paid": 14,
+   "myBid": 7,
+   "info": {
+    "v0": 34.3426206047618,
+    "v1": 38.74186727987587,
+    "delta": 4.399246675114071,
+    "lambda": 0.6031549930531205
+   },
+   "ms": 18
+  },
+  {
+   "id": 2827763,
+   "letter": "D",
+   "winner": "peanuts",
+   "paid": 15,
+   "myBid": 12,
+   "info": {
+    "v0": 34.82622458802315,
+    "v1": 42.23307809079644,
+    "delta": 7.406853502773288,
+    "lambda": 0.5941685880138745
+   },
+   "ms": 10
+  },
+  {
+   "id": 2827768,
+   "letter": "E",
+   "winner": "QuertyBot",
+   "paid": 12,
+   "myBid": 4,
+   "info": {
+    "v0": 34.978741098358896,
+    "v1": 37.337793487988954,
+    "delta": 2.359052389630058,
+    "lambda": 0.5851812269625508
+   },
+   "ms": 22
+  },
+  {
+   "id": 2827773,
+   "letter": "N",
+   "winner": "QuertyBot",
+   "paid": 11,
+   "myBid": 11,
+   "info": {
+    "v0": 34.43574777201909,
+    "v1": 40.81929566030203,
+    "delta": 6.383547888282941,
+    "lambda": 0.5761928651639956
+   },
+   "ms": 10
+  },
+  {
+   "id": 2827778,
+   "letter": "N",
+   "winner": "QuertyBot",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 33.93566943915817,
+    "v1": 41.26352515681895,
+    "delta": 7.327855717660782,
+    "lambda": 0.5672034550422764
+   },
+   "ms": 14
+  },
+  {
+   "id": 2827783,
+   "letter": "Y",
+   "winner": "Malicious",
+   "paid": 23,
+   "myBid": 9,
+   "info": {
+    "v0": 31.08133863278266,
+    "v1": 36.29229843832559,
+    "delta": 5.210959805542927,
+    "lambda": 0.5582129459510952
+   },
+   "ms": 11
+  },
+  {
+   "id": 2827788,
+   "letter": "E",
+   "winner": "peanuts",
+   "paid": 12,
+   "myBid": 5,
+   "info": {
+    "v0": 33.484581115858305,
+    "v1": 36.634374869599846,
+    "delta": 3.149793753741541,
+    "lambda": 0.5492212839215247
+   },
+   "ms": 16
+  },
+  {
+   "id": 2827793,
+   "letter": "U",
+   "winner": "SoapConsumers",
+   "paid": 12,
+   "myBid": 8,
+   "info": {
+    "v0": 36.808897221634645,
+    "v1": 41.480773078378824,
+    "delta": 4.67187585674418,
+    "lambda": 0.5402284113844061
+   },
+   "ms": 10
+  },
+  {
+   "id": 2827798,
+   "letter": "O",
+   "winner": "QuertyBot",
+   "paid": 12,
+   "myBid": 10,
+   "info": {
+    "v0": 35.27766681238645,
+    "v1": 40.8550112771207,
+    "delta": 5.577344464734253,
+    "lambda": 0.5312342668643781
+   },
+   "ms": 14
+  },
+  {
+   "id": 2827803,
+   "letter": "W",
+   "winner": "peanuts",
+   "paid": 20,
+   "myBid": 4,
+   "info": {
+    "v0": 33.3391853084331,
+    "v1": 35.57143510380315,
+    "delta": 2.232249795370045,
+    "lambda": 0.5222387846420935
+   },
+   "ms": 12
+  },
+  {
+   "id": 2827808,
+   "letter": "Q",
+   "winner": "SoapConsumers",
+   "paid": 23,
+   "myBid": 7,
+   "info": {
+    "v0": 36.03945482183467,
+    "v1": 39.93793203539429,
+    "delta": 3.898477213559623,
+    "lambda": 0.5132418943806824
+   },
+   "ms": 15
+  },
+  {
+   "id": 2827813,
+   "letter": "A",
+   "winner": "SoapConsumers",
+   "paid": 12,
+   "myBid": 3,
+   "info": {
+    "v0": 36.02269583669603,
+    "v1": 37.81350091342297,
+    "delta": 1.7908050767269401,
+    "lambda": 0.5042435207119628
+   },
+   "ms": 14
+  },
+  {
+   "id": 2827818,
+   "letter": "R",
+   "winner": "peanuts",
+   "paid": 12,
+   "myBid": 10,
+   "info": {
+    "v0": 36.04691352670185,
+    "v1": 41.40408385561411,
+    "delta": 5.357170328912261,
+    "lambda": 0.4952435827772256
+   },
+   "ms": 11
+  },
+  {
+   "id": 2827823,
+   "letter": "P",
+   "winner": "Malicious",
+   "paid": 17,
+   "myBid": 15,
+   "info": {
+    "v0": 35.43064985694045,
+    "v1": 43.04857716717344,
+    "delta": 7.617927310232993,
+    "lambda": 0.48624199371666077
+   },
+   "ms": 8
+  },
+  {
+   "id": 2827828,
+   "letter": "J",
+   "winner": "SoapConsumers",
+   "paid": 23,
+   "myBid": 8,
+   "info": {
+    "v0": 37.32848255245124,
+    "v1": 41.229931341508305,
+    "delta": 3.9014487890570635,
+    "lambda": 0.4772386601005693
+   },
+   "ms": 9
+  },
+  {
+   "id": 2827833,
+   "letter": "G",
+   "winner": "peanuts",
+   "paid": 12,
+   "myBid": 8,
+   "info": {
+    "v0": 36.53068498400848,
+    "v1": 40.33400953047616,
+    "delta": 3.803324546467678,
+    "lambda": 0.4682334812944538
+   },
+   "ms": 13
+  },
+  {
+   "id": 2827838,
+   "letter": "K",
+   "winner": "Malicious",
+   "paid": 18,
+   "myBid": 9,
+   "info": {
+    "v0": 36.75997659527774,
+    "v1": 41.245893452181754,
+    "delta": 4.485916856904012,
+    "lambda": 0.45922634874881
+   },
+   "ms": 8
+  },
+  {
+   "id": 2827843,
+   "letter": "A",
+   "winner": "Malicious",
+   "paid": 13,
+   "myBid": 5,
+   "info": {
+    "v0": 37.315162090046385,
+    "v1": 39.65949713070722,
+    "delta": 2.3443350406608374,
+    "lambda": 0.45021714520296435
+   },
+   "ms": 14
+  },
+  {
+   "id": 2827848,
+   "letter": "R",
+   "winner": "Malicious",
+   "paid": 12,
+   "myBid": 7,
+   "info": {
+    "v0": 38.62142289138256,
+    "v1": 41.81522105653175,
+    "delta": 3.1937981651491896,
+    "lambda": 0.4412057437905287
+   },
+   "ms": 7
+  },
+  {
+   "id": 2827853,
+   "letter": "N",
+   "winner": "Astronaut",
+   "paid": 13,
+   "myBid": 14,
+   "info": {
+    "v0": 37.146762610118635,
+    "v1": 43.62930098949312,
+    "delta": 6.482538379374482,
+    "lambda": 0.432192007031948
+   },
+   "ms": 14
+  },
+  {
+   "id": 2827858,
+   "letter": "I",
+   "winner": "peanuts",
+   "paid": 12,
+   "myBid": 2,
+   "info": {
+    "v0": 41.71752690399693,
+    "v1": 42.89451753901243,
+    "delta": 1.1769906350155068,
+    "lambda": 0.44814601959506944
+   },
+   "ms": 21
+  },
+  {
+   "id": 2827863,
+   "letter": "T",
+   "winner": "Malicious",
+   "paid": 14,
+   "myBid": 14,
+   "info": {
+    "v0": 42.52496847304618,
+    "v1": 48.952683058457524,
+    "delta": 6.427714585411344,
+    "lambda": 0.4385949771857998
+   },
+   "ms": 6
+  },
+  {
+   "id": 2827868,
+   "letter": "E",
+   "winner": "peanuts",
+   "paid": 12,
+   "myBid": 3,
+   "info": {
+    "v0": 44.13992654772869,
+    "v1": 45.687787321905205,
+    "delta": 1.5478607741765131,
+    "lambda": 0.42904094455281594
+   },
+   "ms": 7
+  },
+  {
+   "id": 2827873,
+   "letter": "T",
+   "winner": "Astronaut",
+   "paid": 12,
+   "myBid": 15,
+   "info": {
+    "v0": 42.00193876741137,
+    "v1": 48.596794699118355,
+    "delta": 6.594855931706988,
+    "lambda": 0.41948371738290974
+   },
+   "ms": 7
+  },
+  {
+   "id": 2827878,
+   "letter": "S",
+   "winner": "Malicious",
+   "paid": 12,
+   "myBid": 3,
+   "info": {
+    "v0": 49.02311482267222,
+    "v1": 50.48483128804933,
+    "delta": 1.4617164653771084,
+    "lambda": 0.43504326453102515
+   },
+   "ms": 11
+  },
+  {
+   "id": 2827883,
+   "letter": "R",
+   "winner": "QuertyBot",
+   "paid": 11,
+   "myBid": 1,
+   "info": {
+    "v0": 49.060116698851424,
+    "v1": 49.72469393587679,
+    "delta": 0.6645772370253695,
+    "lambda": 0.4248928532673719
+   },
+   "ms": 9
+  },
+  {
+   "id": 2827888,
+   "letter": "A",
+   "winner": "Malicious",
+   "paid": 12,
+   "myBid": 1,
+   "info": {
+    "v0": 49.79859850418281,
+    "v1": 50.34979783743966,
+    "delta": 0.5511993332568466,
+    "lambda": 0.41473826928607804
+   },
+   "ms": 21
+  },
+  {
+   "id": 2827893,
+   "letter": "Y",
+   "winner": "Primey",
+   "paid": 17,
+   "myBid": 17,
+   "info": {
+    "v0": 48.975900698071285,
+    "v1": 56.188489291801666,
+    "delta": 7.212588593730381,
+    "lambda": 0.40457919839257744
+   },
+   "ms": 11
+  },
+  {
+   "id": 2827898,
+   "letter": "B",
+   "winner": "Primey",
+   "paid": 12,
+   "myBid": 5,
+   "info": {
+    "v0": 50.35695101839216,
+    "v1": 52.673859759119246,
+    "delta": 2.3169087407270865,
+    "lambda": 0.3944152938748649
+   },
+   "ms": 11
+  },
+  {
+   "id": 2827903,
+   "letter": "O",
+   "winner": "SoapConsumers",
+   "paid": 12,
+   "myBid": 8,
+   "info": {
+    "v0": 49.9105601034253,
+    "v1": 53.165561604792536,
+    "delta": 3.2550015013672393,
+    "lambda": 0.3842461721626614
+   },
+   "ms": 12
+  },
+  {
+   "id": 2827908,
+   "letter": "A",
+   "winner": "QuertyBot",
+   "paid": 12,
+   "myBid": 3,
+   "info": {
+    "v0": 49.59779296353378,
+    "v1": 50.72165438029333,
+    "delta": 1.1238614167595529,
+    "lambda": 0.37407140776831016
+   },
+   "ms": 7
+  },
+  {
+   "id": 2827913,
+   "letter": "E",
+   "winner": "QuertyBot",
+   "paid": 11,
+   "myBid": 3,
+   "info": {
+    "v0": 49.29119078555879,
+    "v1": 50.70749503723125,
+    "delta": 1.4163042516724573,
+    "lambda": 0.36389052736601885
+   },
+   "ms": 7
+  },
+  {
+   "id": 2827918,
+   "letter": "H",
+   "winner": "Primey",
+   "paid": 22,
+   "myBid": 22,
+   "info": {
+    "v0": 49.71979503014848,
+    "v1": 57.767025578852355,
+    "delta": 8.047230548703872,
+    "lambda": 0.3537030028322059
+   },
+   "ms": 7
+  },
+  {
+   "id": 2827923,
+   "letter": "P",
+   "winner": "SoapConsumers",
+   "paid": 13,
+   "myBid": 12,
+   "info": {
+    "v0": 49.59195715287162,
+    "v1": 53.936485897671766,
+    "delta": 4.344528744800144,
+    "lambda": 0.3435082430265186
+   },
+   "ms": 6
+  },
+  {
+   "id": 2827928,
+   "letter": "D",
+   "winner": "peanuts",
+   "paid": 10,
+   "myBid": 5,
+   "info": {
+    "v0": 49.887905378016605,
+    "v1": 51.824091422144306,
+    "delta": 1.9361860441277017,
+    "lambda": 0.333305584037619
+   },
+   "ms": 10
+  },
+  {
+   "id": 2827933,
+   "letter": "E",
+   "winner": "QuertyBot",
+   "paid": 7,
+   "myBid": 3,
+   "info": {
+    "v0": 49.73928569663564,
+    "v1": 50.854742693130625,
+    "delta": 1.1154569964949843,
+    "lambda": 0.32309427754603925
+   },
+   "ms": 10
+  },
+  {
+   "id": 2827938,
+   "letter": "E",
+   "winner": "QuertyBot",
+   "paid": 9,
+   "myBid": 5,
+   "info": {
+    "v0": 49.782538024502095,
+    "v1": 51.45673120156223,
+    "delta": 1.6741931770601326,
+    "lambda": 0.3128734768627439
+   },
+   "ms": 5
+  },
+  {
+   "id": 2827943,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 12,
+   "myBid": 16,
+   "info": {
+    "v0": 1.5255608722932876,
+    "v1": 5.688833184559502,
+    "delta": 4.163272312266214,
+    "lambda": 0.30264222007878044
+   },
+   "ms": 14
+  },
+  {
+   "id": 2827948,
+   "letter": "I",
+   "winner": "Astronaut",
+   "paid": 16,
+   "myBid": 20,
+   "info": {
+    "v0": 10.892826569377776,
+    "v1": 16.101027975243067,
+    "delta": 5.208201405865291,
+    "lambda": 0.24900189152296012
+   },
+   "ms": 8
+  },
+  {
+   "id": 2827953,
+   "letter": "A",
+   "winner": "Astronaut",
+   "paid": 16,
+   "myBid": 17,
+   "info": {
+    "v0": 13.772644923575251,
+    "v1": 18.25742624648964,
+    "delta": 4.4847813229143885,
+    "lambda": 0.25643858620793464
+   },
+   "ms": 7
+  },
+  {
+   "id": 2827958,
+   "letter": "F",
+   "winner": "Astronaut",
+   "paid": 20,
+   "myBid": 33,
+   "info": {
+    "v0": 13.431435706578334,
+    "v1": 22.298195095551733,
+    "delta": 8.8667593889734,
+    "lambda": 0.26632487191875176
+   },
+   "ms": 6
+  },
+  {
+   "id": 2827963,
+   "letter": "U",
+   "winner": "QuertyBot",
+   "paid": 12,
+   "myBid": 6,
+   "info": {
+    "v0": 24.057338373373838,
+    "v1": 26.03788568568601,
+    "delta": 1.9805473123121722,
+    "lambda": 0.2868574950968502
+   },
+   "ms": 4
+  },
+  {
+   "id": 2827968,
+   "letter": "C",
+   "winner": "Astronaut",
+   "paid": 17,
+   "myBid": 34,
+   "info": {
+    "v0": 25.721490531122544,
+    "v1": 35.24758359858707,
+    "delta": 9.526093067464526,
+    "lambda": 0.2755584295461386
+   },
+   "ms": 4
+  },
+  {
+   "id": 2827973,
+   "letter": "A",
+   "winner": "QuertyBot",
+   "paid": 12,
+   "myBid": 6,
+   "info": {
+    "v0": 27.996578909218815,
+    "v1": 29.867235441942977,
+    "delta": 1.870656532724162,
+    "lambda": 0.29827145219922335
+   },
+   "ms": 4
+  },
+  {
+   "id": 2827978,
+   "letter": "S",
+   "winner": "Astronaut",
+   "paid": 16,
+   "myBid": 18,
+   "info": {
+    "v0": 30.54942675851404,
+    "v1": 35.69990923107212,
+    "delta": 5.150482472558078,
+    "lambda": 0.28546369153202783
+   },
+   "ms": 4
+  },
+  {
+   "id": 2827983,
+   "letter": "N",
+   "winner": "QuertyBot",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 34.22325651427653,
+    "v1": 37.604363738752845,
+    "delta": 3.3811072244763167,
+    "lambda": 0.3165048305431153
+   },
+   "ms": 4
+  },
+  {
+   "id": 2827988,
+   "letter": "O",
+   "winner": "Primey",
+   "paid": 12,
+   "myBid": 4,
+   "info": {
+    "v0": 35.03722843761978,
+    "v1": 36.43350015851715,
+    "delta": 1.3962717208973672,
+    "lambda": 0.30155485378300945
+   },
+   "ms": 4
+  },
+  {
+   "id": 2827993,
+   "letter": "I",
+   "winner": "SoapConsumers",
+   "paid": 11,
+   "myBid": 1,
+   "info": {
+    "v0": 34.489597164245374,
+    "v1": 34.78959716424538,
+    "delta": 0.30000000000000426,
+    "lambda": 0.286554996497033
+   },
+   "ms": 4
+  },
+  {
+   "id": 2827998,
+   "letter": "I",
+   "winner": "SoapConsumers",
+   "paid": 15,
+   "myBid": 1,
+   "info": {
+    "v0": 34.27091658899082,
+    "v1": 34.57091658899082,
+    "delta": 0.29999999999999716,
+    "lambda": 0.27149699130762595
+   },
+   "ms": 4
+  },
+  {
+   "id": 2828003,
+   "letter": "L",
+   "winner": "Primey",
+   "paid": 9,
+   "myBid": 7,
+   "info": {
+    "v0": 35.3861956720505,
+    "v1": 37.26798694117505,
+    "delta": 1.8817912691245553,
+    "lambda": 0.2563705924148243
+   },
+   "ms": 4
+  },
+  {
+   "id": 2828008,
+   "letter": "E",
+   "winner": "SoapConsumers",
+   "paid": 14,
+   "myBid": 14,
+   "info": {
+    "v0": 34.56201474834177,
+    "v1": 37.97958807340148,
+    "delta": 3.4175733250597133,
+    "lambda": 0.24116293064133856
+   },
+   "ms": 8
+  },
+  {
+   "id": 2828013,
+   "letter": "A",
+   "winner": "Primey",
+   "paid": 11,
+   "myBid": 9,
+   "info": {
+    "v0": 34.97826804163238,
+    "v1": 37.13316834602575,
+    "delta": 2.154900304393365,
+    "lambda": 0.22585759157103055
+   },
+   "ms": 5
+  },
+  {
+   "id": 2828018,
+   "letter": "L",
+   "winner": "Primey",
+   "paid": 11,
+   "myBid": 11,
+   "info": {
+    "v0": 34.985394169352,
+    "v1": 37.473287871187345,
+    "delta": 2.487893701835347,
+    "lambda": 0.21043326333868903
+   },
+   "ms": 5
+  },
+  {
+   "id": 2828023,
+   "letter": "O",
+   "winner": "Primey",
+   "paid": 7,
+   "myBid": 2,
+   "info": {
+    "v0": 37.07626709212626,
+    "v1": 37.51211565706128,
+    "delta": 0.43584856493502144,
+    "lambda": 0.19486169213785945
+   },
+   "ms": 5
+  },
+  {
+   "id": 2828028,
+   "letter": "N",
+   "winner": "Astronaut",
+   "paid": 12,
+   "myBid": 14,
+   "info": {
+    "v0": 36.688050403279824,
+    "v1": 39.25890983102321,
+    "delta": 2.570859427743386,
+    "lambda": 0.17910447761194032
+   },
+   "ms": 4
+  },
+  {
+   "id": 2828033,
+   "letter": "V",
+   "winner": "Primey",
+   "paid": 14,
+   "myBid": 14,
+   "info": {
+    "v0": 39.19125239424053,
+    "v1": 42.25948988869269,
+    "delta": 3.0682374944521627,
+    "lambda": 0.18972049800179314
+   },
+   "ms": 4
+  },
+  {
+   "id": 2828038,
+   "letter": "L",
+   "winner": "Astronaut",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 39.51025533723316,
+    "v1": 41.596548960398835,
+    "delta": 2.0862936231656732,
+    "lambda": 0.17074430397268464
+   },
+   "ms": 11
+  },
+  {
+   "id": 2828043,
+   "letter": "V",
+   "winner": "Primey",
+   "paid": 11,
+   "myBid": 2,
+   "info": {
+    "v0": 37.178544130395245,
+    "v1": 43.85684210899176,
+    "delta": 6.678297978596518,
+    "lambda": 0.18804031689201242
+   },
+   "ms": 6
+  },
+  {
+   "id": 2828048,
+   "letter": "B",
+   "winner": "Primey",
+   "paid": 9,
+   "myBid": 2,
+   "info": {
+    "v0": 37.05009118908079,
+    "v1": 42.99976923200396,
+    "delta": 5.949678042923175,
+    "lambda": 0.16290364315806694
+   },
+   "ms": 8
+  },
+  {
+   "id": 2828053,
+   "letter": "I",
+   "winner": "Primey",
+   "paid": 6,
+   "myBid": 2,
+   "info": {
+    "v0": 37.23180211833115,
+    "v1": 37.86525048761213,
+    "delta": 0.6334483692809769,
+    "lambda": 0.13634844687471553
+   },
+   "ms": 5
+  },
+  {
+   "id": 2828058,
+   "letter": "U",
+   "winner": "Primey",
+   "paid": 5,
+   "myBid": 2,
+   "info": {
+    "v0": 37.05035985153391,
+    "v1": 39.63775656634245,
+    "delta": 2.5873967148085413,
+    "lambda": 0.10732691558866973
+   },
+   "ms": 3
+  },
+  {
+   "id": 2828063,
+   "letter": "N",
+   "winner": "Primey",
+   "paid": 10,
+   "myBid": 2,
+   "info": {
+    "v0": 36.419187372264645,
+    "v1": 39.638431909348405,
+    "delta": 3.2192445370837603,
+    "lambda": 0.07295272776299545
+   },
+   "ms": 3
+  },
+  {
+   "id": 2828068,
+   "letter": "G",
+   "winner": "Malicious",
+   "paid": 19,
+   "myBid": 19,
+   "info": {
+    "v0": 0.2999999999999999,
+    "v1": 0.8999999999999998,
+    "delta": 0.5999999999999999,
+    "lambda": 0.03
+   },
+   "ms": 3
+  },
+  {
+   "id": 2828073,
+   "letter": "D",
+   "winner": "QuertyBot",
+   "paid": 1,
+   "myBid": 0,
+   "info": {
+    "v0": 0.2999999999999999,
+    "v1": 0.8999999999999998,
+    "delta": 0.5999999999999999,
+    "lambda": 0.03
+   },
+   "ms": 1
+  }
+ ],
+ "words": [
+  {
+   "bot": "peanuts",
+   "word": "RIGOURS",
+   "reward": 24
+  },
+  {
+   "bot": "QuertyBot",
+   "word": "FEINTED",
+   "reward": 33
+  },
+  {
+   "bot": "SoapConsumers",
+   "word": "ULTIMAS",
+   "reward": 27
+  },
+  {
+   "bot": "Malicious",
+   "word": "PARTOOK",
+   "reward": 39
+  },
+  {
+   "bot": "peanuts",
+   "word": "WEIRD",
+   "reward": 18
+  },
+  {
+   "bot": "Malicious",
+   "word": "ESTRAY",
+   "reward": 22
+  },
+  {
+   "bot": "peanuts",
+   "word": "GED",
+   "reward": 5
+  },
+  {
+   "bot": "QuertyBot",
+   "word": "HONOREE",
+   "reward": 30
+  },
+  {
+   "bot": "Astronaut",
+   "word": "INEXACT",
+   "reward": 48
+  },
+  {
+   "bot": "SoapConsumers",
+   "word": "JO",
+   "reward": 9
+  },
+  {
+   "bot": "SoapConsumers",
+   "word": "PI",
+   "reward": 4
+  },
+  {
+   "bot": "Primey",
+   "word": "BLOWZY",
+   "reward": 57
+  },
+  {
+   "bot": "QuertyBot",
+   "word": "ANA",
+   "reward": 3
+  },
+  {
+   "bot": "Primey",
+   "word": "VALVATE",
+   "reward": 39
+  },
+  {
+   "bot": "Astronaut",
+   "word": "FANCIES",
+   "reward": 36
+  },
+  {
+   "bot": "Primey",
+   "word": "UMBO",
+   "reward": 12
+  },
+  {
+   "bot": "Primey",
+   "word": "HIN",
+   "reward": 6
+  }
+ ]
+}

@@ -33,7 +33,7 @@ export class MarketBot implements Policy {
     const bal = obs.balances[obs.seat]!;
     const late = obs.bagTotal < 4 ? 0.2 : 1;
     // more money later -> higher bids; noise
-    const base = PRICE_PRIOR[l]! * 1.35 * this.aggression * (0.6 + 0.8 * this.rng());
+    const base = PRICE_PRIOR[l]! * this.aggression * (0.55 + 0.7 * this.rng());
     const have = R[l]!;
     const dup = have >= 2 ? 0.4 : have === 1 && VALUE[l]! >= 4 ? 0.3 : 1;
     let bid = Math.floor(base * dup * late);
