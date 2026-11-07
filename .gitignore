@@ -5,3 +5,4 @@ dist/
 .env.*
 .token-*
 bot/scripts/
+logs/
