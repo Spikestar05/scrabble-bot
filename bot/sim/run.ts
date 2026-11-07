@@ -5,7 +5,7 @@
 import { loadDictionary } from "../src/dict.js";
 import { Match, Rng, SimWordFinder, type SeatSpec, type AuctionType } from "../src/engine.js";
 import { Brain, type Params } from "../src/brain.js";
-import { MarketBot } from "./opponents.js";
+import { MarketBot, ForgeBot } from "./opponents.js";
 
 const args = new Map<string, string>();
 for (let i = 2; i < process.argv.length; i += 2) args.set(process.argv[i]!.replace(/^--/, ""), process.argv[i + 1]!);
@@ -30,9 +30,12 @@ function makeField(rng: Rng): SeatSpec[] {
       : field === "self" ? "B"
       : field === "mixed" ? (k < 2 ? "B" : "market")
       : field === "live" ? (k < 3 ? "V" : "market")
+      : field === "forge" ? "F"
+      : field === "top" ? (k < 3 ? "F" : k < 4 ? "V" : "market")
       : "market";
     if (kind === "sim") opp.push({ name: "sim", sim: (["Cheapskate", "ValueBidder", "Aggressive"] as const)[rng.int(0, 2)] });
     else if (kind === "B") opp.push({ name: "B", policy: new Brain(dict, pb, "B") });
+    else if (kind === "F") opp.push({ name: "F", policy: new ForgeBot(dict, r, 0.9 + 0.25 * r()) });
     else if (kind === "V") {
       // perturbed brain variant: stands in for the diverse live field
       const v: Partial<Params> = {

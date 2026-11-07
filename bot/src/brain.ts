@@ -52,6 +52,8 @@ export interface Params {
   oppCap: number; // 1 = cap sampled prices at the richest opponent's balance
   floorFrac: number; // standing bid as a fraction of the letter's market price
   floorMinBal: number; // only when balance is at least this
+  floorMaxHave: number; // no floor bid if we already hold this many of the letter
+  spendDown: number; // >0: if balance exceeds usable*spendDown, bid at least balance/usable
   horizon: number; // future auctions visible to one MC sample (0 = whole game)
   mcWords: number; // words per MC plan (1 or 2)
   reinvest: number; // fraction of word reward usable as budget for word 2
@@ -83,6 +85,8 @@ export const DEFAULT_PARAMS: Params = {
   oppCap: 0,
   floorFrac: 0,
   floorMinBal: 40,
+  floorMaxHave: 9,
+  spendDown: 0,
   horizon: 8,
   mcWords: 1,
   reinvest: 0.5,
@@ -650,8 +654,8 @@ export class Brain implements Policy {
       words.push(w);
       for (let i = 0; i < w.length; i++) R[w.charCodeAt(i) - A]!--;
     }
-    const bid = this.bidFor(R, letter, c, obs.balances[obs.seat]!);
     this.pendingR = R;
+    const bid = this.bidFor(R, letter, c, obs.balances[obs.seat]!);
     this.pendingC = c;
     this.pendingLetter = letter;
     return { words, bid };
@@ -682,8 +686,11 @@ export class Brain implements Policy {
 
   bidFromDelta(delta: number, letter: number, c: Ctx, balance: number): number {
     let bid = delta > 0 ? delta / c.lambda : 0;
-    if (this.p.floorFrac > 0 && balance >= this.p.floorMinBal && c.usable > 2)
+    const have = this.pendingR ? this.pendingR[letter]! : 0;
+    if (this.p.floorFrac > 0 && balance >= this.p.floorMinBal && c.usable > 2 && have < this.p.floorMaxHave)
       bid = Math.max(bid, this.p.floorFrac * c.price[letter]!);
+    if (this.p.spendDown > 0 && c.usable > 0 && delta > 0 && balance > c.usable * this.p.spendDown)
+      bid = Math.max(bid, balance / c.usable);
     if (bid <= 0) return 0;
     if (this.lastObs?.auctionType === "FirstPrice") {
       const exp = c.price[letter]! * 1.1 + 1;
