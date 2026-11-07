@@ -77,7 +77,7 @@ export const DEFAULT_PARAMS: Params = {
   maxTargetLen: 9,
   budgetTiles: 1.0,
   playEval: 6,
-  horizon: 12,
+  horizon: 8,
   mcWords: 1,
   reinvest: 0.5,
   priceSigma: 0.35,

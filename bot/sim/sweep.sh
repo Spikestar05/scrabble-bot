@@ -1,5 +1,6 @@
 #!/bin/bash
 # usage: sim/sweep.sh GAMES FIELD 'json1' 'json2' ...   (env B='{...}' sets the B-field params)
+cd "$(dirname "$0")/.."
 G=$1; F=$2; shift 2
 for a in "$@"; do npx tsx sim/par.ts --games $G --field $F --a "$a" --b "${B:-{\}}" | CFG="$a" python3 -c "
 import json,sys,os; d=json.load(sys.stdin)
