@@ -49,6 +49,9 @@ export interface Params {
   maxTargetLen: number;
   budgetTiles: number; // cap on tiles we expect to buy (x balance/price)
   playEval: number; // playable words evaluated per decision
+  horizon: number; // future auctions visible to one MC sample (0 = whole game)
+  mcWords: number; // words per MC plan (1 or 2)
+  reinvest: number; // fraction of word reward usable as budget for word 2
   priceSigma: number; // lognormal spread of sampled clearing prices
   lambdaBeta: number; // scarcity exponent: lambda grows as balance shrinks
   budgetRef: number; // money we expect to deploy per remaining-game fraction
@@ -56,15 +59,15 @@ export interface Params {
 
 export const DEFAULT_PARAMS: Params = {
   lambda0: 0.6,
-  lambdaGamma: 1.0,
+  lambdaGamma: 0.5,
   lambdaMin: 0.03,
   q: 0.8,
   maxMissing: 3,
   residual: 0.3,
   secondWeight: 0.8,
   costFactor: 1.0,
-  playBonus: 1.0,
-  minPlayLen: 4,
+  playBonus: 0,
+  minPlayLen: 7,
   topK: 12,
   priceScale: 1.0,
   bidCapFrac: 1.0,
@@ -74,6 +77,9 @@ export const DEFAULT_PARAMS: Params = {
   maxTargetLen: 9,
   budgetTiles: 1.0,
   playEval: 6,
+  horizon: 12,
+  mcWords: 1,
+  reinvest: 0.5,
   priceSigma: 0.35,
   lambdaBeta: 0.5,
   budgetRef: 120,
@@ -381,11 +387,28 @@ export class Brain implements Policy {
     const p = Math.min(1, c.frac * this.p.q);
     this.samples = [];
     this.sPrice = [];
+    // flat list of unseen tiles for horizon sampling
+    const flat: number[] = [];
+    for (let l = 0; l < 26; l++) for (let j = 0; j < c.U[l]!; j++) flat.push(l);
+    const H = this.p.horizon > 0 ? Math.min(this.p.horizon, c.usable) : 0;
     for (let k = 0; k < this.p.mc; k++) {
       const D = new Int8Array(26);
-      for (let l = 0; l < 26; l++) {
-        const u = c.U[l]!;
-        for (let j = 0; j < u; j++) if (this.rand() < p) D[l]!++;
+      if (H > 0) {
+        // next H auctions: draw H of the unseen tiles (scaled by the chance
+        // an unseen tile is in the bag), keep each with prob q
+        const n = Math.min(flat.length, Math.round(H / Math.max(0.05, Math.min(1, c.frac * (c.Utot / Math.max(1, c.usable))))));
+        for (let j = 0; j < n && j < flat.length; j++) {
+          const r = j + Math.floor(this.rand() * (flat.length - j));
+          const t = flat[r]!;
+          flat[r] = flat[j]!;
+          flat[j] = t;
+          if (this.rand() < this.p.q * c.frac * (c.Utot / Math.max(1, c.usable))) D[t]!++;
+        }
+      } else {
+        for (let l = 0; l < 26; l++) {
+          const u = c.U[l]!;
+          for (let j = 0; j < u; j++) if (this.rand() < p) D[l]!++;
+        }
       }
       this.samples.push(D);
       const P = new Float64Array(26);
@@ -469,63 +492,99 @@ export class Brain implements Policy {
     });
   }
 
-  valueMC(R: Int8Array, c: Ctx): number {
+  // Best single target for rack R given sample D (tiles winnable at SP
+  // prices) and money budget. Returns net value, face value of R tiles used,
+  // word index and its purchase cost.
+  private bw = { v: 0, used: 0, i: -1, cost: 0 };
+  private bestWord(R: Int8Array, D: Int8Array, SP: Float64Array, budget: number, lam: number) {
     const d = this.dict;
     const sc = this.sc;
-    let rv = 0;
-    let rmask = 0;
-    for (let l = 0; l < 26; l++) {
-      rv += R[l]! * VALUE[l]!;
-      if (R[l]! > 0) rmask |= 1 << l;
+    let m = 0;
+    for (let l = 0; l < 26; l++) if (R[l]! + D[l]! > 0) m |= 1 << l;
+    let best = 0;
+    let bestUsed = 0;
+    let bestI = -1;
+    let bestCost = 0;
+    const kMax = this.kMax;
+    for (const L of this.lenOrder) {
+      const list = this.fLen[L]!;
+      const pen = this.lenPenalty[L]!;
+      for (let x = 0; x < list.length; x++) {
+        const i = list[x]!;
+        const rw = d.rew[i]!;
+        if (rw - pen <= best) break;
+        if ((d.mask[i]! & ~m) !== 0) continue;
+        const s = d.off[i]!;
+        const e = d.off[i + 1]!;
+        let ok = true;
+        let miss = 0;
+        let cost = 0;
+        let usedVal = 0;
+        let j = s;
+        for (; j < e; j++) {
+          const l = d.letters[j]!;
+          const k = ++sc[l]!;
+          if (k > R[l]!) {
+            cost += SP[l]!;
+            if (k > R[l]! + D[l]! || ++miss > kMax || cost > budget) {
+              ok = false;
+              j++;
+              break;
+            }
+          } else usedVal += VALUE[l]!;
+        }
+        for (let k = s; k < j; k++) sc[d.letters[k]!] = 0;
+        if (!ok) continue;
+        const v = rw - lam * cost;
+        if (v > best) {
+          best = v;
+          bestUsed = usedVal;
+          bestI = i;
+          bestCost = cost;
+        }
+      }
     }
+    this.bw.v = best;
+    this.bw.used = bestUsed;
+    this.bw.i = bestI;
+    this.bw.cost = bestCost;
+    return this.bw;
+  }
+
+  private R2 = new Int8Array(26);
+  private D2 = new Int8Array(26);
+  valueMC(R: Int8Array, c: Ctx): number {
+    const d = this.dict;
+    let rv = 0;
+    for (let l = 0; l < 26; l++) rv += R[l]! * VALUE[l]!;
     let sum = 0;
     const lam = c.lambda * this.p.costFactor;
-    const kMax = this.kMax;
-    const budget = this.budget;
     for (let si = 0; si < this.samples.length; si++) {
       const D = this.samples[si]!;
       const SP = this.sPrice[si]!;
-      let m = rmask;
-      for (let l = 0; l < 26; l++) if (D[l]! > 0) m |= 1 << l;
-      let best = 0;
-      let bestUsedVal = 0;
-      for (const L of this.lenOrder) {
-        const list = this.fLen[L]!;
-        const pen = this.lenPenalty[L]!;
-        for (let x = 0; x < list.length; x++) {
-          const i = list[x]!;
-          const rw = d.rew[i]!;
-          if (rw - pen <= best) break;
-          if ((d.mask[i]! & ~m) !== 0) continue;
-          const s = d.off[i]!;
-          const e = d.off[i + 1]!;
-          let ok = true;
-          let miss = 0;
-          let cost = 0;
-          let usedVal = 0;
-          let j = s;
-          for (; j < e; j++) {
-            const l = d.letters[j]!;
-            const k = ++sc[l]!;
-            if (k > R[l]!) {
-              cost += SP[l]!;
-              if (k > R[l]! + D[l]! || ++miss > kMax || cost > budget) {
-                ok = false;
-                j++;
-                break;
-              }
-            } else usedVal += VALUE[l]!;
-          }
-          for (let k = s; k < j; k++) sc[d.letters[k]!] = 0;
-          if (!ok) continue;
-          const v = rw - lam * cost;
-          if (v > best) {
-            best = v;
-            bestUsedVal = usedVal;
-          }
+      const b1 = this.bestWord(R, D, SP, this.budget, lam);
+      let v = b1.v;
+      let used = b1.used;
+      if (this.p.mcWords >= 2 && b1.i >= 0) {
+        const R2 = this.R2;
+        const D2 = this.D2;
+        R2.set(R);
+        D2.set(D);
+        const s0 = d.off[b1.i]!;
+        const e0 = d.off[b1.i + 1]!;
+        for (let j = s0; j < e0; j++) {
+          const l = d.letters[j]!;
+          if (R2[l]! > 0) R2[l]!--;
+          else D2[l]!--;
         }
+        const budget2 = this.budget - b1.cost + this.p.reinvest * d.rew[b1.i]!;
+        const v1 = b1.v;
+        const u1 = b1.used;
+        const b2 = this.bestWord(R2, D2, SP, budget2, lam);
+        v = v1 + this.p.secondWeight * b2.v;
+        used = u1 + b2.used;
       }
-      sum += best + this.p.residual * (rv - bestUsedVal);
+      sum += v + this.p.residual * (rv - used);
     }
     return sum / this.samples.length;
   }

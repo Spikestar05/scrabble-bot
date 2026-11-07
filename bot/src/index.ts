@@ -253,6 +253,47 @@ function writeMatchLog(conn: DbConnection, matchId: bigint) {
   log(`match ${matchId} ended: place ${placement}/${ps.length} ` + sorted.map((p) => `${nameOf(p.botId)}:${p.score}`).join(" "));
 }
 
+const watched = new Map<string, { unsubscribe: () => void }>();
+function watchMatch(conn: DbConnection, matchId: bigint) {
+  const k = String(matchId);
+  if (watched.has(k)) return;
+  const h = conn
+    .subscriptionBuilder()
+    .onApplied(() => {
+      const ms = conn.db.matchState.id.find(matchId);
+      log(`watching match ${matchId} (${ms?.status.tag ?? "?"})`);
+      if (ms && ms.status.tag !== "Running") {
+        unwatch(matchId);
+        joinLobby(conn);
+        return;
+      }
+      for (const a of conn.db.auction.iter())
+        if (a.matchId === matchId && a.status.tag === "Open") onAuction(conn, a.id, a.matchId, a.letter);
+    })
+    .onError((ctx) => log("match subscription error", (ctx as { event?: unknown }).event))
+    .subscribe([
+      `SELECT * FROM match_state WHERE id = ${matchId}`,
+      `SELECT * FROM match_participant WHERE match_id = ${matchId}`,
+      `SELECT * FROM auction WHERE match_id = ${matchId}`,
+      `SELECT * FROM auction_result WHERE match_id = ${matchId}`,
+      `SELECT * FROM word_play WHERE match_id = ${matchId}`,
+    ]);
+  watched.set(k, h);
+}
+function unwatch(matchId: bigint) {
+  const k = String(matchId);
+  const h = watched.get(k);
+  watched.delete(k);
+  setTimeout(() => {
+    try {
+      h?.unsubscribe();
+    } catch {
+      /* already gone */
+    }
+    memos.delete(k);
+  }, 3000);
+}
+
 function joinLobby(conn: DbConnection) {
   if (myBotId === null || NO_LOBBY) return;
   const inRunning = [...conn.db.matchParticipant.iter()].some((p) => {
@@ -260,10 +301,10 @@ function joinLobby(conn: DbConnection) {
     return conn.db.matchState.id.find(p.matchId)?.status.tag === "Running";
   });
   if (inRunning) return;
-  const openLobby = [...conn.db.lobby.iter()].find((l) => l.status.tag === "Open");
+  const openLobby = [...conn.db.openLobbies.iter()][0];
   const alreadyIn =
     openLobby !== undefined &&
-    [...conn.db.lobbyMember.iter()].some((lm) => lm.lobbyId === openLobby.id && lm.botId === myBotId);
+    [...conn.db.openLobbyMembers.iter()].some((lm) => lm.lobbyId === openLobby.id && lm.botId === myBotId);
   if (alreadyIn) return;
   log("joining lobby");
   conn.reducers.joinLobby({}).catch(fail("joining the lobby"));
@@ -277,7 +318,6 @@ function bootstrap(conn: DbConnection) {
       .catch(fail(`registering for tournament ${TOURNAMENT_ID}`));
   }
   joinLobby(conn);
-  for (const a of conn.db.auction.iter()) if (a.status.tag === "Open") onAuction(conn, a.id, a.matchId, a.letter);
 }
 
 function onConnect(conn: DbConnection, identity: Identity, token: string) {
@@ -285,7 +325,27 @@ function onConnect(conn: DbConnection, identity: Identity, token: string) {
   saveToken(token);
   log(`connected`);
 
-  // Only what the bot needs: its own matches are filtered client-side.
+  // Tables like auction / auction_result hold every match ever played, so
+  // subscribe narrowly: our credential first, then our participations, then
+  // one match at a time.
+  const phase2 = () => {
+    log(`acting as bot '${conn.db.bot.id.find(myBotId!)?.name ?? "?"}' (id ${myBotId})`);
+    conn
+      .subscriptionBuilder()
+      .onApplied(() => {
+        log("participant subscription applied");
+        // newest participation might be a running match (restart mid-match)
+        const mine = [...conn.db.matchParticipant.iter()].filter((p) => p.botId === myBotId);
+        mine.sort((x, y) => (x.matchId < y.matchId ? 1 : -1));
+        if (mine[0]) watchMatch(conn, mine[0].matchId);
+        bootstrap(conn);
+      })
+      .onError((ctx) => {
+        log("subscription error", (ctx as { event?: unknown }).event);
+        process.exit(1);
+      })
+      .subscribe([`SELECT * FROM match_participant WHERE bot_id = ${myBotId}`, "SELECT * FROM my_rack"]);
+  };
   conn
     .subscriptionBuilder()
     .onApplied(() => {
@@ -300,15 +360,14 @@ function onConnect(conn: DbConnection, identity: Identity, token: string) {
               log("couldn't claim credential");
               process.exit(1);
             }
-            bootstrap(conn);
+            phase2();
           }, 1500);
           return;
         }
         log("no BotCredential for this token; set BOT_TOKEN");
         process.exit(1);
       }
-      log(`acting as bot '${conn.db.bot.id.find(myBotId)?.name ?? "?"}' (id ${myBotId})`);
-      bootstrap(conn);
+      phase2();
     })
     .onError((ctx) => {
       log("subscription error", (ctx as { event?: unknown }).event);
@@ -316,17 +375,17 @@ function onConnect(conn: DbConnection, identity: Identity, token: string) {
     })
     .subscribe([
       "SELECT * FROM bot",
-      "SELECT * FROM bot_credential",
-      "SELECT * FROM lobby",
-      "SELECT * FROM lobby_member",
-      "SELECT * FROM match_state WHERE status != 2",
-      "SELECT * FROM my_rack",
-      "SELECT * FROM auction",
-      "SELECT * FROM match_participant",
-      "SELECT * FROM auction_result",
-      "SELECT * FROM word_play",
+      `SELECT * FROM bot_credential WHERE identity = 0x${identity.toHexString()}`,
+      "SELECT * FROM open_lobbies",
+      "SELECT * FROM open_lobby_members",
     ]);
 
+  conn.db.matchParticipant.onInsert((_ctx, p) => {
+    if (myBotId !== null && p.botId === myBotId) {
+      log(`seated in match ${p.matchId}`);
+      watchMatch(conn, p.matchId);
+    }
+  });
   conn.db.auction.onInsert((_ctx: EventContext, a) => {
     if (a.status.tag === "Open") onAuction(conn, a.id, a.matchId, a.letter);
   });
@@ -343,6 +402,7 @@ function onConnect(conn: DbConnection, identity: Identity, token: string) {
         } catch (e) {
           log("log error", e);
         }
+        unwatch(neu.id);
         joinLobby(conn);
       }
     }
@@ -351,8 +411,9 @@ function onConnect(conn: DbConnection, identity: Identity, token: string) {
     if (myBotId === null) return;
     log(`match ${m.id} inserted (${m.auctionType.tag})`);
   });
-  // Lobby resolved without us (e.g. cancelled) -> make sure we are queued.
-  conn.db.lobby.onInsert(() => setTimeout(() => joinLobby(conn), 200));
+  // A new lobby opened (previous resolved/cancelled) -> make sure we are queued.
+  conn.db.openLobbies.onInsert(() => setTimeout(() => joinLobby(conn), 200));
+  setInterval(() => joinLobby(conn), 15000);
 }
 
 function main() {
