@@ -49,6 +49,9 @@ export interface Params {
   maxTargetLen: number;
   budgetTiles: number; // cap on tiles we expect to buy (x balance/price)
   playEval: number; // playable words evaluated per decision
+  oppCap: number; // 1 = cap sampled prices at the richest opponent's balance
+  floorFrac: number; // standing bid as a fraction of the letter's market price
+  floorMinBal: number; // only when balance is at least this
   horizon: number; // future auctions visible to one MC sample (0 = whole game)
   mcWords: number; // words per MC plan (1 or 2)
   reinvest: number; // fraction of word reward usable as budget for word 2
@@ -77,6 +80,9 @@ export const DEFAULT_PARAMS: Params = {
   maxTargetLen: 9,
   budgetTiles: 1.0,
   playEval: 6,
+  oppCap: 0,
+  floorFrac: 0,
+  floorMinBal: 40,
   horizon: 8,
   mcWords: 1,
   reinvest: 0.5,
@@ -230,7 +236,12 @@ export class Brain implements Policy {
     const usable = Math.max(0, obs.bagTotal - 1);
     const frac = Utot > 0 ? Math.min(1, usable / Utot) : 0;
     const ratio = this.t.priceRatio() * this.p.priceScale;
-    const price = PRICE_PRIOR.map((x) => x * ratio);
+    let price = PRICE_PRIOR.map((x) => x * ratio);
+    if (this.p.oppCap > 0) {
+      let mx = 0;
+      for (let s = 0; s < obs.nSeats; s++) if (s !== obs.seat) mx = Math.max(mx, obs.balances[s]!);
+      price = price.map((x) => Math.max(1, Math.min(x, mx)));
+    }
     const lambda = this.lambda(obs, usable);
     return { U, Utot, usable, frac, price, lambda };
   }
@@ -670,8 +681,10 @@ export class Brain implements Policy {
   }
 
   bidFromDelta(delta: number, letter: number, c: Ctx, balance: number): number {
-    if (delta <= 0) return 0;
-    let bid = delta / c.lambda;
+    let bid = delta > 0 ? delta / c.lambda : 0;
+    if (this.p.floorFrac > 0 && balance >= this.p.floorMinBal && c.usable > 2)
+      bid = Math.max(bid, this.p.floorFrac * c.price[letter]!);
+    if (bid <= 0) return 0;
     if (this.lastObs?.auctionType === "FirstPrice") {
       const exp = c.price[letter]! * 1.1 + 1;
       bid = Math.min(bid, exp);

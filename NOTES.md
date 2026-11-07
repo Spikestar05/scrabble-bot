@@ -5,9 +5,8 @@
 - `https://maincloud.spacetimedb.com` is reachable from this cloud container over HTTPS
   **and** websocket (anonymous SDK connect + subscribe works; HTTP SQL endpoint
   `POST /v1/database/scrabblebot/sql` works too).
-- No bot token yet: the user must link their spacetimedb.com account, create a team
-  and generate a token on https://scrabblebot.spacetimedb.com/team. Until then the bot
-  is improved offline only.
+- Token received 2026-11-07 23:29 UTC; bot is **Astronaut** (id 212). Running live via
+  `BOT_NAME=astronaut bot/run-live.sh` (token cached in gitignored `bot/.token-astronaut`).
 
 ## What the live field looks like (from ~11.6k recent matches pulled via SQL)
 
@@ -33,7 +32,16 @@
 | date | change | field | result |
 |---|---|---|---|
 | 11-07 | v0 MC valuation, lambda0 .6 | market x5 | A 66.5 vs M 57.8, win 29%, place 2.92 |
+| 11-07 | MC horizon=10-15 (sample only next H auctions) | market | 78, win 45% |
+| 11-07 | playBonus 0 (don't value cash-now) + lambdaGamma .5 | market | 91.7, win 59% |
+| 11-07 | minPlayLen 7, horizon 8 | market | 99.4, win 72%, place 1.41 |
+| 11-07 | **first live results**: avg ~85, place 3.3 — sim market field too weak | live | — |
+| 11-07 | price prior from real-only matches (~1.6x old); new `live` sim field (3 perturbed brains + 2 market bots, avgPaid 12.8 ≈ live) | live | 81.5, win 21%, place 3.07 |
+| 11-07 | priceScale .65/.8/1.2, playBonus .5, minPlayLen 6 | live | all within noise (76-84) |
 
 ## Live match log
 
-(none yet — waiting for a token)
+First 14 matches (version 5a5b7ad+horizon8, old price prior): 1 win (146), mean place 3.29,
+mean score 85. Winners score 100-165 and win 20-23 tiles, many at 2-10 coins during mid-game
+lulls; we win ~10 tiles because we bid ~1 on tiles we don't specifically need.
+-> testing a standing "floor" bid (fraction of market price).

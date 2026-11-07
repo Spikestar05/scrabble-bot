@@ -1,0 +1,1493 @@
+{
+ "matchId": 43114,
+ "at": "2026-11-07T23:47:43.528Z",
+ "auctionType": "Vickrey",
+ "placement": 4,
+ "nPlayers": 6,
+ "scores": [
+  {
+   "bot": "Karppa",
+   "score": 103,
+   "balance": 21
+  },
+  {
+   "bot": "Jaeger",
+   "score": 91,
+   "balance": 28
+  },
+  {
+   "bot": "exzell",
+   "score": 90,
+   "balance": 14
+  },
+  {
+   "bot": "Astronaut",
+   "score": 87,
+   "balance": 30
+  },
+  {
+   "bot": "Tow57-Auctioneer",
+   "score": 71,
+   "balance": 3
+  },
+  {
+   "bot": "Nhat",
+   "score": 0,
+   "balance": 100
+  }
+ ],
+ "myScore": 87,
+ "myLeftover": "G",
+ "myWords": [
+  {
+   "bot": "Astronaut",
+   "word": "KLUTZES",
+   "reward": 60
+  },
+  {
+   "bot": "Astronaut",
+   "word": "FOEMAN",
+   "reward": 27
+  }
+ ],
+ "myWordAttempts": [
+  {
+   "word": "KLUTZES",
+   "at": 1794095244518,
+   "ok": true
+  },
+  {
+   "word": "FOEMAN",
+   "at": 1794095262523,
+   "ok": true
+  }
+ ],
+ "won": [
+  {
+   "l": "F",
+   "paid": 18,
+   "bid": 19
+  },
+  {
+   "l": "K",
+   "paid": 20,
+   "bid": 27
+  },
+  {
+   "l": "A",
+   "paid": 10,
+   "bid": 14
+  },
+  {
+   "l": "Z",
+   "paid": 40,
+   "bid": 43
+  },
+  {
+   "l": "U",
+   "paid": 11,
+   "bid": 12
+  },
+  {
+   "l": "E",
+   "paid": 13,
+   "bid": 18
+  },
+  {
+   "l": "N",
+   "paid": 12,
+   "bid": 17
+  },
+  {
+   "l": "M",
+   "paid": 20,
+   "bid": 36
+  },
+  {
+   "l": "G",
+   "paid": 13,
+   "bid": 16
+  }
+ ],
+ "missed": [
+  {
+   "l": "W",
+   "bid": 14,
+   "paid": 23,
+   "winner": "Jaeger"
+  },
+  {
+   "l": "O",
+   "bid": 4,
+   "paid": 11,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "O",
+   "bid": 4,
+   "paid": 12,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "I",
+   "bid": 7,
+   "paid": 8,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "R",
+   "bid": 4,
+   "paid": 11,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "B",
+   "bid": 14,
+   "paid": 15,
+   "winner": "Karppa"
+  },
+  {
+   "l": "S",
+   "bid": 6,
+   "paid": 14,
+   "winner": "exzell"
+  },
+  {
+   "l": "T",
+   "bid": 4,
+   "paid": 11,
+   "winner": "Karppa"
+  },
+  {
+   "l": "Y",
+   "bid": 17,
+   "paid": 23,
+   "winner": "Karppa"
+  },
+  {
+   "l": "I",
+   "bid": 7,
+   "paid": 8,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "R",
+   "bid": 5,
+   "paid": 10,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "E",
+   "bid": 4,
+   "paid": 8,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "O",
+   "bid": 8,
+   "paid": 8,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "L",
+   "bid": 2,
+   "paid": 11,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "I",
+   "bid": 7,
+   "paid": 7,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "O",
+   "bid": 7,
+   "paid": 8,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "T",
+   "bid": 2,
+   "paid": 9,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "E",
+   "bid": 4,
+   "paid": 8,
+   "winner": "Karppa"
+  },
+  {
+   "l": "O",
+   "bid": 7,
+   "paid": 7,
+   "winner": "Jaeger"
+  },
+  {
+   "l": "R",
+   "bid": 7,
+   "paid": 11,
+   "winner": "Jaeger"
+  },
+  {
+   "l": "A",
+   "bid": 5,
+   "paid": 8,
+   "winner": "exzell"
+  },
+  {
+   "l": "D",
+   "bid": 9,
+   "paid": 12,
+   "winner": "exzell"
+  },
+  {
+   "l": "T",
+   "bid": 2,
+   "paid": 9,
+   "winner": "Jaeger"
+  },
+  {
+   "l": "D",
+   "bid": 9,
+   "paid": 12,
+   "winner": "Karppa"
+  },
+  {
+   "l": "F",
+   "bid": 17,
+   "paid": 17,
+   "winner": "exzell"
+  },
+  {
+   "l": "N",
+   "bid": 5,
+   "paid": 10,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "T",
+   "bid": 3,
+   "paid": 7,
+   "winner": "Jaeger"
+  },
+  {
+   "l": "I",
+   "bid": 8,
+   "paid": 9,
+   "winner": "Jaeger"
+  },
+  {
+   "l": "R",
+   "bid": 6,
+   "paid": 9,
+   "winner": "exzell"
+  },
+  {
+   "l": "E",
+   "bid": 2,
+   "paid": 8,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "Q",
+   "bid": 18,
+   "paid": 18,
+   "winner": "Jaeger"
+  },
+  {
+   "l": "I",
+   "bid": 7,
+   "paid": 8,
+   "winner": "Karppa"
+  },
+  {
+   "l": "A",
+   "bid": 7,
+   "paid": 12,
+   "winner": "Jaeger"
+  },
+  {
+   "l": "N",
+   "bid": 8,
+   "paid": 10,
+   "winner": "Jaeger"
+  },
+  {
+   "l": "S",
+   "bid": 5,
+   "paid": 10,
+   "winner": "Jaeger"
+  },
+  {
+   "l": "A",
+   "bid": 6,
+   "paid": 9,
+   "winner": "Karppa"
+  },
+  {
+   "l": "V",
+   "bid": 12,
+   "paid": 14,
+   "winner": "Jaeger"
+  },
+  {
+   "l": "Y",
+   "bid": 21,
+   "paid": 21,
+   "winner": "Karppa"
+  },
+  {
+   "l": "U",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Karppa"
+  },
+  {
+   "l": "N",
+   "bid": 5,
+   "paid": 12,
+   "winner": "Karppa"
+  },
+  {
+   "l": "L",
+   "bid": 8,
+   "paid": 9,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "E",
+   "bid": 1,
+   "paid": 11,
+   "winner": "Karppa"
+  },
+  {
+   "l": "I",
+   "bid": 8,
+   "paid": 10,
+   "winner": "exzell"
+  },
+  {
+   "l": "A",
+   "bid": 1,
+   "paid": 11,
+   "winner": "exzell"
+  },
+  {
+   "l": "B",
+   "bid": 16,
+   "paid": 16,
+   "winner": "exzell"
+  },
+  {
+   "l": "J",
+   "bid": 16,
+   "paid": 16,
+   "winner": "exzell"
+  },
+  {
+   "l": "R",
+   "bid": 16,
+   "paid": 16,
+   "winner": "Jaeger"
+  },
+  {
+   "l": "N",
+   "bid": 2,
+   "paid": 13,
+   "winner": "exzell"
+  },
+  {
+   "l": "X",
+   "bid": 16,
+   "paid": 16,
+   "winner": "Karppa"
+  },
+  {
+   "l": "P",
+   "bid": 4,
+   "paid": 19,
+   "winner": "exzell"
+  },
+  {
+   "l": "A",
+   "bid": 2,
+   "paid": 16,
+   "winner": "exzell"
+  },
+  {
+   "l": "A",
+   "bid": 2,
+   "paid": 14,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "E",
+   "bid": 14,
+   "paid": 17,
+   "winner": "Jaeger"
+  },
+  {
+   "l": "V",
+   "bid": 15,
+   "paid": 15,
+   "winner": "exzell"
+  },
+  {
+   "l": "E",
+   "bid": 16,
+   "paid": 16,
+   "winner": "Tow57-Auctioneer"
+  },
+  {
+   "l": "W",
+   "bid": 3,
+   "paid": 8,
+   "winner": "Karppa"
+  },
+  {
+   "l": "U",
+   "bid": 3,
+   "paid": 8,
+   "winner": "Karppa"
+  }
+ ],
+ "maxDecisionMs": 42.78609199996572,
+ "auctions": [
+  {
+   "id": 2829168,
+   "letter": "W",
+   "winner": "Jaeger",
+   "paid": 23,
+   "myBid": 14,
+   "info": {
+    "v0": 21.01136943857539,
+    "v1": 30.25367146768932,
+    "delta": 9.24230202911393,
+    "lambda": 0.6390918595866916
+   },
+   "ms": 17
+  },
+  {
+   "id": 2829173,
+   "letter": "O",
+   "winner": "Tow57-Auctioneer",
+   "paid": 11,
+   "myBid": 4,
+   "info": {
+    "v0": 17.390183161170594,
+    "v1": 20.37211674895887,
+    "delta": 2.9819335877882764,
+    "lambda": 0.6301088811066341
+   },
+   "ms": 19
+  },
+  {
+   "id": 2829178,
+   "letter": "O",
+   "winner": "Tow57-Auctioneer",
+   "paid": 12,
+   "myBid": 4,
+   "info": {
+    "v0": 18.82847377237562,
+    "v1": 21.517556555944676,
+    "delta": 2.689082783569056,
+    "lambda": 0.6211251010693709
+   },
+   "ms": 23
+  },
+  {
+   "id": 2829183,
+   "letter": "I",
+   "winner": "Tow57-Auctioneer",
+   "paid": 8,
+   "myBid": 7,
+   "info": {
+    "v0": 15.988968708961616,
+    "v1": 20.87449489330636,
+    "delta": 4.885526184344743,
+    "lambda": 0.6121404841839178
+   },
+   "ms": 27
+  },
+  {
+   "id": 2829188,
+   "letter": "R",
+   "winner": "Tow57-Auctioneer",
+   "paid": 11,
+   "myBid": 4,
+   "info": {
+    "v0": 19.502190584265822,
+    "v1": 22.505456871431193,
+    "delta": 3.0032662871653706,
+    "lambda": 0.6031549930531205
+   },
+   "ms": 25
+  },
+  {
+   "id": 2829193,
+   "letter": "B",
+   "winner": "Karppa",
+   "paid": 15,
+   "myBid": 14,
+   "info": {
+    "v0": 18.02500936971887,
+    "v1": 26.417022136863974,
+    "delta": 8.392012767145104,
+    "lambda": 0.5941685880138745
+   },
+   "ms": 33
+  },
+  {
+   "id": 2829198,
+   "letter": "S",
+   "winner": "exzell",
+   "paid": 14,
+   "myBid": 6,
+   "info": {
+    "v0": 17.588210728014893,
+    "v1": 21.464088640621828,
+    "delta": 3.875877912606935,
+    "lambda": 0.5851812269625508
+   },
+   "ms": 18
+  },
+  {
+   "id": 2829203,
+   "letter": "T",
+   "winner": "Karppa",
+   "paid": 11,
+   "myBid": 4,
+   "info": {
+    "v0": 18.21177740402397,
+    "v1": 20.854752690017616,
+    "delta": 2.6429752859936464,
+    "lambda": 0.5761928651639956
+   },
+   "ms": 16
+  },
+  {
+   "id": 2829208,
+   "letter": "Y",
+   "winner": "Karppa",
+   "paid": 23,
+   "myBid": 17,
+   "info": {
+    "v0": 17.25015942105159,
+    "v1": 27.394433920882847,
+    "delta": 10.144274499831258,
+    "lambda": 0.5672034550422764
+   },
+   "ms": 17
+  },
+  {
+   "id": 2829213,
+   "letter": "I",
+   "winner": "Tow57-Auctioneer",
+   "paid": 8,
+   "myBid": 7,
+   "info": {
+    "v0": 15.832056102265893,
+    "v1": 19.880150916554495,
+    "delta": 4.048094814288602,
+    "lambda": 0.5582129459510952
+   },
+   "ms": 34
+  },
+  {
+   "id": 2829218,
+   "letter": "R",
+   "winner": "Tow57-Auctioneer",
+   "paid": 10,
+   "myBid": 5,
+   "info": {
+    "v0": 19.03915020443534,
+    "v1": 22.2603106778715,
+    "delta": 3.2211604734361607,
+    "lambda": 0.5492212839215247
+   },
+   "ms": 30
+  },
+  {
+   "id": 2829223,
+   "letter": "F",
+   "winner": "Astronaut",
+   "paid": 18,
+   "myBid": 19,
+   "info": {
+    "v0": 16.651615477334115,
+    "v1": 27.235456959218954,
+    "delta": 10.58384148188484,
+    "lambda": 0.5402284113844061
+   },
+   "ms": 29
+  },
+  {
+   "id": 2829228,
+   "letter": "E",
+   "winner": "Tow57-Auctioneer",
+   "paid": 8,
+   "myBid": 4,
+   "info": {
+    "v0": 26.659527719928633,
+    "v1": 29.261380278571064,
+    "delta": 2.601852558642431,
+    "lambda": 0.5762044635992386
+   },
+   "ms": 13
+  },
+  {
+   "id": 2829233,
+   "letter": "O",
+   "winner": "Tow57-Auctioneer",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 26.4155632976765,
+    "v1": 31.180773407342645,
+    "delta": 4.765210109666146,
+    "lambda": 0.5664474932153397
+   },
+   "ms": 29
+  },
+  {
+   "id": 2829238,
+   "letter": "L",
+   "winner": "Tow57-Auctioneer",
+   "paid": 11,
+   "myBid": 2,
+   "info": {
+    "v0": 28.67288757832942,
+    "v1": 30.123414682725976,
+    "delta": 1.4505271043965564,
+    "lambda": 0.556688995598579
+   },
+   "ms": 15
+  },
+  {
+   "id": 2829243,
+   "letter": "I",
+   "winner": "Tow57-Auctioneer",
+   "paid": 7,
+   "myBid": 7,
+   "info": {
+    "v0": 30.341201364969844,
+    "v1": 34.27172726387238,
+    "delta": 3.930525898902534,
+    "lambda": 0.5469288890006856
+   },
+   "ms": 12
+  },
+  {
+   "id": 2829248,
+   "letter": "O",
+   "winner": "Tow57-Auctioneer",
+   "paid": 8,
+   "myBid": 7,
+   "info": {
+    "v0": 28.34877203584645,
+    "v1": 32.35923552410534,
+    "delta": 4.010463488258885,
+    "lambda": 0.5371670857180755
+   },
+   "ms": 13
+  },
+  {
+   "id": 2829253,
+   "letter": "T",
+   "winner": "Tow57-Auctioneer",
+   "paid": 9,
+   "myBid": 2,
+   "info": {
+    "v0": 28.905244163923715,
+    "v1": 30.277246045386992,
+    "delta": 1.3720018814632766,
+    "lambda": 0.5274034915380568
+   },
+   "ms": 13
+  },
+  {
+   "id": 2829258,
+   "letter": "E",
+   "winner": "Karppa",
+   "paid": 8,
+   "myBid": 4,
+   "info": {
+    "v0": 31.46309797980157,
+    "v1": 33.67685279659565,
+    "delta": 2.2137548167940757,
+    "lambda": 0.5176380051218926
+   },
+   "ms": 12
+  },
+  {
+   "id": 2829263,
+   "letter": "O",
+   "winner": "Jaeger",
+   "paid": 7,
+   "myBid": 7,
+   "info": {
+    "v0": 29.316637262395307,
+    "v1": 33.27802697816363,
+    "delta": 3.9613897157683233,
+    "lambda": 0.5078705173161452
+   },
+   "ms": 12
+  },
+  {
+   "id": 2829268,
+   "letter": "R",
+   "winner": "Jaeger",
+   "paid": 11,
+   "myBid": 7,
+   "info": {
+    "v0": 31.321088556851674,
+    "v1": 34.959437275225625,
+    "delta": 3.638348718373951,
+    "lambda": 0.4981009103823461
+   },
+   "ms": 11
+  },
+  {
+   "id": 2829273,
+   "letter": "A",
+   "winner": "exzell",
+   "paid": 8,
+   "myBid": 5,
+   "info": {
+    "v0": 30.91519948675061,
+    "v1": 33.845093111989385,
+    "delta": 2.929893625238776,
+    "lambda": 0.4883290571334373
+   },
+   "ms": 21
+  },
+  {
+   "id": 2829278,
+   "letter": "D",
+   "winner": "exzell",
+   "paid": 12,
+   "myBid": 9,
+   "info": {
+    "v0": 31.06843105737656,
+    "v1": 35.55033841128191,
+    "delta": 4.481907353905353,
+    "lambda": 0.47855481996350047
+   },
+   "ms": 14
+  },
+  {
+   "id": 2829283,
+   "letter": "T",
+   "winner": "Jaeger",
+   "paid": 9,
+   "myBid": 2,
+   "info": {
+    "v0": 29.698248948268304,
+    "v1": 31.009854082367486,
+    "delta": 1.3116051340991817,
+    "lambda": 0.46877804975502174
+   },
+   "ms": 13
+  },
+  {
+   "id": 2829288,
+   "letter": "D",
+   "winner": "Karppa",
+   "paid": 12,
+   "myBid": 9,
+   "info": {
+    "v0": 30.699924383974423,
+    "v1": 35.1788763888049,
+    "delta": 4.478952004830479,
+    "lambda": 0.4589985846452052
+   },
+   "ms": 15
+  },
+  {
+   "id": 2829293,
+   "letter": "F",
+   "winner": "exzell",
+   "paid": 17,
+   "myBid": 17,
+   "info": {
+    "v0": 31.225075123330353,
+    "v1": 39.03224965089279,
+    "delta": 7.8071745275624345,
+    "lambda": 0.4492162486295864
+   },
+   "ms": 9
+  },
+  {
+   "id": 2829298,
+   "letter": "N",
+   "winner": "Tow57-Auctioneer",
+   "paid": 10,
+   "myBid": 5,
+   "info": {
+    "v0": 32.6600767530907,
+    "v1": 35.192809748366415,
+    "delta": 2.5327329952757154,
+    "lambda": 0.439430849977254
+   },
+   "ms": 16
+  },
+  {
+   "id": 2829303,
+   "letter": "T",
+   "winner": "Jaeger",
+   "paid": 7,
+   "myBid": 3,
+   "info": {
+    "v0": 33.01641076829378,
+    "v1": 34.42358750192154,
+    "delta": 1.4071767336277574,
+    "lambda": 0.42964217942723243
+   },
+   "ms": 11
+  },
+  {
+   "id": 2829308,
+   "letter": "I",
+   "winner": "Jaeger",
+   "paid": 9,
+   "myBid": 8,
+   "info": {
+    "v0": 30.91506236519022,
+    "v1": 34.436375331721685,
+    "delta": 3.5213129665314646,
+    "lambda": 0.4198500081297952
+   },
+   "ms": 12
+  },
+  {
+   "id": 2829313,
+   "letter": "R",
+   "winner": "exzell",
+   "paid": 9,
+   "myBid": 6,
+   "info": {
+    "v0": 33.0521734706581,
+    "v1": 35.921425217299266,
+    "delta": 2.8692517466411687,
+    "lambda": 0.4100540852894322
+   },
+   "ms": 16
+  },
+  {
+   "id": 2829318,
+   "letter": "E",
+   "winner": "Tow57-Auctioneer",
+   "paid": 8,
+   "myBid": 2,
+   "info": {
+    "v0": 34.743932137668665,
+    "v1": 35.84879901617218,
+    "delta": 1.1048668785035147,
+    "lambda": 0.40025413545755323
+   },
+   "ms": 16
+  },
+  {
+   "id": 2829323,
+   "letter": "Q",
+   "winner": "Jaeger",
+   "paid": 18,
+   "myBid": 18,
+   "info": {
+    "v0": 35.421434595095356,
+    "v1": 42.72752881671642,
+    "delta": 7.306094221621066,
+    "lambda": 0.39044985541238264
+   },
+   "ms": 11
+  },
+  {
+   "id": 2829328,
+   "letter": "I",
+   "winner": "Karppa",
+   "paid": 8,
+   "myBid": 7,
+   "info": {
+    "v0": 34.9573973592283,
+    "v1": 37.97630543856928,
+    "delta": 3.0189080793409744,
+    "lambda": 0.3806409105503303
+   },
+   "ms": 20
+  },
+  {
+   "id": 2829333,
+   "letter": "A",
+   "winner": "Jaeger",
+   "paid": 12,
+   "myBid": 7,
+   "info": {
+    "v0": 38.33262172694875,
+    "v1": 40.96063495937087,
+    "delta": 2.62801323242212,
+    "lambda": 0.370826930696754
+   },
+   "ms": 9
+  },
+  {
+   "id": 2829338,
+   "letter": "N",
+   "winner": "Jaeger",
+   "paid": 10,
+   "myBid": 8,
+   "info": {
+    "v0": 33.62877000238749,
+    "v1": 36.563752775023524,
+    "delta": 2.934982772636033,
+    "lambda": 0.3610075052235378
+   },
+   "ms": 11
+  },
+  {
+   "id": 2829343,
+   "letter": "S",
+   "winner": "Jaeger",
+   "paid": 10,
+   "myBid": 5,
+   "info": {
+    "v0": 36.91774347488255,
+    "v1": 38.949232064993424,
+    "delta": 2.0314885901108752,
+    "lambda": 0.35118217733510737
+   },
+   "ms": 9
+  },
+  {
+   "id": 2829348,
+   "letter": "A",
+   "winner": "Karppa",
+   "paid": 9,
+   "myBid": 6,
+   "info": {
+    "v0": 36.23002385671203,
+    "v1": 38.59037671435829,
+    "delta": 2.3603528576462622,
+    "lambda": 0.3413504373518331
+   },
+   "ms": 9
+  },
+  {
+   "id": 2829353,
+   "letter": "V",
+   "winner": "Jaeger",
+   "paid": 14,
+   "myBid": 12,
+   "info": {
+    "v0": 37.44410220626141,
+    "v1": 41.62048379784258,
+    "delta": 4.176381591581169,
+    "lambda": 0.3315117147780835
+   },
+   "ms": 7
+  },
+  {
+   "id": 2829358,
+   "letter": "Y",
+   "winner": "Karppa",
+   "paid": 21,
+   "myBid": 21,
+   "info": {
+    "v0": 35.920234087437606,
+    "v1": 42.74753512467061,
+    "delta": 6.827301037233006,
+    "lambda": 0.32166536888866326
+   },
+   "ms": 10
+  },
+  {
+   "id": 2829363,
+   "letter": "U",
+   "winner": "Karppa",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 33.50524693733269,
+    "v1": 36.464464778594305,
+    "delta": 2.959217841261612,
+    "lambda": 0.31181067749807884
+   },
+   "ms": 8
+  },
+  {
+   "id": 2829368,
+   "letter": "K",
+   "winner": "Astronaut",
+   "paid": 20,
+   "myBid": 27,
+   "info": {
+    "v0": 35.34428832524841,
+    "v1": 43.50013966663772,
+    "delta": 8.155851341389315,
+    "lambda": 0.3019468234866843
+   },
+   "ms": 8
+  },
+  {
+   "id": 2829373,
+   "letter": "A",
+   "winner": "Astronaut",
+   "paid": 10,
+   "myBid": 14,
+   "info": {
+    "v0": 43.00680194477051,
+    "v1": 47.762897397784684,
+    "delta": 4.756095453014176,
+    "lambda": 0.32574997464669114
+   },
+   "ms": 8
+  },
+  {
+   "id": 2829378,
+   "letter": "N",
+   "winner": "Karppa",
+   "paid": 12,
+   "myBid": 5,
+   "info": {
+    "v0": 47.57409761143504,
+    "v1": 49.34598781729861,
+    "delta": 1.7718902058635635,
+    "lambda": 0.33587064308143766
+   },
+   "ms": 21
+  },
+  {
+   "id": 2829383,
+   "letter": "L",
+   "winner": "Tow57-Auctioneer",
+   "paid": 9,
+   "myBid": 8,
+   "info": {
+    "v0": 47.24144155576955,
+    "v1": 49.8812754810668,
+    "delta": 2.6398339252972534,
+    "lambda": 0.32409030971057406
+   },
+   "ms": 16
+  },
+  {
+   "id": 2829388,
+   "letter": "Z",
+   "winner": "Astronaut",
+   "paid": 40,
+   "myBid": 43,
+   "info": {
+    "v0": 45.33776711695086,
+    "v1": 59.07559858979553,
+    "delta": 13.737831472844675,
+    "lambda": 0.3122935941201674
+   },
+   "ms": 24
+  },
+  {
+   "id": 2829393,
+   "letter": "E",
+   "winner": "Karppa",
+   "paid": 11,
+   "myBid": 1,
+   "info": {
+    "v0": 56.90658919590768,
+    "v1": 57.40993539715192,
+    "delta": 0.5033462012442413,
+    "lambda": 0.45071785024578837
+   },
+   "ms": 27
+  },
+  {
+   "id": 2829398,
+   "letter": "I",
+   "winner": "exzell",
+   "paid": 10,
+   "myBid": 8,
+   "info": {
+    "v0": 57.331801046089815,
+    "v1": 60.83303844640974,
+    "delta": 3.5012374003199227,
+    "lambda": 0.43296446878687417
+   },
+   "ms": 26
+  },
+  {
+   "id": 2829403,
+   "letter": "S",
+   "winner": "Karppa",
+   "paid": 11,
+   "myBid": 0,
+   "info": {
+    "v0": 55.81870878021044,
+    "v1": 56.11870878021043,
+    "delta": 0.29999999999999005,
+    "lambda": 0.41517629050109855
+   },
+   "ms": 20
+  },
+  {
+   "id": 2829408,
+   "letter": "U",
+   "winner": "Astronaut",
+   "paid": 11,
+   "myBid": 12,
+   "info": {
+    "v0": 56.024232812349446,
+    "v1": 62.89448015724788,
+    "delta": 6.870247344898431,
+    "lambda": 0.3973486421484817
+   },
+   "ms": 20
+  },
+  {
+   "id": 2829413,
+   "letter": "A",
+   "winner": "exzell",
+   "paid": 11,
+   "myBid": 1,
+   "info": {
+    "v0": 3.2527548681682705,
+    "v1": 3.5527548681682704,
+    "delta": 0.2999999999999998,
+    "lambda": 0.4684352959754523
+   },
+   "ms": 43
+  },
+  {
+   "id": 2829418,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 13,
+   "myBid": 18,
+   "info": {
+    "v0": 19.517537250029047,
+    "v1": 23.697728208719592,
+    "delta": 4.180190958690545,
+    "lambda": 0.22724939181882903
+   },
+   "ms": 5
+  },
+  {
+   "id": 2829423,
+   "letter": "N",
+   "winner": "Astronaut",
+   "paid": 12,
+   "myBid": 17,
+   "info": {
+    "v0": 25.543054928452353,
+    "v1": 29.712963094676994,
+    "delta": 4.169908166224641,
+    "lambda": 0.23568527234431882
+   },
+   "ms": 6
+  },
+  {
+   "id": 2829428,
+   "letter": "M",
+   "winner": "Astronaut",
+   "paid": 20,
+   "myBid": 36,
+   "info": {
+    "v0": 24.12507088036708,
+    "v1": 33.500598503931485,
+    "delta": 9.375527623564405,
+    "lambda": 0.24606504472896865
+   },
+   "ms": 6
+  },
+  {
+   "id": 2829433,
+   "letter": "B",
+   "winner": "exzell",
+   "paid": 16,
+   "myBid": 16,
+   "info": {
+    "v0": 28.64823753500536,
+    "v1": 33.810210070018236,
+    "delta": 5.161972535012875,
+    "lambda": 0.2897983259544417
+   },
+   "ms": 5
+  },
+  {
+   "id": 2829438,
+   "letter": "J",
+   "winner": "exzell",
+   "paid": 16,
+   "myBid": 16,
+   "info": {
+    "v0": 28.069937024691896,
+    "v1": 33.531877332006374,
+    "delta": 5.461940307314478,
+    "lambda": 0.272607762551185
+   },
+   "ms": 5
+  },
+  {
+   "id": 2829443,
+   "letter": "R",
+   "winner": "Jaeger",
+   "paid": 16,
+   "myBid": 16,
+   "info": {
+    "v0": 27.07251529821525,
+    "v1": 36.786321162668386,
+    "delta": 9.713805864453136,
+    "lambda": 0.25530678587144356
+   },
+   "ms": 8
+  },
+  {
+   "id": 2829448,
+   "letter": "N",
+   "winner": "exzell",
+   "paid": 13,
+   "myBid": 2,
+   "info": {
+    "v0": 27.172165452837422,
+    "v1": 27.832999787566624,
+    "delta": 0.660834334729202,
+    "lambda": 0.237871305231481
+   },
+   "ms": 5
+  },
+  {
+   "id": 2829453,
+   "letter": "X",
+   "winner": "Karppa",
+   "paid": 16,
+   "myBid": 16,
+   "info": {
+    "v0": 27.226636481595847,
+    "v1": 45.326839947884885,
+    "delta": 18.100203466289038,
+    "lambda": 0.2202693828581882
+   },
+   "ms": 3
+  },
+  {
+   "id": 2829458,
+   "letter": "P",
+   "winner": "exzell",
+   "paid": 19,
+   "myBid": 4,
+   "info": {
+    "v0": 27.31866027566275,
+    "v1": 28.218660275662742,
+    "delta": 0.8999999999999915,
+    "lambda": 0.20245761143657517
+   },
+   "ms": 3
+  },
+  {
+   "id": 2829463,
+   "letter": "A",
+   "winner": "exzell",
+   "paid": 16,
+   "myBid": 2,
+   "info": {
+    "v0": 27.19326454649835,
+    "v1": 27.59326454649835,
+    "delta": 0.3999999999999986,
+    "lambda": 0.1843751828857583
+   },
+   "ms": 3
+  },
+  {
+   "id": 2829468,
+   "letter": "A",
+   "winner": "Tow57-Auctioneer",
+   "paid": 14,
+   "myBid": 2,
+   "info": {
+    "v0": 27.3047370049822,
+    "v1": 27.7547370049822,
+    "delta": 0.4499999999999993,
+    "lambda": 0.16593363713059459
+   },
+   "ms": 5
+  },
+  {
+   "id": 2829473,
+   "letter": "E",
+   "winner": "Jaeger",
+   "paid": 17,
+   "myBid": 14,
+   "info": {
+    "v0": 27.33203706082716,
+    "v1": 29.514390993936047,
+    "delta": 2.1823539331088853,
+    "lambda": 0.14699787763874783
+   },
+   "ms": 3
+  },
+  {
+   "id": 2829478,
+   "letter": "V",
+   "winner": "exzell",
+   "paid": 15,
+   "myBid": 15,
+   "info": {
+    "v0": 27.4555757339171,
+    "v1": 29.46109735642865,
+    "delta": 2.005521622511548,
+    "lambda": 0.1273476358668749
+   },
+   "ms": 3
+  },
+  {
+   "id": 2829483,
+   "letter": "E",
+   "winner": "Tow57-Auctioneer",
+   "paid": 16,
+   "myBid": 16,
+   "info": {
+    "v0": 27.336194353103508,
+    "v1": 30.54537181874603,
+    "delta": 3.2091774656425223,
+    "lambda": 0.10658848400810222
+   },
+   "ms": 3
+  },
+  {
+   "id": 2829488,
+   "letter": "G",
+   "winner": "Astronaut",
+   "paid": 13,
+   "myBid": 16,
+   "info": {
+    "v0": 27.099188478153255,
+    "v1": 31.099152514766896,
+    "delta": 3.9999640366136404,
+    "lambda": 0.08390130938838923
+   },
+   "ms": 3
+  },
+  {
+   "id": 2829493,
+   "letter": "W",
+   "winner": "Karppa",
+   "paid": 8,
+   "myBid": 3,
+   "info": {
+    "v0": 28.9163248856472,
+    "v1": 30.22882488564719,
+    "delta": 1.3124999999999893,
+    "lambda": 0.07134917529073297
+   },
+   "ms": 3
+  },
+  {
+   "id": 2829498,
+   "letter": "U",
+   "winner": "Karppa",
+   "paid": 8,
+   "myBid": 3,
+   "info": {
+    "v0": 27.600000000000012,
+    "v1": 27.899999999999988,
+    "delta": 0.29999999999997584,
+    "lambda": 0.03
+   },
+   "ms": 6
+  },
+  {
+   "id": 2829503,
+   "letter": "P",
+   "winner": null,
+   "paid": 0,
+   "myBid": 0,
+   "info": {
+    "v0": 27.600000000000012,
+    "v1": 27.899999999999988,
+    "delta": 0.29999999999997584,
+    "lambda": 0.03
+   },
+   "ms": 1
+  }
+ ],
+ "words": [
+  {
+   "bot": "Tow57-Auctioneer",
+   "word": "COCAINE",
+   "reward": 33
+  },
+  {
+   "bot": "Tow57-Auctioneer",
+   "word": "ROILIER",
+   "reward": 21
+  },
+  {
+   "bot": "Jaeger",
+   "word": "WIDEOUT",
+   "reward": 33
+  },
+  {
+   "bot": "Jaeger",
+   "word": "QINTARS",
+   "reward": 48
+  },
+  {
+   "bot": "Karppa",
+   "word": "BREATHY",
+   "reward": 45
+  },
+  {
+   "bot": "Karppa",
+   "word": "HYENOID",
+   "reward": 42
+  },
+  {
+   "bot": "Astronaut",
+   "word": "KLUTZES",
+   "reward": 60
+  },
+  {
+   "bot": "exzell",
+   "word": "FORAGED",
+   "reward": 36
+  },
+  {
+   "bot": "exzell",
+   "word": "BASENJI",
+   "reward": 48
+  },
+  {
+   "bot": "Tow57-Auctioneer",
+   "word": "ETALON",
+   "reward": 15
+  },
+  {
+   "bot": "Tow57-Auctioneer",
+   "word": "OE",
+   "reward": 2
+  },
+  {
+   "bot": "Jaeger",
+   "word": "AVER",
+   "reward": 10
+  },
+  {
+   "bot": "Karppa",
+   "word": "XU",
+   "reward": 9
+  },
+  {
+   "bot": "exzell",
+   "word": "LAV",
+   "reward": 6
+  },
+  {
+   "bot": "Astronaut",
+   "word": "FOEMAN",
+   "reward": 27
+  },
+  {
+   "bot": "Karppa",
+   "word": "WUD",
+   "reward": 7
+  }
+ ]
+}
