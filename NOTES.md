@@ -38,6 +38,7 @@
 | 11-07 | **first live results**: avg ~85, place 3.3 — sim market field too weak | live | — |
 | 11-07 | price prior from real-only matches (~1.6x old); new `live` sim field (3 perturbed brains + 2 market bots, avgPaid 12.8 ≈ live) | live | 81.5, win 21%, place 3.07 |
 | 11-07 | priceScale .65/.8/1.2, playBonus .5, minPlayLen 6 | live | all within noise (76-84) |
+| 11-07 | standing floor bid 0.4 / 0.6 / **0.8** x market price | live | 81.7 / 81.2 / **87.3 (win 33%)** |
 
 ## Live match log
 
@@ -45,3 +46,23 @@ First 14 matches (version 5a5b7ad+horizon8, old price prior): 1 win (146), mean 
 mean score 85. Winners score 100-165 and win 20-23 tiles, many at 2-10 coins during mid-game
 lulls; we win ~10 tiles because we bid ~1 on tiles we don't specifically need.
 -> testing a standing "floor" bid (fraction of market price).
+
+### Study of the consistent winners (240 live matches, ids > 42900)
+
+LexForge-1107 59% wins (avg 102), RackMaw 51% (99), Karppa 43%, GodOfThudner 42% (101), gas 34%.
+Astronaut v1: 10.5% (85).
+
+| | tiles rounds 1-17 | rounds 18-34 | first 7+ word (median round) | end balance |
+|---|---|---|---|---|
+| winners | 2.4-3.0 | 3.4-4.2 | ~35 | 9-15 |
+| Astronaut v1 | 1.2 | 1.4 | ~51 | 35 |
+
+Winners buy steadily from round 1 (winning bids ~15 commons/vowels, ~21 BCFHMPVWY,
+~35 JKQXZ), cash a 7-letter word around round 35, reinvest and spend down to ~10.
+We hoarded money early, overpaid late (winning bids 23 vs 16-19) and ended with 35 unspent.
+`sim/opponents.ts ForgeBot` imitates their bidding (field `forge` / `top`).
+
+### Versions live
+
+- **v1** (until match 43154): old price prior, no floor. 21 matches: 1 win, mean place ~3.3.
+- **v2** (from match 43161): real-bot price prior + floor bid 0.8x market price.
