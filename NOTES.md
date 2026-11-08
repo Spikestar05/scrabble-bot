@@ -125,3 +125,11 @@ Fix -> **v8**: floorAdd 1 (standing bid +1 coin while > 34 usable auctions remai
 floorAdd hurts. Clearly worse than v7 (1.8 / 105).
 Fix -> **v9 = v7** (floorAdd 0). Lesson: the 'priced out by 1-2 coins' auctions are
 mostly tiles we are better off not buying at that price.
+
+**Cycle 5 — v9 (=v7) (45307-45336):** places 3,1,1,5,1 (mean 2.2), mean score 93, 3 wins
+(132, 120, 3-way tie at 84). v7/v9 over 10 live matches: 5 wins, mean place 2.0.
+Losses were expensive games (avg price 13.4-14 vs ~11 in wins, only 10 tiles).
+Profile: we now match winners on tiles (14.4), spend, words, end balance — but buy
+early (Q1-Q4: 4.2/4.8/3.6/1.8) while GodOfThudner buys 1.8/2.9/3.9/4.8.
+Tested pacing reserve (floorPace 1/1.5/2.5 x usable): 88.9/87.6/87.3 vs 89.1 — worse.
+-> **v9 unchanged** for cycle 6.
