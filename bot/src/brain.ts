@@ -50,6 +50,7 @@ export interface Params {
   budgetTiles: number; // cap on tiles we expect to buy (x balance/price)
   playEval: number; // playable words evaluated per decision
   oppCap: number; // 1 = cap sampled prices at the richest opponent's balance
+  forcePlay: number; // >0: always cash the best word of length >= forcePlay at once
   floorFrac: number; // standing bid as a fraction of the letter's market price
   floorMinBal: number; // only when balance is at least this
   floorMaxHave: number; // no floor bid if we already hold this many of the letter
@@ -83,6 +84,7 @@ export const DEFAULT_PARAMS: Params = {
   budgetTiles: 1.0,
   playEval: 6,
   oppCap: 0,
+  forcePlay: 0,
   floorFrac: 1.0,
   floorMinBal: 40,
   floorMaxHave: 9,
@@ -707,6 +709,23 @@ export class Brain implements Policy {
     if (playable.length === 0) return null;
     playable.sort((a, b) => d.rew[b]! - d.rew[a]!);
     const hold = this.value(R, c);
+    // forced cashing: the best long word, chosen by reward + leave value
+    if (this.p.forcePlay > 0) {
+      let bestF = -1e9;
+      let wF: string | null = null;
+      const R3 = new Int8Array(26);
+      for (const i of playable.slice(0, this.p.playEval)) {
+        if (d.len[i]! < this.p.forcePlay) continue;
+        R3.set(R);
+        for (let j = d.off[i]!; j < d.off[i + 1]!; j++) R3[d.letters[j]!]!--;
+        const g = d.rew[i]! + this.value(R3, c);
+        if (g > bestF) {
+          bestF = g;
+          wF = d.words[i]!;
+        }
+      }
+      if (wF) return wF;
+    }
     let bestGain = 0;
     let bestW: string | null = null;
     const R2 = new Int8Array(26);
