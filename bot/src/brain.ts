@@ -58,6 +58,9 @@ export interface Params {
   floorMinBal: number; // only when balance is at least this
   floorSkipHigh: number; // 1 = no standing bid on JKQXZ (only bid what words need)
   floorReserve: number; // standing bids never take balance below this
+  hoardFront: number; // >0: lambda multiplier (bid harder) while hoarders are present early
+  hoardUntil: number; // ...only while more than this many usable auctions remain
+  hoardBal: number; // hoarder = balance >= this with <= 2 tiles won after round 8
   priceModel: number; // >0: future-tile cost from the learned phase table (TOP_BID x this)
   lambdaPriceAdj: number; // lambda /= (market price ratio)^k: costlier tiles => coins worth fewer points
   bidCapPrice: number; // >0: no bid above this multiple of the letter's market price (pre-endgame)
@@ -107,6 +110,9 @@ export const DEFAULT_PARAMS: Params = {
   floorMaxHave: 9,
   floorSkipHigh: 1,
   floorReserve: 20,
+  hoardFront: 0,
+  hoardUntil: 30,
+  hoardBal: 95,
   priceModel: 0,
   lambdaPriceAdj: 0,
   bidCapPrice: 1.8,
@@ -298,6 +304,7 @@ export class Brain implements Policy {
       price = TOP_BID.map((row) => row[ph]! * mr * this.p.priceModel);
     }
     let lambda = this.lambda(obs, usable);
+    if (this.p.hoardFront > 0 && this.hoarders(obs) > 0 && usable > this.p.hoardUntil) lambda *= this.p.hoardFront;
     if (this.p.lambdaPriceAdj > 0) lambda /= Math.pow(Math.max(0.5, Math.min(2, this.t.priceRatio())), this.p.lambdaPriceAdj);
     return { U, Utot, usable, frac, price, floorPrice, lambda };
   }
@@ -725,6 +732,21 @@ export class Brain implements Policy {
     return this.bidFromDelta(this.lastDelta, this.pendingLetter, c, obs.balances[obs.seat]!);
   }
   private lastDelta = 0;
+
+  // Opponents sitting on money early (Pegasus-style back-loaders): balance still
+  // high and few tiles won after the opening. Their presence makes early tiles
+  // cheap and late tiles expensive.
+  hoarders(obs: Observation): number {
+    if (obs.round < 9) return 0;
+    let n = 0;
+    for (let s = 0; s < obs.nSeats; s++) {
+      if (s === obs.seat) continue;
+      let won = 0;
+      for (let i = 0; i < 26; i++) won += this.t.bought[s]![i]!;
+      if (obs.balances[s]! >= this.p.hoardBal && won <= 2) n++;
+    }
+    return n;
+  }
 
   // Denial: points a close rival would gain from `letter`, judged from the tiles
   // we know they hold (bought - played; their hidden starting tiles are ignored).
