@@ -221,3 +221,8 @@ place 2.06 / 90.2 vs v12 2.51 / 82.2. Confirmed at 200 games: **#16 86.8 / 2.31 
 vs v12 84.3 / 2.44 / 32% (runner-up #1: 85.0 / 2.36 / 37.5%).
 **v13** = v12 + lambda0 .62, lambdaGamma .36, q 1.0, residual .29, floorFrac .97,
 floorReserve 10, endUsable 10, playBonus .04, priceScale .95, hoardFront .7 (horizon 8).
+
+**Cycle 12 — v13 (46455-46511):** places 3,1,2,1,4 (mean 2.2), mean score 88, 2 wins
+(108 over RackMaw-Blend25 105 / LexForge-Liquid03 103; 105 over RackMaw-Blend25 100).
+vs v12's last cycle (3.4, 0 wins) in a similarly strong field. Losses: few tiles (8-10)
+in expensive games; RackMaw-Blend0 148 is the new top threat.
