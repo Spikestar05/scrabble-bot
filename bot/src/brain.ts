@@ -55,6 +55,7 @@ export interface Params {
   floorMinBal: number; // only when balance is at least this
   floorSkipHigh: number; // 1 = no standing bid on JKQXZ (only bid what words need)
   floorReserve: number; // standing bids never take balance below this
+  lambdaPriceAdj: number; // lambda /= (market price ratio)^k: costlier tiles => coins worth fewer points
   bidCapPrice: number; // >0: no bid above this multiple of the letter's market price (pre-endgame)
   highBoost: number; // multiplier on our value-based bid for JKQXZ (face >= 5)
   floorPace: number; // standing-bid reserve also >= floorPace * usable auctions left
@@ -100,6 +101,7 @@ export const DEFAULT_PARAMS: Params = {
   floorMaxHave: 9,
   floorSkipHigh: 1,
   floorReserve: 20,
+  lambdaPriceAdj: 0,
   bidCapPrice: 1.8,
   highBoost: 1,
   floorPace: 0,
@@ -268,7 +270,8 @@ export class Brain implements Policy {
       for (let s = 0; s < obs.nSeats; s++) if (s !== obs.seat) mx = Math.max(mx, obs.balances[s]!);
       price = price.map((x) => Math.max(1, Math.min(x, mx)));
     }
-    const lambda = this.lambda(obs, usable);
+    let lambda = this.lambda(obs, usable);
+    if (this.p.lambdaPriceAdj > 0) lambda /= Math.pow(Math.max(0.5, Math.min(2, this.t.priceRatio())), this.p.lambdaPriceAdj);
     return { U, Utot, usable, frac, price, lambda };
   }
 
