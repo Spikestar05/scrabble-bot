@@ -21,5 +21,5 @@ Promise.all(runs).then((rs) => {
   const byName: Record<string, number> = {};
   for (const r of rs) for (const [k, v] of Object.entries(r.byName)) byName[k] = (byName[k] ?? 0) + (v as number) * r.games / n;
   for (const k in byName) byName[k] = +byName[k]!.toFixed(1);
-  console.log(JSON.stringify({ games: n, meanScore: w("meanScore"), winRate: w("winRate"), meanPlace: w("meanPlace"), oppBest: w("oppBest"), avgPaid: w("avgPaid"), aWon: w("aWon"), aPaid: w("aPaid"), aLeftBal: w("aLeftBal"), aLeftTiles: w("aLeftTiles"), aWords: w("aWords"), aAvgLen: w("aAvgLen"), byName, secs: Math.max(...rs.map((r) => r.secs)), args: rest.join(" ") }));
+  console.log(JSON.stringify({ games: n, meanScore: w("meanScore"), winRate: w("winRate"), meanPlace: w("meanPlace"), oppBest: w("oppBest"), avgPaid: w("avgPaid"), aWon: w("aWon"), aPaid: w("aPaid"), aLeftBal: w("aLeftBal"), aWasted: w("aWasted"), aLeftTiles: w("aLeftTiles"), aWords: w("aWords"), aAvgLen: w("aAvgLen"), byName, secs: Math.max(...rs.map((r) => r.secs)), args: rest.join(" ") }));
 });

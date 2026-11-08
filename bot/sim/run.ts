@@ -62,7 +62,7 @@ function makeField(rng: Rng): SeatSpec[] {
   return seats;
 }
 
-let sumScore = 0, wins = 0, place = 0, sumBest = 0, paidAll = 0, nAuc = 0, aWon = 0, aPaid = 0, aLeftBal = 0, aLeftTiles = 0, aWords = 0, aLen = 0;
+let sumScore = 0, wins = 0, place = 0, sumBest = 0, paidAll = 0, nAuc = 0, aWon = 0, aPaid = 0, aLeftBal = 0, aLeftTiles = 0, aWords = 0, aLen = 0, aPreFlush = 0;
 const byName = new Map<string, { n: number; s: number }>();
 const t0 = performance.now();
 for (let g = 0; g < games; g++) {
@@ -79,11 +79,16 @@ for (let g = 0; g < games; g++) {
     else if (e.seat === ai) { aWords++; aLen += e.word.length; }
   }
   aLeftBal += res.balances[ai]!; aLeftTiles += res.leftover[ai]!;
+  // money truly wasted: final balance minus income from words cashed in the final round
+  { let k = res.events.length - 1; let flush = 0;
+    while (k >= 0 && res.events[k]!.kind !== "auction") k--; // last auction
+    for (let j = k - 1; j >= 0 && res.events[j]!.kind !== "auction"; j--) { const e = res.events[j]!; if (e.kind === "word" && e.seat === ai) flush += e.reward; }
+    aPreFlush += res.balances[ai]! - flush; }
   sumBest += Math.max(...res.scores.filter((_, i) => i !== ai));
   res.names.forEach((n, i) => { const e = byName.get(n) ?? { n: 0, s: 0 }; e.n++; e.s += res.scores[i]!; byName.set(n, e); });
   if (verbose) console.log(g, res.names.map((n, i) => `${n}:${res.scores[i]}/${res.balances[i]}/${res.leftover[i]}`).join(" "));
 }
 const out = { games, field, meanScore: +(sumScore / games).toFixed(1), winRate: +(wins / games).toFixed(3), meanPlace: +(place / games).toFixed(2), oppBest: +(sumBest / games).toFixed(1),
-  avgPaid: +(paidAll / nAuc).toFixed(2), aWon: +(aWon / games).toFixed(1), aPaid: +(aPaid / games).toFixed(1), aLeftBal: +(aLeftBal / games).toFixed(1), aLeftTiles: +(aLeftTiles / games).toFixed(1), aWords: +(aWords / games).toFixed(1), aAvgLen: +(aLen / Math.max(1, aWords)).toFixed(1),
+  avgPaid: +(paidAll / nAuc).toFixed(2), aWon: +(aWon / games).toFixed(1), aPaid: +(aPaid / games).toFixed(1), aLeftBal: +(aLeftBal / games).toFixed(1), aWasted: +(aPreFlush / games).toFixed(1), aLeftTiles: +(aLeftTiles / games).toFixed(1), aWords: +(aWords / games).toFixed(1), aAvgLen: +(aLen / Math.max(1, aWords)).toFixed(1),
   byName: Object.fromEntries([...byName].map(([k, v]) => [k, +(v.s / v.n).toFixed(1)])), secs: +((performance.now() - t0) / 1000).toFixed(1) };
 console.log(JSON.stringify(out));

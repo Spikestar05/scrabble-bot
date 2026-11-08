@@ -58,6 +58,8 @@ export interface Params {
   floorMinBal: number; // only when balance is at least this
   floorSkipHigh: number; // 1 = no standing bid on JKQXZ (only bid what words need)
   floorReserve: number; // standing bids never take balance below this
+  spendWindow: number; // >0: in the last N usable auctions value tiles by exact flush gain
+  flushLam: number; // points per coin used to price that gain (money ~worthless at the end)
   compFrac: number; // >0: if the tile completes a playable 7+ word, bid >= compFrac x reward gained
   hoardFront: number; // >0: lambda multiplier (bid harder) while hoarders are present early
   hoardUntil: number; // ...only while more than this many usable auctions remain
@@ -111,6 +113,8 @@ export const DEFAULT_PARAMS: Params = {
   floorMaxHave: 9,
   floorSkipHigh: 1,
   floorReserve: 10,
+  spendWindow: 0,
+  flushLam: 0.2,
   compFrac: 0,
   hoardFront: 0.7,
   hoardUntil: 30,
@@ -734,6 +738,7 @@ export class Brain implements Policy {
     return this.bidFromDelta(this.lastDelta, this.pendingLetter, c, obs.balances[obs.seat]!);
   }
   private lastDelta = 0;
+  lastFlushGain = 0;
 
   // Opponents sitting on money early (Pegasus-style back-loaders): balance still
   // high and few tiles won after the opening. Their presence makes early tiles
@@ -800,6 +805,18 @@ export class Brain implements Policy {
 
   bidFromDelta(delta: number, letter: number, c: Ctx, balance: number): number {
     let bid = delta > 0 ? delta / c.lambda : 0;
+    // endgame spend-down: exact gain to our final flush (optimal partition)
+    if (this.p.spendWindow > 0 && this.pendingR && c.usable >= 0 && c.usable < this.p.spendWindow) {
+      const R = this.pendingR;
+      const dl = performance.now() + 30;
+      const before = this.dict.partition(R, 2, dl).total;
+      R[letter]!++;
+      const after = this.dict.partition(R, 2, performance.now() + 30).total;
+      R[letter]!--;
+      const gain = after - before;
+      this.lastFlushGain = gain;
+      if (gain > 0) bid = Math.max(bid, Math.min(balance, gain / this.p.flushLam));
+    }
     // completion premium: this tile turns the rack into a playable long word now
     if (this.p.compFrac > 0 && this.pendingR && c.usable > 0) {
       const R = this.pendingR;
@@ -810,7 +827,7 @@ export class Brain implements Policy {
       if (after > before) bid = Math.max(bid, Math.min(this.p.compFrac * (after - before), balance));
     }
     if (VALUE[letter]! >= 5) bid *= this.p.highBoost;
-    if (this.p.bidCapPrice > 0 && c.usable > 3) bid = Math.min(bid, this.p.bidCapPrice * c.price[letter]!);
+    if (this.p.bidCapPrice > 0 && c.usable > Math.max(3, this.p.spendWindow - 1)) bid = Math.min(bid, this.p.bidCapPrice * c.price[letter]!);
     const have = this.pendingR ? this.pendingR[letter]! : 0;
     if (this.p.floorFrac > 0 && c.usable > 2 && have < this.p.floorMaxHave && !(this.p.floorSkipHigh && VALUE[letter]! >= 5)) {
       // standing bid, but never one that would leave us below the reserve
