@@ -18,9 +18,19 @@ space = {
     "hoardFront": lambda: rnd.choice([0, 0.7, 0.8]),
 }
 res = []
-cfgs = [{}] + [{k: f() for k, f in space.items()} for _ in range(n)]
+import os
+base = json.loads(os.environ.get("SEARCH_BASE", "{}"))
+if base:
+    def jitter():
+        c = dict(base)
+        for k in rnd.sample(list(space), 3):  # perturb 3 params at a time
+            c[k] = space[k]()
+        return c
+    cfgs = [{}] + [jitter() for _ in range(n)]
+else:
+    cfgs = [{}] + [{k: f() for k, f in space.items()} for _ in range(n)]
 for i, cfg in enumerate(cfgs):
-    out = subprocess.run(["npx", "tsx", "sim/par.ts", "--games", str(games), "--procs", "4", "--field", field, "--a", json.dumps(cfg)],
+    out = subprocess.run(["npx", "tsx", "sim/par.ts", "--games", str(games), "--procs", "3", "--field", field, "--a", json.dumps(cfg)],
                          capture_output=True, text=True).stdout.strip().split("\n")[-1]
     d = json.loads(out)
     res.append((d["meanPlace"], -d["meanScore"], d["winRate"], cfg))
