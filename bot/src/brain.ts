@@ -55,6 +55,7 @@ export interface Params {
   floorMinBal: number; // only when balance is at least this
   floorSkipHigh: number; // 1 = no standing bid on JKQXZ (only bid what words need)
   floorReserve: number; // standing bids never take balance below this
+  floorPace: number; // standing-bid reserve also >= floorPace * usable auctions left
   floorAdd: number; // coins added to the standing bid while usable > floorAddUntil
   floorAddUntil: number; // ...only while more usable auctions than this remain
   floorMaxHave: number; // no floor bid if we already hold this many of the letter
@@ -97,6 +98,7 @@ export const DEFAULT_PARAMS: Params = {
   floorMaxHave: 9,
   floorSkipHigh: 1,
   floorReserve: 20,
+  floorPace: 0,
   floorAdd: 0,
   floorAddUntil: 34,
   spendDown: 0,
@@ -708,7 +710,8 @@ export class Brain implements Policy {
     if (this.p.floorFrac > 0 && c.usable > 2 && have < this.p.floorMaxHave && !(this.p.floorSkipHigh && VALUE[letter]! >= 5)) {
       // standing bid, but never one that would leave us below the reserve
       const add = c.usable > this.p.floorAddUntil ? this.p.floorAdd : 0;
-      const f = Math.min(this.p.floorFrac * c.price[letter]! + add, balance - this.p.floorReserve);
+      const reserve = Math.max(this.p.floorReserve, this.p.floorPace * c.usable);
+      const f = Math.min(this.p.floorFrac * c.price[letter]! + add, balance - reserve);
       if (balance >= this.p.floorMinBal && f > 0) bid = Math.max(bid, f);
     }
     if (this.p.spendDown > 0 && c.usable > 0 && delta > 0 && balance > c.usable * this.p.spendDown)
