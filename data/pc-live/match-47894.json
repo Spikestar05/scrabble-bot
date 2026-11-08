@@ -1,0 +1,1575 @@
+{
+ "matchId": 47894,
+ "at": "2026-11-08T05:27:05.631Z",
+ "auctionType": "Vickrey",
+ "placement": 4,
+ "nPlayers": 6,
+ "scores": [
+  {
+   "bot": "Jake",
+   "score": 92,
+   "balance": 20
+  },
+  {
+   "bot": "StickBot",
+   "score": 76,
+   "balance": 5
+  },
+  {
+   "bot": "Karppa",
+   "score": 74,
+   "balance": 14
+  },
+  {
+   "bot": "Astronaut",
+   "score": 69,
+   "balance": 25
+  },
+  {
+   "bot": "Nhat",
+   "score": 66,
+   "balance": 7
+  },
+  {
+   "bot": "Lime-LaChonk-V7-Large",
+   "score": 19,
+   "balance": 2
+  }
+ ],
+ "myScore": 69,
+ "myLeftover": "AC",
+ "myWords": [
+  {
+   "bot": "Astronaut",
+   "word": "MEGAHIT",
+   "reward": 39
+  },
+  {
+   "bot": "Astronaut",
+   "word": "WARMED",
+   "reward": 30
+  }
+ ],
+ "myWordAttempts": [
+  {
+   "word": "MEGAHIT",
+   "at": 1794115606600,
+   "ok": true
+  },
+  {
+   "word": "WARMED",
+   "at": 1794115623606,
+   "ok": true
+  }
+ ],
+ "won": [
+  {
+   "l": "D",
+   "paid": 13,
+   "bid": 15
+  },
+  {
+   "l": "E",
+   "paid": 12,
+   "bid": 14
+  },
+  {
+   "l": "G",
+   "paid": 13,
+   "bid": 13
+  },
+  {
+   "l": "H",
+   "paid": 19,
+   "bid": 22
+  },
+  {
+   "l": "C",
+   "paid": 23,
+   "bid": 24
+  },
+  {
+   "l": "M",
+   "paid": 18,
+   "bid": 19
+  },
+  {
+   "l": "E",
+   "paid": 13,
+   "bid": 18
+  },
+  {
+   "l": "R",
+   "paid": 16,
+   "bid": 18
+  },
+  {
+   "l": "A",
+   "paid": 10,
+   "bid": 12
+  },
+  {
+   "l": "A",
+   "paid": 7,
+   "bid": 9
+  }
+ ],
+ "missed": [
+  {
+   "l": "S",
+   "bid": 10,
+   "paid": 15,
+   "winner": "Nhat"
+  },
+  {
+   "l": "L",
+   "bid": 10,
+   "paid": 14,
+   "winner": "Nhat"
+  },
+  {
+   "l": "D",
+   "bid": 14,
+   "paid": 14,
+   "winner": "StickBot"
+  },
+  {
+   "l": "C",
+   "bid": 17,
+   "paid": 19,
+   "winner": "Jake"
+  },
+  {
+   "l": "U",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Nhat"
+  },
+  {
+   "l": "N",
+   "bid": 10,
+   "paid": 12,
+   "winner": "Nhat"
+  },
+  {
+   "l": "E",
+   "bid": 11,
+   "paid": 18,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "E",
+   "bid": 11,
+   "paid": 11,
+   "winner": "Nhat"
+  },
+  {
+   "l": "E",
+   "bid": 12,
+   "paid": 12,
+   "winner": "Nhat"
+  },
+  {
+   "l": "I",
+   "bid": 10,
+   "paid": 13,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "E",
+   "bid": 11,
+   "paid": 19,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "O",
+   "bid": 10,
+   "paid": 12,
+   "winner": "Nhat"
+  },
+  {
+   "l": "S",
+   "bid": 16,
+   "paid": 16,
+   "winner": "Nhat"
+  },
+  {
+   "l": "N",
+   "bid": 13,
+   "paid": 13,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "N",
+   "bid": 13,
+   "paid": 14,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "B",
+   "bid": 17,
+   "paid": 17,
+   "winner": "StickBot"
+  },
+  {
+   "l": "N",
+   "bid": 15,
+   "paid": 15,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "T",
+   "bid": 11,
+   "paid": 11,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "A",
+   "bid": 11,
+   "paid": 12,
+   "winner": "Jake"
+  },
+  {
+   "l": "T",
+   "bid": 10,
+   "paid": 10,
+   "winner": "StickBot"
+  },
+  {
+   "l": "O",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Nhat"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Karppa"
+  },
+  {
+   "l": "F",
+   "bid": 18,
+   "paid": 20,
+   "winner": "Karppa"
+  },
+  {
+   "l": "Y",
+   "bid": 19,
+   "paid": 21,
+   "winner": "Karppa"
+  },
+  {
+   "l": "V",
+   "bid": 17,
+   "paid": 17,
+   "winner": "StickBot"
+  },
+  {
+   "l": "N",
+   "bid": 10,
+   "paid": 11,
+   "winner": "StickBot"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 10,
+   "winner": "StickBot"
+  },
+  {
+   "l": "S",
+   "bid": 11,
+   "paid": 14,
+   "winner": "Jake"
+  },
+  {
+   "l": "P",
+   "bid": 16,
+   "paid": 18,
+   "winner": "Jake"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 10,
+   "winner": "StickBot"
+  },
+  {
+   "l": "A",
+   "bid": 10,
+   "paid": 12,
+   "winner": "Jake"
+  },
+  {
+   "l": "A",
+   "bid": 10,
+   "paid": 11,
+   "winner": "StickBot"
+  },
+  {
+   "l": "W",
+   "bid": 17,
+   "paid": 21,
+   "winner": "Karppa"
+  },
+  {
+   "l": "L",
+   "bid": 10,
+   "paid": 13,
+   "winner": "StickBot"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Jake"
+  },
+  {
+   "l": "L",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Jake"
+  },
+  {
+   "l": "X",
+   "bid": 30,
+   "paid": 30,
+   "winner": "Karppa"
+  },
+  {
+   "l": "D",
+   "bid": 13,
+   "paid": 13,
+   "winner": "StickBot"
+  },
+  {
+   "l": "B",
+   "bid": 15,
+   "paid": 16,
+   "winner": "Jake"
+  },
+  {
+   "l": "O",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Nhat"
+  },
+  {
+   "l": "U",
+   "bid": 9,
+   "paid": 10,
+   "winner": "Nhat"
+  },
+  {
+   "l": "A",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Karppa"
+  },
+  {
+   "l": "O",
+   "bid": 8,
+   "paid": 8,
+   "winner": "Nhat"
+  },
+  {
+   "l": "O",
+   "bid": 8,
+   "paid": 8,
+   "winner": "StickBot"
+  },
+  {
+   "l": "J",
+   "bid": 18,
+   "paid": 18,
+   "winner": "StickBot"
+  },
+  {
+   "l": "Z",
+   "bid": 12,
+   "paid": 25,
+   "winner": "Karppa"
+  },
+  {
+   "l": "Q",
+   "bid": 8,
+   "paid": 19,
+   "winner": "Jake"
+  },
+  {
+   "l": "D",
+   "bid": 12,
+   "paid": 12,
+   "winner": "Karppa"
+  },
+  {
+   "l": "O",
+   "bid": 12,
+   "paid": 13,
+   "winner": "Jake"
+  },
+  {
+   "l": "L",
+   "bid": 12,
+   "paid": 14,
+   "winner": "Jake"
+  },
+  {
+   "l": "F",
+   "bid": 5,
+   "paid": 19,
+   "winner": "StickBot"
+  },
+  {
+   "l": "R",
+   "bid": 12,
+   "paid": 12,
+   "winner": "Karppa"
+  },
+  {
+   "l": "G",
+   "bid": 2,
+   "paid": 8,
+   "winner": "Nhat"
+  },
+  {
+   "l": "O",
+   "bid": 2,
+   "paid": 8,
+   "winner": "Jake"
+  },
+  {
+   "l": "R",
+   "bid": 2,
+   "paid": 7,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "S",
+   "bid": 2,
+   "paid": 7,
+   "winner": "Jake"
+  }
+ ],
+ "maxDecisionMs": 124.5002000000095,
+ "auctions": [
+  {
+   "id": 3126038,
+   "letter": "S",
+   "winner": "Nhat",
+   "paid": 15,
+   "myBid": 10,
+   "info": {
+    "v0": 19.89069290590255,
+    "v1": 26.81549155912406,
+    "delta": 6.924798653221508,
+    "lambda": 0.6617867174327142,
+    "deny": 0
+   },
+   "ms": 104
+  },
+  {
+   "id": 3126048,
+   "letter": "L",
+   "winner": "Nhat",
+   "paid": 14,
+   "myBid": 10,
+   "info": {
+    "v0": 18.403346894560233,
+    "v1": 22.761634608729626,
+    "delta": 4.358287714169393,
+    "lambda": 0.6538808859919171,
+    "deny": 0
+   },
+   "ms": 75
+  },
+  {
+   "id": 3126058,
+   "letter": "D",
+   "winner": "StickBot",
+   "paid": 14,
+   "myBid": 14,
+   "info": {
+    "v0": 18.535873196552572,
+    "v1": 26.788788274789038,
+    "delta": 8.252915078236466,
+    "lambda": 0.6459587650218012,
+    "deny": 0
+   },
+   "ms": 65
+  },
+  {
+   "id": 3126068,
+   "letter": "C",
+   "winner": "Jake",
+   "paid": 19,
+   "myBid": 17,
+   "info": {
+    "v0": 19.806459289219593,
+    "v1": 28.009885342254634,
+    "delta": 8.203426053035042,
+    "lambda": 0.6380200654079734,
+    "deny": 0
+   },
+   "ms": 118
+  },
+  {
+   "id": 3126078,
+   "letter": "U",
+   "winner": "Nhat",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 18.48769658206731,
+    "v1": 21.041189452009878,
+    "delta": 2.5534928699425663,
+    "lambda": 0.6300644879061076,
+    "deny": 0
+   },
+   "ms": 96
+  },
+  {
+   "id": 3126088,
+   "letter": "N",
+   "winner": "Nhat",
+   "paid": 12,
+   "myBid": 10,
+   "info": {
+    "v0": 20.54725675201089,
+    "v1": 25.48611981254386,
+    "delta": 4.938863060532967,
+    "lambda": 0.6220917225987204,
+    "deny": 0
+   },
+   "ms": 125
+  },
+  {
+   "id": 3126098,
+   "letter": "E",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 18,
+   "myBid": 11,
+   "info": {
+    "v0": 19.11940204208023,
+    "v1": 25.931042415581626,
+    "delta": 6.811640373501394,
+    "lambda": 0.6141014483122161,
+    "deny": 0
+   },
+   "ms": 103
+  },
+  {
+   "id": 3126108,
+   "letter": "E",
+   "winner": "Nhat",
+   "paid": 11,
+   "myBid": 11,
+   "info": {
+    "v0": 19.486806261419677,
+    "v1": 25.358947326325577,
+    "delta": 5.8721410649059,
+    "lambda": 0.6060933319904902,
+    "deny": 0
+   },
+   "ms": 114
+  },
+  {
+   "id": 3126118,
+   "letter": "E",
+   "winner": "Nhat",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 27.95112180550868,
+    "v1": 33.24870343171758,
+    "delta": 5.297581626208899,
+    "lambda": 0.4186469196146774,
+    "deny": 0
+   },
+   "ms": 77
+  },
+  {
+   "id": 3126128,
+   "letter": "I",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 13,
+   "myBid": 10,
+   "info": {
+    "v0": 26.158050555621728,
+    "v1": 27.37729891610354,
+    "delta": 1.2192483604818136,
+    "lambda": 0.41301552425592664,
+    "deny": 0
+   },
+   "ms": 111
+  },
+  {
+   "id": 3126138,
+   "letter": "E",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 19,
+   "myBid": 11,
+   "info": {
+    "v0": 27.400628542261554,
+    "v1": 32.01395197322646,
+    "delta": 4.613323430964908,
+    "lambda": 0.4073708852442142,
+    "deny": 0
+   },
+   "ms": 50
+  },
+  {
+   "id": 3126147,
+   "letter": "O",
+   "winner": "Nhat",
+   "paid": 12,
+   "myBid": 10,
+   "info": {
+    "v0": 25.093433111062215,
+    "v1": 28.990882283855512,
+    "delta": 3.897449172793298,
+    "lambda": 0.4017127310678191,
+    "deny": 0
+   },
+   "ms": 48
+  },
+  {
+   "id": 3126157,
+   "letter": "S",
+   "winner": "Nhat",
+   "paid": 16,
+   "myBid": 16,
+   "info": {
+    "v0": 25.037186835911132,
+    "v1": 31.37544738708004,
+    "delta": 6.338260551168908,
+    "lambda": 0.3960407791348739,
+    "deny": 0
+   },
+   "ms": 68
+  },
+  {
+   "id": 3126167,
+   "letter": "N",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 13,
+   "myBid": 13,
+   "info": {
+    "v0": 25.168939238434145,
+    "v1": 30.380092166129284,
+    "delta": 5.211152927695139,
+    "lambda": 0.390354735078248,
+    "deny": 0
+   },
+   "ms": 69
+  },
+  {
+   "id": 3126177,
+   "letter": "N",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 14,
+   "myBid": 13,
+   "info": {
+    "v0": 25.237891792604902,
+    "v1": 30.386464474747257,
+    "delta": 5.148572682142355,
+    "lambda": 0.3846542920008538,
+    "deny": 0
+   },
+   "ms": 89
+  },
+  {
+   "id": 3126187,
+   "letter": "B",
+   "winner": "StickBot",
+   "paid": 17,
+   "myBid": 17,
+   "info": {
+    "v0": 25.34357957031604,
+    "v1": 30.319778686594756,
+    "delta": 4.976199116278714,
+    "lambda": 0.3789391296548647,
+    "deny": 0
+   },
+   "ms": 85
+  },
+  {
+   "id": 3126196,
+   "letter": "N",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 15,
+   "myBid": 15,
+   "info": {
+    "v0": 26.80380560241909,
+    "v1": 32.40347763775507,
+    "delta": 5.599672035335978,
+    "lambda": 0.373208913547462,
+    "deny": 0
+   },
+   "ms": 56
+  },
+  {
+   "id": 3126205,
+   "letter": "T",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 11,
+   "myBid": 11,
+   "info": {
+    "v0": 26.83189558232583,
+    "v1": 28.133347775990234,
+    "delta": 1.301452193664403,
+    "lambda": 0.36746329396472227,
+    "deny": 0
+   },
+   "ms": 61
+  },
+  {
+   "id": 3126214,
+   "letter": "D",
+   "winner": "Astronaut",
+   "paid": 13,
+   "myBid": 15,
+   "info": {
+    "v0": 28.277520184704986,
+    "v1": 33.89287965838685,
+    "delta": 5.615359473681867,
+    "lambda": 0.3617019049040858,
+    "deny": 0
+   },
+   "ms": 45
+  },
+  {
+   "id": 3126224,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 12,
+   "myBid": 14,
+   "info": {
+    "v0": 33.3911872189925,
+    "v1": 39.01792944004599,
+    "delta": 5.62674222105349,
+    "lambda": 0.37692630794033755,
+    "deny": 0
+   },
+   "ms": 38
+  },
+  {
+   "id": 3126234,
+   "letter": "A",
+   "winner": "Jake",
+   "paid": 12,
+   "myBid": 11,
+   "info": {
+    "v0": 36.801403655786466,
+    "v1": 38.144771620665516,
+    "delta": 1.3433679648790502,
+    "lambda": 0.3935124469412407,
+    "deny": 0
+   },
+   "ms": 50
+  },
+  {
+   "id": 3126244,
+   "letter": "T",
+   "winner": "StickBot",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 37.352699976411905,
+    "v1": 38.12925664456524,
+    "delta": 0.7765566681533329,
+    "lambda": 0.38698136286338314,
+    "deny": 0
+   },
+   "ms": 118
+  },
+  {
+   "id": 3126253,
+   "letter": "G",
+   "winner": "Astronaut",
+   "paid": 13,
+   "myBid": 13,
+   "info": {
+    "v0": 38.62930253634584,
+    "v1": 40.84977879187803,
+    "delta": 2.2204762555321906,
+    "lambda": 0.38043069861662,
+    "deny": 0
+   },
+   "ms": 89
+  },
+  {
+   "id": 3126262,
+   "letter": "O",
+   "winner": "Nhat",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 38.36504395942871,
+    "v1": 42.37227058553979,
+    "delta": 4.007226626111077,
+    "lambda": 0.4024053956560352,
+    "deny": 0
+   },
+   "ms": 96
+  },
+  {
+   "id": 3126272,
+   "letter": "E",
+   "winner": "Karppa",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 38.90605528686456,
+    "v1": 41.07122928108838,
+    "delta": 2.165173994223821,
+    "lambda": 0.3953106883610999,
+    "deny": 0
+   },
+   "ms": 103
+  },
+  {
+   "id": 3126282,
+   "letter": "F",
+   "winner": "Karppa",
+   "paid": 20,
+   "myBid": 18,
+   "info": {
+    "v0": 36.28366825052976,
+    "v1": 44.48138764413449,
+    "delta": 8.197719393604736,
+    "lambda": 0.5545615922905394,
+    "deny": 0
+   },
+   "ms": 94
+  },
+  {
+   "id": 3126291,
+   "letter": "Y",
+   "winner": "Karppa",
+   "paid": 21,
+   "myBid": 19,
+   "info": {
+    "v0": 36.23655040188196,
+    "v1": 45.22517701366678,
+    "delta": 8.988626611784817,
+    "lambda": 0.5443600125694218,
+    "deny": 0
+   },
+   "ms": 87
+  },
+  {
+   "id": 3126301,
+   "letter": "V",
+   "winner": "StickBot",
+   "paid": 17,
+   "myBid": 17,
+   "info": {
+    "v0": 36.684037737332254,
+    "v1": 41.87461110628826,
+    "delta": 5.190573368956009,
+    "lambda": 0.5341238086487073,
+    "deny": 0
+   },
+   "ms": 89
+  },
+  {
+   "id": 3126311,
+   "letter": "N",
+   "winner": "StickBot",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 35.83414116489487,
+    "v1": 40.04873000925187,
+    "delta": 4.214588844357003,
+    "lambda": 0.5238519122551634,
+    "deny": 0
+   },
+   "ms": 105
+  },
+  {
+   "id": 3126321,
+   "letter": "I",
+   "winner": "StickBot",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 36.79051005266542,
+    "v1": 38.083107244348554,
+    "delta": 1.2925971916831358,
+    "lambda": 0.5135431880633086,
+    "deny": 0
+   },
+   "ms": 67
+  },
+  {
+   "id": 3126331,
+   "letter": "S",
+   "winner": "Jake",
+   "paid": 14,
+   "myBid": 11,
+   "info": {
+    "v0": 37.94678760338568,
+    "v1": 41.985107711465396,
+    "delta": 4.038320108079716,
+    "lambda": 0.5031964271856849,
+    "deny": 0
+   },
+   "ms": 38
+  },
+  {
+   "id": 3126341,
+   "letter": "P",
+   "winner": "Jake",
+   "paid": 18,
+   "myBid": 16,
+   "info": {
+    "v0": 38.83197047376133,
+    "v1": 44.066228606535134,
+    "delta": 5.234258132773803,
+    "lambda": 0.4928103398007017,
+    "deny": 0
+   },
+   "ms": 32
+  },
+  {
+   "id": 3126351,
+   "letter": "I",
+   "winner": "StickBot",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 37.37808657834506,
+    "v1": 38.43394423456319,
+    "delta": 1.05585765621813,
+    "lambda": 0.48238354677264794,
+    "deny": 0
+   },
+   "ms": 36
+  },
+  {
+   "id": 3126361,
+   "letter": "A",
+   "winner": "Jake",
+   "paid": 12,
+   "myBid": 10,
+   "info": {
+    "v0": 37.6646067943553,
+    "v1": 38.81804828558017,
+    "delta": 1.1534414912248678,
+    "lambda": 0.4719145700885715,
+    "deny": 0
+   },
+   "ms": 40
+  },
+  {
+   "id": 3126371,
+   "letter": "A",
+   "winner": "StickBot",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 38.692827684996274,
+    "v1": 39.70417922663082,
+    "delta": 1.0113515416345464,
+    "lambda": 0.4614018218995377,
+    "deny": 0
+   },
+   "ms": 31
+  },
+  {
+   "id": 3126381,
+   "letter": "W",
+   "winner": "Karppa",
+   "paid": 21,
+   "myBid": 17,
+   "info": {
+    "v0": 39.621416787452425,
+    "v1": 42.988188006324236,
+    "delta": 3.3667712188718113,
+    "lambda": 0.4508435919072225,
+    "deny": 0
+   },
+   "ms": 37
+  },
+  {
+   "id": 3126391,
+   "letter": "L",
+   "winner": "StickBot",
+   "paid": 13,
+   "myBid": 10,
+   "info": {
+    "v0": 39.070394156080454,
+    "v1": 40.752761318164886,
+    "delta": 1.6823671620844323,
+    "lambda": 0.4402380327781479,
+    "deny": 0
+   },
+   "ms": 37
+  },
+  {
+   "id": 3126401,
+   "letter": "E",
+   "winner": "Jake",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 39.4847511148045,
+    "v1": 41.357097322430995,
+    "delta": 1.8723462076264923,
+    "lambda": 0.4295831431934229,
+    "deny": 0
+   },
+   "ms": 29
+  },
+  {
+   "id": 3126411,
+   "letter": "L",
+   "winner": "Jake",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 40.20824113141574,
+    "v1": 41.81041986265421,
+    "delta": 1.6021787312384674,
+    "lambda": 0.4188767480467044,
+    "deny": 0
+   },
+   "ms": 26
+  },
+  {
+   "id": 3126421,
+   "letter": "X",
+   "winner": "Karppa",
+   "paid": 30,
+   "myBid": 30,
+   "info": {
+    "v0": 41.417650559670584,
+    "v1": 53.76273760057453,
+    "delta": 12.345087040903948,
+    "lambda": 0.4081164751804648,
+    "deny": 0
+   },
+   "ms": 20
+  },
+  {
+   "id": 3126431,
+   "letter": "D",
+   "winner": "StickBot",
+   "paid": 13,
+   "myBid": 13,
+   "info": {
+    "v0": 42.19921679192556,
+    "v1": 43.71732698382357,
+    "delta": 1.5181101918980104,
+    "lambda": 0.3972997278913156,
+    "deny": 0
+   },
+   "ms": 23
+  },
+  {
+   "id": 3126440,
+   "letter": "B",
+   "winner": "Jake",
+   "paid": 16,
+   "myBid": 15,
+   "info": {
+    "v0": 41.673389472557986,
+    "v1": 44.52245091434002,
+    "delta": 2.849061441782034,
+    "lambda": 0.3864236522262116,
+    "deny": 0
+   },
+   "ms": 32
+  },
+  {
+   "id": 3126449,
+   "letter": "O",
+   "winner": "Nhat",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 41.43645534200311,
+    "v1": 44.7149905105845,
+    "delta": 3.278535168581392,
+    "lambda": 0.375485097814777,
+    "deny": 0
+   },
+   "ms": 18
+  },
+  {
+   "id": 3126458,
+   "letter": "U",
+   "winner": "Nhat",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 42.83638694529285,
+    "v1": 45.67810609647055,
+    "delta": 2.841719151177699,
+    "lambda": 0.3644805706130787,
+    "deny": 0
+   },
+   "ms": 21
+  },
+  {
+   "id": 3126468,
+   "letter": "A",
+   "winner": "Karppa",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 42.42259641793644,
+    "v1": 43.15076870668664,
+    "delta": 0.7281722887502013,
+    "lambda": 0.35340617543390956,
+    "deny": 0
+   },
+   "ms": 26
+  },
+  {
+   "id": 3126478,
+   "letter": "H",
+   "winner": "Astronaut",
+   "paid": 19,
+   "myBid": 22,
+   "info": {
+    "v0": 43.823452658952625,
+    "v1": 51.53279613420646,
+    "delta": 7.7093434752538315,
+    "lambda": 0.3422575454540232,
+    "deny": 0
+   },
+   "ms": 17
+  },
+  {
+   "id": 3126488,
+   "letter": "O",
+   "winner": "Nhat",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 50.52204094733789,
+    "v1": 52.722602130566194,
+    "delta": 2.2005611832283023,
+    "lambda": 0.37766234372649726,
+    "deny": 0
+   },
+   "ms": 37
+  },
+  {
+   "id": 3126498,
+   "letter": "O",
+   "winner": "StickBot",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 49.823629346218304,
+    "v1": 51.297580038411574,
+    "delta": 1.4739506921932701,
+    "lambda": 0.3647561860935747,
+    "deny": 0
+   },
+   "ms": 31
+  },
+  {
+   "id": 3126508,
+   "letter": "J",
+   "winner": "StickBot",
+   "paid": 18,
+   "myBid": 18,
+   "info": {
+    "v0": 51.772404570659226,
+    "v1": 58.267165529523936,
+    "delta": 6.49476095886471,
+    "lambda": 0.35174603325109133,
+    "deny": 0
+   },
+   "ms": 35
+  },
+  {
+   "id": 3126518,
+   "letter": "C",
+   "winner": "Astronaut",
+   "paid": 23,
+   "myBid": 24,
+   "info": {
+    "v0": 10.599470717369119,
+    "v1": 17.155988122184972,
+    "delta": 6.556517404815853,
+    "lambda": 0.33862346259880294,
+    "deny": 0
+   },
+   "ms": 61
+  },
+  {
+   "id": 3126528,
+   "letter": "M",
+   "winner": "Astronaut",
+   "paid": 18,
+   "myBid": 19,
+   "info": {
+    "v0": 24.360492244677374,
+    "v1": 30.087950372209757,
+    "delta": 5.727458127532383,
+    "lambda": 0.2905666774079498,
+    "deny": 0
+   },
+   "ms": 16
+  },
+  {
+   "id": 3126538,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 13,
+   "myBid": 18,
+   "info": {
+    "v0": 16.650946147114198,
+    "v1": 26.08765228838044,
+    "delta": 9.436706141266242,
+    "lambda": 0.3170736258540532,
+    "deny": 0
+   },
+   "ms": 30
+  },
+  {
+   "id": 3126548,
+   "letter": "R",
+   "winner": "Astronaut",
+   "paid": 16,
+   "myBid": 18,
+   "info": {
+    "v0": 25.397418191258605,
+    "v1": 34.99818737779889,
+    "delta": 9.600769186540287,
+    "lambda": 0.34194503704580104,
+    "deny": 0
+   },
+   "ms": 32
+  },
+  {
+   "id": 3126558,
+   "letter": "Z",
+   "winner": "Karppa",
+   "paid": 25,
+   "myBid": 12,
+   "info": {
+    "v0": 27.389653861033736,
+    "v1": 39.69887798949129,
+    "delta": 12.30922412845755,
+    "lambda": 0.3995866551261223,
+    "deny": 0
+   },
+   "ms": 38
+  },
+  {
+   "id": 3126568,
+   "letter": "T",
+   "winner": "Nhat",
+   "paid": 14,
+   "myBid": 0,
+   "info": {
+    "v0": 27.629971038163347,
+    "v1": 27.91997103816335,
+    "delta": 0.2900000000000027,
+    "lambda": 0.38011938378262683,
+    "deny": 0
+   },
+   "ms": 35
+  },
+  {
+   "id": 3126578,
+   "letter": "Q",
+   "winner": "Jake",
+   "paid": 19,
+   "myBid": 8,
+   "info": {
+    "v0": 27.497273103244975,
+    "v1": 30.39727310324497,
+    "delta": 2.899999999999995,
+    "lambda": 0.36035832118580186,
+    "deny": 0
+   },
+   "ms": 35
+  },
+  {
+   "id": 3126588,
+   "letter": "D",
+   "winner": "Karppa",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 28.222726849146245,
+    "v1": 37.349294604924076,
+    "delta": 9.126567755777831,
+    "lambda": 0.34025869210881154,
+    "deny": 0
+   },
+   "ms": 55
+  },
+  {
+   "id": 3126598,
+   "letter": "O",
+   "winner": "Jake",
+   "paid": 13,
+   "myBid": 12,
+   "info": {
+    "v0": 28.271779785688654,
+    "v1": 37.691014829278195,
+    "delta": 9.419235043589541,
+    "lambda": 0.31976237166116256,
+    "deny": 0
+   },
+   "ms": 75
+  },
+  {
+   "id": 3126608,
+   "letter": "L",
+   "winner": "Jake",
+   "paid": 14,
+   "myBid": 12,
+   "info": {
+    "v0": 28.290039918304004,
+    "v1": 37.04003991830401,
+    "delta": 8.750000000000007,
+    "lambda": 0.298791806020675,
+    "deny": 0
+   },
+   "ms": 39
+  },
+  {
+   "id": 3126618,
+   "letter": "F",
+   "winner": "StickBot",
+   "paid": 19,
+   "myBid": 5,
+   "info": {
+    "v0": 28.353510301931053,
+    "v1": 29.94747083090599,
+    "delta": 1.593960528974936,
+    "lambda": 0.2772400134363646,
+    "deny": 0
+   },
+   "ms": 30
+  },
+  {
+   "id": 3126628,
+   "letter": "R",
+   "winner": "Karppa",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 28.66337036269577,
+    "v1": 36.18466248696229,
+    "delta": 7.52129212426652,
+    "lambda": 0.2549531782968238,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3126638,
+   "letter": "A",
+   "winner": "Astronaut",
+   "paid": 10,
+   "myBid": 12,
+   "info": {
+    "v0": 28.515148788484627,
+    "v1": 38.69992997625509,
+    "delta": 10.184781187770465,
+    "lambda": 0.23169808084372404,
+    "deny": 0
+   },
+   "ms": 14
+  },
+  {
+   "id": 3126648,
+   "letter": "G",
+   "winner": "Nhat",
+   "paid": 8,
+   "myBid": 2,
+   "info": {
+    "v0": 32.53520069506946,
+    "v1": 33.60331869090991,
+    "delta": 1.0681179958404456,
+    "lambda": 0.24976599480027586,
+    "deny": 0
+   },
+   "ms": 22
+  },
+  {
+   "id": 3126658,
+   "letter": "O",
+   "winner": "Jake",
+   "paid": 8,
+   "myBid": 2,
+   "info": {
+    "v0": 32.804801333133504,
+    "v1": 38.06904820708176,
+    "delta": 5.264246873948252,
+    "lambda": 0.2176427131190437,
+    "deny": 0
+   },
+   "ms": 22
+  },
+  {
+   "id": 3126668,
+   "letter": "R",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 7,
+   "myBid": 2,
+   "info": {
+    "v0": 33.12544042076885,
+    "v1": 34.010926134106036,
+    "delta": 0.8854857133371894,
+    "lambda": 0.18132402908816048,
+    "deny": 0
+   },
+   "ms": 14
+  },
+  {
+   "id": 3126678,
+   "letter": "S",
+   "winner": "Jake",
+   "paid": 7,
+   "myBid": 2,
+   "info": {
+    "v0": 31.09471955031002,
+    "v1": 39.91326121697667,
+    "delta": 8.81854166666665,
+    "lambda": 0.13581021810002944,
+    "deny": 0
+   },
+   "ms": 12
+  },
+  {
+   "id": 3126688,
+   "letter": "A",
+   "winner": "Astronaut",
+   "paid": 7,
+   "myBid": 9,
+   "info": {
+    "v0": 0.8699999999999997,
+    "v1": 1.1599999999999986,
+    "delta": 0.2899999999999989,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 5
+  },
+  {
+   "id": 3126698,
+   "letter": "I",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 7,
+   "myBid": 0,
+   "info": {
+    "v0": 0.8699999999999997,
+    "v1": 1.1599999999999986,
+    "delta": 0.2899999999999989,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 1
+  }
+ ],
+ "words": [
+  {
+   "bot": "Nhat",
+   "word": "TUPIKS",
+   "reward": 30
+  },
+  {
+   "bot": "Lime-LaChonk-V7-Large",
+   "word": "GENU",
+   "reward": 7
+  },
+  {
+   "bot": "Nhat",
+   "word": "ELEVONS",
+   "reward": 30
+  },
+  {
+   "bot": "Lime-LaChonk-V7-Large",
+   "word": "NENE",
+   "reward": 6
+  },
+  {
+   "bot": "StickBot",
+   "word": "VIDETTE",
+   "reward": 33
+  },
+  {
+   "bot": "Jake",
+   "word": "ARCHERS",
+   "reward": 36
+  },
+  {
+   "bot": "Karppa",
+   "word": "FAIRWAY",
+   "reward": 48
+  },
+  {
+   "bot": "StickBot",
+   "word": "BADLY",
+   "reward": 22
+  },
+  {
+   "bot": "Astronaut",
+   "word": "MEGAHIT",
+   "reward": 39
+  },
+  {
+   "bot": "StickBot",
+   "word": "JOIN",
+   "reward": 16
+  },
+  {
+   "bot": "Karppa",
+   "word": "ZAX",
+   "reward": 19
+  },
+  {
+   "bot": "Jake",
+   "word": "PLAQUE",
+   "reward": 42
+  },
+  {
+   "bot": "Nhat",
+   "word": "OOT",
+   "reward": 3
+  },
+  {
+   "bot": "StickBot",
+   "word": "IF",
+   "reward": 5
+  },
+  {
+   "bot": "Nhat",
+   "word": "GO",
+   "reward": 3
+  },
+  {
+   "bot": "Astronaut",
+   "word": "WARMED",
+   "reward": 30
+  },
+  {
+   "bot": "Lime-LaChonk-V7-Large",
+   "word": "INTI",
+   "reward": 6
+  },
+  {
+   "bot": "Jake",
+   "word": "BOLOS",
+   "reward": 14
+  },
+  {
+   "bot": "Karppa",
+   "word": "DOER",
+   "reward": 7
+  }
+ ]
+}
