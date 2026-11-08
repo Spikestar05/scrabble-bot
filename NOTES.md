@@ -73,3 +73,19 @@ We hoarded money early, overpaid late (winning bids 23 vs 16-19) and ended with 
 - **v4** (from 43281): no floor bid on JKQXZ; floor never takes balance below 20.
 - New strong opponents: N1gel (winner-style, first 7+ word ~round 32), Abhi-AuctionLab;
   Pegasus is a hoarder (8 tiles/match, ends with 68 coins).
+
+### Head-to-head vs LexForge-1107 and N1gel (shared live matches, ids > 43030)
+
+| | tiles | spent | words/match | avg len | median play round |
+|---|---|---|---|---|---|
+| LexForge | 14.6 | 198 | 3.4 | 5.6 | 48 |
+| N1gel | 16.0 | 183 | 3.8 | 5.2 | 56 |
+| Astronaut v3/v4 | 11.0 | 140-153 | 2.4-2.6 | 5.8-6.2 | 65 |
+
+Same winning-bid levels, so we don't overpay: they cash 5-6 letter words mid-game and turn
+the income into 4-5 more tiles. LexForge beat us in 6/7 shared matches (+31 avg).
+The sim field under-rewards recycling, so this is A/B tested live.
+
+- **v5** (from the match after 43289, restart 00:21 UTC): minPlayLen 5, playBonus 0.5,
+  forcePlay 7 (cash any 7+ word at once). Sim profile: 13.5 tiles, 3.3 words, len 5.5,
+  leftover 12 coins (v4: 11.8 tiles, 2.5 words, leftover 30).
