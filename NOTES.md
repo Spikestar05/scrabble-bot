@@ -240,3 +240,23 @@ To resume: `cd bot && BOT_NAME=astronaut ./run-live.sh` (or detached with setsid
 Clean stop: `touch logs/STOP` (finishes the current match, does not requeue).
 Next ideas: word-building around rare letters (the gap to LexForge/RackMaw-Blend0: 48-pt vs
 ~40-pt long words); stranded-consonant endings in expensive lobbies (e.g. BMNRTX).
+
+## Offline loop on PC logs (branch `next`)
+
+PC logs (`data/pc-live/`, 21 v13 matches): place 2.81, 6 wins, end balance 33.6 (up to 63).
+Late-game bids 1-9 with 50+ coins: the MC sees almost no value in common tiles at the end
+(only residual 0.3 x face -> ~9 coins) while others bid 10-15.
+Sim reproduces it: ~25 coins wasted before the final flush (new metric `aWasted`).
+
+**Exact endgame spend-down** (`spendWindow`, `flushLam`): in the last N usable auctions,
+bid by the exact gain to our optimal final partition, priced at flushLam points/coin.
+Seed 9 (live2, 200 games): v13 2.46/84.8/31% wasted 25.3 -> all six variants 2.38-2.40,
+85.6-86.2 (best waste: window 10, flushLam .1: 2.38/85.7/31.5%, wasted 14.6).
+Seed 31 confirm: v13 2.21/88.5/36% vs 2.25/87.9/37.5% (wasted 27.1 -> 16.4).
+400 games combined: 2.335/86.7 vs 2.315/86.8 — **neutral, not accepted**. The leftover money
+is mostly not worth chasing: extra end tiles only make 2-4 letter words.
+
+Profiles of bots that beat v13 badly: Nigel "Bidderson" Richards (8-10 letter words, 49 avg
+7+, JKQXZ bids ~50, buys late), evol (8-11 letter words, 48 avg, cheap steady bids),
+SoapConsumers (extreme front-loader, ~30 bids in rounds 1-17), saketh-apex (many early
+7-letter words). Next: longer targets (maxTargetLen / horizon).
