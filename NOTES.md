@@ -226,3 +226,17 @@ floorReserve 10, endUsable 10, playBonus .04, priceScale .95, hoardFront .7 (hor
 (108 over RackMaw-Blend25 105 / LexForge-Liquid03 103; 105 over RackMaw-Blend25 100).
 vs v12's last cycle (3.4, 0 wins) in a similarly strong field. Losses: few tiles (8-10)
 in expensive games; RackMaw-Blend0 148 is the new top threat.
+
+## Final state (2026-11-08 ~04:30 UTC)
+
+**v13 live (46441+, nonstop): 49 matches, 18 wins (37%), mean place 2.39, mean score 101,
+top-3 in 39/49.** Best version by every measure; best game 165 (LACUNAL, SEQUINS, FARADIZE...).
+Leaderboard: **#49 of 327** (conservative mu-3sigma 35.9; mu 45.1, sigma 3.08), 157 matches,
+36 wins — up from #97 two hours earlier.
+Second joint search (12 configs x 100 games, live2): best #2 2.34/87.0 vs v13 2.52/85.1, but
+v13 re-run at 200 games scored 2.34/87.0/35% — no real gain; v13 kept.
+
+To resume: `cd bot && BOT_NAME=astronaut ./run-live.sh` (or detached with setsid nohup).
+Clean stop: `touch logs/STOP` (finishes the current match, does not requeue).
+Next ideas: word-building around rare letters (the gap to LexForge/RackMaw-Blend0: 48-pt vs
+~40-pt long words); stranded-consonant endings in expensive lobbies (e.g. BMNRTX).
