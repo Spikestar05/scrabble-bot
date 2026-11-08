@@ -28,6 +28,7 @@ import {
   countsToString,
 } from "./dict.js";
 import type { GameEvent, Observation, Policy } from "./engine.js";
+import { TOP_BID, PAID, phaseOf } from "./market.js";
 
 export interface Params {
   lambda0: number; // money->points rate at game start
@@ -43,7 +44,9 @@ export interface Params {
   topK: number;
   priceScale: number; // multiplier on market price prior
   bidCapFrac: number; // max fraction of balance on one tile (pre-endgame)
-  denyWeight: number;
+  denyWeight: number; // fraction of a rival's word gain we pay to deny the tile
+  denyRival: number; // rival = score+balance/2 >= this x ours
+  denyMinKnown: number; // need at least this many known tiles of theirs
   mc: number; // Monte Carlo samples (0 = plan model)
   minTargetLen: number;
   maxTargetLen: number;
@@ -55,6 +58,7 @@ export interface Params {
   floorMinBal: number; // only when balance is at least this
   floorSkipHigh: number; // 1 = no standing bid on JKQXZ (only bid what words need)
   floorReserve: number; // standing bids never take balance below this
+  priceModel: number; // >0: future-tile cost from the learned phase table (TOP_BID x this)
   lambdaPriceAdj: number; // lambda /= (market price ratio)^k: costlier tiles => coins worth fewer points
   bidCapPrice: number; // >0: no bid above this multiple of the letter's market price (pre-endgame)
   highBoost: number; // multiplier on our value-based bid for JKQXZ (face >= 5)
@@ -89,6 +93,8 @@ export const DEFAULT_PARAMS: Params = {
   priceScale: 1.0,
   bidCapFrac: 1.0,
   denyWeight: 0,
+  denyRival: 0.8,
+  denyMinKnown: 4,
   mc: 48,
   minTargetLen: 4,
   maxTargetLen: 9,
@@ -101,6 +107,7 @@ export const DEFAULT_PARAMS: Params = {
   floorMaxHave: 9,
   floorSkipHigh: 1,
   floorReserve: 20,
+  priceModel: 0,
   lambdaPriceAdj: 0,
   bidCapPrice: 1.8,
   highBoost: 1,
@@ -153,6 +160,9 @@ export class Tracker {
   priceRatioNum = 0;
   priceRatioDen = 0;
   paidLog: number[] = [];
+  nAuctions = 0;
+  mRatioNum = 0;
+  mRatioDen = 0;
 
   init(obs: Observation) {
     this.nSeats = obs.nSeats;
@@ -167,6 +177,11 @@ export class Tracker {
       if (e.kind === "auction") {
         const l = e.letter.charCodeAt(0) - A;
         this.auctioned[l]!++;
+        this.nAuctions++;
+        if (e.winner !== null && e.paid > 1) {
+          this.mRatioNum = this.mRatioNum * 0.9 + e.paid / PAID[l]![phaseOf(this.nAuctions)]!;
+          this.mRatioDen = this.mRatioDen * 0.9 + 1;
+        }
         if (e.winner !== null && e.winner < this.nSeats) this.bought[e.winner]![l]!++;
         if (e.winner !== null && e.paid > 1) {
           // decayed running ratio of paid / prior
@@ -178,6 +193,10 @@ export class Tracker {
           this.played[e.seat]![e.word.charCodeAt(i) - A]!++;
       }
     }
+  }
+
+  marketRatio(): number {
+    return (this.mRatioNum + 3) / (this.mRatioDen + 3);
   }
 
   priceRatio(): number {
@@ -217,7 +236,8 @@ interface Ctx {
   Utot: number;
   usable: number; // future auctions whose tile can still be played
   frac: number; // P(an unseen tile shows up in a usable future auction)
-  price: number[]; // expected price per letter
+  price: number[]; // expected cost to win a future copy of each letter
+  floorPrice: number[]; // paid-level price used by the standing bid
   lambda: number;
 }
 
@@ -270,9 +290,16 @@ export class Brain implements Policy {
       for (let s = 0; s < obs.nSeats; s++) if (s !== obs.seat) mx = Math.max(mx, obs.balances[s]!);
       price = price.map((x) => Math.max(1, Math.min(x, mx)));
     }
+    let floorPrice = price;
+    if (this.p.priceModel > 0) {
+      const ph = phaseOf(obs.round);
+      const mr = Math.max(0.6, Math.min(1.6, this.t.marketRatio())) * this.p.priceScale;
+      floorPrice = PAID.map((row) => row[ph]! * mr);
+      price = TOP_BID.map((row) => row[ph]! * mr * this.p.priceModel);
+    }
     let lambda = this.lambda(obs, usable);
     if (this.p.lambdaPriceAdj > 0) lambda /= Math.pow(Math.max(0.5, Math.min(2, this.t.priceRatio())), this.p.lambdaPriceAdj);
-    return { U, Utot, usable, frac, price, lambda };
+    return { U, Utot, usable, frac, price, floorPrice, lambda };
   }
 
   lambda(obs: Observation, usable: number): number {
@@ -699,14 +726,50 @@ export class Brain implements Policy {
   }
   private lastDelta = 0;
 
+  // Denial: points a close rival would gain from `letter`, judged from the tiles
+  // we know they hold (bought - played; their hidden starting tiles are ignored).
+  denialGain(obs: Observation, letter: number): number {
+    if (this.p.denyWeight <= 0) return 0;
+    const me = obs.seat;
+    const myTotal = obs.scores[me]! + 0.5 * obs.balances[me]!;
+    let best = 0;
+    const d = this.dict;
+    for (let s = 0; s < obs.nSeats; s++) {
+      if (s === me) continue;
+      const theirTotal = obs.scores[s]! + 0.5 * obs.balances[s]!;
+      if (theirTotal < myTotal * this.p.denyRival) continue; // not a rival
+      const K = this.t.oppKnown(s);
+      const R = new Int8Array(26);
+      let n = 0;
+      for (let i = 0; i < 26; i++) {
+        R[i] = Math.min(127, K[i]!);
+        n += R[i]!;
+      }
+      if (n < this.p.denyMinKnown) continue;
+      const without = this.bestReward(R, 5);
+      R[letter]!++;
+      const withL = this.bestReward(R, 5);
+      best = Math.max(best, withL - without);
+    }
+    return best;
+  }
+  private bestReward(R: Int8Array, minLen: number): number {
+    const d = this.dict;
+    let b = 0;
+    for (const i of d.playable(R, minLen)) if (d.rew[i]! > b) b = d.rew[i]!;
+    return b;
+  }
+
   bidFor(R: Int8Array, letter: number, c: Ctx, balance: number): number {
     if (c.usable < 0) return 0;
     const v0 = this.value(R, c);
     R[letter]!++;
     const v1 = this.value(R, c);
     R[letter]!--;
-    const delta = v1 - v0;
-    this.lastInfo = { v0, v1, delta, lambda: c.lambda };
+    let delta = v1 - v0;
+    const deny = this.lastObs ? this.denialGain(this.lastObs, letter) : 0;
+    if (deny > 0) delta = Math.max(delta, 0) + this.p.denyWeight * deny;
+    this.lastInfo = { v0, v1, delta, lambda: c.lambda, deny };
     this.lastDelta = delta;
     return this.bidFromDelta(delta, letter, c, balance);
   }
@@ -720,7 +783,7 @@ export class Brain implements Policy {
       // standing bid, but never one that would leave us below the reserve
       const add = c.usable > this.p.floorAddUntil ? this.p.floorAdd : 0;
       const reserve = Math.max(this.p.floorReserve, this.p.floorPace * c.usable);
-      const f = Math.min(this.p.floorFrac * c.price[letter]! + add, balance - reserve);
+      const f = Math.min(this.p.floorFrac * c.floorPrice[letter]! + add, balance - reserve);
       if (balance >= this.p.floorMinBal && f > 0) bid = Math.max(bid, f);
     }
     if (this.p.spendDown > 0 && c.usable > 0 && delta > 0 && balance > c.usable * this.p.spendDown)
