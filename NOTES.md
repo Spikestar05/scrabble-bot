@@ -133,3 +133,19 @@ Profile: we now match winners on tiles (14.4), spend, words, end balance — but
 early (Q1-Q4: 4.2/4.8/3.6/1.8) while GodOfThudner buys 1.8/2.9/3.9/4.8.
 Tested pacing reserve (floorPace 1/1.5/2.5 x usable): 88.9/87.6/87.3 vs 89.1 — worse.
 -> **v9 unchanged** for cycle 6.
+
+### LexForge-Base-v1 deep profile (31 matches; `tools/bot_profile.py`)
+
+| | LexForge-Base-v1 | Astronaut |
+|---|---|---|
+| tiles/match | 14.3 | 14.1 |
+| avg 7+ word reward | **49.0** | 38.9 |
+| avg 5-6 word reward | 28.1 | 21.4 |
+| JKQXZ tiles won / match | **1.3** | 0.4 |
+| bid on tile that completes a word | 20.4 | 15.3 |
+| bid on vowels / common consonants | 14.8 / 14.8 | 12.2 / 13.8 |
+| bid by face value 1/2/3/4/5/8/10 | 15/17/19/22/27/34/40 | 13/16/20/23/22/37/43 |
+
+Same tile count; LexForge's words are worth ~25% more because it buys high-value letters
+(BRITZKA 66, QUALIFY 66, ENZYMIC 69) and pays up for completing tiles. 97% of its bought
+tiles end up in words. Testing: floor back on JKQXZ (with reserve), highBoost 1.3/1.6.
