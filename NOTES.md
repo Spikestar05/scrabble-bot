@@ -186,3 +186,30 @@ New sim field `live2` adds a Pegasus-like late buyer (lambda0 1.3, lambdaGamma 2
 it outscores us there (81 vs 83). Counters tested (floorPace 1, reserve 35, lambdaGamma 1,
 endUsable 20): 82.7-84.3 vs 83.4 — all noise. Spending later cuts P by 5 but doesn't help us.
 -> v12 unchanged for cycle 11.
+
+## Version review (all live matches, from logs/)
+
+| version | n | place | score | win% | tiles | 7+ avg |
+|---|---|---|---|---|---|---|
+| v1 base | 22 | 3.36 | 83 | 9 | 10.4 | 48 |
+| v2 real prices + floor .8 | 6 | 3.33 | 81 | 0 | 9.3 | 56 |
+| v3 floor 1.0 | 12 | 3.00 | 82 | 17 | 11.0 | 41 |
+| v4 no JKQXZ floor + reserve | 3 | 3.00 | 81 | 33 | 10.0 | 44 |
+| v5 early short words | 6 | 3.17 | 76 | 0 | 13.3 | 40 |
+| **v6** undo v5 + playBonus .2 | 5 | **2.20** | **105** | **40** | **15.4** | 45 |
+| **v7** mc48 + endgame mode | 6 | **2.00** | 99 | 33 | **15.5** | 43 |
+| v8 +1 coin early | 6 | 3.50 | 77 | 0 | 13.3 | 35 |
+| v9 = v7 | 10 | 2.40 | 84 | 30 | 13.6 | 38 |
+| v10 chase JKQXZ | 5 | 2.80 | 88 | 20 | 12.6 | 45 |
+| v11 v10 + bid cap | 6 | 3.67 | 78 | 0 | 10.7 | 44 |
+| v12 v9 + bid cap | 17 | 2.82 | 85 | 24 | 13.2 | 39 |
+
+**Helped:** undoing early short plays + playBonus .2 (v6); mc 48 + endgame mode (v7);
+standing bid at market price (tiles won is the best predictor of place: ~15.5 tiles -> ~2.0,
+~10 -> ~3.3); 20-coin reserve / no automatic JKQXZ bid; sim-proven core (horizon 8, hold for
+7+, real price prior, lambdaGamma .5). Sim: hoardFront 0.7 vs a late buyer: 85.2 vs 83.4.
+**Hurt:** early short words (v5), +1 coin (v8), chasing JKQXZ (v10/v11); sim-rejected: denial
+(79-82 vs 89.6), completion premium (85.6-86.5 vs 90.6), lambdaPriceAdj, floorPace, mc 64/96,
+two-word plans. Neutral: bid cap (sim 90.6 vs 90.0 without) — v7->v12 live decline is mostly
+the field getting stronger (Pegasus v2->v8, RackMaw/LexForge variants).
+Next: joint random search (sim/search.py) over 11 params in the live2 field.

@@ -58,6 +58,7 @@ export interface Params {
   floorMinBal: number; // only when balance is at least this
   floorSkipHigh: number; // 1 = no standing bid on JKQXZ (only bid what words need)
   floorReserve: number; // standing bids never take balance below this
+  compFrac: number; // >0: if the tile completes a playable 7+ word, bid >= compFrac x reward gained
   hoardFront: number; // >0: lambda multiplier (bid harder) while hoarders are present early
   hoardUntil: number; // ...only while more than this many usable auctions remain
   hoardBal: number; // hoarder = balance >= this with <= 2 tiles won after round 8
@@ -110,6 +111,7 @@ export const DEFAULT_PARAMS: Params = {
   floorMaxHave: 9,
   floorSkipHigh: 1,
   floorReserve: 20,
+  compFrac: 0,
   hoardFront: 0,
   hoardUntil: 30,
   hoardBal: 95,
@@ -798,6 +800,15 @@ export class Brain implements Policy {
 
   bidFromDelta(delta: number, letter: number, c: Ctx, balance: number): number {
     let bid = delta > 0 ? delta / c.lambda : 0;
+    // completion premium: this tile turns the rack into a playable long word now
+    if (this.p.compFrac > 0 && this.pendingR && c.usable > 0) {
+      const R = this.pendingR;
+      const before = this.bestReward(R, 7);
+      R[letter]!++;
+      const after = this.bestReward(R, 7);
+      R[letter]!--;
+      if (after > before) bid = Math.max(bid, Math.min(this.p.compFrac * (after - before), balance));
+    }
     if (VALUE[letter]! >= 5) bid *= this.p.highBoost;
     if (this.p.bidCapPrice > 0 && c.usable > 3) bid = Math.min(bid, this.p.bidCapPrice * c.price[letter]!);
     const have = this.pendingR ? this.pendingR[letter]! : 0;
