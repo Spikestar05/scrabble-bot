@@ -67,4 +67,9 @@ We hoarded money early, overpaid late (winning bids 23 vs 16-19) and ended with 
 
 - **v1** (until match 43154): old price prior, no floor. 21 matches: 1 win, mean place ~3.3.
 - **v2** (43161-43192): real-bot price prior + floor bid 0.8x market price. 6 matches: places 2,4,4,?,3,2.
-- **v3** (from 43198): floor bid 1.0x market price.
+- **v3** (43198-43274): floor bid 1.0x market price. 12 matches: 2 wins, places
+  2,1,2,3,3,3,5,1,5,4,4,3 (mean 3.0), mean score ~84. Loss 43260 (42 pts): the floor bid
+  bought a Q for 17 late with no U, balance hit ~1, sat out the last 20 auctions.
+- **v4** (from 43281): no floor bid on JKQXZ; floor never takes balance below 20.
+- New strong opponents: N1gel (winner-style, first 7+ word ~round 32), Abhi-AuctionLab;
+  Pegasus is a hoarder (8 tiles/match, ends with 68 coins).
