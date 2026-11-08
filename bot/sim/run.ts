@@ -30,11 +30,16 @@ function makeField(rng: Rng): SeatSpec[] {
       : field === "self" ? "B"
       : field === "mixed" ? (k < 2 ? "B" : "market")
       : field === "live" ? (k < 3 ? "V" : "market")
+      : field === "live2" ? (k < 2 ? "V" : k < 3 ? "P" : "market")
       : field === "forge" ? "F"
       : field === "top" ? (k < 3 ? "F" : k < 4 ? "V" : "market")
       : "market";
     if (kind === "sim") opp.push({ name: "sim", sim: (["Cheapskate", "ValueBidder", "Aggressive"] as const)[rng.int(0, 2)] });
     else if (kind === "B") opp.push({ name: "B", policy: new Brain(dict, pb, "B") });
+    else if (kind === "P") {
+      // Pegasus-v2-like late buyer: stingy early (high lambda), spends hard in the last quarter
+      opp.push({ name: "P", policy: new Brain(dict, { ...pb, lambda0: 1.3, lambdaGamma: 2.0, floorFrac: 0, mc: 16 }, "P") });
+    }
     else if (kind === "F") opp.push({ name: "F", policy: new ForgeBot(dict, r, 0.9 + 0.25 * r()) });
     else if (kind === "V") {
       // perturbed brain variant: stands in for the diverse live field

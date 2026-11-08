@@ -176,3 +176,13 @@ Expensive-game analysis (45 matches): avg price 10-12.5 -> place 2.07, 16.3 tile
 13.5-14.4 -> place 3.27, 11.5 tiles. End balance the same (~18), so not hoarding: fewer
 tiles -> less income -> compounding. Tested lambdaPriceAdj 0.5/1 (bid up with market
 level): 87.2/86.6 vs 89.6 — worse. mc 64/96: 87.3/87.2 — worse. v12 unchanged for cycle 10.
+
+**Cycle 10 — v12 (45633-45676):** places 1,4,1,2,2 (mean 2.0), mean score 89, 2 wins —
+beat LexForge-Cash-v1 (newest LexForge, field-leading 60% win). v12 family: 25 matches,
+9 wins, mean place ~2.1. Rating 1345, mu 42.9 (from 33), sigma 3.6, 102 matches, 18 wins.
+Pegasus v2 profile: hoards early (median bid 10-13 in rounds 18-51), buys 49 of its 90 tiles
+in rounds 52-68 at ~23, 7+ words in rounds 48-63 (avg 45).
+New sim field `live2` adds a Pegasus-like late buyer (lambda0 1.3, lambdaGamma 2, no floor):
+it outscores us there (81 vs 83). Counters tested (floorPace 1, reserve 35, lambdaGamma 1,
+endUsable 20): 82.7-84.3 vs 83.4 — all noise. Spending later cuts P by 5 but doesn't help us.
+-> v12 unchanged for cycle 11.
