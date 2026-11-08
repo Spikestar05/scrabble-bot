@@ -39,6 +39,7 @@
 | 11-07 | price prior from real-only matches (~1.6x old); new `live` sim field (3 perturbed brains + 2 market bots, avgPaid 12.8 ≈ live) | live | 81.5, win 21%, place 3.07 |
 | 11-07 | priceScale .65/.8/1.2, playBonus .5, minPlayLen 6 | live | all within noise (76-84) |
 | 11-07 | standing floor bid 0.4 / 0.6 / **0.8** x market price | live | 81.7 / 81.2 / **87.3 (win 33%)** |
+| 11-08 | floor **1.0** / 1.0+dup-guard / 1.2+dup-guard / 1.0+spendDown | live | **91.8 (win 38%, place 2.19, 13.3 tiles)** / 87.7 / 82.0 / 87.9 |
 
 ## Live match log
 
@@ -65,4 +66,5 @@ We hoarded money early, overpaid late (winning bids 23 vs 16-19) and ended with 
 ### Versions live
 
 - **v1** (until match 43154): old price prior, no floor. 21 matches: 1 win, mean place ~3.3.
-- **v2** (from match 43161): real-bot price prior + floor bid 0.8x market price.
+- **v2** (43161-43192): real-bot price prior + floor bid 0.8x market price. 6 matches: places 2,4,4,?,3,2.
+- **v3** (from 43198): floor bid 1.0x market price.

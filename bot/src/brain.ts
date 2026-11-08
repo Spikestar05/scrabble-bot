@@ -83,7 +83,7 @@ export const DEFAULT_PARAMS: Params = {
   budgetTiles: 1.0,
   playEval: 6,
   oppCap: 0,
-  floorFrac: 0.8,
+  floorFrac: 1.0,
   floorMinBal: 40,
   floorMaxHave: 9,
   spendDown: 0,
