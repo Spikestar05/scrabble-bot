@@ -53,6 +53,8 @@ export interface Params {
   forcePlay: number; // >0: always cash the best word of length >= forcePlay at once
   floorFrac: number; // standing bid as a fraction of the letter's market price
   floorMinBal: number; // only when balance is at least this
+  floorSkipHigh: number; // 1 = no standing bid on JKQXZ (only bid what words need)
+  floorReserve: number; // standing bids never take balance below this
   floorMaxHave: number; // no floor bid if we already hold this many of the letter
   spendDown: number; // >0: if balance exceeds usable*spendDown, bid at least balance/usable
   horizon: number; // future auctions visible to one MC sample (0 = whole game)
@@ -88,6 +90,8 @@ export const DEFAULT_PARAMS: Params = {
   floorFrac: 1.0,
   floorMinBal: 40,
   floorMaxHave: 9,
+  floorSkipHigh: 0,
+  floorReserve: 0,
   spendDown: 0,
   horizon: 8,
   mcWords: 1,
@@ -689,8 +693,11 @@ export class Brain implements Policy {
   bidFromDelta(delta: number, letter: number, c: Ctx, balance: number): number {
     let bid = delta > 0 ? delta / c.lambda : 0;
     const have = this.pendingR ? this.pendingR[letter]! : 0;
-    if (this.p.floorFrac > 0 && balance >= this.p.floorMinBal && c.usable > 2 && have < this.p.floorMaxHave)
-      bid = Math.max(bid, this.p.floorFrac * c.price[letter]!);
+    if (this.p.floorFrac > 0 && c.usable > 2 && have < this.p.floorMaxHave && !(this.p.floorSkipHigh && VALUE[letter]! >= 5)) {
+      // standing bid, but never one that would leave us below the reserve
+      const f = Math.min(this.p.floorFrac * c.price[letter]!, balance - this.p.floorReserve);
+      if (balance >= this.p.floorMinBal && f > 0) bid = Math.max(bid, f);
+    }
     if (this.p.spendDown > 0 && c.usable > 0 && delta > 0 && balance > c.usable * this.p.spendDown)
       bid = Math.max(bid, balance / c.usable);
     if (bid <= 0) return 0;
