@@ -169,3 +169,10 @@ so only 7-9 tiles. Chasing rare letters only pays if the 7-letter word follows; 
 for us. Scoreboard: v7/v9 mean place 2.2 over 15 matches; v10 2.8; v11 3.8.
 Fix -> **v12 = v9 letter policy** (highBoost 1, no standing bid on JKQXZ) + keep v11's
 bid cap (1.8x market price) as a safety rail.
+
+**Cycle 9 — v12 (45571-45605):** places 4,1,3,2,1 (mean 2.2), mean score 93, 2 wins (91, 135).
+v7/v9/v12 family: 20 live matches, 7 wins, mean place 2.2. New: LexForge-Reveal-v1 (beat it 2/3).
+Expensive-game analysis (45 matches): avg price 10-12.5 -> place 2.07, 16.3 tiles, 6/15 wins;
+13.5-14.4 -> place 3.27, 11.5 tiles. End balance the same (~18), so not hoarding: fewer
+tiles -> less income -> compounding. Tested lambdaPriceAdj 0.5/1 (bid up with market
+level): 87.2/86.6 vs 89.6 — worse. mc 64/96: 87.3/87.2 — worse. v12 unchanged for cycle 10.
