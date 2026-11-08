@@ -260,3 +260,13 @@ Profiles of bots that beat v13 badly: Nigel "Bidderson" Richards (8-10 letter wo
 7+, JKQXZ bids ~50, buys late), evol (8-11 letter words, 48 avg, cheap steady bids),
 SoapConsumers (extreme front-loader, ~30 bids in rounds 1-17), saketh-apex (many early
 7-letter words). Next: longer targets (maxTargetLen / horizon).
+
+### Decision-time cap (timeBudgetMs = 350, default ON) — for the tournament
+
+PC logs showed decisions of 827 ms (47864), 708 (47965), 686 (47769) against the 1 s window.
+Now every decision has a hard budget: word choice stops evaluating after ~45% of it; the bid's
+v0 gets half of what remains and v1 reuses exactly the same MC samples (common random
+numbers, so the bid stays unbiased when trimmed); the final flush partition gets <= 245 ms.
+Check (`/tmp` timing harness, 6 games, 408 decisions): normal load unchanged (p50 13 ms,
+max ~120). Simulated slow machine (mc 400): uncapped max 983 ms / p99 723 -> capped
+**max 322 ms** / p99 316. Squeezed to 40 ms: max 44 ms. Behaviour otherwise = v13.

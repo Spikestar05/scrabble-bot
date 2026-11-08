@@ -58,6 +58,7 @@ export interface Params {
   floorMinBal: number; // only when balance is at least this
   floorSkipHigh: number; // 1 = no standing bid on JKQXZ (only bid what words need)
   floorReserve: number; // standing bids never take balance below this
+  timeBudgetMs: number; // hard cap per decision (auction window is 1 s)
   spendWindow: number; // >0: in the last N usable auctions value tiles by exact flush gain
   flushLam: number; // points per coin used to price that gain (money ~worthless at the end)
   compFrac: number; // >0: if the tile completes a playable 7+ word, bid >= compFrac x reward gained
@@ -113,6 +114,7 @@ export const DEFAULT_PARAMS: Params = {
   floorMaxHave: 9,
   floorSkipHigh: 1,
   floorReserve: 10,
+  timeBudgetMs: 350,
   spendWindow: 0,
   flushLam: 0.2,
   compFrac: 0,
@@ -636,13 +638,21 @@ export class Brain implements Policy {
 
   private R2 = new Int8Array(26);
   private D2 = new Int8Array(26);
+  // Samples actually used by the last valueMC call (it may stop early at the deadline).
+  lastN = 0;
+  private deadline = Infinity;
+  private sampleCap = Infinity;
   valueMC(R: Int8Array, c: Ctx): number {
     const d = this.dict;
     let rv = 0;
     for (let l = 0; l < 26; l++) rv += R[l]! * VALUE[l]!;
     let sum = 0;
     const lam = c.lambda * this.p.costFactor;
-    for (let si = 0; si < this.samples.length; si++) {
+    const nMax = Math.min(this.samples.length, this.sampleCap);
+    let nUsed = 0;
+    for (let si = 0; si < nMax; si++) {
+      if (si >= 4 && performance.now() > this.deadline) break;
+      nUsed++;
       const D = this.samples[si]!;
       const SP = this.sPrice[si]!;
       const b1 = this.bestWord(R, D, SP, this.budget, lam);
@@ -669,7 +679,8 @@ export class Brain implements Policy {
       }
       sum += v + this.p.residual * (rv - used);
     }
-    return sum / this.samples.length;
+    this.lastN = Math.max(1, nUsed);
+    return sum / this.lastN;
   }
 
   // Live client rebuilds the event list each call; start the tracker over.
@@ -680,6 +691,9 @@ export class Brain implements Policy {
 
   // ---------- Policy ----------
   act(obs: Observation): { words: string[]; bid: number } {
+    this.t0 = performance.now();
+    this.deadline = this.t0 + this.p.timeBudgetMs * 0.45; // word choice gets ~45%
+    this.sampleCap = Infinity;
     if (!this.started) {
       this.t.init(obs);
       this.started = true;
@@ -698,7 +712,7 @@ export class Brain implements Policy {
     const words: string[] = [];
     // Final auction (bag empty): flush everything, bid nothing.
     if (obs.bagTotal === 0) {
-      const part = this.dict.partition(R, 2, performance.now() + 250);
+      const part = this.dict.partition(R, 2, performance.now() + Math.min(250, this.p.timeBudgetMs * 0.7));
       return { words: part.words, bid: 0 };
     }
 
@@ -738,6 +752,7 @@ export class Brain implements Policy {
     return this.bidFromDelta(this.lastDelta, this.pendingLetter, c, obs.balances[obs.seat]!);
   }
   private lastDelta = 0;
+  private t0 = 0;
   lastFlushGain = 0;
 
   // Opponents sitting on money early (Pegasus-style back-loaders): balance still
@@ -791,9 +806,15 @@ export class Brain implements Policy {
 
   bidFor(R: Int8Array, letter: number, c: Ctx, balance: number): number {
     if (c.usable < 0) return 0;
+    const left = Math.max(20, this.t0 + this.p.timeBudgetMs * 0.9 - performance.now());
+    this.deadline = performance.now() + left / 2;
+    this.sampleCap = Infinity;
     const v0 = this.value(R, c);
+    this.sampleCap = this.lastN; // same samples for v1 (common random numbers)
+    this.deadline = Infinity;
     R[letter]!++;
     const v1 = this.value(R, c);
+    this.sampleCap = Infinity;
     R[letter]!--;
     let delta = v1 - v0;
     const deny = this.lastObs ? this.denialGain(this.lastObs, letter) : 0;
@@ -861,6 +882,7 @@ export class Brain implements Policy {
       let wF: string | null = null;
       const R3 = new Int8Array(26);
       for (const i of playable.slice(0, this.p.playEval)) {
+        if (performance.now() > this.deadline) break;
         if (d.len[i]! < this.p.forcePlay) continue;
         R3.set(R);
         for (let j = d.off[i]!; j < d.off[i + 1]!; j++) R3[d.letters[j]!]!--;
@@ -876,6 +898,7 @@ export class Brain implements Policy {
     let bestW: string | null = null;
     const R2 = new Int8Array(26);
     for (const i of playable.slice(0, this.p.playEval)) {
+      if (performance.now() > this.deadline) break;
       R2.set(R);
       const s = d.off[i]!;
       const e = d.off[i + 1]!;
