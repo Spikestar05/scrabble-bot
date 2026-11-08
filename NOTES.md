@@ -149,3 +149,10 @@ Tested pacing reserve (floorPace 1/1.5/2.5 x usable): 88.9/87.6/87.3 vs 89.1 —
 Same tile count; LexForge's words are worth ~25% more because it buys high-value letters
 (BRITZKA 66, QUALIFY 66, ENZYMIC 69) and pays up for completing tiles. 97% of its bought
 tiles end up in words. Testing: floor back on JKQXZ (with reserve), highBoost 1.3/1.6.
+
+**Cycle 6 — v9 (45369-45403):** places 5,2,2,2,2 (mean 2.6), mean score 76, 0 wins; four
+close 2nds (by 3/6/7/26). Expensive games (avg price 12.5-13.8). Tied LexForge-Base-v1 (78).
+Sim: floor back on JKQXZ 91.1 / highBoost 1.3 90.6 / 1.6 90.9 / both 91.4 vs v9 89.1
+(win 40-42% vs 43% — neutral; sim opponents don't fight for rare letters).
+Fix -> **v10**: highBoost 1.3 + standing bid on JKQXZ again (20-coin reserve kept).
+Watch: JKQXZ tiles/match (was 0.4) and avg 7+ word reward (was 38.9; LexForge 49).
