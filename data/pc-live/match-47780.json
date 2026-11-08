@@ -1,0 +1,1104 @@
+{
+ "matchId": 47780,
+ "at": "2026-11-08T05:13:44.405Z",
+ "auctionType": "Vickrey",
+ "placement": 2,
+ "nPlayers": 6,
+ "scores": [
+  {
+   "bot": "Nessienomic",
+   "score": 120,
+   "balance": 72
+  },
+  {
+   "bot": "Astronaut",
+   "score": 109,
+   "balance": 21
+  },
+  {
+   "bot": "saketh-apex",
+   "score": 87,
+   "balance": 19
+  },
+  {
+   "bot": "NigelR",
+   "score": 72,
+   "balance": 17
+  },
+  {
+   "bot": "NigelBot",
+   "score": 48,
+   "balance": 68
+  },
+  {
+   "bot": "Lime-Sparring-07",
+   "score": 0,
+   "balance": 100
+  }
+ ],
+ "myScore": 109,
+ "myLeftover": "",
+ "myWords": [
+  {
+   "bot": "Astronaut",
+   "word": "MAGICKED",
+   "reward": 54
+  },
+  {
+   "bot": "Astronaut",
+   "word": "CHEVRON",
+   "reward": 45
+  },
+  {
+   "bot": "Astronaut",
+   "word": "TRAIL",
+   "reward": 10
+  }
+ ],
+ "myWordAttempts": [
+  {
+   "word": "MAGICKED",
+   "at": 1794114798630,
+   "ok": true
+  },
+  {
+   "word": "CHEVRON",
+   "at": 1794114817859,
+   "ok": true
+  },
+  {
+   "word": "TRAIL",
+   "at": 1794114821755,
+   "ok": true
+  }
+ ],
+ "won": [
+  {
+   "l": "G",
+   "paid": 8,
+   "bid": 9
+  },
+  {
+   "l": "D",
+   "paid": 10,
+   "bid": 12
+  },
+  {
+   "l": "T",
+   "paid": 7,
+   "bid": 7
+  },
+  {
+   "l": "C",
+   "paid": 13,
+   "bid": 19
+  },
+  {
+   "l": "O",
+   "paid": 8,
+   "bid": 12
+  },
+  {
+   "l": "L",
+   "paid": 7,
+   "bid": 12
+  },
+  {
+   "l": "C",
+   "paid": 18,
+   "bid": 23
+  },
+  {
+   "l": "A",
+   "paid": 14,
+   "bid": 14
+  },
+  {
+   "l": "E",
+   "paid": 13,
+   "bid": 15
+  },
+  {
+   "l": "V",
+   "paid": 10,
+   "bid": 25
+  },
+  {
+   "l": "R",
+   "paid": 9,
+   "bid": 9
+  },
+  {
+   "l": "H",
+   "paid": 20,
+   "bid": 30
+  },
+  {
+   "l": "N",
+   "paid": 14,
+   "bid": 15
+  },
+  {
+   "l": "R",
+   "paid": 13,
+   "bid": 43
+  },
+  {
+   "l": "I",
+   "paid": 24,
+   "bid": 35
+  }
+ ],
+ "missed": [
+  {
+   "l": "I",
+   "bid": 7,
+   "paid": 9,
+   "winner": "saketh-apex"
+  },
+  {
+   "l": "O",
+   "bid": 7,
+   "paid": 7,
+   "winner": "Nessienomic"
+  },
+  {
+   "l": "I",
+   "bid": 7,
+   "paid": 7,
+   "winner": "Nessienomic"
+  },
+  {
+   "l": "E",
+   "bid": 7,
+   "paid": 7,
+   "winner": "Nessienomic"
+  },
+  {
+   "l": "E",
+   "bid": 7,
+   "paid": 7,
+   "winner": "saketh-apex"
+  },
+  {
+   "l": "E",
+   "bid": 7,
+   "paid": 7,
+   "winner": "saketh-apex"
+  },
+  {
+   "l": "T",
+   "bid": 7,
+   "paid": 8,
+   "winner": "NigelR"
+  },
+  {
+   "l": "T",
+   "bid": 7,
+   "paid": 7,
+   "winner": "Nessienomic"
+  },
+  {
+   "l": "S",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Nessienomic"
+  },
+  {
+   "l": "S",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Nessienomic"
+  },
+  {
+   "l": "H",
+   "bid": 18,
+   "paid": 18,
+   "winner": "Nessienomic"
+  },
+  {
+   "l": "D",
+   "bid": 11,
+   "paid": 11,
+   "winner": "Nessienomic"
+  },
+  {
+   "l": "U",
+   "bid": 14,
+   "paid": 14,
+   "winner": "Nessienomic"
+  },
+  {
+   "l": "A",
+   "bid": 4,
+   "paid": 11,
+   "winner": "NigelR"
+  },
+  {
+   "l": "R",
+   "bid": 2,
+   "paid": 7,
+   "winner": "saketh-apex"
+  },
+  {
+   "l": "R",
+   "bid": 1,
+   "paid": 7,
+   "winner": "Nessienomic"
+  },
+  {
+   "l": "O",
+   "bid": 15,
+   "paid": 15,
+   "winner": "Nessienomic"
+  },
+  {
+   "l": "F",
+   "bid": 11,
+   "paid": 21,
+   "winner": "Nessienomic"
+  },
+  {
+   "l": "L",
+   "bid": 9,
+   "paid": 13,
+   "winner": "saketh-apex"
+  }
+ ],
+ "maxDecisionMs": 263.60220000000845,
+ "auctions": [
+  {
+   "id": 3118239,
+   "letter": "B",
+   "winner": "saketh-apex",
+   "paid": 15,
+   "myBid": null
+  },
+  {
+   "id": 3118249,
+   "letter": "V",
+   "winner": "NigelBot",
+   "paid": 13,
+   "myBid": null
+  },
+  {
+   "id": 3118259,
+   "letter": "U",
+   "winner": "NigelR",
+   "paid": 8,
+   "myBid": null
+  },
+  {
+   "id": 3118269,
+   "letter": "E",
+   "winner": "NigelR",
+   "paid": 13,
+   "myBid": null
+  },
+  {
+   "id": 3118279,
+   "letter": "I",
+   "winner": "NigelR",
+   "paid": 8,
+   "myBid": null
+  },
+  {
+   "id": 3118289,
+   "letter": "E",
+   "winner": "NigelR",
+   "paid": 12,
+   "myBid": null
+  },
+  {
+   "id": 3118299,
+   "letter": "R",
+   "winner": "NigelBot",
+   "paid": 11,
+   "myBid": null
+  },
+  {
+   "id": 3118309,
+   "letter": "J",
+   "winner": "NigelBot",
+   "paid": 38,
+   "myBid": null
+  },
+  {
+   "id": 3118319,
+   "letter": "A",
+   "winner": "NigelR",
+   "paid": 10,
+   "myBid": null
+  },
+  {
+   "id": 3118329,
+   "letter": "B",
+   "winner": "saketh-apex",
+   "paid": 17,
+   "myBid": null
+  },
+  {
+   "id": 3118339,
+   "letter": "A",
+   "winner": "saketh-apex",
+   "paid": 7,
+   "myBid": null
+  },
+  {
+   "id": 3118349,
+   "letter": "L",
+   "winner": "NigelR",
+   "paid": 8,
+   "myBid": null
+  },
+  {
+   "id": 3118359,
+   "letter": "O",
+   "winner": "saketh-apex",
+   "paid": 7,
+   "myBid": null
+  },
+  {
+   "id": 3118369,
+   "letter": "M",
+   "winner": "saketh-apex",
+   "paid": 17,
+   "myBid": null
+  },
+  {
+   "id": 3118379,
+   "letter": "P",
+   "winner": "NigelBot",
+   "paid": 18,
+   "myBid": null
+  },
+  {
+   "id": 3118389,
+   "letter": "E",
+   "winner": "saketh-apex",
+   "paid": 7,
+   "myBid": null
+  },
+  {
+   "id": 3118399,
+   "letter": "A",
+   "winner": "saketh-apex",
+   "paid": 8,
+   "myBid": null
+  },
+  {
+   "id": 3118409,
+   "letter": "O",
+   "winner": "NigelR",
+   "paid": 7,
+   "myBid": null
+  },
+  {
+   "id": 3118419,
+   "letter": "A",
+   "winner": "NigelR",
+   "paid": 8,
+   "myBid": null
+  },
+  {
+   "id": 3118429,
+   "letter": "E",
+   "winner": "Nessienomic",
+   "paid": 8,
+   "myBid": null
+  },
+  {
+   "id": 3118439,
+   "letter": "N",
+   "winner": "saketh-apex",
+   "paid": 6,
+   "myBid": null
+  },
+  {
+   "id": 3118449,
+   "letter": "P",
+   "winner": "NigelR",
+   "paid": 15,
+   "myBid": null
+  },
+  {
+   "id": 3118459,
+   "letter": "Y",
+   "winner": "NigelR",
+   "paid": 18,
+   "myBid": null
+  },
+  {
+   "id": 3118469,
+   "letter": "W",
+   "winner": "NigelR",
+   "paid": 12,
+   "myBid": null
+  },
+  {
+   "id": 3118479,
+   "letter": "N",
+   "winner": "NigelR",
+   "paid": 7,
+   "myBid": null
+  },
+  {
+   "id": 3118489,
+   "letter": "E",
+   "winner": "NigelR",
+   "paid": 9,
+   "myBid": null
+  },
+  {
+   "id": 3118499,
+   "letter": "I",
+   "winner": "saketh-apex",
+   "paid": 9,
+   "myBid": null
+  },
+  {
+   "id": 3118509,
+   "letter": "N",
+   "winner": "saketh-apex",
+   "paid": 6,
+   "myBid": null
+  },
+  {
+   "id": 3118519,
+   "letter": "E",
+   "winner": "saketh-apex",
+   "paid": 7,
+   "myBid": null
+  },
+  {
+   "id": 3118529,
+   "letter": "O",
+   "winner": "saketh-apex",
+   "paid": 8,
+   "myBid": null
+  },
+  {
+   "id": 3118539,
+   "letter": "T",
+   "winner": "saketh-apex",
+   "paid": 6,
+   "myBid": null
+  },
+  {
+   "id": 3118549,
+   "letter": "G",
+   "winner": "saketh-apex",
+   "paid": 5,
+   "myBid": null
+  },
+  {
+   "id": 3118559,
+   "letter": "O",
+   "winner": "Nessienomic",
+   "paid": 7,
+   "myBid": null
+  },
+  {
+   "id": 3118569,
+   "letter": "I",
+   "winner": "saketh-apex",
+   "paid": 9,
+   "myBid": 7,
+   "info": {
+    "v0": 42.441984850176716,
+    "v1": 43.28784103953931,
+    "delta": 0.8458561893625927,
+    "lambda": 0.2730723509673213,
+    "deny": 0
+   },
+   "ms": 81
+  },
+  {
+   "id": 3118579,
+   "letter": "O",
+   "winner": "Nessienomic",
+   "paid": 7,
+   "myBid": 7,
+   "info": {
+    "v0": 43.50860990605918,
+    "v1": 45.435914356664455,
+    "delta": 1.927304450605277,
+    "lambda": 0.266989171839014,
+    "deny": 0
+   },
+   "ms": 44
+  },
+  {
+   "id": 3118589,
+   "letter": "I",
+   "winner": "Nessienomic",
+   "paid": 7,
+   "myBid": 7,
+   "info": {
+    "v0": 44.53968458252578,
+    "v1": 45.167741414545105,
+    "delta": 0.6280568320193254,
+    "lambda": 0.2608796747630622,
+    "deny": 0
+   },
+   "ms": 44
+  },
+  {
+   "id": 3118598,
+   "letter": "E",
+   "winner": "Nessienomic",
+   "paid": 7,
+   "myBid": 7,
+   "info": {
+    "v0": 39.7754338985195,
+    "v1": 41.51659184102986,
+    "delta": 1.7411579425103554,
+    "lambda": 0.3639182725484601,
+    "deny": 0
+   },
+   "ms": 49
+  },
+  {
+   "id": 3118608,
+   "letter": "E",
+   "winner": "saketh-apex",
+   "paid": 7,
+   "myBid": 7,
+   "info": {
+    "v0": 42.08009477560721,
+    "v1": 44.678513362774,
+    "delta": 2.5984185871667904,
+    "lambda": 0.35511051691817425,
+    "deny": 0
+   },
+   "ms": 41
+  },
+  {
+   "id": 3118618,
+   "letter": "G",
+   "winner": "Astronaut",
+   "paid": 8,
+   "myBid": 9,
+   "info": {
+    "v0": 42.35978870442083,
+    "v1": 45.27288357490668,
+    "delta": 2.9130948704858497,
+    "lambda": 0.3462601847412211,
+    "deny": 0
+   },
+   "ms": 42
+  },
+  {
+   "id": 3118628,
+   "letter": "D",
+   "winner": "Astronaut",
+   "paid": 10,
+   "myBid": 12,
+   "info": {
+    "v0": 44.659666956138665,
+    "v1": 48.958239664691426,
+    "delta": 4.298572708552761,
+    "lambda": 0.349206277298523,
+    "deny": 0
+   },
+   "ms": 40
+  },
+  {
+   "id": 3118638,
+   "letter": "T",
+   "winner": "Astronaut",
+   "paid": 7,
+   "myBid": 7,
+   "info": {
+    "v0": 48.380732116652204,
+    "v1": 49.984231419125244,
+    "delta": 1.6034993024730397,
+    "lambda": 0.356225584648957,
+    "deny": 0
+   },
+   "ms": 42
+  },
+  {
+   "id": 3118648,
+   "letter": "E",
+   "winner": "saketh-apex",
+   "paid": 7,
+   "myBid": 7,
+   "info": {
+    "v0": 50.460018187490675,
+    "v1": 51.26134188255768,
+    "delta": 0.8013236950670048,
+    "lambda": 0.3590118836617972,
+    "deny": 0
+   },
+   "ms": 40
+  },
+  {
+   "id": 3118657,
+   "letter": "C",
+   "winner": "Astronaut",
+   "paid": 13,
+   "myBid": 19,
+   "info": {
+    "v0": 49.807745395789105,
+    "v1": 56.59551898751531,
+    "delta": 6.787773591726207,
+    "lambda": 0.34884927844557373,
+    "deny": 0
+   },
+   "ms": 39
+  },
+  {
+   "id": 3118667,
+   "letter": "O",
+   "winner": "Astronaut",
+   "paid": 8,
+   "myBid": 12,
+   "info": {
+    "v0": 7.878280043881162,
+    "v1": 14.9909901615656,
+    "delta": 7.112710117684438,
+    "lambda": 0.3644805706130787,
+    "deny": 0
+   },
+   "ms": 264
+  },
+  {
+   "id": 3118677,
+   "letter": "L",
+   "winner": "Astronaut",
+   "paid": 7,
+   "myBid": 12,
+   "info": {
+    "v0": 20.824242156551787,
+    "v1": 24.412755291902187,
+    "delta": 3.5885131353504,
+    "lambda": 0.28286295594741395,
+    "deny": 0
+   },
+   "ms": 56
+  },
+  {
+   "id": 3118687,
+   "letter": "T",
+   "winner": "NigelR",
+   "paid": 8,
+   "myBid": 7,
+   "info": {
+    "v0": 24.131028639330967,
+    "v1": 25.038067405722312,
+    "delta": 0.9070387663913451,
+    "lambda": 0.28175217186543206,
+    "deny": 0
+   },
+   "ms": 56
+  },
+  {
+   "id": 3118697,
+   "letter": "T",
+   "winner": "Nessienomic",
+   "paid": 7,
+   "myBid": 7,
+   "info": {
+    "v0": 26.82661211207323,
+    "v1": 27.555224182472006,
+    "delta": 0.7286120703987748,
+    "lambda": 0.27250926574202894,
+    "deny": 0
+   },
+   "ms": 49
+  },
+  {
+   "id": 3118707,
+   "letter": "C",
+   "winner": "Astronaut",
+   "paid": 18,
+   "myBid": 23,
+   "info": {
+    "v0": 24.389659156287976,
+    "v1": 31.765866762101993,
+    "delta": 7.376207605814017,
+    "lambda": 0.2631965884298168,
+    "deny": 0
+   },
+   "ms": 47
+  },
+  {
+   "id": 3118717,
+   "letter": "A",
+   "winner": "Astronaut",
+   "paid": 14,
+   "myBid": 14,
+   "info": {
+    "v0": 30.509534144312028,
+    "v1": 36.19425005206315,
+    "delta": 5.684715907751119,
+    "lambda": 0.27509384330309006,
+    "deny": 0
+   },
+   "ms": 39
+  },
+  {
+   "id": 3118726,
+   "letter": "S",
+   "winner": "Nessienomic",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 37.486390219657295,
+    "v1": 40.441946897763025,
+    "delta": 2.9555566781057294,
+    "lambda": 0.2848999137014509,
+    "deny": 0
+   },
+   "ms": 33
+  },
+  {
+   "id": 3118736,
+   "letter": "S",
+   "winner": "Nessienomic",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 36.226889814893525,
+    "v1": 38.35042907967636,
+    "delta": 2.123539264782835,
+    "lambda": 0.27375644320716064,
+    "deny": 0
+   },
+   "ms": 28
+  },
+  {
+   "id": 3118746,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 13,
+   "myBid": 15,
+   "info": {
+    "v0": 34.35588272567246,
+    "v1": 38.95017746099079,
+    "delta": 4.5942947353183285,
+    "lambda": 0.2625004384575558,
+    "deny": 0
+   },
+   "ms": 38
+  },
+  {
+   "id": 3118756,
+   "letter": "V",
+   "winner": "Astronaut",
+   "paid": 10,
+   "myBid": 25,
+   "info": {
+    "v0": 38.80837422390432,
+    "v1": 45.80566880294177,
+    "delta": 6.997294579037444,
+    "lambda": 0.2717503595429811,
+    "deny": 0
+   },
+   "ms": 36
+  },
+  {
+   "id": 3118766,
+   "letter": "H",
+   "winner": "Nessienomic",
+   "paid": 18,
+   "myBid": 18,
+   "info": {
+    "v0": 45.68441880958628,
+    "v1": 50.82234960899418,
+    "delta": 5.137930799407897,
+    "lambda": 0.27823643310213275,
+    "deny": 0
+   },
+   "ms": 27
+  },
+  {
+   "id": 3118776,
+   "letter": "D",
+   "winner": "Nessienomic",
+   "paid": 11,
+   "myBid": 11,
+   "info": {
+    "v0": 46.82422512997643,
+    "v1": 49.748751760672974,
+    "delta": 2.9245266306965405,
+    "lambda": 0.26468116524881596,
+    "deny": 0
+   },
+   "ms": 26
+  },
+  {
+   "id": 3118786,
+   "letter": "U",
+   "winner": "Nessienomic",
+   "paid": 14,
+   "myBid": 14,
+   "info": {
+    "v0": 45.433881487059544,
+    "v1": 49.414056013963005,
+    "delta": 3.980174526903461,
+    "lambda": 0.25092132742461953,
+    "deny": 0
+   },
+   "ms": 23
+  },
+  {
+   "id": 3118796,
+   "letter": "R",
+   "winner": "Astronaut",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 42.196536946768596,
+    "v1": 43.60036679333201,
+    "delta": 1.4038298465634114,
+    "lambda": 0.23692574216341364,
+    "deny": 0
+   },
+   "ms": 120
+  },
+  {
+   "id": 3118806,
+   "letter": "A",
+   "winner": "NigelR",
+   "paid": 11,
+   "myBid": 4,
+   "info": {
+    "v0": 41.169514474833896,
+    "v1": 42.2022912134234,
+    "delta": 1.0327767385895044,
+    "lambda": 0.23958792030044576,
+    "deny": 0
+   },
+   "ms": 115
+  },
+  {
+   "id": 3118816,
+   "letter": "R",
+   "winner": "saketh-apex",
+   "paid": 7,
+   "myBid": 2,
+   "info": {
+    "v0": 42.21732647599992,
+    "v1": 42.74009199537574,
+    "delta": 0.5227655193758238,
+    "lambda": 0.2238753329086672,
+    "deny": 0
+   },
+   "ms": 127
+  },
+  {
+   "id": 3118826,
+   "letter": "R",
+   "winner": "Nessienomic",
+   "paid": 7,
+   "myBid": 1,
+   "info": {
+    "v0": 42.16930854576825,
+    "v1": 42.55271385194456,
+    "delta": 0.3834053061763072,
+    "lambda": 0.20772725038977385,
+    "deny": 0
+   },
+   "ms": 106
+  },
+  {
+   "id": 3118836,
+   "letter": "H",
+   "winner": "Astronaut",
+   "paid": 20,
+   "myBid": 30,
+   "info": {
+    "v0": 42.7884789222396,
+    "v1": 48.9529545726623,
+    "delta": 6.164475650422702,
+    "lambda": 0.19102842352837043,
+    "deny": 0
+   },
+   "ms": 105
+  },
+  {
+   "id": 3118845,
+   "letter": "N",
+   "winner": "Astronaut",
+   "paid": 14,
+   "myBid": 15,
+   "info": {
+    "v0": 43.89727587159104,
+    "v1": 47.591228161985526,
+    "delta": 3.693952290394485,
+    "lambda": 0.2154748383964597,
+    "deny": 0
+   },
+   "ms": 95
+  },
+  {
+   "id": 3118855,
+   "letter": "O",
+   "winner": "Nessienomic",
+   "paid": 15,
+   "myBid": 15,
+   "info": {
+    "v0": 2.5925790000869475,
+    "v1": 7.190262786561614,
+    "delta": 4.597683786474667,
+    "lambda": 0.24427596186072295,
+    "deny": 0
+   },
+   "ms": 128
+  },
+  {
+   "id": 3118865,
+   "letter": "R",
+   "winner": "Astronaut",
+   "paid": 13,
+   "myBid": 43,
+   "info": {
+    "v0": 10.714347872094203,
+    "v1": 16.071081685347092,
+    "delta": 5.356733813252889,
+    "lambda": 0.12379440454807243,
+    "deny": 0
+   },
+   "ms": 10
+  },
+  {
+   "id": 3118875,
+   "letter": "I",
+   "winner": "Astronaut",
+   "paid": 24,
+   "myBid": 35,
+   "info": {
+    "v0": 11.41086207699503,
+    "v1": 15.89593710720588,
+    "delta": 4.485075030210849,
+    "lambda": 0.11467938528744225,
+    "deny": 0
+   },
+   "ms": 11
+  },
+  {
+   "id": 3118885,
+   "letter": "F",
+   "winner": "Nessienomic",
+   "paid": 21,
+   "myBid": 11,
+   "info": {
+    "v0": 11.267931657078575,
+    "v1": 18.11656065711418,
+    "delta": 6.848629000035606,
+    "lambda": 0.11440972458785115,
+    "deny": 0
+   },
+   "ms": 26
+  },
+  {
+   "id": 3118895,
+   "letter": "L",
+   "winner": "saketh-apex",
+   "paid": 13,
+   "myBid": 9,
+   "info": {
+    "v0": 0,
+    "v1": 0.28999999999999965,
+    "delta": 0.28999999999999965,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 8
+  },
+  {
+   "id": 3118905,
+   "letter": "G",
+   "winner": "NigelR",
+   "paid": 1,
+   "myBid": 0,
+   "info": {
+    "v0": 0,
+    "v1": 0.28999999999999965,
+    "delta": 0.28999999999999965,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 2
+  }
+ ],
+ "words": [
+  {
+   "bot": "NigelR",
+   "word": "AUDITED",
+   "reward": 27
+  },
+  {
+   "bot": "saketh-apex",
+   "word": "ABOMASI",
+   "reward": 33
+  },
+  {
+   "bot": "NigelR",
+   "word": "PAYOLA",
+   "reward": 27
+  },
+  {
+   "bot": "NigelR",
+   "word": "NEWER",
+   "reward": 16
+  },
+  {
+   "bot": "saketh-apex",
+   "word": "BIENNIA",
+   "reward": 27
+  },
+  {
+   "bot": "Nessienomic",
+   "word": "FOXIEST",
+   "reward": 51
+  },
+  {
+   "bot": "Astronaut",
+   "word": "MAGICKED",
+   "reward": 54
+  },
+  {
+   "bot": "NigelR",
+   "word": "AT",
+   "reward": 2
+  },
+  {
+   "bot": "NigelBot",
+   "word": "JUNIPER",
+   "reward": 48
+  },
+  {
+   "bot": "Astronaut",
+   "word": "CHEVRON",
+   "reward": 45
+  },
+  {
+   "bot": "saketh-apex",
+   "word": "GOITER",
+   "reward": 17
+  },
+  {
+   "bot": "Astronaut",
+   "word": "TRAIL",
+   "reward": 10
+  },
+  {
+   "bot": "Nessienomic",
+   "word": "FOURTHS",
+   "reward": 39
+  },
+  {
+   "bot": "Nessienomic",
+   "word": "DOZES",
+   "reward": 30
+  },
+  {
+   "bot": "saketh-apex",
+   "word": "WEEL",
+   "reward": 10
+  }
+ ]
+}

@@ -1,0 +1,1516 @@
+{
+ "matchId": 47769,
+ "at": "2026-11-08T05:12:27.154Z",
+ "auctionType": "Vickrey",
+ "placement": 3,
+ "nPlayers": 6,
+ "scores": [
+  {
+   "bot": "pazabol",
+   "score": 107,
+   "balance": 29
+  },
+  {
+   "bot": "StickBot",
+   "score": 93,
+   "balance": 4
+  },
+  {
+   "bot": "Astronaut",
+   "score": 81,
+   "balance": 4
+  },
+  {
+   "bot": "NigelR",
+   "score": 78,
+   "balance": 9
+  },
+  {
+   "bot": "Lime-LaChonk-V7-Large",
+   "score": 29,
+   "balance": 2
+  },
+  {
+   "bot": "Lime-Sparring-07",
+   "score": 0,
+   "balance": 100
+  }
+ ],
+ "myScore": 81,
+ "myLeftover": "GNRW",
+ "myWords": [
+  {
+   "bot": "Astronaut",
+   "word": "SAMBAED",
+   "reward": 36
+  },
+  {
+   "bot": "Astronaut",
+   "word": "JADEITE",
+   "reward": 45
+  }
+ ],
+ "myWordAttempts": [
+  {
+   "word": "SAMBAED",
+   "at": 1794114716244,
+   "ok": true
+  },
+  {
+   "word": "JADEITE",
+   "at": 1794114728870,
+   "ok": true
+  }
+ ],
+ "won": [
+  {
+   "l": "E",
+   "paid": 11,
+   "bid": 11
+  },
+  {
+   "l": "B",
+   "paid": 15,
+   "bid": 17
+  },
+  {
+   "l": "D",
+   "paid": 15,
+   "bid": 17
+  },
+  {
+   "l": "M",
+   "paid": 13,
+   "bid": 18
+  },
+  {
+   "l": "S",
+   "paid": 9,
+   "bid": 10
+  },
+  {
+   "l": "T",
+   "paid": 6,
+   "bid": 13
+  },
+  {
+   "l": "J",
+   "paid": 30,
+   "bid": 38
+  },
+  {
+   "l": "D",
+   "paid": 12,
+   "bid": 22
+  },
+  {
+   "l": "I",
+   "paid": 10,
+   "bid": 11
+  },
+  {
+   "l": "E",
+   "paid": 12,
+   "bid": 15
+  },
+  {
+   "l": "N",
+   "paid": 15,
+   "bid": 16
+  },
+  {
+   "l": "W",
+   "paid": 20,
+   "bid": 31
+  },
+  {
+   "l": "G",
+   "paid": 9,
+   "bid": 13
+  }
+ ],
+ "missed": [
+  {
+   "l": "U",
+   "bid": 9,
+   "paid": 10,
+   "winner": "StickBot"
+  },
+  {
+   "l": "S",
+   "bid": 11,
+   "paid": 14,
+   "winner": "NigelR"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 17,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "O",
+   "bid": 10,
+   "paid": 11,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "N",
+   "bid": 10,
+   "paid": 10,
+   "winner": "StickBot"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 11,
+   "winner": "NigelR"
+  },
+  {
+   "l": "X",
+   "bid": 42,
+   "paid": 42,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "N",
+   "bid": 10,
+   "paid": 12,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "F",
+   "bid": 23,
+   "paid": 23,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "U",
+   "bid": 10,
+   "paid": 11,
+   "winner": "pazabol"
+  },
+  {
+   "l": "O",
+   "bid": 9,
+   "paid": 11,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "L",
+   "bid": 10,
+   "paid": 11,
+   "winner": "NigelR"
+  },
+  {
+   "l": "R",
+   "bid": 10,
+   "paid": 8,
+   "winner": "StickBot"
+  },
+  {
+   "l": "O",
+   "bid": 9,
+   "paid": 11,
+   "winner": "StickBot"
+  },
+  {
+   "l": "H",
+   "bid": 22,
+   "paid": 19,
+   "winner": "NigelR"
+  },
+  {
+   "l": "D",
+   "bid": 15,
+   "paid": 12,
+   "winner": "NigelR"
+  },
+  {
+   "l": "Q",
+   "bid": 17,
+   "paid": 24,
+   "winner": "pazabol"
+  },
+  {
+   "l": "L",
+   "bid": 12,
+   "paid": 12,
+   "winner": "pazabol"
+  },
+  {
+   "l": "A",
+   "bid": 9,
+   "paid": 11,
+   "winner": "NigelR"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 12,
+   "winner": "pazabol"
+  },
+  {
+   "l": "T",
+   "bid": 9,
+   "paid": 11,
+   "winner": "StickBot"
+  },
+  {
+   "l": "O",
+   "bid": 9,
+   "paid": 11,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 10,
+   "winner": "StickBot"
+  },
+  {
+   "l": "G",
+   "bid": 12,
+   "paid": 12,
+   "winner": "StickBot"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 11,
+   "winner": "pazabol"
+  },
+  {
+   "l": "R",
+   "bid": 10,
+   "paid": 11,
+   "winner": "StickBot"
+  },
+  {
+   "l": "T",
+   "bid": 9,
+   "paid": 9,
+   "winner": "StickBot"
+  },
+  {
+   "l": "N",
+   "bid": 9,
+   "paid": 9,
+   "winner": "NigelR"
+  },
+  {
+   "l": "R",
+   "bid": 9,
+   "paid": 9,
+   "winner": "pazabol"
+  },
+  {
+   "l": "E",
+   "bid": 9,
+   "paid": 10,
+   "winner": "NigelR"
+  },
+  {
+   "l": "R",
+   "bid": 6,
+   "paid": 6,
+   "winner": "StickBot"
+  },
+  {
+   "l": "T",
+   "bid": 5,
+   "paid": 5,
+   "winner": "NigelR"
+  },
+  {
+   "l": "I",
+   "bid": 8,
+   "paid": 8,
+   "winner": "StickBot"
+  },
+  {
+   "l": "A",
+   "bid": 1,
+   "paid": 7,
+   "winner": "StickBot"
+  },
+  {
+   "l": "T",
+   "bid": 5,
+   "paid": 5,
+   "winner": "StickBot"
+  },
+  {
+   "l": "S",
+   "bid": 12,
+   "paid": 10,
+   "winner": "StickBot"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 11,
+   "winner": "StickBot"
+  },
+  {
+   "l": "K",
+   "bid": 4,
+   "paid": 24,
+   "winner": "pazabol"
+  },
+  {
+   "l": "L",
+   "bid": 6,
+   "paid": 12,
+   "winner": "NigelR"
+  },
+  {
+   "l": "E",
+   "bid": 17,
+   "paid": 17,
+   "winner": "NigelR"
+  },
+  {
+   "l": "U",
+   "bid": 8,
+   "paid": 11,
+   "winner": "StickBot"
+  },
+  {
+   "l": "P",
+   "bid": 13,
+   "paid": 13,
+   "winner": "pazabol"
+  },
+  {
+   "l": "O",
+   "bid": 4,
+   "paid": 8,
+   "winner": "pazabol"
+  },
+  {
+   "l": "V",
+   "bid": 3,
+   "paid": 10,
+   "winner": "NigelR"
+  },
+  {
+   "l": "P",
+   "bid": 4,
+   "paid": 10,
+   "winner": "StickBot"
+  },
+  {
+   "l": "C",
+   "bid": 4,
+   "paid": 20,
+   "winner": "StickBot"
+  },
+  {
+   "l": "I",
+   "bid": 4,
+   "paid": 9,
+   "winner": "StickBot"
+  },
+  {
+   "l": "G",
+   "bid": 2,
+   "paid": 4,
+   "winner": "NigelR"
+  },
+  {
+   "l": "O",
+   "bid": 4,
+   "paid": 4,
+   "winner": "NigelR"
+  },
+  {
+   "l": "V",
+   "bid": 4,
+   "paid": 4,
+   "winner": "NigelR"
+  },
+  {
+   "l": "A",
+   "bid": 4,
+   "paid": 4,
+   "winner": "NigelR"
+  }
+ ],
+ "maxDecisionMs": 685.592899999996,
+ "auctions": [
+  {
+   "id": 3117489,
+   "letter": "Z",
+   "winner": "pazabol",
+   "paid": 41,
+   "myBid": null
+  },
+  {
+   "id": 3117499,
+   "letter": "N",
+   "winner": "NigelR",
+   "paid": 11,
+   "myBid": null
+  },
+  {
+   "id": 3117509,
+   "letter": "L",
+   "winner": "pazabol",
+   "paid": 13,
+   "myBid": null
+  },
+  {
+   "id": 3117519,
+   "letter": "U",
+   "winner": "StickBot",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 10.248554272271225,
+    "v1": 14.120022201262946,
+    "delta": 3.8714679289917218,
+    "lambda": 0.6380200654079734,
+    "deny": 0
+   },
+   "ms": 448
+  },
+  {
+   "id": 3117529,
+   "letter": "S",
+   "winner": "NigelR",
+   "paid": 14,
+   "myBid": 11,
+   "info": {
+    "v0": 8.798632858864448,
+    "v1": 14.71125350377744,
+    "delta": 5.912620644912993,
+    "lambda": 0.6300644879061076,
+    "deny": 0
+   },
+   "ms": 263
+  },
+  {
+   "id": 3117539,
+   "letter": "E",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 17,
+   "myBid": 10,
+   "info": {
+    "v0": 9.311962177024144,
+    "v1": 12.813043312595184,
+    "delta": 3.50108113557104,
+    "lambda": 0.6220917225987204,
+    "deny": 0
+   },
+   "ms": 182
+  },
+  {
+   "id": 3117549,
+   "letter": "O",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 8.754825730385821,
+    "v1": 11.004734318753593,
+    "delta": 2.249908588367772,
+    "lambda": 0.6141014483122161,
+    "deny": 0
+   },
+   "ms": 183
+  },
+  {
+   "id": 3117559,
+   "letter": "N",
+   "winner": "StickBot",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 8.734018580885826,
+    "v1": 13.550791521528275,
+    "delta": 4.8167729406424495,
+    "lambda": 0.6060933319904902,
+    "deny": 0
+   },
+   "ms": 195
+  },
+  {
+   "id": 3117569,
+   "letter": "E",
+   "winner": "NigelR",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 17.530226108329835,
+    "v1": 19.94645008697303,
+    "delta": 2.4162239786431954,
+    "lambda": 0.4186469196146774,
+    "deny": 0
+   },
+   "ms": 159
+  },
+  {
+   "id": 3117579,
+   "letter": "X",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 42,
+   "myBid": 42,
+   "info": {
+    "v0": 16.570131985875214,
+    "v1": 34.274479250118056,
+    "delta": 17.70434726424284,
+    "lambda": 0.41301552425592664,
+    "deny": 0
+   },
+   "ms": 114
+  },
+  {
+   "id": 3117589,
+   "letter": "N",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 12,
+   "myBid": 10,
+   "info": {
+    "v0": 17.058146132798885,
+    "v1": 21.30476609073571,
+    "delta": 4.246619957936826,
+    "lambda": 0.4073708852442142,
+    "deny": 0
+   },
+   "ms": 192
+  },
+  {
+   "id": 3117599,
+   "letter": "F",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 23,
+   "myBid": 23,
+   "info": {
+    "v0": 15.927229498808034,
+    "v1": 25.1977679832811,
+    "delta": 9.270538484473066,
+    "lambda": 0.4017127310678191,
+    "deny": 0
+   },
+   "ms": 163
+  },
+  {
+   "id": 3117609,
+   "letter": "U",
+   "winner": "pazabol",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 17.081427822330323,
+    "v1": 21.11483241200784,
+    "delta": 4.033404589677517,
+    "lambda": 0.3960407791348739,
+    "deny": 0
+   },
+   "ms": 212
+  },
+  {
+   "id": 3117619,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 11,
+   "myBid": 11,
+   "info": {
+    "v0": 18.48734071087963,
+    "v1": 20.92291369193747,
+    "delta": 2.4355729810578417,
+    "lambda": 0.390354735078248,
+    "deny": 0
+   },
+   "ms": 191
+  },
+  {
+   "id": 3117629,
+   "letter": "O",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 11,
+   "myBid": 9,
+   "info": {
+    "v0": 19.70743421156269,
+    "v1": 21.744946933226217,
+    "delta": 2.0375127216635285,
+    "lambda": 0.40359702541344555,
+    "deny": 0
+   },
+   "ms": 224
+  },
+  {
+   "id": 3117639,
+   "letter": "L",
+   "winner": "NigelR",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 20.451672971940585,
+    "v1": 23.535955084347933,
+    "delta": 3.0842821124073474,
+    "lambda": 0.3976004134671761,
+    "deny": 0
+   },
+   "ms": 176
+  },
+  {
+   "id": 3117649,
+   "letter": "B",
+   "winner": "Astronaut",
+   "paid": 15,
+   "myBid": 17,
+   "info": {
+    "v0": 19.7929960536103,
+    "v1": 26.837964462023134,
+    "delta": 7.044968408412835,
+    "lambda": 0.39158800642007413,
+    "deny": 0
+   },
+   "ms": 142
+  },
+  {
+   "id": 3117659,
+   "letter": "R",
+   "winner": "StickBot",
+   "paid": 8,
+   "myBid": 10,
+   "info": {
+    "v0": 28.079507665009388,
+    "v1": 30.530179993397024,
+    "delta": 2.450672328387636,
+    "lambda": 0.41518404902855993,
+    "deny": 0
+   },
+   "ms": 180
+  },
+  {
+   "id": 3117669,
+   "letter": "O",
+   "winner": "StickBot",
+   "paid": 11,
+   "myBid": 9,
+   "info": {
+    "v0": 28.109831048018552,
+    "v1": 30.665044334204765,
+    "delta": 2.5552132861862127,
+    "lambda": 0.4086744550704392,
+    "deny": 0
+   },
+   "ms": 155
+  },
+  {
+   "id": 3117679,
+   "letter": "H",
+   "winner": "NigelR",
+   "paid": 19,
+   "myBid": 22,
+   "info": {
+    "v0": 28.643370562578387,
+    "v1": 37.78309350766226,
+    "delta": 9.139722945083872,
+    "lambda": 0.40214661046603495,
+    "deny": 0
+   },
+   "ms": 141
+  },
+  {
+   "id": 3117689,
+   "letter": "D",
+   "winner": "NigelR",
+   "paid": 12,
+   "myBid": 15,
+   "info": {
+    "v0": 27.685297127202727,
+    "v1": 33.921454095028835,
+    "delta": 6.236156967826108,
+    "lambda": 0.3956000607786652,
+    "deny": 0
+   },
+   "ms": 142
+  },
+  {
+   "id": 3117699,
+   "letter": "Q",
+   "winner": "pazabol",
+   "paid": 24,
+   "myBid": 17,
+   "info": {
+    "v0": 27.92178251338441,
+    "v1": 34.859076159984774,
+    "delta": 6.937293646600363,
+    "lambda": 0.3890343287967825,
+    "deny": 0
+   },
+   "ms": 169
+  },
+  {
+   "id": 3117709,
+   "letter": "L",
+   "winner": "pazabol",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 27.89491299495519,
+    "v1": 32.6061825555201,
+    "delta": 4.711269560564908,
+    "lambda": 0.38244891277169024,
+    "deny": 0
+   },
+   "ms": 136
+  },
+  {
+   "id": 3117719,
+   "letter": "A",
+   "winner": "NigelR",
+   "paid": 11,
+   "myBid": 9,
+   "info": {
+    "v0": 28.80016589646439,
+    "v1": 29.10867705623799,
+    "delta": 0.30851115977360166,
+    "lambda": 0.37584328446887977,
+    "deny": 0
+   },
+   "ms": 128
+  },
+  {
+   "id": 3117729,
+   "letter": "E",
+   "winner": "pazabol",
+   "paid": 12,
+   "myBid": 10,
+   "info": {
+    "v0": 27.828313869402464,
+    "v1": 28.745397508110713,
+    "delta": 0.9170836387082488,
+    "lambda": 0.369216887007865,
+    "deny": 0
+   },
+   "ms": 155
+  },
+  {
+   "id": 3117739,
+   "letter": "T",
+   "winner": "StickBot",
+   "paid": 11,
+   "myBid": 9,
+   "info": {
+    "v0": 30.087432338213176,
+    "v1": 32.28843557216606,
+    "delta": 2.201003233952882,
+    "lambda": 0.3625691324612573,
+    "deny": 0
+   },
+   "ms": 132
+  },
+  {
+   "id": 3117749,
+   "letter": "D",
+   "winner": "Astronaut",
+   "paid": 15,
+   "myBid": 17,
+   "info": {
+    "v0": 28.857066220961073,
+    "v1": 35.19165341009313,
+    "delta": 6.334587189132058,
+    "lambda": 0.3558993991788952,
+    "deny": 0
+   },
+   "ms": 113
+  },
+  {
+   "id": 3117759,
+   "letter": "O",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 11,
+   "myBid": 9,
+   "info": {
+    "v0": 34.7821983757621,
+    "v1": 36.15803815238065,
+    "delta": 1.3758397766185482,
+    "lambda": 0.3809196334115006,
+    "deny": 0
+   },
+   "ms": 109
+  },
+  {
+   "id": 3117769,
+   "letter": "I",
+   "winner": "StickBot",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 33.45429428823997,
+    "v1": 35.29582507069828,
+    "delta": 1.8415307824583067,
+    "lambda": 0.37359405281518027,
+    "deny": 0
+   },
+   "ms": 97
+  },
+  {
+   "id": 3117779,
+   "letter": "G",
+   "winner": "StickBot",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 35.78686225520461,
+    "v1": 37.958985542450954,
+    "delta": 2.172123287246343,
+    "lambda": 0.36624220783744726,
+    "deny": 0
+   },
+   "ms": 79
+  },
+  {
+   "id": 3117789,
+   "letter": "I",
+   "winner": "pazabol",
+   "paid": 11,
+   "myBid": 9,
+   "info": {
+    "v0": 35.36312105110802,
+    "v1": 36.97334586023081,
+    "delta": 1.6102248091227906,
+    "lambda": 0.35886323633929973,
+    "deny": 0
+   },
+   "ms": 84
+  },
+  {
+   "id": 3117799,
+   "letter": "R",
+   "winner": "StickBot",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 35.93462855853992,
+    "v1": 37.014928294286115,
+    "delta": 1.0802997357461948,
+    "lambda": 0.35145621846215874,
+    "deny": 0
+   },
+   "ms": 83
+  },
+  {
+   "id": 3117809,
+   "letter": "M",
+   "winner": "Astronaut",
+   "paid": 13,
+   "myBid": 18,
+   "info": {
+    "v0": 34.58463495631333,
+    "v1": 41.04354453052737,
+    "delta": 6.45890957421404,
+    "lambda": 0.3440201706515357,
+    "deny": 0
+   },
+   "ms": 82
+  },
+  {
+   "id": 3117819,
+   "letter": "T",
+   "winner": "StickBot",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 41.677190562756024,
+    "v1": 42.33644891380782,
+    "delta": 0.6592583510517969,
+    "lambda": 0.3682106829293644,
+    "deny": 0
+   },
+   "ms": 206
+  },
+  {
+   "id": 3117829,
+   "letter": "N",
+   "winner": "NigelR",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 42.3332041972634,
+    "v1": 44.84575363863405,
+    "delta": 2.512549441370652,
+    "lambda": 0.3600081258660763,
+    "deny": 0
+   },
+   "ms": 194
+  },
+  {
+   "id": 3117839,
+   "letter": "R",
+   "winner": "pazabol",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 41.70757382838912,
+    "v1": 42.63770488397153,
+    "delta": 0.9301310555824074,
+    "lambda": 0.35177008168942364,
+    "deny": 0
+   },
+   "ms": 167
+  },
+  {
+   "id": 3117849,
+   "letter": "S",
+   "winner": "Astronaut",
+   "paid": 9,
+   "myBid": 10,
+   "info": {
+    "v0": 39.546663787753644,
+    "v1": 42.38222399865554,
+    "delta": 2.835560210901896,
+    "lambda": 0.49070729860006496,
+    "deny": 0
+   },
+   "ms": 221
+  },
+  {
+   "id": 3117859,
+   "letter": "T",
+   "winner": "Astronaut",
+   "paid": 6,
+   "myBid": 13,
+   "info": {
+    "v0": 5.64273081864383,
+    "v1": 10.916453393304115,
+    "delta": 5.273722574660285,
+    "lambda": 0.5152484923768498,
+    "deny": 0
+   },
+   "ms": 686
+  },
+  {
+   "id": 3117869,
+   "letter": "E",
+   "winner": "NigelR",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 21.00433800443063,
+    "v1": 23.357625058233126,
+    "delta": 2.3532870538024966,
+    "lambda": 0.4066619633858833,
+    "deny": 0
+   },
+   "ms": 92
+  },
+  {
+   "id": 3117879,
+   "letter": "J",
+   "winner": "Astronaut",
+   "paid": 30,
+   "myBid": 38,
+   "info": {
+    "v0": 21.069748234186843,
+    "v1": 36.167009102142586,
+    "delta": 15.097260867955743,
+    "lambda": 0.39621546877676983,
+    "deny": 0
+   },
+   "ms": 59
+  },
+  {
+   "id": 3117888,
+   "letter": "D",
+   "winner": "Astronaut",
+   "paid": 12,
+   "myBid": 22,
+   "info": {
+    "v0": 26.877707222419158,
+    "v1": 38.05070238998681,
+    "delta": 11.172995167567652,
+    "lambda": 0.47652727780699206,
+    "deny": 0
+   },
+   "ms": 72
+  },
+  {
+   "id": 3117897,
+   "letter": "R",
+   "winner": "StickBot",
+   "paid": 6,
+   "myBid": 6,
+   "info": {
+    "v0": 36.32054064585065,
+    "v1": 39.45917204828914,
+    "delta": 3.1386314024384916,
+    "lambda": 0.5216321734706516,
+    "deny": 0
+   },
+   "ms": 52
+  },
+  {
+   "id": 3117906,
+   "letter": "T",
+   "winner": "NigelR",
+   "paid": 5,
+   "myBid": 5,
+   "info": {
+    "v0": 36.54536278647303,
+    "v1": 39.08916939162796,
+    "delta": 2.543806605154934,
+    "lambda": 0.5068662504237792,
+    "deny": 0
+   },
+   "ms": 44
+  },
+  {
+   "id": 3117916,
+   "letter": "I",
+   "winner": "StickBot",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 37.947061724710444,
+    "v1": 41.98015019176898,
+    "delta": 4.033088467058533,
+    "lambda": 0.4920112708976336,
+    "deny": 0
+   },
+   "ms": 37
+  },
+  {
+   "id": 3117926,
+   "letter": "A",
+   "winner": "StickBot",
+   "paid": 7,
+   "myBid": 1,
+   "info": {
+    "v0": 37.63801811392555,
+    "v1": 38.238368994558115,
+    "delta": 0.6003508806325684,
+    "lambda": 0.4770619767902398,
+    "deny": 0
+   },
+   "ms": 57
+  },
+  {
+   "id": 3117936,
+   "letter": "T",
+   "winner": "StickBot",
+   "paid": 5,
+   "myBid": 5,
+   "info": {
+    "v0": 39.58573409709755,
+    "v1": 42.073435082406014,
+    "delta": 2.4877009853084644,
+    "lambda": 0.46201247333949386,
+    "deny": 0
+   },
+   "ms": 37
+  },
+  {
+   "id": 3117946,
+   "letter": "S",
+   "winner": "StickBot",
+   "paid": 10,
+   "myBid": 12,
+   "info": {
+    "v0": 37.65072401825248,
+    "v1": 43.44961487652151,
+    "delta": 5.798890858269026,
+    "lambda": 0.44685611131166975,
+    "deny": 0
+   },
+   "ms": 47
+  },
+  {
+   "id": 3117956,
+   "letter": "E",
+   "winner": "StickBot",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 38.93133697627199,
+    "v1": 43.42175464521739,
+    "delta": 4.490417668945398,
+    "lambda": 0.43158533966174367,
+    "deny": 0
+   },
+   "ms": 37
+  },
+  {
+   "id": 3117966,
+   "letter": "I",
+   "winner": "Astronaut",
+   "paid": 10,
+   "myBid": 11,
+   "info": {
+    "v0": 38.195316622682164,
+    "v1": 42.84216483789743,
+    "delta": 4.646848215215265,
+    "lambda": 0.41619151922045333,
+    "deny": 0
+   },
+   "ms": 36
+  },
+  {
+   "id": 3117976,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 12,
+   "myBid": 15,
+   "info": {
+    "v0": 34.44417699739643,
+    "v1": 45.67416966295439,
+    "delta": 11.229992665557958,
+    "lambda": 0.4543110486883686,
+    "deny": 0
+   },
+   "ms": 55
+  },
+  {
+   "id": 3117986,
+   "letter": "K",
+   "winner": "pazabol",
+   "paid": 24,
+   "myBid": 4,
+   "info": {
+    "v0": 0.28999999999999965,
+    "v1": 1.7399999999999993,
+    "delta": 1.4499999999999997,
+    "lambda": 0.5385120614519293,
+    "deny": 0
+   },
+   "ms": 144
+  },
+  {
+   "id": 3117996,
+   "letter": "N",
+   "winner": "Astronaut",
+   "paid": 15,
+   "myBid": 16,
+   "info": {
+    "v0": 2.638046248555169,
+    "v1": 7.703117857958645,
+    "delta": 5.065071609403477,
+    "lambda": 0.30031054360803416,
+    "deny": 0
+   },
+   "ms": 36
+  },
+  {
+   "id": 3118006,
+   "letter": "L",
+   "winner": "NigelR",
+   "paid": 12,
+   "myBid": 6,
+   "info": {
+    "v0": 2.6689877723408575,
+    "v1": 4.866755271239264,
+    "delta": 2.197767498898407,
+    "lambda": 0.3254160646291464,
+    "deny": 0
+   },
+   "ms": 43
+  },
+  {
+   "id": 3118016,
+   "letter": "E",
+   "winner": "NigelR",
+   "paid": 17,
+   "myBid": 17,
+   "info": {
+    "v0": 2.449679642536465,
+    "v1": 9.474389218279457,
+    "delta": 7.0247095757429925,
+    "lambda": 0.3104902951285043,
+    "deny": 0
+   },
+   "ms": 27
+  },
+  {
+   "id": 3118026,
+   "letter": "W",
+   "winner": "Astronaut",
+   "paid": 20,
+   "myBid": 31,
+   "info": {
+    "v0": 2.7070137191477195,
+    "v1": 13.099256809651271,
+    "delta": 10.392243090503552,
+    "lambda": 0.29536366678081644,
+    "deny": 0
+   },
+   "ms": 27
+  },
+  {
+   "id": 3118036,
+   "letter": "U",
+   "winner": "StickBot",
+   "paid": 11,
+   "myBid": 8,
+   "info": {
+    "v0": 6.970201508122835,
+    "v1": 10.061687298139862,
+    "delta": 3.0914857900170274,
+    "lambda": 0.3548563443325569,
+    "deny": 0
+   },
+   "ms": 23
+  },
+  {
+   "id": 3118046,
+   "letter": "P",
+   "winner": "pazabol",
+   "paid": 13,
+   "myBid": 13,
+   "info": {
+    "v0": 7.089354756784453,
+    "v1": 15.09299146438601,
+    "delta": 8.003636707601558,
+    "lambda": 0.3350635978428106,
+    "deny": 0
+   },
+   "ms": 24
+  },
+  {
+   "id": 3118056,
+   "letter": "G",
+   "winner": "Astronaut",
+   "paid": 9,
+   "myBid": 13,
+   "info": {
+    "v0": 7.568110054612852,
+    "v1": 15.356104774097046,
+    "delta": 7.787994719484194,
+    "lambda": 0.31488021669488026,
+    "deny": 0
+   },
+   "ms": 22
+  },
+  {
+   "id": 3118066,
+   "letter": "O",
+   "winner": "pazabol",
+   "paid": 8,
+   "myBid": 4,
+   "info": {
+    "v0": 13.003908517331807,
+    "v1": 20.15432688460787,
+    "delta": 7.150418367276062,
+    "lambda": 0.34501505927538234,
+    "deny": 0
+   },
+   "ms": 17
+  },
+  {
+   "id": 3118076,
+   "letter": "V",
+   "winner": "NigelR",
+   "paid": 10,
+   "myBid": 3,
+   "info": {
+    "v0": 13.349005624359313,
+    "v1": 14.509005624359324,
+    "delta": 1.1600000000000108,
+    "lambda": 0.3201291927752412,
+    "deny": 0
+   },
+   "ms": 19
+  },
+  {
+   "id": 3118086,
+   "letter": "P",
+   "winner": "StickBot",
+   "paid": 10,
+   "myBid": 4,
+   "info": {
+    "v0": 14.155584997795549,
+    "v1": 15.65612609627892,
+    "delta": 1.500541098483371,
+    "lambda": 0.29439457224084375,
+    "deny": 0
+   },
+   "ms": 15
+  },
+  {
+   "id": 3118096,
+   "letter": "C",
+   "winner": "StickBot",
+   "paid": 20,
+   "myBid": 4,
+   "info": {
+    "v0": 13.969071447699088,
+    "v1": 15.636861369774065,
+    "delta": 1.6677899220749772,
+    "lambda": 0.2675418986916875,
+    "deny": 0
+   },
+   "ms": 15
+  },
+  {
+   "id": 3118106,
+   "letter": "I",
+   "winner": "StickBot",
+   "paid": 9,
+   "myBid": 4,
+   "info": {
+    "v0": 13.5310734093854,
+    "v1": 22.086218369465442,
+    "delta": 8.555144960080042,
+    "lambda": 0.2391327340175127,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3118116,
+   "letter": "G",
+   "winner": "NigelR",
+   "paid": 4,
+   "myBid": 2,
+   "info": {
+    "v0": 11.285865044621147,
+    "v1": 11.865865044621144,
+    "delta": 0.5799999999999965,
+    "lambda": 0.2083770333458084,
+    "deny": 0
+   },
+   "ms": 7
+  },
+  {
+   "id": 3118126,
+   "letter": "O",
+   "winner": "NigelR",
+   "paid": 4,
+   "myBid": 4,
+   "info": {
+    "v0": 11.42027036205838,
+    "v1": 18.43441830029132,
+    "delta": 7.01414793823294,
+    "lambda": 0.17360454073660359,
+    "deny": 0
+   },
+   "ms": 6
+  },
+  {
+   "id": 3118136,
+   "letter": "V",
+   "winner": "NigelR",
+   "paid": 4,
+   "myBid": 4,
+   "info": {
+    "v0": 8.513440372713022,
+    "v1": 9.67344037271303,
+    "delta": 1.1600000000000072,
+    "lambda": 0.13002838431926866,
+    "deny": 0
+   },
+   "ms": 8
+  },
+  {
+   "id": 3118146,
+   "letter": "A",
+   "winner": "NigelR",
+   "paid": 4,
+   "myBid": 4,
+   "info": {
+    "v0": 2.319999999999997,
+    "v1": 18,
+    "delta": 15.680000000000003,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 8
+  },
+  {
+   "id": 3118156,
+   "letter": "Y",
+   "winner": "NigelR",
+   "paid": 1,
+   "myBid": 0,
+   "info": {
+    "v0": 2.319999999999997,
+    "v1": 18,
+    "delta": 15.680000000000003,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 4
+  }
+ ],
+ "words": [
+  {
+   "bot": "Lime-LaChonk-V7-Large",
+   "word": "CORF",
+   "reward": 13
+  },
+  {
+   "bot": "NigelR",
+   "word": "EISWEIN",
+   "reward": 30
+  },
+  {
+   "bot": "Lime-LaChonk-V7-Large",
+   "word": "EXON",
+   "reward": 16
+  },
+  {
+   "bot": "StickBot",
+   "word": "HOUNDER",
+   "reward": 33
+  },
+  {
+   "bot": "pazabol",
+   "word": "MAZILY",
+   "reward": 50
+  },
+  {
+   "bot": "pazabol",
+   "word": "QUILTER",
+   "reward": 48
+  },
+  {
+   "bot": "Astronaut",
+   "word": "SAMBAED",
+   "reward": 36
+  },
+  {
+   "bot": "NigelR",
+   "word": "INHALED",
+   "reward": 33
+  },
+  {
+   "bot": "StickBot",
+   "word": "GRITTIER",
+   "reward": 27
+  },
+  {
+   "bot": "Astronaut",
+   "word": "JADEITE",
+   "reward": 45
+  },
+  {
+   "bot": "NigelR",
+   "word": "LET",
+   "reward": 3
+  },
+  {
+   "bot": "StickBot",
+   "word": "UPBEATS",
+   "reward": 33
+  },
+  {
+   "bot": "pazabol",
+   "word": "KOP",
+   "reward": 9
+  },
+  {
+   "bot": "NigelR",
+   "word": "GO",
+   "reward": 3
+  },
+  {
+   "bot": "NigelR",
+   "word": "VAV",
+   "reward": 9
+  }
+ ]
+}

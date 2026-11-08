@@ -1,0 +1,1566 @@
+{
+ "matchId": 47822,
+ "at": "2026-11-08T05:18:27.918Z",
+ "auctionType": "Vickrey",
+ "placement": 2,
+ "nPlayers": 6,
+ "scores": [
+  {
+   "bot": "Lucy",
+   "score": 102,
+   "balance": 3
+  },
+  {
+   "bot": "Astronaut",
+   "score": 95,
+   "balance": 25
+  },
+  {
+   "bot": "scrabblemaxxing",
+   "score": 88,
+   "balance": 17
+  },
+  {
+   "bot": "Jake",
+   "score": 74,
+   "balance": 26
+  },
+  {
+   "bot": "bigdawg",
+   "score": 46,
+   "balance": 25
+  },
+  {
+   "bot": "Lime-Sparring-09",
+   "score": 0,
+   "balance": 100
+  }
+ ],
+ "myScore": 95,
+ "myLeftover": "O",
+ "myWords": [
+  {
+   "bot": "Astronaut",
+   "word": "INWOVEN",
+   "reward": 39
+  },
+  {
+   "bot": "Astronaut",
+   "word": "IMPROVS",
+   "reward": 42
+  },
+  {
+   "bot": "Astronaut",
+   "word": "CURIE",
+   "reward": 14
+  }
+ ],
+ "myWordAttempts": [
+  {
+   "word": "INWOVEN",
+   "at": 1794115059438,
+   "ok": true
+  },
+  {
+   "word": "IMPROVS",
+   "at": 1794115100805,
+   "ok": true
+  },
+  {
+   "word": "CURIE",
+   "at": 1794115105808,
+   "ok": true
+  }
+ ],
+ "won": [
+  {
+   "l": "I",
+   "paid": 8,
+   "bid": 12
+  },
+  {
+   "l": "E",
+   "paid": 8,
+   "bid": 14
+  },
+  {
+   "l": "I",
+   "paid": 8,
+   "bid": 12
+  },
+  {
+   "l": "R",
+   "paid": 12,
+   "bid": 15
+  },
+  {
+   "l": "U",
+   "paid": 8,
+   "bid": 11
+  },
+  {
+   "l": "O",
+   "paid": 8,
+   "bid": 11
+  },
+  {
+   "l": "I",
+   "paid": 8,
+   "bid": 8
+  },
+  {
+   "l": "S",
+   "paid": 9,
+   "bid": 11
+  },
+  {
+   "l": "V",
+   "paid": 20,
+   "bid": 25
+  },
+  {
+   "l": "M",
+   "paid": 22,
+   "bid": 22
+  },
+  {
+   "l": "C",
+   "paid": 14,
+   "bid": 15
+  },
+  {
+   "l": "P",
+   "paid": 13,
+   "bid": 14
+  },
+  {
+   "l": "E",
+   "paid": 10,
+   "bid": 17
+  },
+  {
+   "l": "R",
+   "paid": 12,
+   "bid": 33
+  },
+  {
+   "l": "O",
+   "paid": 10,
+   "bid": 21
+  }
+ ],
+ "missed": [
+  {
+   "l": "J",
+   "bid": 9,
+   "paid": 31,
+   "winner": "Jake"
+  },
+  {
+   "l": "S",
+   "bid": 11,
+   "paid": 9,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "W",
+   "bid": 16,
+   "paid": 16,
+   "winner": "Lucy"
+  },
+  {
+   "l": "E",
+   "bid": 14,
+   "paid": 11,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "Y",
+   "bid": 17,
+   "paid": 16,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "A",
+   "bid": 9,
+   "paid": 12,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "U",
+   "bid": 11,
+   "paid": 10,
+   "winner": "Jake"
+  },
+  {
+   "l": "C",
+   "bid": 15,
+   "paid": 14,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "N",
+   "bid": 9,
+   "paid": 10,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "E",
+   "bid": 17,
+   "paid": 8,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "T",
+   "bid": 8,
+   "paid": 8,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "E",
+   "bid": 17,
+   "paid": 11,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "E",
+   "bid": 16,
+   "paid": 8,
+   "winner": "Lucy"
+  },
+  {
+   "l": "I",
+   "bid": 15,
+   "paid": 8,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "O",
+   "bid": 8,
+   "paid": 7,
+   "winner": "Jake"
+  },
+  {
+   "l": "H",
+   "bid": 16,
+   "paid": 17,
+   "winner": "Lucy"
+  },
+  {
+   "l": "D",
+   "bid": 12,
+   "paid": 12,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "L",
+   "bid": 8,
+   "paid": 8,
+   "winner": "bigdawg"
+  },
+  {
+   "l": "T",
+   "bid": 8,
+   "paid": 8,
+   "winner": "bigdawg"
+  },
+  {
+   "l": "U",
+   "bid": 7,
+   "paid": 8,
+   "winner": "bigdawg"
+  },
+  {
+   "l": "A",
+   "bid": 8,
+   "paid": 8,
+   "winner": "Jake"
+  },
+  {
+   "l": "Z",
+   "bid": 52,
+   "paid": 52,
+   "winner": "Lucy"
+  },
+  {
+   "l": "L",
+   "bid": 8,
+   "paid": 8,
+   "winner": "bigdawg"
+  },
+  {
+   "l": "E",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Lucy"
+  },
+  {
+   "l": "O",
+   "bid": 7,
+   "paid": 9,
+   "winner": "Lucy"
+  },
+  {
+   "l": "D",
+   "bid": 11,
+   "paid": 13,
+   "winner": "bigdawg"
+  },
+  {
+   "l": "G",
+   "bid": 10,
+   "paid": 11,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "P",
+   "bid": 14,
+   "paid": 16,
+   "winner": "bigdawg"
+  },
+  {
+   "l": "T",
+   "bid": 8,
+   "paid": 9,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "T",
+   "bid": 9,
+   "paid": 10,
+   "winner": "bigdawg"
+  },
+  {
+   "l": "G",
+   "bid": 10,
+   "paid": 10,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 13,
+   "winner": "bigdawg"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Jake"
+  },
+  {
+   "l": "A",
+   "bid": 9,
+   "paid": 9,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "A",
+   "bid": 9,
+   "paid": 11,
+   "winner": "Jake"
+  },
+  {
+   "l": "R",
+   "bid": 9,
+   "paid": 15,
+   "winner": "Jake"
+  },
+  {
+   "l": "O",
+   "bid": 8,
+   "paid": 14,
+   "winner": "Jake"
+  },
+  {
+   "l": "T",
+   "bid": 13,
+   "paid": 10,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "B",
+   "bid": 15,
+   "paid": 17,
+   "winner": "Lucy"
+  },
+  {
+   "l": "L",
+   "bid": 9,
+   "paid": 16,
+   "winner": "Lucy"
+  },
+  {
+   "l": "A",
+   "bid": 10,
+   "paid": 8,
+   "winner": "bigdawg"
+  },
+  {
+   "l": "A",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Jake"
+  },
+  {
+   "l": "H",
+   "bid": 14,
+   "paid": 16,
+   "winner": "Lucy"
+  },
+  {
+   "l": "N",
+   "bid": 5,
+   "paid": 8,
+   "winner": "bigdawg"
+  },
+  {
+   "l": "R",
+   "bid": 5,
+   "paid": 10,
+   "winner": "bigdawg"
+  },
+  {
+   "l": "N",
+   "bid": 3,
+   "paid": 12,
+   "winner": "Jake"
+  },
+  {
+   "l": "Q",
+   "bid": 28,
+   "paid": 28,
+   "winner": "Lucy"
+  },
+  {
+   "l": "N",
+   "bid": 4,
+   "paid": 11,
+   "winner": "bigdawg"
+  },
+  {
+   "l": "D",
+   "bid": 4,
+   "paid": 11,
+   "winner": "Lucy"
+  },
+  {
+   "l": "I",
+   "bid": 8,
+   "paid": 10,
+   "winner": "Jake"
+  },
+  {
+   "l": "U",
+   "bid": 2,
+   "paid": 3,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "R",
+   "bid": 9,
+   "paid": 10,
+   "winner": "Jake"
+  }
+ ],
+ "maxDecisionMs": 137.1640999999945,
+ "auctions": [
+  {
+   "id": 3121012,
+   "letter": "J",
+   "winner": "Jake",
+   "paid": 31,
+   "myBid": 9,
+   "info": {
+    "v0": 20.613597326276153,
+    "v1": 27.197576614549522,
+    "delta": 6.583979288273369,
+    "lambda": 0.6617867174327142,
+    "deny": 0
+   },
+   "ms": 78
+  },
+  {
+   "id": 3121022,
+   "letter": "S",
+   "winner": "scrabblemaxxing",
+   "paid": 9,
+   "myBid": 11,
+   "info": {
+    "v0": 20.682567386872545,
+    "v1": 24.11113144737104,
+    "delta": 3.428564060498495,
+    "lambda": 0.6538808859919171,
+    "deny": 0
+   },
+   "ms": 65
+  },
+  {
+   "id": 3121032,
+   "letter": "W",
+   "winner": "Lucy",
+   "paid": 16,
+   "myBid": 16,
+   "info": {
+    "v0": 22.609208304568998,
+    "v1": 26.854432758896138,
+    "delta": 4.24522445432714,
+    "lambda": 0.6459587650218012,
+    "deny": 0
+   },
+   "ms": 78
+  },
+  {
+   "id": 3121042,
+   "letter": "E",
+   "winner": "scrabblemaxxing",
+   "paid": 11,
+   "myBid": 14,
+   "info": {
+    "v0": 22.085561109741317,
+    "v1": 31.57964202297607,
+    "delta": 9.494080913234754,
+    "lambda": 0.6380200654079734,
+    "deny": 0
+   },
+   "ms": 71
+  },
+  {
+   "id": 3121052,
+   "letter": "Y",
+   "winner": "scrabblemaxxing",
+   "paid": 16,
+   "myBid": 17,
+   "info": {
+    "v0": 23.43959090250603,
+    "v1": 27.88146160511319,
+    "delta": 4.4418707026071615,
+    "lambda": 0.6300644879061076,
+    "deny": 0
+   },
+   "ms": 69
+  },
+  {
+   "id": 3121062,
+   "letter": "A",
+   "winner": "scrabblemaxxing",
+   "paid": 12,
+   "myBid": 9,
+   "info": {
+    "v0": 22.790283661161325,
+    "v1": 26.23193678170264,
+    "delta": 3.4416531205413143,
+    "lambda": 0.6220917225987204,
+    "deny": 0
+   },
+   "ms": 60
+  },
+  {
+   "id": 3121072,
+   "letter": "U",
+   "winner": "Jake",
+   "paid": 10,
+   "myBid": 11,
+   "info": {
+    "v0": 21.974311512905768,
+    "v1": 29.173064594170672,
+    "delta": 7.198753081264904,
+    "lambda": 0.6141014483122161,
+    "deny": 0
+   },
+   "ms": 58
+  },
+  {
+   "id": 3121082,
+   "letter": "C",
+   "winner": "scrabblemaxxing",
+   "paid": 14,
+   "myBid": 15,
+   "info": {
+    "v0": 23.208899592436243,
+    "v1": 27.51063250082551,
+    "delta": 4.3017329083892655,
+    "lambda": 0.6060933319904902,
+    "deny": 0
+   },
+   "ms": 53
+  },
+  {
+   "id": 3121092,
+   "letter": "N",
+   "winner": "scrabblemaxxing",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 28.517277116806437,
+    "v1": 30.270755063975262,
+    "delta": 1.7534779471688253,
+    "lambda": 0.4186469196146774,
+    "deny": 0
+   },
+   "ms": 44
+  },
+  {
+   "id": 3121102,
+   "letter": "E",
+   "winner": "scrabblemaxxing",
+   "paid": 8,
+   "myBid": 17,
+   "info": {
+    "v0": 27.714167399618887,
+    "v1": 34.90938773709527,
+    "delta": 7.1952203374763855,
+    "lambda": 0.41301552425592664,
+    "deny": 0
+   },
+   "ms": 38
+  },
+  {
+   "id": 3121112,
+   "letter": "T",
+   "winner": "scrabblemaxxing",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 28.457023847251985,
+    "v1": 30.08642271945574,
+    "delta": 1.6293988722037547,
+    "lambda": 0.4073708852442142,
+    "deny": 0
+   },
+   "ms": 47
+  },
+  {
+   "id": 3121122,
+   "letter": "E",
+   "winner": "scrabblemaxxing",
+   "paid": 11,
+   "myBid": 17,
+   "info": {
+    "v0": 28.165628347038957,
+    "v1": 35.714401175968625,
+    "delta": 7.548772828929668,
+    "lambda": 0.4017127310678191,
+    "deny": 0
+   },
+   "ms": 37
+  },
+  {
+   "id": 3121132,
+   "letter": "E",
+   "winner": "Lucy",
+   "paid": 8,
+   "myBid": 16,
+   "info": {
+    "v0": 28.89101480118528,
+    "v1": 35.403588986043296,
+    "delta": 6.512574184858018,
+    "lambda": 0.3960407791348739,
+    "deny": 0
+   },
+   "ms": 35
+  },
+  {
+   "id": 3121142,
+   "letter": "I",
+   "winner": "scrabblemaxxing",
+   "paid": 8,
+   "myBid": 15,
+   "info": {
+    "v0": 27.326276892513217,
+    "v1": 33.83940165945782,
+    "delta": 6.513124766944603,
+    "lambda": 0.390354735078248,
+    "deny": 0
+   },
+   "ms": 43
+  },
+  {
+   "id": 3121152,
+   "letter": "O",
+   "winner": "Jake",
+   "paid": 7,
+   "myBid": 8,
+   "info": {
+    "v0": 29.02316258937338,
+    "v1": 31.641844566571535,
+    "delta": 2.618681977198154,
+    "lambda": 0.3846542920008538,
+    "deny": 0
+   },
+   "ms": 49
+  },
+  {
+   "id": 3121162,
+   "letter": "H",
+   "winner": "Lucy",
+   "paid": 17,
+   "myBid": 16,
+   "info": {
+    "v0": 30.18287617427581,
+    "v1": 36.589399762331915,
+    "delta": 6.406523588056107,
+    "lambda": 0.3789391296548647,
+    "deny": 0
+   },
+   "ms": 39
+  },
+  {
+   "id": 3121172,
+   "letter": "D",
+   "winner": "scrabblemaxxing",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 29.240778373959202,
+    "v1": 34.01773396498559,
+    "delta": 4.776955591026386,
+    "lambda": 0.373208913547462,
+    "deny": 0
+   },
+   "ms": 44
+  },
+  {
+   "id": 3121182,
+   "letter": "L",
+   "winner": "bigdawg",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 31.464015065902775,
+    "v1": 32.63125648068813,
+    "delta": 1.1672414147853551,
+    "lambda": 0.36746329396472227,
+    "deny": 0
+   },
+   "ms": 45
+  },
+  {
+   "id": 3121192,
+   "letter": "I",
+   "winner": "Astronaut",
+   "paid": 8,
+   "myBid": 12,
+   "info": {
+    "v0": 29.564659679627542,
+    "v1": 34.226134713429694,
+    "delta": 4.661475033802152,
+    "lambda": 0.3617019049040858,
+    "deny": 0
+   },
+   "ms": 53
+  },
+  {
+   "id": 3121202,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 8,
+   "myBid": 14,
+   "info": {
+    "v0": 35.51577839378205,
+    "v1": 40.81207605181304,
+    "delta": 5.296297658030987,
+    "lambda": 0.3684167168568883,
+    "deny": 0
+   },
+   "ms": 34
+  },
+  {
+   "id": 3121212,
+   "letter": "I",
+   "winner": "Astronaut",
+   "paid": 8,
+   "myBid": 12,
+   "info": {
+    "v0": 2.329546473214534,
+    "v1": 7.167151529072271,
+    "delta": 4.837605055857737,
+    "lambda": 0.37610023674495885,
+    "deny": 0
+   },
+   "ms": 117
+  },
+  {
+   "id": 3121222,
+   "letter": "R",
+   "winner": "Astronaut",
+   "paid": 12,
+   "myBid": 15,
+   "info": {
+    "v0": 12.171698986082445,
+    "v1": 17.203212197452824,
+    "delta": 5.031513211370379,
+    "lambda": 0.3246272465726639,
+    "deny": 0
+   },
+   "ms": 56
+  },
+  {
+   "id": 3121232,
+   "letter": "U",
+   "winner": "Astronaut",
+   "paid": 8,
+   "myBid": 11,
+   "info": {
+    "v0": 13.07234246073381,
+    "v1": 16.83339270012573,
+    "delta": 3.7610502393919223,
+    "lambda": 0.33433727752713205,
+    "deny": 0
+   },
+   "ms": 57
+  },
+  {
+   "id": 3121242,
+   "letter": "O",
+   "winner": "Astronaut",
+   "paid": 8,
+   "myBid": 11,
+   "info": {
+    "v0": 19.653578952141718,
+    "v1": 23.42195092768222,
+    "delta": 3.7683719755405036,
+    "lambda": 0.33979876910943985,
+    "deny": 0
+   },
+   "ms": 55
+  },
+  {
+   "id": 3121252,
+   "letter": "I",
+   "winner": "Astronaut",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 20.55385840462537,
+    "v1": 21.65220716587306,
+    "delta": 1.098348761247692,
+    "lambda": 0.34606174570966164,
+    "deny": 0
+   },
+   "ms": 61
+  },
+  {
+   "id": 3121262,
+   "letter": "T",
+   "winner": "bigdawg",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 24.735776503388603,
+    "v1": 27.525415795395546,
+    "delta": 2.7896392920069424,
+    "lambda": 0.3532947281152472,
+    "deny": 0
+   },
+   "ms": 54
+  },
+  {
+   "id": 3121272,
+   "letter": "S",
+   "winner": "Astronaut",
+   "paid": 9,
+   "myBid": 11,
+   "info": {
+    "v0": 22.614478021856822,
+    "v1": 26.74490041648141,
+    "delta": 4.130422394624588,
+    "lambda": 0.34679560451198477,
+    "deny": 0
+   },
+   "ms": 67
+  },
+  {
+   "id": 3121282,
+   "letter": "U",
+   "winner": "bigdawg",
+   "paid": 8,
+   "myBid": 7,
+   "info": {
+    "v0": 28.73294737589445,
+    "v1": 29.665743007507142,
+    "delta": 0.9327956316126915,
+    "lambda": 0.35688282550049966,
+    "deny": 0
+   },
+   "ms": 65
+  },
+  {
+   "id": 3121292,
+   "letter": "A",
+   "winner": "Jake",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 27.07672460619379,
+    "v1": 29.5114076268674,
+    "delta": 2.43468302067361,
+    "lambda": 0.3500195040218134,
+    "deny": 0
+   },
+   "ms": 66
+  },
+  {
+   "id": 3121302,
+   "letter": "Z",
+   "winner": "Lucy",
+   "paid": 52,
+   "myBid": 52,
+   "info": {
+    "v0": 28.892301277316985,
+    "v1": 51.28924969226751,
+    "delta": 22.396948414950526,
+    "lambda": 0.34313157549789663,
+    "deny": 0
+   },
+   "ms": 44
+  },
+  {
+   "id": 3121312,
+   "letter": "L",
+   "winner": "bigdawg",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 25.70098295518071,
+    "v1": 28.07812058447068,
+    "delta": 2.377137629289969,
+    "lambda": 0.3362182321924816,
+    "deny": 0
+   },
+   "ms": 75
+  },
+  {
+   "id": 3121322,
+   "letter": "E",
+   "winner": "Lucy",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 26.712396833970114,
+    "v1": 29.79331813978034,
+    "delta": 3.080921305810225,
+    "lambda": 0.329278612291947,
+    "deny": 0
+   },
+   "ms": 79
+  },
+  {
+   "id": 3121332,
+   "letter": "O",
+   "winner": "Lucy",
+   "paid": 9,
+   "myBid": 7,
+   "info": {
+    "v0": 30.041896188736697,
+    "v1": 31.272081754376284,
+    "delta": 1.2301855656395873,
+    "lambda": 0.32231179430610407,
+    "deny": 0
+   },
+   "ms": 65
+  },
+  {
+   "id": 3121342,
+   "letter": "V",
+   "winner": "Astronaut",
+   "paid": 20,
+   "myBid": 25,
+   "info": {
+    "v0": 29.814550408202706,
+    "v1": 37.8072161150582,
+    "delta": 7.992665706855497,
+    "lambda": 0.31531679067845386,
+    "deny": 0
+   },
+   "ms": 46
+  },
+  {
+   "id": 3121352,
+   "letter": "D",
+   "winner": "bigdawg",
+   "paid": 13,
+   "myBid": 11,
+   "info": {
+    "v0": 34.8312935982234,
+    "v1": 38.01573031059093,
+    "delta": 3.1844367123675354,
+    "lambda": 0.3495708827673868,
+    "deny": 0
+   },
+   "ms": 56
+  },
+  {
+   "id": 3121362,
+   "letter": "G",
+   "winner": "scrabblemaxxing",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 35.39645841802193,
+    "v1": 38.6542359295762,
+    "delta": 3.2577775115542735,
+    "lambda": 0.34157167339348377,
+    "deny": 0
+   },
+   "ms": 41
+  },
+  {
+   "id": 3121372,
+   "letter": "P",
+   "winner": "bigdawg",
+   "paid": 16,
+   "myBid": 14,
+   "info": {
+    "v0": 33.28749338937198,
+    "v1": 39.711396814239016,
+    "delta": 6.423903424867035,
+    "lambda": 0.47648086592311095,
+    "deny": 0
+   },
+   "ms": 42
+  },
+  {
+   "id": 3121382,
+   "letter": "T",
+   "winner": "scrabblemaxxing",
+   "paid": 9,
+   "myBid": 8,
+   "info": {
+    "v0": 32.31768080096484,
+    "v1": 36.11317492036382,
+    "delta": 3.795494119398981,
+    "lambda": 0.46494880681497996,
+    "deny": 0
+   },
+   "ms": 89
+  },
+  {
+   "id": 3121392,
+   "letter": "T",
+   "winner": "bigdawg",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 33.10344254520065,
+    "v1": 37.44476031152326,
+    "delta": 4.341317766322611,
+    "lambda": 0.45336100192172535,
+    "deny": 0
+   },
+   "ms": 75
+  },
+  {
+   "id": 3121402,
+   "letter": "G",
+   "winner": "scrabblemaxxing",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 32.91920299576028,
+    "v1": 36.395208386503306,
+    "delta": 3.476005390743026,
+    "lambda": 0.4417148837966734,
+    "deny": 0
+   },
+   "ms": 90
+  },
+  {
+   "id": 3121412,
+   "letter": "E",
+   "winner": "bigdawg",
+   "paid": 13,
+   "myBid": 10,
+   "info": {
+    "v0": 33.19611024763429,
+    "v1": 37.8925928526356,
+    "delta": 4.696482605001314,
+    "lambda": 0.4300076419614308,
+    "deny": 0
+   },
+   "ms": 110
+  },
+  {
+   "id": 3121422,
+   "letter": "E",
+   "winner": "Jake",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 34.7179477541969,
+    "v1": 38.94707577810599,
+    "delta": 4.229128023909091,
+    "lambda": 0.41823618750973063,
+    "deny": 0
+   },
+   "ms": 45
+  },
+  {
+   "id": 3121432,
+   "letter": "A",
+   "winner": "scrabblemaxxing",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 35.471870434062744,
+    "v1": 37.871361801290625,
+    "delta": 2.3994913672278813,
+    "lambda": 0.4063971107152594,
+    "deny": 0
+   },
+   "ms": 56
+  },
+  {
+   "id": 3121442,
+   "letter": "A",
+   "winner": "Jake",
+   "paid": 11,
+   "myBid": 9,
+   "info": {
+    "v0": 34.98199578603427,
+    "v1": 38.28388198424801,
+    "delta": 3.3018861982137437,
+    "lambda": 0.39448662988503547,
+    "deny": 0
+   },
+   "ms": 137
+  },
+  {
+   "id": 3121452,
+   "letter": "R",
+   "winner": "Jake",
+   "paid": 15,
+   "myBid": 9,
+   "info": {
+    "v0": 36.15630177804959,
+    "v1": 37.03169185126317,
+    "delta": 0.8753900732135804,
+    "lambda": 0.382500529158467,
+    "deny": 0
+   },
+   "ms": 46
+  },
+  {
+   "id": 3121462,
+   "letter": "O",
+   "winner": "Jake",
+   "paid": 14,
+   "myBid": 8,
+   "info": {
+    "v0": 35.36221920038125,
+    "v1": 36.13434964129949,
+    "delta": 0.7721304409182395,
+    "lambda": 0.370434082211232,
+    "deny": 0
+   },
+   "ms": 46
+  },
+  {
+   "id": 3121472,
+   "letter": "T",
+   "winner": "scrabblemaxxing",
+   "paid": 10,
+   "myBid": 13,
+   "info": {
+    "v0": 35.301018328143975,
+    "v1": 39.99979640922621,
+    "delta": 4.6987780810822315,
+    "lambda": 0.3582819577959402,
+    "deny": 0
+   },
+   "ms": 33
+  },
+  {
+   "id": 3121482,
+   "letter": "B",
+   "winner": "Lucy",
+   "paid": 17,
+   "myBid": 15,
+   "info": {
+    "v0": 35.472046569553825,
+    "v1": 39.452959052379406,
+    "delta": 3.9809124828255804,
+    "lambda": 0.3460381016075794,
+    "deny": 0
+   },
+   "ms": 18
+  },
+  {
+   "id": 3121491,
+   "letter": "L",
+   "winner": "Lucy",
+   "paid": 16,
+   "myBid": 9,
+   "info": {
+    "v0": 35.17470242009093,
+    "v1": 38.13458638615362,
+    "delta": 2.9598839660626908,
+    "lambda": 0.333695586900831,
+    "deny": 0
+   },
+   "ms": 27
+  },
+  {
+   "id": 3121501,
+   "letter": "A",
+   "winner": "bigdawg",
+   "paid": 8,
+   "myBid": 10,
+   "info": {
+    "v0": 36.11797149257624,
+    "v1": 39.115114941126315,
+    "delta": 2.9971434485500765,
+    "lambda": 0.3212464232955172,
+    "deny": 0
+   },
+   "ms": 25
+  },
+  {
+   "id": 3121511,
+   "letter": "A",
+   "winner": "Jake",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 36.13972870736333,
+    "v1": 39.51539457364181,
+    "delta": 3.3756658662784744,
+    "lambda": 0.30868130878607164,
+    "deny": 0
+   },
+   "ms": 27
+  },
+  {
+   "id": 3121521,
+   "letter": "M",
+   "winner": "Astronaut",
+   "paid": 22,
+   "myBid": 22,
+   "info": {
+    "v0": 36.825926624410485,
+    "v1": 43.555632980440265,
+    "delta": 6.72970635602978,
+    "lambda": 0.29598930330446555,
+    "deny": 0
+   },
+   "ms": 31
+  },
+  {
+   "id": 3121531,
+   "letter": "H",
+   "winner": "Lucy",
+   "paid": 16,
+   "myBid": 14,
+   "info": {
+    "v0": 34.585880724254956,
+    "v1": 39.55788573899001,
+    "delta": 4.972005014735053,
+    "lambda": 0.34194503704580104,
+    "deny": 0
+   },
+   "ms": 25
+  },
+  {
+   "id": 3121541,
+   "letter": "N",
+   "winner": "bigdawg",
+   "paid": 8,
+   "myBid": 5,
+   "info": {
+    "v0": 38.93009805854211,
+    "v1": 40.65368015856186,
+    "delta": 1.7235821000197546,
+    "lambda": 0.32626113769482523,
+    "deny": 0
+   },
+   "ms": 23
+  },
+  {
+   "id": 3121551,
+   "letter": "R",
+   "winner": "bigdawg",
+   "paid": 10,
+   "myBid": 5,
+   "info": {
+    "v0": 40.58297001651461,
+    "v1": 42.32155721332963,
+    "delta": 1.7385871968150255,
+    "lambda": 0.3103661772028689,
+    "deny": 0
+   },
+   "ms": 19
+  },
+  {
+   "id": 3121561,
+   "letter": "N",
+   "winner": "Jake",
+   "paid": 12,
+   "myBid": 3,
+   "info": {
+    "v0": 43.11027536463831,
+    "v1": 44.01506508432879,
+    "delta": 0.9047897196904771,
+    "lambda": 0.29423133715706257,
+    "deny": 0
+   },
+   "ms": 18
+  },
+  {
+   "id": 3121571,
+   "letter": "Q",
+   "winner": "Lucy",
+   "paid": 28,
+   "myBid": 28,
+   "info": {
+    "v0": 37.600462802530735,
+    "v1": 56.19606327712449,
+    "delta": 18.595600474593752,
+    "lambda": 0.2778200587377845,
+    "deny": 0
+   },
+   "ms": 58
+  },
+  {
+   "id": 3121581,
+   "letter": "N",
+   "winner": "bigdawg",
+   "paid": 11,
+   "myBid": 4,
+   "info": {
+    "v0": 38.31589993729079,
+    "v1": 39.45642384415796,
+    "delta": 1.1405239068671733,
+    "lambda": 0.26108488317068,
+    "deny": 0
+   },
+   "ms": 54
+  },
+  {
+   "id": 3121591,
+   "letter": "C",
+   "winner": "Astronaut",
+   "paid": 14,
+   "myBid": 15,
+   "info": {
+    "v0": 38.51863102314936,
+    "v1": 42.3019810064856,
+    "delta": 3.7833499833362367,
+    "lambda": 0.24396248802510154,
+    "deny": 0
+   },
+   "ms": 36
+  },
+  {
+   "id": 3121601,
+   "letter": "D",
+   "winner": "Lucy",
+   "paid": 11,
+   "myBid": 4,
+   "info": {
+    "v0": 39.68778151399843,
+    "v1": 40.94722096286794,
+    "delta": 1.2594394488695073,
+    "lambda": 0.2689623197754802,
+    "deny": 0
+   },
+   "ms": 38
+  },
+  {
+   "id": 3121610,
+   "letter": "P",
+   "winner": "Astronaut",
+   "paid": 13,
+   "myBid": 14,
+   "info": {
+    "v0": 39.59355599129515,
+    "v1": 44.2360533103654,
+    "delta": 4.642497319070252,
+    "lambda": 0.2473409138128792,
+    "deny": 0
+   },
+   "ms": 22
+  },
+  {
+   "id": 3121620,
+   "letter": "I",
+   "winner": "Jake",
+   "paid": 10,
+   "myBid": 8,
+   "info": {
+    "v0": 2.2186081087251934,
+    "v1": 2.50860810872519,
+    "delta": 0.2899999999999965,
+    "lambda": 0.2860143204317937,
+    "deny": 0
+   },
+   "ms": 25
+  },
+  {
+   "id": 3121630,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 10,
+   "myBid": 17,
+   "info": {
+    "v0": 11.080697661343825,
+    "v1": 16.344758861021578,
+    "delta": 5.264061199677753,
+    "lambda": 0.14759592777798441,
+    "deny": 0
+   },
+   "ms": 5
+  },
+  {
+   "id": 3121640,
+   "letter": "R",
+   "winner": "Astronaut",
+   "paid": 12,
+   "myBid": 33,
+   "info": {
+    "v0": 11.452845876893205,
+    "v1": 20.89512391423246,
+    "delta": 9.442278037339255,
+    "lambda": 0.14022244542316648,
+    "deny": 0
+   },
+   "ms": 5
+  },
+  {
+   "id": 3121649,
+   "letter": "O",
+   "winner": "Astronaut",
+   "paid": 10,
+   "myBid": 21,
+   "info": {
+    "v0": 18.03080222297535,
+    "v1": 21.10569058038345,
+    "delta": 3.074888357408099,
+    "lambda": 0.13282345494685696,
+    "deny": 0
+   },
+   "ms": 6
+  },
+  {
+   "id": 3121659,
+   "letter": "U",
+   "winner": "scrabblemaxxing",
+   "paid": 3,
+   "myBid": 2,
+   "info": {
+    "v0": 17.36287431000343,
+    "v1": 17.652874310003437,
+    "delta": 0.29000000000000625,
+    "lambda": 0.11440972458785115,
+    "deny": 0
+   },
+   "ms": 7
+  },
+  {
+   "id": 3121669,
+   "letter": "R",
+   "winner": "Jake",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 0.28999999999999965,
+    "v1": 0.5799999999999993,
+    "delta": 0.28999999999999965,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 7
+  },
+  {
+   "id": 3121679,
+   "letter": "Y",
+   "winner": null,
+   "paid": 0,
+   "myBid": 0,
+   "info": {
+    "v0": 0.28999999999999965,
+    "v1": 0.5799999999999993,
+    "delta": 0.28999999999999965,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 1
+  }
+ ],
+ "words": [
+  {
+   "bot": "scrabblemaxxing",
+   "word": "YAFFED",
+   "reward": 40
+  },
+  {
+   "bot": "Astronaut",
+   "word": "INWOVEN",
+   "reward": 39
+  },
+  {
+   "bot": "Lucy",
+   "word": "WHEEZES",
+   "reward": 66
+  },
+  {
+   "bot": "bigdawg",
+   "word": "LITORAL",
+   "reward": 21
+  },
+  {
+   "bot": "scrabblemaxxing",
+   "word": "CENTESIMO",
+   "reward": 39
+  },
+  {
+   "bot": "Jake",
+   "word": "GOATLIKE",
+   "reward": 39
+  },
+  {
+   "bot": "Lucy",
+   "word": "BOLSHIE",
+   "reward": 36
+  },
+  {
+   "bot": "bigdawg",
+   "word": "PANTED",
+   "reward": 22
+  },
+  {
+   "bot": "scrabblemaxxing",
+   "word": "DAG",
+   "reward": 5
+  },
+  {
+   "bot": "bigdawg",
+   "word": "RAN",
+   "reward": 3
+  },
+  {
+   "bot": "Astronaut",
+   "word": "IMPROVS",
+   "reward": 42
+  },
+  {
+   "bot": "Jake",
+   "word": "JARINA",
+   "reward": 32
+  },
+  {
+   "bot": "Astronaut",
+   "word": "CURIE",
+   "reward": 14
+  },
+  {
+   "bot": "scrabblemaxxing",
+   "word": "GUT",
+   "reward": 4
+  },
+  {
+   "bot": "Jake",
+   "word": "OUR",
+   "reward": 3
+  }
+ ]
+}
