@@ -1,0 +1,1542 @@
+{
+ "matchId": 47965,
+ "at": "2026-11-08T05:35:35.355Z",
+ "auctionType": "Vickrey",
+ "placement": 4,
+ "nPlayers": 6,
+ "scores": [
+  {
+   "bot": "mkb",
+   "score": 129,
+   "balance": 36
+  },
+  {
+   "bot": "Odysseus's Voyage",
+   "score": 101,
+   "balance": 3
+  },
+  {
+   "bot": "The Scrabbler",
+   "score": 80,
+   "balance": 15
+  },
+  {
+   "bot": "Astronaut",
+   "score": 78,
+   "balance": 29
+  },
+  {
+   "bot": "Lime-LaChonk-V7-Large",
+   "score": 13,
+   "balance": 2
+  },
+  {
+   "bot": "Lime-Sparring-07",
+   "score": 0,
+   "balance": 100
+  }
+ ],
+ "myScore": 78,
+ "myLeftover": "FX",
+ "myWords": [
+  {
+   "bot": "Astronaut",
+   "word": "JELLABA",
+   "reward": 48
+  },
+  {
+   "bot": "Astronaut",
+   "word": "NEPOTIST",
+   "reward": 30
+  }
+ ],
+ "myWordAttempts": [
+  {
+   "word": "JELLABA",
+   "at": 1794116101710,
+   "ok": true
+  },
+  {
+   "word": "NEPOTIST",
+   "at": 1794116132343,
+   "ok": true
+  }
+ ],
+ "won": [
+  {
+   "l": "S",
+   "paid": 11,
+   "bid": 11
+  },
+  {
+   "l": "N",
+   "paid": 9,
+   "bid": 9
+  },
+  {
+   "l": "E",
+   "paid": 9,
+   "bid": 9
+  },
+  {
+   "l": "J",
+   "paid": 35,
+   "bid": 40
+  },
+  {
+   "l": "B",
+   "paid": 13,
+   "bid": 24
+  },
+  {
+   "l": "I",
+   "paid": 7,
+   "bid": 11
+  },
+  {
+   "l": "T",
+   "paid": 7,
+   "bid": 8
+  },
+  {
+   "l": "P",
+   "paid": 15,
+   "bid": 18
+  },
+  {
+   "l": "T",
+   "paid": 8,
+   "bid": 8
+  },
+  {
+   "l": "O",
+   "paid": 7,
+   "bid": 10
+  },
+  {
+   "l": "X",
+   "paid": 14,
+   "bid": 31
+  },
+  {
+   "l": "F",
+   "paid": 14,
+   "bid": 38
+  }
+ ],
+ "missed": [
+  {
+   "l": "U",
+   "bid": 8,
+   "paid": 9,
+   "winner": "The Scrabbler"
+  },
+  {
+   "l": "S",
+   "bid": 10,
+   "paid": 13,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "O",
+   "bid": 8,
+   "paid": 10,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "E",
+   "bid": 9,
+   "paid": 10,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "E",
+   "bid": 9,
+   "paid": 10,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "T",
+   "bid": 9,
+   "paid": 9,
+   "winner": "mkb"
+  },
+  {
+   "l": "L",
+   "bid": 9,
+   "paid": 9,
+   "winner": "The Scrabbler"
+  },
+  {
+   "l": "H",
+   "bid": 17,
+   "paid": 30,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 14,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 13,
+   "winner": "The Scrabbler"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 13,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "T",
+   "bid": 10,
+   "paid": 11,
+   "winner": "Lime-LaChonk-V7-Large"
+  },
+  {
+   "l": "N",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "O",
+   "bid": 9,
+   "paid": 9,
+   "winner": "mkb"
+  },
+  {
+   "l": "R",
+   "bid": 10,
+   "paid": 10,
+   "winner": "mkb"
+  },
+  {
+   "l": "R",
+   "bid": 10,
+   "paid": 10,
+   "winner": "The Scrabbler"
+  },
+  {
+   "l": "W",
+   "bid": 18,
+   "paid": 20,
+   "winner": "mkb"
+  },
+  {
+   "l": "M",
+   "bid": 15,
+   "paid": 17,
+   "winner": "mkb"
+  },
+  {
+   "l": "Y",
+   "bid": 22,
+   "paid": 24,
+   "winner": "The Scrabbler"
+  },
+  {
+   "l": "E",
+   "bid": 1,
+   "paid": 6,
+   "winner": "mkb"
+  },
+  {
+   "l": "D",
+   "bid": 7,
+   "paid": 12,
+   "winner": "mkb"
+  },
+  {
+   "l": "N",
+   "bid": 1,
+   "paid": 6,
+   "winner": "mkb"
+  },
+  {
+   "l": "Z",
+   "bid": 36,
+   "paid": 41,
+   "winner": "mkb"
+  },
+  {
+   "l": "F",
+   "bid": 11,
+   "paid": 22,
+   "winner": "The Scrabbler"
+  },
+  {
+   "l": "V",
+   "bid": 19,
+   "paid": 19,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 9,
+   "winner": "The Scrabbler"
+  },
+  {
+   "l": "P",
+   "bid": 2,
+   "paid": 18,
+   "winner": "The Scrabbler"
+  },
+  {
+   "l": "T",
+   "bid": 10,
+   "paid": 9,
+   "winner": "The Scrabbler"
+  },
+  {
+   "l": "E",
+   "bid": 9,
+   "paid": 9,
+   "winner": "The Scrabbler"
+  },
+  {
+   "l": "R",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "I",
+   "bid": 8,
+   "paid": 8,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "C",
+   "bid": 18,
+   "paid": 18,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "H",
+   "bid": 24,
+   "paid": 24,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "A",
+   "bid": 9,
+   "paid": 10,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "D",
+   "bid": 12,
+   "paid": 12,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "B",
+   "bid": 14,
+   "paid": 14,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "O",
+   "bid": 8,
+   "paid": 8,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "R",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "E",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "R",
+   "bid": 11,
+   "paid": 11,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "L",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "S",
+   "bid": 10,
+   "paid": 10,
+   "winner": "The Scrabbler"
+  },
+  {
+   "l": "O",
+   "bid": 3,
+   "paid": 5,
+   "winner": "mkb"
+  },
+  {
+   "l": "T",
+   "bid": 1,
+   "paid": 5,
+   "winner": "mkb"
+  },
+  {
+   "l": "D",
+   "bid": 8,
+   "paid": 9,
+   "winner": "mkb"
+  },
+  {
+   "l": "V",
+   "bid": 10,
+   "paid": 17,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "U",
+   "bid": 8,
+   "paid": 8,
+   "winner": "mkb"
+  },
+  {
+   "l": "E",
+   "bid": 1,
+   "paid": 12,
+   "winner": "mkb"
+  },
+  {
+   "l": "O",
+   "bid": 1,
+   "paid": 11,
+   "winner": "The Scrabbler"
+  },
+  {
+   "l": "S",
+   "bid": 3,
+   "paid": 11,
+   "winner": "The Scrabbler"
+  },
+  {
+   "l": "E",
+   "bid": 1,
+   "paid": 5,
+   "winner": "mkb"
+  },
+  {
+   "l": "A",
+   "bid": 5,
+   "paid": 5,
+   "winner": "mkb"
+  },
+  {
+   "l": "I",
+   "bid": 3,
+   "paid": 6,
+   "winner": "mkb"
+  }
+ ],
+ "maxDecisionMs": 708.4053000000058,
+ "auctions": [
+  {
+   "id": 3130925,
+   "letter": "U",
+   "winner": "The Scrabbler",
+   "paid": 9,
+   "myBid": 8,
+   "info": {
+    "v0": 13.92751407481378,
+    "v1": 18.756716931319435,
+    "delta": 4.829202856505654,
+    "lambda": 0.6617867174327142,
+    "deny": 0
+   },
+   "ms": 494
+  },
+  {
+   "id": 3130935,
+   "letter": "S",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 13,
+   "myBid": 10,
+   "info": {
+    "v0": 13.72765610517694,
+    "v1": 18.502195449001096,
+    "delta": 4.774539343824156,
+    "lambda": 0.6538808859919171,
+    "deny": 0
+   },
+   "ms": 317
+  },
+  {
+   "id": 3130945,
+   "letter": "O",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 10,
+   "myBid": 8,
+   "info": {
+    "v0": 12.777269963799798,
+    "v1": 15.88230992199932,
+    "delta": 3.105039958199523,
+    "lambda": 0.6459587650218012,
+    "deny": 0
+   },
+   "ms": 261
+  },
+  {
+   "id": 3130954,
+   "letter": "E",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 13.125838076666179,
+    "v1": 15.155379433002738,
+    "delta": 2.0295413563365585,
+    "lambda": 0.6380200654079734,
+    "deny": 0
+   },
+   "ms": 211
+  },
+  {
+   "id": 3130964,
+   "letter": "E",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 13.614926683308624,
+    "v1": 15.670445043837063,
+    "delta": 2.0555183605284384,
+    "lambda": 0.6300644879061076,
+    "deny": 0
+   },
+   "ms": 271
+  },
+  {
+   "id": 3130974,
+   "letter": "T",
+   "winner": "mkb",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 14.86965984319079,
+    "v1": 19.598404863617365,
+    "delta": 4.728745020426574,
+    "lambda": 0.6220917225987204,
+    "deny": 0
+   },
+   "ms": 197
+  },
+  {
+   "id": 3130984,
+   "letter": "L",
+   "winner": "The Scrabbler",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 16.24328053697715,
+    "v1": 18.604750532995862,
+    "delta": 2.3614699960187124,
+    "lambda": 0.6141014483122161,
+    "deny": 0
+   },
+   "ms": 234
+  },
+  {
+   "id": 3130994,
+   "letter": "H",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 30,
+   "myBid": 17,
+   "info": {
+    "v0": 17.017773589257178,
+    "v1": 26.52069714511774,
+    "delta": 9.502923555860562,
+    "lambda": 0.6060933319904902,
+    "deny": 0
+   },
+   "ms": 179
+  },
+  {
+   "id": 3131004,
+   "letter": "I",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 14,
+   "myBid": 9,
+   "info": {
+    "v0": 21.5412926915522,
+    "v1": 25.188036545709156,
+    "delta": 3.6467438541569557,
+    "lambda": 0.4186469196146774,
+    "deny": 0
+   },
+   "ms": 194
+  },
+  {
+   "id": 3131014,
+   "letter": "E",
+   "winner": "The Scrabbler",
+   "paid": 13,
+   "myBid": 10,
+   "info": {
+    "v0": 19.34836869753619,
+    "v1": 21.284825944723693,
+    "delta": 1.9364572471875015,
+    "lambda": 0.41301552425592664,
+    "deny": 0
+   },
+   "ms": 229
+  },
+  {
+   "id": 3131024,
+   "letter": "E",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 13,
+   "myBid": 10,
+   "info": {
+    "v0": 21.031584417479802,
+    "v1": 22.468119409707345,
+    "delta": 1.4365349922275428,
+    "lambda": 0.4073708852442142,
+    "deny": 0
+   },
+   "ms": 192
+  },
+  {
+   "id": 3131034,
+   "letter": "T",
+   "winner": "Lime-LaChonk-V7-Large",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 21.893507072740345,
+    "v1": 24.36637641991571,
+    "delta": 2.472869347175365,
+    "lambda": 0.4017127310678191,
+    "deny": 0
+   },
+   "ms": 235
+  },
+  {
+   "id": 3131044,
+   "letter": "N",
+   "winner": "Odysseus's Voyage",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 20.989047480021167,
+    "v1": 23.502790556539797,
+    "delta": 2.5137430765186295,
+    "lambda": 0.3960407791348739,
+    "deny": 0
+   },
+   "ms": 247
+  },
+  {
+   "id": 3131054,
+   "letter": "O",
+   "winner": "mkb",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 21.525240300581416,
+    "v1": 24.52727336336754,
+    "delta": 3.0020330627861256,
+    "lambda": 0.390354735078248,
+    "deny": 0
+   },
+   "ms": 194
+  },
+  {
+   "id": 3131064,
+   "letter": "S",
+   "winner": "Astronaut",
+   "paid": 11,
+   "myBid": 11,
+   "info": {
+    "v0": 20.457032009775062,
+    "v1": 24.816660145533216,
+    "delta": 4.359628135758154,
+    "lambda": 0.3846542920008538,
+    "deny": 0
+   },
+   "ms": 201
+  },
+  {
+   "id": 3131073,
+   "letter": "R",
+   "winner": "mkb",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 26.17937570296056,
+    "v1": 28.074448985106347,
+    "delta": 1.8950732821457876,
+    "lambda": 0.3976004134671761,
+    "deny": 0
+   },
+   "ms": 246
+  },
+  {
+   "id": 3131083,
+   "letter": "N",
+   "winner": "Astronaut",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 26.389254672943384,
+    "v1": 28.202492063205586,
+    "delta": 1.813237390262202,
+    "lambda": 0.39158800642007413,
+    "deny": 0
+   },
+   "ms": 250
+  },
+  {
+   "id": 3131093,
+   "letter": "R",
+   "winner": "The Scrabbler",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 29.605698683439346,
+    "v1": 31.232968359776336,
+    "delta": 1.62726967633699,
+    "lambda": 0.40253587031926075,
+    "deny": 0
+   },
+   "ms": 218
+  },
+  {
+   "id": 3131103,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 29.824594763160547,
+    "v1": 31.30076701355864,
+    "delta": 1.4761722503980934,
+    "lambda": 0.3962245848171125,
+    "deny": 0
+   },
+   "ms": 193
+  },
+  {
+   "id": 3131113,
+   "letter": "W",
+   "winner": "mkb",
+   "paid": 20,
+   "myBid": 18,
+   "info": {
+    "v0": 30.391553359334225,
+    "v1": 37.95291532009188,
+    "delta": 7.561361960757658,
+    "lambda": 0.4087216502663412,
+    "deny": 0
+   },
+   "ms": 196
+  },
+  {
+   "id": 3131122,
+   "letter": "M",
+   "winner": "mkb",
+   "paid": 17,
+   "myBid": 15,
+   "info": {
+    "v0": 29.712983404687904,
+    "v1": 35.44267337586408,
+    "delta": 5.729689971176178,
+    "lambda": 0.40206806542405804,
+    "deny": 0
+   },
+   "ms": 207
+  },
+  {
+   "id": 3131132,
+   "letter": "Y",
+   "winner": "The Scrabbler",
+   "paid": 24,
+   "myBid": 22,
+   "info": {
+    "v0": 30.5156819020998,
+    "v1": 39.32460257923745,
+    "delta": 8.80892067713765,
+    "lambda": 0.3953949846594789,
+    "deny": 0
+   },
+   "ms": 167
+  },
+  {
+   "id": 3131142,
+   "letter": "J",
+   "winner": "Astronaut",
+   "paid": 35,
+   "myBid": 40,
+   "info": {
+    "v0": 31.07415523666823,
+    "v1": 46.74317845178394,
+    "delta": 15.669023215115711,
+    "lambda": 0.3887018980203875,
+    "deny": 0
+   },
+   "ms": 127
+  },
+  {
+   "id": 3131152,
+   "letter": "A",
+   "winner": "mkb",
+   "paid": 8,
+   "myBid": 0,
+   "info": {
+    "v0": 42.513018035522386,
+    "v1": 42.80301803552239,
+    "delta": 0.29000000000000625,
+    "lambda": 0.4869414089342599,
+    "deny": 0
+   },
+   "ms": 97
+  },
+  {
+   "id": 3131162,
+   "letter": "E",
+   "winner": "mkb",
+   "paid": 6,
+   "myBid": 1,
+   "info": {
+    "v0": 43.153929445697834,
+    "v1": 43.63768836962189,
+    "delta": 0.48375892392405717,
+    "lambda": 0.47835626866659564,
+    "deny": 0
+   },
+   "ms": 87
+  },
+  {
+   "id": 3131172,
+   "letter": "D",
+   "winner": "mkb",
+   "paid": 12,
+   "myBid": 7,
+   "info": {
+    "v0": 43.99932990001272,
+    "v1": 47.53270288394987,
+    "delta": 3.5333729839371486,
+    "lambda": 0.4697434582242095,
+    "deny": 0
+   },
+   "ms": 75
+  },
+  {
+   "id": 3131182,
+   "letter": "N",
+   "winner": "mkb",
+   "paid": 6,
+   "myBid": 1,
+   "info": {
+    "v0": 43.678276660218245,
+    "v1": 44.247651568508836,
+    "delta": 0.569374908290591,
+    "lambda": 0.4611021721990549,
+    "deny": 0
+   },
+   "ms": 82
+  },
+  {
+   "id": 3131192,
+   "letter": "A",
+   "winner": "Odysseus's Voyage",
+   "paid": 11,
+   "myBid": 0,
+   "info": {
+    "v0": 44.443570083463634,
+    "v1": 44.86020580426068,
+    "delta": 0.41663572079704636,
+    "lambda": 0.45243155761692305,
+    "deny": 0
+   },
+   "ms": 65
+  },
+  {
+   "id": 3131202,
+   "letter": "Z",
+   "winner": "mkb",
+   "paid": 41,
+   "myBid": 36,
+   "info": {
+    "v0": 43.74755831966629,
+    "v1": 64.21318060034677,
+    "delta": 20.465622280680485,
+    "lambda": 0.44373070959300115,
+    "deny": 0
+   },
+   "ms": 58
+  },
+  {
+   "id": 3131212,
+   "letter": "F",
+   "winner": "The Scrabbler",
+   "paid": 22,
+   "myBid": 11,
+   "info": {
+    "v0": 42.927238381622765,
+    "v1": 48.04086718895804,
+    "delta": 5.1136288073352745,
+    "lambda": 0.43499866644561985,
+    "deny": 0
+   },
+   "ms": 64
+  },
+  {
+   "id": 3131222,
+   "letter": "V",
+   "winner": "Odysseus's Voyage",
+   "paid": 19,
+   "myBid": 19,
+   "info": {
+    "v0": 43.99707164788605,
+    "v1": 52.22195773498043,
+    "delta": 8.224886087094376,
+    "lambda": 0.42623440418216424,
+    "deny": 0
+   },
+   "ms": 55
+  },
+  {
+   "id": 3131232,
+   "letter": "I",
+   "winner": "The Scrabbler",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 44.26662777383505,
+    "v1": 48.08056372742188,
+    "delta": 3.813935953586835,
+    "lambda": 0.41743683025446093,
+    "deny": 0
+   },
+   "ms": 62
+  },
+  {
+   "id": 3131242,
+   "letter": "B",
+   "winner": "Astronaut",
+   "paid": 13,
+   "myBid": 24,
+   "info": {
+    "v0": 43.704548350775646,
+    "v1": 53.520363957682655,
+    "delta": 9.815815606907009,
+    "lambda": 0.40860477646047944,
+    "deny": 0
+   },
+   "ms": 41
+  },
+  {
+   "id": 3131252,
+   "letter": "P",
+   "winner": "The Scrabbler",
+   "paid": 18,
+   "myBid": 2,
+   "info": {
+    "v0": 52.74099406977544,
+    "v1": 53.67862701253088,
+    "delta": 0.9376329427554424,
+    "lambda": 0.456177777043484,
+    "deny": 0
+   },
+   "ms": 578
+  },
+  {
+   "id": 3131262,
+   "letter": "T",
+   "winner": "The Scrabbler",
+   "paid": 9,
+   "myBid": 10,
+   "info": {
+    "v0": 3.7511324893395286,
+    "v1": 8.163505960603807,
+    "delta": 4.412373471264278,
+    "lambda": 0.44601559430224913,
+    "deny": 0
+   },
+   "ms": 708
+  },
+  {
+   "id": 3131272,
+   "letter": "I",
+   "winner": "Astronaut",
+   "paid": 7,
+   "myBid": 11,
+   "info": {
+    "v0": 21.740045864772938,
+    "v1": 25.282109094295397,
+    "delta": 3.5420632295224586,
+    "lambda": 0.29957817531787634,
+    "deny": 0
+   },
+   "ms": 84
+  },
+  {
+   "id": 3131282,
+   "letter": "E",
+   "winner": "The Scrabbler",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 20.074411478268647,
+    "v1": 23.127300996594272,
+    "delta": 3.0528895183256246,
+    "lambda": 0.4349655308094708,
+    "deny": 0
+   },
+   "ms": 116
+  },
+  {
+   "id": 3131292,
+   "letter": "R",
+   "winner": "Odysseus's Voyage",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 21.556795573173726,
+    "v1": 25.07657160317986,
+    "delta": 3.5197760300061347,
+    "lambda": 0.4244382492961271,
+    "deny": 0
+   },
+   "ms": 109
+  },
+  {
+   "id": 3131302,
+   "letter": "T",
+   "winner": "Astronaut",
+   "paid": 7,
+   "myBid": 8,
+   "info": {
+    "v0": 20.635238119799034,
+    "v1": 24.227853230055686,
+    "delta": 3.592615110256652,
+    "lambda": 0.41386007907611994,
+    "deny": 0
+   },
+   "ms": 115
+  },
+  {
+   "id": 3131312,
+   "letter": "I",
+   "winner": "Odysseus's Voyage",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 25.02059223961069,
+    "v1": 27.48986693783867,
+    "delta": 2.4692746982279807,
+    "lambda": 0.4211586168130922,
+    "deny": 0
+   },
+   "ms": 110
+  },
+  {
+   "id": 3131322,
+   "letter": "C",
+   "winner": "Odysseus's Voyage",
+   "paid": 18,
+   "myBid": 18,
+   "info": {
+    "v0": 23.745836369481555,
+    "v1": 31.20354573984403,
+    "delta": 7.457709370362476,
+    "lambda": 0.40999619969993745,
+    "deny": 0
+   },
+   "ms": 124
+  },
+  {
+   "id": 3131332,
+   "letter": "H",
+   "winner": "Odysseus's Voyage",
+   "paid": 24,
+   "myBid": 24,
+   "info": {
+    "v0": 24.638418876144176,
+    "v1": 34.35893791682086,
+    "delta": 9.720519040676681,
+    "lambda": 0.39877255825923286,
+    "deny": 0
+   },
+   "ms": 87
+  },
+  {
+   "id": 3131342,
+   "letter": "A",
+   "winner": "Odysseus's Voyage",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 24.37852359398984,
+    "v1": 27.726476414635954,
+    "delta": 3.347952820646114,
+    "lambda": 0.3874844414444989,
+    "deny": 0
+   },
+   "ms": 85
+  },
+  {
+   "id": 3131352,
+   "letter": "D",
+   "winner": "Odysseus's Voyage",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 25.376199027845203,
+    "v1": 29.590035806360138,
+    "delta": 4.213836778514935,
+    "lambda": 0.37612824355295355,
+    "deny": 0
+   },
+   "ms": 83
+  },
+  {
+   "id": 3131362,
+   "letter": "B",
+   "winner": "Odysseus's Voyage",
+   "paid": 14,
+   "myBid": 14,
+   "info": {
+    "v0": 25.49169211581577,
+    "v1": 30.742182979971343,
+    "delta": 5.250490864155573,
+    "lambda": 0.3646999449192411,
+    "deny": 0
+   },
+   "ms": 65
+  },
+  {
+   "id": 3131372,
+   "letter": "P",
+   "winner": "Astronaut",
+   "paid": 15,
+   "myBid": 18,
+   "info": {
+    "v0": 27.58033190566401,
+    "v1": 34.03363183134625,
+    "delta": 6.453299925682238,
+    "lambda": 0.35319503916993583,
+    "deny": 0
+   },
+   "ms": 48
+  },
+  {
+   "id": 3131382,
+   "letter": "O",
+   "winner": "Odysseus's Voyage",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 32.18439468284492,
+    "v1": 35.08214722282728,
+    "delta": 2.8977525399823634,
+    "lambda": 0.38069582493762977,
+    "deny": 0
+   },
+   "ms": 47
+  },
+  {
+   "id": 3131392,
+   "letter": "R",
+   "winner": "Odysseus's Voyage",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 31.090191422901658,
+    "v1": 33.94237925201278,
+    "delta": 2.85218782911112,
+    "lambda": 0.36768600172263965,
+    "deny": 0
+   },
+   "ms": 26
+  },
+  {
+   "id": 3131402,
+   "letter": "E",
+   "winner": "Odysseus's Voyage",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 32.299532438054065,
+    "v1": 35.272048683691786,
+    "delta": 2.9725162456377205,
+    "lambda": 0.3545713479817818,
+    "deny": 0
+   },
+   "ms": 25
+  },
+  {
+   "id": 3131412,
+   "letter": "R",
+   "winner": "Odysseus's Voyage",
+   "paid": 11,
+   "myBid": 11,
+   "info": {
+    "v0": 32.595977562003014,
+    "v1": 36.60369688343743,
+    "delta": 4.007719321434415,
+    "lambda": 0.3413433734623176,
+    "deny": 0
+   },
+   "ms": 31
+  },
+  {
+   "id": 3131422,
+   "letter": "L",
+   "winner": "Odysseus's Voyage",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 34.89575456065383,
+    "v1": 36.340517668999915,
+    "delta": 1.4447631083460877,
+    "lambda": 0.3279921942317586,
+    "deny": 0
+   },
+   "ms": 19
+  },
+  {
+   "id": 3131432,
+   "letter": "S",
+   "winner": "The Scrabbler",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 36.52966715580225,
+    "v1": 38.84437433424842,
+    "delta": 2.31470717844617,
+    "lambda": 0.31450618581911927,
+    "deny": 0
+   },
+   "ms": 12
+  },
+  {
+   "id": 3131442,
+   "letter": "T",
+   "winner": "Astronaut",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 36.57575562156949,
+    "v1": 37.332398743332895,
+    "delta": 0.7566431217634033,
+    "lambda": 0.30087151907181897,
+    "deny": 0
+   },
+   "ms": 20
+  },
+  {
+   "id": 3131452,
+   "letter": "O",
+   "winner": "Astronaut",
+   "paid": 7,
+   "myBid": 10,
+   "info": {
+    "v0": 34.831812553636254,
+    "v1": 38.201237003598216,
+    "delta": 3.3694244499619614,
+    "lambda": 0.3076019505355318,
+    "deny": 0
+   },
+   "ms": 10
+  },
+  {
+   "id": 3131462,
+   "letter": "O",
+   "winner": "mkb",
+   "paid": 5,
+   "myBid": 3,
+   "info": {
+    "v0": 38.734609850060004,
+    "v1": 39.92295039250383,
+    "delta": 1.1883405424438251,
+    "lambda": 0.31365056683856124,
+    "deny": 0
+   },
+   "ms": 79
+  },
+  {
+   "id": 3131472,
+   "letter": "T",
+   "winner": "mkb",
+   "paid": 5,
+   "myBid": 1,
+   "info": {
+    "v0": 38.724697339342974,
+    "v1": 39.02811670056358,
+    "delta": 0.3034193612206053,
+    "lambda": 0.29734498298974904,
+    "deny": 0
+   },
+   "ms": 74
+  },
+  {
+   "id": 3131482,
+   "letter": "D",
+   "winner": "mkb",
+   "paid": 9,
+   "myBid": 8,
+   "info": {
+    "v0": 39.875115910138724,
+    "v1": 42.175805386373376,
+    "delta": 2.300689476234652,
+    "lambda": 0.28076003541220595,
+    "deny": 0
+   },
+   "ms": 36
+  },
+  {
+   "id": 3131492,
+   "letter": "V",
+   "winner": "Odysseus's Voyage",
+   "paid": 17,
+   "myBid": 10,
+   "info": {
+    "v0": 39.68798338898943,
+    "v1": 42.48812391699319,
+    "delta": 2.800140528003759,
+    "lambda": 0.263847763108339,
+    "deny": 0
+   },
+   "ms": 40
+  },
+  {
+   "id": 3131502,
+   "letter": "U",
+   "winner": "mkb",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 41.06487012345852,
+    "v1": 43.243961781266194,
+    "delta": 2.1790916578076747,
+    "lambda": 0.24654417355020827,
+    "deny": 0
+   },
+   "ms": 22
+  },
+  {
+   "id": 3131512,
+   "letter": "E",
+   "winner": "mkb",
+   "paid": 12,
+   "myBid": 1,
+   "info": {
+    "v0": 37.941249387520166,
+    "v1": 38.23124938752017,
+    "delta": 0.29000000000000625,
+    "lambda": 0.22876099213707185,
+    "deny": 0
+   },
+   "ms": 29
+  },
+  {
+   "id": 3131522,
+   "letter": "O",
+   "winner": "The Scrabbler",
+   "paid": 11,
+   "myBid": 1,
+   "info": {
+    "v0": 39.55944978591577,
+    "v1": 39.887658972540045,
+    "delta": 0.328209186624278,
+    "lambda": 0.21037129991724027,
+    "deny": 0
+   },
+   "ms": 21
+  },
+  {
+   "id": 3131532,
+   "letter": "S",
+   "winner": "The Scrabbler",
+   "paid": 11,
+   "myBid": 3,
+   "info": {
+    "v0": 36.626054967136206,
+    "v1": 37.22990212329422,
+    "delta": 0.603847156158011,
+    "lambda": 0.1911826586396836,
+    "deny": 0
+   },
+   "ms": 17
+  },
+  {
+   "id": 3131542,
+   "letter": "E",
+   "winner": "mkb",
+   "paid": 5,
+   "myBid": 1,
+   "info": {
+    "v0": 36.55438331495227,
+    "v1": 36.84438331495226,
+    "delta": 0.28999999999999204,
+    "lambda": 0.17088176499012356,
+    "deny": 0
+   },
+   "ms": 17
+  },
+  {
+   "id": 3131552,
+   "letter": "A",
+   "winner": "mkb",
+   "paid": 5,
+   "myBid": 5,
+   "info": {
+    "v0": 34.747097638420065,
+    "v1": 35.60915343250372,
+    "delta": 0.862055794083652,
+    "lambda": 0.14890406111833215,
+    "deny": 0
+   },
+   "ms": 18
+  },
+  {
+   "id": 3131562,
+   "letter": "I",
+   "winner": "mkb",
+   "paid": 6,
+   "myBid": 3,
+   "info": {
+    "v0": 33.24756156030292,
+    "v1": 33.64706233969073,
+    "delta": 0.39950077938780737,
+    "lambda": 0.12405599949858002,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3131572,
+   "letter": "X",
+   "winner": "Astronaut",
+   "paid": 14,
+   "myBid": 31,
+   "info": {
+    "v0": 0,
+    "v1": 2.319999999999997,
+    "delta": 2.319999999999997,
+    "lambda": 0.09291693127074568,
+    "deny": 0
+   },
+   "ms": 17
+  },
+  {
+   "id": 3131582,
+   "letter": "F",
+   "winner": "Astronaut",
+   "paid": 14,
+   "myBid": 38,
+   "info": {
+    "v0": 2.319999999999997,
+    "v1": 3.4799999999999986,
+    "delta": 1.1600000000000015,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 5
+  },
+  {
+   "id": 3131592,
+   "letter": "N",
+   "winner": "The Scrabbler",
+   "paid": 1,
+   "myBid": 0,
+   "info": {
+    "v0": 2.319999999999997,
+    "v1": 3.4799999999999986,
+    "delta": 1.1600000000000015,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 4
+  }
+ ],
+ "words": [
+  {
+   "bot": "Lime-LaChonk-V7-Large",
+   "word": "AGA",
+   "reward": 4
+  },
+  {
+   "bot": "Lime-LaChonk-V7-Large",
+   "word": "OES",
+   "reward": 3
+  },
+  {
+   "bot": "Lime-LaChonk-V7-Large",
+   "word": "HIE",
+   "reward": 6
+  },
+  {
+   "bot": "mkb",
+   "word": "TRAMWAY",
+   "reward": 45
+  },
+  {
+   "bot": "The Scrabbler",
+   "word": "REDEFYING",
+   "reward": 51
+  },
+  {
+   "bot": "Odysseus's Voyage",
+   "word": "AVOWING",
+   "reward": 42
+  },
+  {
+   "bot": "Astronaut",
+   "word": "JELLABA",
+   "reward": 48
+  },
+  {
+   "bot": "Odysseus's Voyage",
+   "word": "DHARMIC",
+   "reward": 45
+  },
+  {
+   "bot": "Odysseus's Voyage",
+   "word": "BORER",
+   "reward": 14
+  },
+  {
+   "bot": "The Scrabbler",
+   "word": "STIPULE",
+   "reward": 27
+  },
+  {
+   "bot": "mkb",
+   "word": "ENDOZOIC",
+   "reward": 60
+  },
+  {
+   "bot": "Astronaut",
+   "word": "NEPOTIST",
+   "reward": 30
+  },
+  {
+   "bot": "mkb",
+   "word": "AUDIENT",
+   "reward": 24
+  },
+  {
+   "bot": "The Scrabbler",
+   "word": "OS",
+   "reward": 2
+  }
+ ]
+}
