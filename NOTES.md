@@ -99,3 +99,14 @@ Fix -> **v6**: revert to v4 word play (minPlayLen 7, forcePlay off) + playBonus 
 (sim-neutral 86.0 vs 86.5, but spends down like the winners: 13 tiles, 19 left vs 12/32).
 Also: clean stop via `logs/STOP` (bot finishes its match, does not requeue, supervisor exits).
 Sim note: minPlayLen 6 / playBonus .2 / q .5 are all flat (86.0-86.5) in the live field.
+
+**Cycle 2 — v6 (45089-45113):** places 1,5,2,2,1 (mean 2.2), mean score 105, 2 wins
+(169 vs LUCENT 140; 114). Losses: in the opening rounds we were the price setter —
+dozens of tiles went to bots paying exactly our bid (I 9/9, C 17/17, R 10/10...).
+Lbender/GodOfThudner/Bron took 14-18 tiles; ours 12-15.
+Tested: +2/+3 coins on the early standing bid -> sim 70-76 (worse; not deployed).
+mc 48 samples -> 89.8 vs 86.0 (win 36% vs 26%). Two-word MC plans: no gain.
+User idea — endgame mode (last N usable auctions: cash shorter words, plan only short
+targets): sim 90.0-90.4 vs 90.3 (flat), win 40.1% vs 38.8%, place 2.19 vs 2.27,
+less money wasted (14.9 vs 17.9). Kept.
+Fix -> **v7**: mc 48 + endgame mode (endUsable 15, endMinPlay 4, endMaxTarget 7).

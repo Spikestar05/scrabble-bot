@@ -54,9 +54,14 @@ export interface Params {
   floorFrac: number; // standing bid as a fraction of the letter's market price
   floorMinBal: number; // only when balance is at least this
   floorSkipHigh: number; // 1 = no standing bid on JKQXZ (only bid what words need)
-  floorReserve: number; // standing bids never take balance below this
+  floorReserve: number;
+  floorAdd: number; // coins added to the standing bid while usable > floorAddUntil
+  floorAddUntil: number; // standing bids never take balance below this
   floorMaxHave: number; // no floor bid if we already hold this many of the letter
   spendDown: number; // >0: if balance exceeds usable*spendDown, bid at least balance/usable
+  endUsable: number; // endgame: when <= this many usable auctions remain...
+  endMinPlay: number; // ...cash words of this length or more (reinvest the money)
+  endMaxTarget: number; // ...and plan only words up to this length
   horizon: number; // future auctions visible to one MC sample (0 = whole game)
   mcWords: number; // words per MC plan (1 or 2)
   reinvest: number; // fraction of word reward usable as budget for word 2
@@ -80,7 +85,7 @@ export const DEFAULT_PARAMS: Params = {
   priceScale: 1.0,
   bidCapFrac: 1.0,
   denyWeight: 0,
-  mc: 24,
+  mc: 48,
   minTargetLen: 4,
   maxTargetLen: 9,
   budgetTiles: 1.0,
@@ -92,7 +97,12 @@ export const DEFAULT_PARAMS: Params = {
   floorMaxHave: 9,
   floorSkipHigh: 1,
   floorReserve: 20,
+  floorAdd: 0,
+  floorAddUntil: 34,
   spendDown: 0,
+  endUsable: 15,
+  endMinPlay: 4,
+  endMaxTarget: 7,
   horizon: 8,
   mcWords: 1,
   reinvest: 0.5,
@@ -487,8 +497,10 @@ export class Brain implements Policy {
     const a = c.lambda * this.p.costFactor * pmin;
     for (let L = 0; L < 16; L++) this.lenPenalty[L] = a * Math.max(0, L - T);
     const order: number[] = [];
+    const endgame = this.p.endUsable > 0 && c.usable <= this.p.endUsable;
+    const maxT = endgame ? Math.min(this.p.maxTargetLen, this.p.endMaxTarget) : this.p.maxTargetLen;
     for (const L of [7, 8, 9, 10, 6, 5, 4, 11, 12])
-      if (L >= this.p.minTargetLen && L <= this.p.maxTargetLen) order.push(L);
+      if (L >= this.p.minTargetLen && L <= maxT) order.push(L);
     this.lenOrder = order;
   }
   // Per-decision filtered copies of byLen (mask within R+samples superset).
@@ -695,7 +707,8 @@ export class Brain implements Policy {
     const have = this.pendingR ? this.pendingR[letter]! : 0;
     if (this.p.floorFrac > 0 && c.usable > 2 && have < this.p.floorMaxHave && !(this.p.floorSkipHigh && VALUE[letter]! >= 5)) {
       // standing bid, but never one that would leave us below the reserve
-      const f = Math.min(this.p.floorFrac * c.price[letter]!, balance - this.p.floorReserve);
+      const add = c.usable > this.p.floorAddUntil ? this.p.floorAdd : 0;
+      const f = Math.min(this.p.floorFrac * c.price[letter]! + add, balance - this.p.floorReserve);
       if (balance >= this.p.floorMinBal && f > 0) bid = Math.max(bid, f);
     }
     if (this.p.spendDown > 0 && c.usable > 0 && delta > 0 && balance > c.usable * this.p.spendDown)
@@ -712,7 +725,8 @@ export class Brain implements Policy {
   // Pick a word to play now, or null to hold.
   private choosePlay(R: Int8Array, c: Ctx): string | null {
     const d = this.dict;
-    const playable = this.p.mc > 0 ? d.playable(R, this.p.minPlayLen) : d.playable(R, this.p.minPlayLen, this.cand);
+    const minLen = this.p.endUsable > 0 && c.usable <= this.p.endUsable ? Math.min(this.p.minPlayLen, this.p.endMinPlay) : this.p.minPlayLen;
+    const playable = this.p.mc > 0 ? d.playable(R, minLen) : d.playable(R, minLen, this.cand);
     if (playable.length === 0) return null;
     playable.sort((a, b) => d.rew[b]! - d.rew[a]!);
     const hold = this.value(R, c);
