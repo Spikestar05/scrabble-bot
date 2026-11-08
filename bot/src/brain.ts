@@ -55,6 +55,7 @@ export interface Params {
   floorMinBal: number; // only when balance is at least this
   floorSkipHigh: number; // 1 = no standing bid on JKQXZ (only bid what words need)
   floorReserve: number; // standing bids never take balance below this
+  bidCapPrice: number; // >0: no bid above this multiple of the letter's market price (pre-endgame)
   highBoost: number; // multiplier on our value-based bid for JKQXZ (face >= 5)
   floorPace: number; // standing-bid reserve also >= floorPace * usable auctions left
   floorAdd: number; // coins added to the standing bid while usable > floorAddUntil
@@ -99,6 +100,7 @@ export const DEFAULT_PARAMS: Params = {
   floorMaxHave: 9,
   floorSkipHigh: 0,
   floorReserve: 20,
+  bidCapPrice: 1.8,
   highBoost: 1.3,
   floorPace: 0,
   floorAdd: 0,
@@ -709,6 +711,7 @@ export class Brain implements Policy {
   bidFromDelta(delta: number, letter: number, c: Ctx, balance: number): number {
     let bid = delta > 0 ? delta / c.lambda : 0;
     if (VALUE[letter]! >= 5) bid *= this.p.highBoost;
+    if (this.p.bidCapPrice > 0 && c.usable > 3) bid = Math.min(bid, this.p.bidCapPrice * c.price[letter]!);
     const have = this.pendingR ? this.pendingR[letter]! : 0;
     if (this.p.floorFrac > 0 && c.usable > 2 && have < this.p.floorMaxHave && !(this.p.floorSkipHigh && VALUE[letter]! >= 5)) {
       // standing bid, but never one that would leave us below the reserve

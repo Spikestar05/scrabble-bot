@@ -156,3 +156,9 @@ Sim: floor back on JKQXZ 91.1 / highBoost 1.3 90.6 / 1.6 90.9 / both 91.4 vs v9 
 (win 40-42% vs 43% — neutral; sim opponents don't fight for rare letters).
 Fix -> **v10**: highBoost 1.3 + standing bid on JKQXZ again (20-coin reserve kept).
 Watch: JKQXZ tiles/match (was 0.4) and avg 7+ word reward (was 38.9; LexForge 49).
+
+**Cycle 7 — v10 (45466-45498):** places 1,3,3,2,5 (mean 2.8), mean score 88, 1 win (127).
+7+ word avg reward rose to **45** (v9 39, LexForge 49): FIXATIVE 63, HEXADIC 60, BEEZERS 54.
+JKQXZ won in 3/5 matches. But vs LexForge-Base-v1 (60 vs 115) we paid **53 for a Q**
+(QUANTAL 48) and got only 8 tiles — the boost had no ceiling.
+Fix -> **v11**: v10 + bid cap 1.8x the letter's market price (until the last 3 auctions).
