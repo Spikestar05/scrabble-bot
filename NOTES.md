@@ -162,3 +162,10 @@ Watch: JKQXZ tiles/match (was 0.4) and avg 7+ word reward (was 38.9; LexForge 49
 JKQXZ won in 3/5 matches. But vs LexForge-Base-v1 (60 vs 115) we paid **53 for a Q**
 (QUANTAL 48) and got only 8 tiles — the boost had no ceiling.
 Fix -> **v11**: v10 + bid cap 1.8x the letter's market price (until the last 3 auctions).
+
+**Cycle 8 — v11 (45521-45553):** places 2,6,6,2,3 (mean **3.8**), mean score 75, 0 wins.
+Bought Z40, X28, X33, K27 but spent them in short words (NAZIFY, BEAUX, KYLIX: no 3x),
+so only 7-9 tiles. Chasing rare letters only pays if the 7-letter word follows; it doesn't
+for us. Scoreboard: v7/v9 mean place 2.2 over 15 matches; v10 2.8; v11 3.8.
+Fix -> **v12 = v9 letter policy** (highBoost 1, no standing bid on JKQXZ) + keep v11's
+bid cap (1.8x market price) as a safety rail.
