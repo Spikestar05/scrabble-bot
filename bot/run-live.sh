@@ -5,9 +5,11 @@
 # .token-<name> after the first connect and never printed.
 cd "$(dirname "$0")"
 mkdir -p ../logs
+rm -f ../logs/STOP
 while true; do
   npx tsx src/index.ts >> "../logs/live-${BOT_NAME:-bot}.log" 2>&1
   echo "$(date -u +%FT%TZ) bot exited with $?; restarting in 3s" >> "../logs/live-${BOT_NAME:-bot}.log"
+  if [ -f ../logs/STOP ]; then echo "$(date -u +%FT%TZ) STOP file: supervisor exiting" >> "../logs/live-${BOT_NAME:-bot}.log"; exit 0; fi
   # after the first successful connect the cached token is used
   if [ -f ".token-${BOT_NAME:-bot}" ]; then unset BOT_TOKEN; fi
   sleep 3

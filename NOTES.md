@@ -89,3 +89,13 @@ The sim field under-rewards recycling, so this is A/B tested live.
 - **v5** (from the match after 43289, restart 00:21 UTC): minPlayLen 5, playBonus 0.5,
   forcePlay 7 (cash any 7+ word at once). Sim profile: 13.5 tiles, 3.3 words, len 5.5,
   leftover 12 coins (v4: 11.8 tiles, 2.5 words, leftover 30).
+
+## Cycle log (5 live matches -> stop -> analyse -> fix -> deploy)
+
+**Cycle 1 — v5 (43302-43329):** places 3,2,4,4,3 (mean 3.2), mean score 77, 0 wins.
+Tiles up (11-16) and 3-4 words/match, but words got short: ZINCS (Z at 2x), NEWEL,
+DEFOG, QUANT. Score fell vs v3/v4 (~84). Sim agrees: v5 settings 62-66 vs v4 86.
+Fix -> **v6**: revert to v4 word play (minPlayLen 7, forcePlay off) + playBonus 0.2
+(sim-neutral 86.0 vs 86.5, but spends down like the winners: 13 tiles, 19 left vs 12/32).
+Also: clean stop via `logs/STOP` (bot finishes its match, does not requeue, supervisor exits).
+Sim note: minPlayLen 6 / playBonus .2 / q .5 are all flat (86.0-86.5) in the live field.

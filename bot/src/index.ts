@@ -294,8 +294,19 @@ function unwatch(matchId: bigint) {
   }, 3000);
 }
 
+const STOP_FILE = path.join(LOG_DIR, "STOP");
 function joinLobby(conn: DbConnection) {
   if (myBotId === null || NO_LOBBY) return;
+  if (fs.existsSync(STOP_FILE)) {
+    const running = [...conn.db.matchParticipant.iter()].some(
+      (p) => p.botId === myBotId && conn.db.matchState.id.find(p.matchId)?.status.tag === "Running",
+    );
+    if (!running) {
+      log("STOP file present: not rejoining the lobby; exiting");
+      setTimeout(() => process.exit(0), 500);
+    }
+    return;
+  }
   const inRunning = [...conn.db.matchParticipant.iter()].some((p) => {
     if (p.botId !== myBotId) return false;
     return conn.db.matchState.id.find(p.matchId)?.status.tag === "Running";
