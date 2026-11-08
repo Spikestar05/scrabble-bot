@@ -213,3 +213,11 @@ standing bid at market price (tiles won is the best predictor of place: ~15.5 ti
 two-word plans. Neutral: bid cap (sim 90.6 vs 90.0 without) — v7->v12 live decline is mostly
 the field getting stronger (Pegasus v2->v8, RackMaw/LexForge variants).
 Next: joint random search (sim/search.py) over 11 params in the live2 field.
+
+### Joint search -> v13
+
+`sim/search.py 24 80 live2`: 24 random configs over 11 params. Best (#16) at 80 games:
+place 2.06 / 90.2 vs v12 2.51 / 82.2. Confirmed at 200 games: **#16 86.8 / 2.31 / 36% win**
+vs v12 84.3 / 2.44 / 32% (runner-up #1: 85.0 / 2.36 / 37.5%).
+**v13** = v12 + lambda0 .62, lambdaGamma .36, q 1.0, residual .29, floorFrac .97,
+floorReserve 10, endUsable 10, playBonus .04, priceScale .95, hoardFront .7 (horizon 8).
