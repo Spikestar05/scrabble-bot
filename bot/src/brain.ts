@@ -97,7 +97,7 @@ export const DEFAULT_PARAMS: Params = {
   floorMaxHave: 9,
   floorSkipHigh: 1,
   floorReserve: 20,
-  floorAdd: 0,
+  floorAdd: 1,
   floorAddUntil: 34,
   spendDown: 0,
   endUsable: 15,

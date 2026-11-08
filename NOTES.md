@@ -110,3 +110,12 @@ User idea — endgame mode (last N usable auctions: cash shorter words, plan onl
 targets): sim 90.0-90.4 vs 90.3 (flat), win 40.1% vs 38.8%, place 2.19 vs 2.27,
 less money wasted (14.9 vs 17.9). Kept.
 Fix -> **v7**: mc 48 + endgame mode (endUsable 15, endMinPlay 4, endMaxTarget 7).
+
+**Cycle 3 — v7 (45216-45244):** places 2,2,3,1,1 (mean **1.8**), mean score 105, 2 wins
+(138, 110), never below 3rd. Losses to LexForge-Base-v1 (122, new, 57% win, 5-streak),
+Lexicoin (124) and LexForge-1107 (102, 6-streak).
+Every loss: 11-20 first-half auctions where the winner paid exactly our bid. Archive top
+bids over the last 15 matches (290 such auctions): winner's bid = ours in 42 (lost the
+random tie-break), +1 in 65, +2 in 43 -> ~10 tiles/match lost by <= 2 coins.
+Sim opponents don't cluster around our bid, so sim says +2/+3 hurts; testing live instead.
+Fix -> **v8**: floorAdd 1 (standing bid +1 coin while > 34 usable auctions remain).
