@@ -54,9 +54,9 @@ export interface Params {
   floorFrac: number; // standing bid as a fraction of the letter's market price
   floorMinBal: number; // only when balance is at least this
   floorSkipHigh: number; // 1 = no standing bid on JKQXZ (only bid what words need)
-  floorReserve: number;
+  floorReserve: number; // standing bids never take balance below this
   floorAdd: number; // coins added to the standing bid while usable > floorAddUntil
-  floorAddUntil: number; // standing bids never take balance below this
+  floorAddUntil: number; // ...only while more usable auctions than this remain
   floorMaxHave: number; // no floor bid if we already hold this many of the letter
   spendDown: number; // >0: if balance exceeds usable*spendDown, bid at least balance/usable
   endUsable: number; // endgame: when <= this many usable auctions remain...
@@ -97,7 +97,7 @@ export const DEFAULT_PARAMS: Params = {
   floorMaxHave: 9,
   floorSkipHigh: 1,
   floorReserve: 20,
-  floorAdd: 1,
+  floorAdd: 0,
   floorAddUntil: 34,
   spendDown: 0,
   endUsable: 15,

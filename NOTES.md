@@ -119,3 +119,9 @@ bids over the last 15 matches (290 such auctions): winner's bid = ours in 42 (lo
 random tie-break), +1 in 65, +2 in 43 -> ~10 tiles/match lost by <= 2 coins.
 Sim opponents don't cluster around our bid, so sim says +2/+3 hurts; testing live instead.
 Fix -> **v8**: floorAdd 1 (standing bid +1 coin while > 34 usable auctions remain).
+
+**Cycle 4 — v8 (45266-45295):** places 3,2,5,3,4 (mean 3.4), mean score 76, 0 wins.
++1 coin did not buy more tiles (8-17) — it mostly raised what we paid; sim had predicted
+floorAdd hurts. Clearly worse than v7 (1.8 / 105).
+Fix -> **v9 = v7** (floorAdd 0). Lesson: the 'priced out by 1-2 coins' auctions are
+mostly tiles we are better off not buying at that price.
