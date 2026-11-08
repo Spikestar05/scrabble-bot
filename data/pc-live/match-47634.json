@@ -1,0 +1,1568 @@
+{
+ "matchId": 47634,
+ "at": "2026-11-08T04:56:14.944Z",
+ "auctionType": "Vickrey",
+ "placement": 2,
+ "nPlayers": 6,
+ "scores": [
+  {
+   "bot": "SoapConsumers",
+   "score": 95,
+   "balance": 2
+  },
+  {
+   "bot": "Astronaut",
+   "score": 94,
+   "balance": 63
+  },
+  {
+   "bot": "Bron",
+   "score": 82,
+   "balance": 10
+  },
+  {
+   "bot": "Nigel \"Bidderson\" Richards",
+   "score": 78,
+   "balance": 34
+  },
+  {
+   "bot": "NigelR",
+   "score": 65,
+   "balance": 21
+  },
+  {
+   "bot": "saketh-apex",
+   "score": 63,
+   "balance": 37
+  }
+ ],
+ "myScore": 94,
+ "myLeftover": "D",
+ "myWords": [
+  {
+   "bot": "Astronaut",
+   "word": "LAZYISH",
+   "reward": 66
+  },
+  {
+   "bot": "Astronaut",
+   "word": "QUATE",
+   "reward": 28
+  }
+ ],
+ "myWordAttempts": [
+  {
+   "word": "LAZYISH",
+   "at": 1794113769671,
+   "ok": true
+  },
+  {
+   "word": "QUATE",
+   "at": 1794113772921,
+   "ok": true
+  }
+ ],
+ "won": [
+  {
+   "l": "Y",
+   "paid": 21,
+   "bid": 23
+  },
+  {
+   "l": "D",
+   "paid": 14,
+   "bid": 14
+  },
+  {
+   "l": "A",
+   "paid": 9,
+   "bid": 10
+  },
+  {
+   "l": "H",
+   "paid": 19,
+   "bid": 34
+  },
+  {
+   "l": "Z",
+   "paid": 14,
+   "bid": 37
+  },
+  {
+   "l": "E",
+   "paid": 16,
+   "bid": 37
+  },
+  {
+   "l": "T",
+   "paid": 18,
+   "bid": 66
+  },
+  {
+   "l": "Q",
+   "paid": 20,
+   "bid": 55
+  }
+ ],
+ "missed": [
+  {
+   "l": "N",
+   "bid": 9,
+   "paid": 15,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "V",
+   "bid": 17,
+   "paid": 19,
+   "winner": "saketh-apex"
+  },
+  {
+   "l": "H",
+   "bid": 20,
+   "paid": 20,
+   "winner": "NigelR"
+  },
+  {
+   "l": "A",
+   "bid": 10,
+   "paid": 10,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "L",
+   "bid": 10,
+   "paid": 19,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "R",
+   "bid": 11,
+   "paid": 11,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "E",
+   "bid": 11,
+   "paid": 11,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "P",
+   "bid": 16,
+   "paid": 21,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "A",
+   "bid": 10,
+   "paid": 12,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 13,
+   "winner": "Bron"
+  },
+  {
+   "l": "W",
+   "bid": 18,
+   "paid": 20,
+   "winner": "NigelR"
+  },
+  {
+   "l": "F",
+   "bid": 19,
+   "paid": 19,
+   "winner": "Bron"
+  },
+  {
+   "l": "N",
+   "bid": 10,
+   "paid": 10,
+   "winner": "saketh-apex"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 10,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "R",
+   "bid": 10,
+   "paid": 14,
+   "winner": "NigelR"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Bron"
+  },
+  {
+   "l": "C",
+   "bid": 16,
+   "paid": 17,
+   "winner": "saketh-apex"
+  },
+  {
+   "l": "T",
+   "bid": 9,
+   "paid": 12,
+   "winner": "saketh-apex"
+  },
+  {
+   "l": "A",
+   "bid": 10,
+   "paid": 10,
+   "winner": "saketh-apex"
+  },
+  {
+   "l": "U",
+   "bid": 9,
+   "paid": 9,
+   "winner": "saketh-apex"
+  },
+  {
+   "l": "O",
+   "bid": 9,
+   "paid": 10,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "B",
+   "bid": 15,
+   "paid": 15,
+   "winner": "Bron"
+  },
+  {
+   "l": "D",
+   "bid": 13,
+   "paid": 16,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "L",
+   "bid": 9,
+   "paid": 10,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "T",
+   "bid": 9,
+   "paid": 11,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "X",
+   "bid": 29,
+   "paid": 29,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 12,
+   "winner": "Bron"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 13,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "A",
+   "bid": 10,
+   "paid": 14,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 12,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "A",
+   "bid": 10,
+   "paid": 11,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "W",
+   "bid": 18,
+   "paid": 18,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "S",
+   "bid": 11,
+   "paid": 12,
+   "winner": "Bron"
+  },
+  {
+   "l": "P",
+   "bid": 15,
+   "paid": 19,
+   "winner": "saketh-apex"
+  },
+  {
+   "l": "N",
+   "bid": 10,
+   "paid": 10,
+   "winner": "NigelR"
+  },
+  {
+   "l": "M",
+   "bid": 16,
+   "paid": 17,
+   "winner": "NigelR"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 15,
+   "winner": "NigelR"
+  },
+  {
+   "l": "U",
+   "bid": 9,
+   "paid": 10,
+   "winner": "Bron"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 10,
+   "winner": "saketh-apex"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 14,
+   "winner": "NigelR"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 11,
+   "winner": "saketh-apex"
+  },
+  {
+   "l": "F",
+   "bid": 18,
+   "paid": 18,
+   "winner": "Bron"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 9,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "O",
+   "bid": 9,
+   "paid": 9,
+   "winner": "NigelR"
+  },
+  {
+   "l": "L",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Bron"
+  },
+  {
+   "l": "R",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "U",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "B",
+   "bid": 15,
+   "paid": 15,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "A",
+   "bid": 9,
+   "paid": 11,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "S",
+   "bid": 10,
+   "paid": 12,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "R",
+   "bid": 10,
+   "paid": 10,
+   "winner": "NigelR"
+  },
+  {
+   "l": "M",
+   "bid": 18,
+   "paid": 18,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "O",
+   "bid": 8,
+   "paid": 8,
+   "winner": "Bron"
+  },
+  {
+   "l": "N",
+   "bid": 9,
+   "paid": 10,
+   "winner": "Bron"
+  },
+  {
+   "l": "G",
+   "bid": 5,
+   "paid": 12,
+   "winner": "Bron"
+  },
+  {
+   "l": "S",
+   "bid": 14,
+   "paid": 14,
+   "winner": "NigelR"
+  },
+  {
+   "l": "T",
+   "bid": 4,
+   "paid": 11,
+   "winner": "Bron"
+  },
+  {
+   "l": "O",
+   "bid": 3,
+   "paid": 12,
+   "winner": "Bron"
+  },
+  {
+   "l": "R",
+   "bid": 9,
+   "paid": 9,
+   "winner": "saketh-apex"
+  }
+ ],
+ "maxDecisionMs": 123.43460000003688,
+ "auctions": [
+  {
+   "id": 3107313,
+   "letter": "N",
+   "winner": "SoapConsumers",
+   "paid": 15,
+   "myBid": 9,
+   "info": {
+    "v0": 15.500157684656388,
+    "v1": 20.535896566490507,
+    "delta": 5.035738881834119,
+    "lambda": 0.6617867174327142,
+    "deny": 0
+   },
+   "ms": 123
+  },
+  {
+   "id": 3107322,
+   "letter": "V",
+   "winner": "saketh-apex",
+   "paid": 19,
+   "myBid": 17,
+   "info": {
+    "v0": 13.599712119617477,
+    "v1": 24.92325246656871,
+    "delta": 11.323540346951232,
+    "lambda": 0.6538808859919171,
+    "deny": 0
+   },
+   "ms": 79
+  },
+  {
+   "id": 3107332,
+   "letter": "H",
+   "winner": "NigelR",
+   "paid": 20,
+   "myBid": 20,
+   "info": {
+    "v0": 13.94284147446337,
+    "v1": 25.31635897058008,
+    "delta": 11.37351749611671,
+    "lambda": 0.6459587650218012,
+    "deny": 0
+   },
+   "ms": 52
+  },
+  {
+   "id": 3107342,
+   "letter": "A",
+   "winner": "SoapConsumers",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 14.829790295820855,
+    "v1": 16.80175710300002,
+    "delta": 1.9719668071791663,
+    "lambda": 0.6380200654079734,
+    "deny": 0
+   },
+   "ms": 64
+  },
+  {
+   "id": 3107352,
+   "letter": "L",
+   "winner": "SoapConsumers",
+   "paid": 19,
+   "myBid": 10,
+   "info": {
+    "v0": 16.187704510470596,
+    "v1": 19.56031442111408,
+    "delta": 3.372609910643483,
+    "lambda": 0.6300644879061076,
+    "deny": 0
+   },
+   "ms": 62
+  },
+  {
+   "id": 3107362,
+   "letter": "R",
+   "winner": "SoapConsumers",
+   "paid": 11,
+   "myBid": 11,
+   "info": {
+    "v0": 14.263602577682207,
+    "v1": 18.738515251823255,
+    "delta": 4.4749126741410485,
+    "lambda": 0.6220917225987204,
+    "deny": 0
+   },
+   "ms": 119
+  },
+  {
+   "id": 3107371,
+   "letter": "E",
+   "winner": "SoapConsumers",
+   "paid": 11,
+   "myBid": 11,
+   "info": {
+    "v0": 14.070820519902746,
+    "v1": 18.09437217559295,
+    "delta": 4.023551655690206,
+    "lambda": 0.6141014483122161,
+    "deny": 0
+   },
+   "ms": 54
+  },
+  {
+   "id": 3107380,
+   "letter": "P",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 21,
+   "myBid": 16,
+   "info": {
+    "v0": 14.611544457214345,
+    "v1": 23.97203839830935,
+    "delta": 9.360493941095006,
+    "lambda": 0.6060933319904902,
+    "deny": 0
+   },
+   "ms": 54
+  },
+  {
+   "id": 3107389,
+   "letter": "Y",
+   "winner": "Astronaut",
+   "paid": 21,
+   "myBid": 23,
+   "info": {
+    "v0": 20.875541750302173,
+    "v1": 30.876419957154273,
+    "delta": 10.0008782068521,
+    "lambda": 0.4186469196146774,
+    "deny": 0
+   },
+   "ms": 60
+  },
+  {
+   "id": 3107398,
+   "letter": "A",
+   "winner": "SoapConsumers",
+   "paid": 12,
+   "myBid": 10,
+   "info": {
+    "v0": 30.998047174793857,
+    "v1": 32.50594524474576,
+    "delta": 1.507898069951903,
+    "lambda": 0.4547151266404427,
+    "deny": 0
+   },
+   "ms": 59
+  },
+  {
+   "id": 3107408,
+   "letter": "D",
+   "winner": "Astronaut",
+   "paid": 14,
+   "myBid": 14,
+   "info": {
+    "v0": 29.734037446296558,
+    "v1": 35.12740558259002,
+    "delta": 5.393368136293464,
+    "lambda": 0.44850058362132866,
+    "deny": 0
+   },
+   "ms": 76
+  },
+  {
+   "id": 3107418,
+   "letter": "E",
+   "winner": "Bron",
+   "paid": 13,
+   "myBid": 10,
+   "info": {
+    "v0": 34.7342495673554,
+    "v1": 38.36151727716616,
+    "delta": 3.6272677098107593,
+    "lambda": 0.4773058483791007,
+    "deny": 0
+   },
+   "ms": 31
+  },
+  {
+   "id": 3107428,
+   "letter": "W",
+   "winner": "NigelR",
+   "paid": 20,
+   "myBid": 18,
+   "info": {
+    "v0": 30.67091306570111,
+    "v1": 39.28330917427659,
+    "delta": 8.612396108575478,
+    "lambda": 0.6722379503639369,
+    "deny": 0
+   },
+   "ms": 118
+  },
+  {
+   "id": 3107438,
+   "letter": "F",
+   "winner": "Bron",
+   "paid": 19,
+   "myBid": 19,
+   "info": {
+    "v0": 31.11117906181849,
+    "v1": 40.766378240349745,
+    "delta": 9.655199178531255,
+    "lambda": 0.662586483132065,
+    "deny": 0
+   },
+   "ms": 36
+  },
+  {
+   "id": 3107447,
+   "letter": "N",
+   "winner": "saketh-apex",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 31.916371917482152,
+    "v1": 33.94396490815291,
+    "delta": 2.0275929906707546,
+    "lambda": 0.6529105750629902,
+    "deny": 0
+   },
+   "ms": 79
+  },
+  {
+   "id": 3107456,
+   "letter": "E",
+   "winner": "SoapConsumers",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 31.321443520608085,
+    "v1": 36.154598736557325,
+    "delta": 4.83315521594924,
+    "lambda": 0.6432096825694007,
+    "deny": 0
+   },
+   "ms": 35
+  },
+  {
+   "id": 3107465,
+   "letter": "R",
+   "winner": "NigelR",
+   "paid": 14,
+   "myBid": 10,
+   "info": {
+    "v0": 35.80092059643278,
+    "v1": 38.019765429100325,
+    "delta": 2.2188448326675427,
+    "lambda": 0.44343826651921636,
+    "deny": 0
+   },
+   "ms": 28
+  },
+  {
+   "id": 3107474,
+   "letter": "E",
+   "winner": "Bron",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 37.02838136214432,
+    "v1": 40.43818363897671,
+    "delta": 3.4098022768323872,
+    "lambda": 0.4366114531839421,
+    "deny": 0
+   },
+   "ms": 27
+  },
+  {
+   "id": 3107483,
+   "letter": "C",
+   "winner": "saketh-apex",
+   "paid": 17,
+   "myBid": 16,
+   "info": {
+    "v0": 37.596198104546524,
+    "v1": 43.5901005189205,
+    "delta": 5.993902414373977,
+    "lambda": 0.42976590291691597,
+    "deny": 0
+   },
+   "ms": 28
+  },
+  {
+   "id": 3107492,
+   "letter": "T",
+   "winner": "saketh-apex",
+   "paid": 12,
+   "myBid": 9,
+   "info": {
+    "v0": 33.483586701112216,
+    "v1": 36.56506000871155,
+    "delta": 3.0814733075993317,
+    "lambda": 0.6041445144264347,
+    "deny": 0
+   },
+   "ms": 27
+  },
+  {
+   "id": 3107501,
+   "letter": "A",
+   "winner": "saketh-apex",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 32.56668912899084,
+    "v1": 33.30647136391159,
+    "delta": 0.739782234920753,
+    "lambda": 0.5943096383411653,
+    "deny": 0
+   },
+   "ms": 81
+  },
+  {
+   "id": 3107510,
+   "letter": "U",
+   "winner": "saketh-apex",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 34.02584447504824,
+    "v1": 34.411787100853,
+    "delta": 0.38594262580475913,
+    "lambda": 0.5844459447109945,
+    "deny": 0
+   },
+   "ms": 37
+  },
+  {
+   "id": 3107519,
+   "letter": "O",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 34.37371138929954,
+    "v1": 36.4611022851911,
+    "delta": 2.0873908958915663,
+    "lambda": 0.5745526797592775,
+    "deny": 0
+   },
+   "ms": 36
+  },
+  {
+   "id": 3107528,
+   "letter": "A",
+   "winner": "Astronaut",
+   "paid": 9,
+   "myBid": 10,
+   "info": {
+    "v0": 35.32331243177763,
+    "v1": 35.93236846827377,
+    "delta": 0.6090560364961419,
+    "lambda": 0.5646290499197565,
+    "deny": 0
+   },
+   "ms": 36
+  },
+  {
+   "id": 3107537,
+   "letter": "B",
+   "winner": "Bron",
+   "paid": 15,
+   "myBid": 15,
+   "info": {
+    "v0": 34.23946861017043,
+    "v1": 41.56075946500606,
+    "delta": 7.321290854835631,
+    "lambda": 0.5865980932174587,
+    "deny": 0
+   },
+   "ms": 32
+  },
+  {
+   "id": 3107546,
+   "letter": "D",
+   "winner": "SoapConsumers",
+   "paid": 16,
+   "myBid": 13,
+   "info": {
+    "v0": 36.094034686131,
+    "v1": 38.39787553503883,
+    "delta": 2.303840848907825,
+    "lambda": 0.576036387405951,
+    "deny": 0
+   },
+   "ms": 45
+  },
+  {
+   "id": 3107555,
+   "letter": "L",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 35.39832012267991,
+    "v1": 38.365882244922666,
+    "delta": 2.9675621222427537,
+    "lambda": 0.565439762594423,
+    "deny": 0
+   },
+   "ms": 54
+  },
+  {
+   "id": 3107564,
+   "letter": "T",
+   "winner": "SoapConsumers",
+   "paid": 11,
+   "myBid": 9,
+   "info": {
+    "v0": 35.72124187407142,
+    "v1": 38.85761312018865,
+    "delta": 3.1363712461172355,
+    "lambda": 0.5548071727987889,
+    "deny": 0
+   },
+   "ms": 47
+  },
+  {
+   "id": 3107573,
+   "letter": "X",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 29,
+   "myBid": 29,
+   "info": {
+    "v0": 35.304220306355425,
+    "v1": 51.14166097606804,
+    "delta": 15.837440669712613,
+    "lambda": 0.5441375083780958,
+    "deny": 0
+   },
+   "ms": 44
+  },
+  {
+   "id": 3107582,
+   "letter": "E",
+   "winner": "Bron",
+   "paid": 12,
+   "myBid": 10,
+   "info": {
+    "v0": 36.57567953463506,
+    "v1": 40.34188415632606,
+    "delta": 3.766204621691003,
+    "lambda": 0.5334295900426167,
+    "deny": 0
+   },
+   "ms": 31
+  },
+  {
+   "id": 3107591,
+   "letter": "I",
+   "winner": "SoapConsumers",
+   "paid": 13,
+   "myBid": 9,
+   "info": {
+    "v0": 35.882546962658544,
+    "v1": 36.39190683921151,
+    "delta": 0.5093598765529634,
+    "lambda": 0.5226821620920402,
+    "deny": 0
+   },
+   "ms": 86
+  },
+  {
+   "id": 3107600,
+   "letter": "A",
+   "winner": "SoapConsumers",
+   "paid": 14,
+   "myBid": 10,
+   "info": {
+    "v0": 36.8992419377799,
+    "v1": 37.38414164354068,
+    "delta": 0.4848997057607818,
+    "lambda": 0.511893884757836,
+    "deny": 0
+   },
+   "ms": 82
+  },
+  {
+   "id": 3107609,
+   "letter": "E",
+   "winner": "SoapConsumers",
+   "paid": 12,
+   "myBid": 10,
+   "info": {
+    "v0": 37.22922059580501,
+    "v1": 41.20339393247821,
+    "delta": 3.9741733366731964,
+    "lambda": 0.501063325498761,
+    "deny": 0
+   },
+   "ms": 55
+  },
+  {
+   "id": 3107618,
+   "letter": "A",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 35.06376741218866,
+    "v1": 35.41963136622707,
+    "delta": 0.3558639540384121,
+    "lambda": 0.49018894906741756,
+    "deny": 0
+   },
+   "ms": 50
+  },
+  {
+   "id": 3107627,
+   "letter": "W",
+   "winner": "SoapConsumers",
+   "paid": 18,
+   "myBid": 18,
+   "info": {
+    "v0": 36.41359824705476,
+    "v1": 45.2772162579035,
+    "delta": 8.86361801084874,
+    "lambda": 0.4792691061271462,
+    "deny": 0
+   },
+   "ms": 19
+  },
+  {
+   "id": 3107636,
+   "letter": "S",
+   "winner": "Bron",
+   "paid": 12,
+   "myBid": 11,
+   "info": {
+    "v0": 36.95790956732285,
+    "v1": 39.00474143464634,
+    "delta": 2.0468318673234904,
+    "lambda": 0.4683020201501786,
+    "deny": 0
+   },
+   "ms": 25
+  },
+  {
+   "id": 3107645,
+   "letter": "P",
+   "winner": "saketh-apex",
+   "paid": 19,
+   "myBid": 15,
+   "info": {
+    "v0": 37.265128330914116,
+    "v1": 43.58777881455066,
+    "delta": 6.322650483636544,
+    "lambda": 0.4572857722670549,
+    "deny": 0
+   },
+   "ms": 19
+  },
+  {
+   "id": 3107654,
+   "letter": "N",
+   "winner": "NigelR",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 39.27803903484002,
+    "v1": 40.82859796524679,
+    "delta": 1.5505589304067726,
+    "lambda": 0.44621828365998467,
+    "deny": 0
+   },
+   "ms": 17
+  },
+  {
+   "id": 3107663,
+   "letter": "M",
+   "winner": "NigelR",
+   "paid": 17,
+   "myBid": 16,
+   "info": {
+    "v0": 38.578662789903795,
+    "v1": 44.76402371579987,
+    "delta": 6.185360925896077,
+    "lambda": 0.43509729499399485,
+    "deny": 0
+   },
+   "ms": 17
+  },
+  {
+   "id": 3107672,
+   "letter": "I",
+   "winner": "NigelR",
+   "paid": 15,
+   "myBid": 9,
+   "info": {
+    "v0": 38.35566548131558,
+    "v1": 39.06534869066861,
+    "delta": 0.7096832093530239,
+    "lambda": 0.4239203422523351,
+    "deny": 0
+   },
+   "ms": 19
+  },
+  {
+   "id": 3107681,
+   "letter": "U",
+   "winner": "Bron",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 36.69511416381486,
+    "v1": 37.03537518977809,
+    "delta": 0.3402610259632297,
+    "lambda": 0.41268472817709967,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3107690,
+   "letter": "I",
+   "winner": "saketh-apex",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 40.34953935234886,
+    "v1": 40.913598797961434,
+    "delta": 0.5640594456125712,
+    "lambda": 0.40138748829901233,
+    "deny": 0
+   },
+   "ms": 18
+  },
+  {
+   "id": 3107699,
+   "letter": "E",
+   "winner": "NigelR",
+   "paid": 14,
+   "myBid": 10,
+   "info": {
+    "v0": 39.98007627203518,
+    "v1": 43.88810671372024,
+    "delta": 3.9080304416850637,
+    "lambda": 0.39002535025302754,
+    "deny": 0
+   },
+   "ms": 9
+  },
+  {
+   "id": 3107708,
+   "letter": "E",
+   "winner": "saketh-apex",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 41.59546447708217,
+    "v1": 45.726546204535516,
+    "delta": 4.131081727453349,
+    "lambda": 0.3785946846921573,
+    "deny": 0
+   },
+   "ms": 22
+  },
+  {
+   "id": 3107716,
+   "letter": "F",
+   "winner": "Bron",
+   "paid": 18,
+   "myBid": 18,
+   "info": {
+    "v0": 41.976862103655044,
+    "v1": 48.04047368854981,
+    "delta": 6.063611584894765,
+    "lambda": 0.3670914455923022,
+    "deny": 0
+   },
+   "ms": 22
+  },
+  {
+   "id": 3107725,
+   "letter": "I",
+   "winner": "SoapConsumers",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 40.42523677450825,
+    "v1": 41.26058397662168,
+    "delta": 0.8353472021134323,
+    "lambda": 0.3555110970297301,
+    "deny": 0
+   },
+   "ms": 25
+  },
+  {
+   "id": 3107734,
+   "letter": "O",
+   "winner": "NigelR",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 42.53971456183912,
+    "v1": 43.69999962844964,
+    "delta": 1.1602850666105198,
+    "lambda": 0.34384852252704534,
+    "deny": 0
+   },
+   "ms": 23
+  },
+  {
+   "id": 3107743,
+   "letter": "L",
+   "winner": "Bron",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 40.078102508746966,
+    "v1": 42.549487779808246,
+    "delta": 2.47138527106128,
+    "lambda": 0.3320979116777005,
+    "deny": 0
+   },
+   "ms": 14
+  },
+  {
+   "id": 3107752,
+   "letter": "R",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 42.457439431796665,
+    "v1": 44.499690611217154,
+    "delta": 2.0422511794204894,
+    "lambda": 0.3202526167812131,
+    "deny": 0
+   },
+   "ms": 16
+  },
+  {
+   "id": 3107761,
+   "letter": "U",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 42.021764485848,
+    "v1": 42.52728201170188,
+    "delta": 0.5055175258538753,
+    "lambda": 0.30830496935091,
+    "deny": 0
+   },
+   "ms": 10
+  },
+  {
+   "id": 3107770,
+   "letter": "B",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 15,
+   "myBid": 15,
+   "info": {
+    "v0": 45.94603284188855,
+    "v1": 49.97046316437555,
+    "delta": 4.0244303224869995,
+    "lambda": 0.296246042113729,
+    "deny": 0
+   },
+   "ms": 9
+  },
+  {
+   "id": 3107779,
+   "letter": "A",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 11,
+   "myBid": 9,
+   "info": {
+    "v0": 45.62930397189717,
+    "v1": 45.97309608472177,
+    "delta": 0.34379211282459465,
+    "lambda": 0.2840653357237048,
+    "deny": 0
+   },
+   "ms": 14
+  },
+  {
+   "id": 3107788,
+   "letter": "S",
+   "winner": "SoapConsumers",
+   "paid": 12,
+   "myBid": 10,
+   "info": {
+    "v0": 46.8178919899346,
+    "v1": 48.324604483698984,
+    "delta": 1.5067124937643825,
+    "lambda": 0.2717503595429811,
+    "deny": 0
+   },
+   "ms": 15
+  },
+  {
+   "id": 3107797,
+   "letter": "R",
+   "winner": "NigelR",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 46.7103355519177,
+    "v1": 48.67134567295011,
+    "delta": 1.961010121032409,
+    "lambda": 0.25928606023778983,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3107806,
+   "letter": "M",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 18,
+   "myBid": 18,
+   "info": {
+    "v0": 49.530513625108604,
+    "v1": 54.1303270637648,
+    "delta": 4.599813438656199,
+    "lambda": 0.24665402654626983,
+    "deny": 0
+   },
+   "ms": 6
+  },
+  {
+   "id": 3107815,
+   "letter": "O",
+   "winner": "Bron",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 48.038761616116766,
+    "v1": 49.20863657480439,
+    "delta": 1.1698749586876218,
+    "lambda": 0.23383135591622625,
+    "deny": 0
+   },
+   "ms": 6
+  },
+  {
+   "id": 3107824,
+   "letter": "N",
+   "winner": "Bron",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 47.23882537873155,
+    "v1": 48.06384093244293,
+    "delta": 0.8250155537113812,
+    "lambda": 0.22078899434394395,
+    "deny": 0
+   },
+   "ms": 33
+  },
+  {
+   "id": 3107833,
+   "letter": "H",
+   "winner": "Astronaut",
+   "paid": 19,
+   "myBid": 34,
+   "info": {
+    "v0": 48.14555117133662,
+    "v1": 55.65601401286303,
+    "delta": 7.510462841526412,
+    "lambda": 0.20748922542006745,
+    "deny": 0
+   },
+   "ms": 21
+  },
+  {
+   "id": 3107842,
+   "letter": "G",
+   "winner": "Bron",
+   "paid": 12,
+   "myBid": 5,
+   "info": {
+    "v0": 56.421311287088336,
+    "v1": 57.62029990104056,
+    "delta": 1.1989886139522241,
+    "lambda": 0.2238753329086672,
+    "deny": 0
+   },
+   "ms": 22
+  },
+  {
+   "id": 3107851,
+   "letter": "S",
+   "winner": "NigelR",
+   "paid": 14,
+   "myBid": 14,
+   "info": {
+    "v0": 55.074356462525806,
+    "v1": 58.09134142949011,
+    "delta": 3.0169849669643014,
+    "lambda": 0.20772725038977385,
+    "deny": 0
+   },
+   "ms": 22
+  },
+  {
+   "id": 3107860,
+   "letter": "T",
+   "winner": "Bron",
+   "paid": 11,
+   "myBid": 4,
+   "info": {
+    "v0": 53.196470436267184,
+    "v1": 54.062235979407404,
+    "delta": 0.8657655431402205,
+    "lambda": 0.19102842352837043,
+    "deny": 0
+   },
+   "ms": 28
+  },
+  {
+   "id": 3107869,
+   "letter": "O",
+   "winner": "Bron",
+   "paid": 12,
+   "myBid": 3,
+   "info": {
+    "v0": 54.1174551820935,
+    "v1": 54.77800909340909,
+    "delta": 0.6605539113155885,
+    "lambda": 0.17360410807115215,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3107878,
+   "letter": "Z",
+   "winner": "Astronaut",
+   "paid": 14,
+   "myBid": 37,
+   "info": {
+    "v0": 48.6783291008118,
+    "v1": 67.78899720157139,
+    "delta": 19.11066810075959,
+    "lambda": 0.1551698078048222,
+    "deny": 0
+   },
+   "ms": 12
+  },
+  {
+   "id": 3107887,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 16,
+   "myBid": 37,
+   "info": {
+    "v0": 7.780643978939609,
+    "v1": 11.42807912653931,
+    "delta": 3.6474351475997002,
+    "lambda": 0.15567584931845832,
+    "deny": 0
+   },
+   "ms": 16
+  },
+  {
+   "id": 3107896,
+   "letter": "T",
+   "winner": "Astronaut",
+   "paid": 18,
+   "myBid": 66,
+   "info": {
+    "v0": 14.896229812016848,
+    "v1": 20.723212972111277,
+    "delta": 5.826983160094429,
+    "lambda": 0.08819119488543359,
+    "deny": 0
+   },
+   "ms": 4
+  },
+  {
+   "id": 3107905,
+   "letter": "Q",
+   "winner": "Astronaut",
+   "paid": 20,
+   "myBid": 55,
+   "info": {
+    "v0": 13.39922644969702,
+    "v1": 37.03149367063569,
+    "delta": 23.632267220938672,
+    "lambda": 0.07355516183910835,
+    "deny": 0
+   },
+   "ms": 6
+  },
+  {
+   "id": 3107913,
+   "letter": "R",
+   "winner": "saketh-apex",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 0.5799999999999993,
+    "v1": 0.8699999999999997,
+    "delta": 0.29000000000000037,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 4
+  },
+  {
+   "id": 3107923,
+   "letter": "K",
+   "winner": "NigelR",
+   "paid": 1,
+   "myBid": 0,
+   "info": {
+    "v0": 0.5799999999999993,
+    "v1": 0.8699999999999997,
+    "delta": 0.29000000000000037,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 2
+  }
+ ],
+ "words": [
+  {
+   "bot": "SoapConsumers",
+   "word": "JAVELIN",
+   "reward": 51
+  },
+  {
+   "bot": "saketh-apex",
+   "word": "OVATION",
+   "reward": 30
+  },
+  {
+   "bot": "NigelR",
+   "word": "INGROWTH",
+   "reward": 45
+  },
+  {
+   "bot": "Bron",
+   "word": "DEFENDER",
+   "reward": 39
+  },
+  {
+   "bot": "SoapConsumers",
+   "word": "CIGARET",
+   "reward": 30
+  },
+  {
+   "bot": "SoapConsumers",
+   "word": "AWED",
+   "reward": 12
+  },
+  {
+   "bot": "Nigel \"Bidderson\" Richards",
+   "word": "POLEAXE",
+   "reward": 48
+  },
+  {
+   "bot": "SoapConsumers",
+   "word": "IS",
+   "reward": 2
+  },
+  {
+   "bot": "Bron",
+   "word": "BEFOULS",
+   "reward": 36
+  },
+  {
+   "bot": "NigelR",
+   "word": "MERINO",
+   "reward": 20
+  },
+  {
+   "bot": "Astronaut",
+   "word": "LAZYISH",
+   "reward": 66
+  },
+  {
+   "bot": "Nigel \"Bidderson\" Richards",
+   "word": "BARIUM",
+   "reward": 25
+  },
+  {
+   "bot": "Nigel \"Bidderson\" Richards",
+   "word": "OY",
+   "reward": 5
+  },
+  {
+   "bot": "Astronaut",
+   "word": "QUATE",
+   "reward": 28
+  },
+  {
+   "bot": "saketh-apex",
+   "word": "PARETIC",
+   "reward": 33
+  },
+  {
+   "bot": "Bron",
+   "word": "TONG",
+   "reward": 7
+  }
+ ]
+}

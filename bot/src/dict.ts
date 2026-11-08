@@ -3,6 +3,7 @@
 // filter, and rack partitioning (best set of disjoint words) is a memoised
 // search. Pure code, no runtime dependencies beyond node:fs.
 
+import { fileURLToPath } from "node:url";
 import * as fs from "node:fs";
 import * as path from "node:path";
 
@@ -234,7 +235,7 @@ export class Dictionary {
 let SHARED: Dictionary | undefined;
 
 export function wordlistPath(): string {
-  const here = path.dirname(new URL(import.meta.url).pathname);
+  const here = path.dirname(fileURLToPath(import.meta.url));
   return path.join(here, "..", "..", "spacetimedb", "wordlist.txt");
 }
 

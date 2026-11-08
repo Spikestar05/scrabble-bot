@@ -9,6 +9,7 @@
 // full to ../logs/match-<id>.json) for post-mortems. The token is never
 // printed or logged.
 
+import { fileURLToPath } from "node:url";
 import {
   DbConnection,
   type EventContext,
@@ -30,7 +31,7 @@ const TOURNAMENT_ID = process.env.TOURNAMENT_ID;
 const NO_LOBBY = process.env.NO_LOBBY === "1";
 const PARAMS: Partial<Params> = process.env.BRAIN_PARAMS ? JSON.parse(process.env.BRAIN_PARAMS) : {};
 const TOKEN_PATH = path.join(process.cwd(), `.token-${BOT_NAME}`);
-const LOG_DIR = path.join(path.dirname(new URL(import.meta.url).pathname), "..", "..", "logs");
+const LOG_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..", "logs");
 fs.mkdirSync(LOG_DIR, { recursive: true });
 
 function loadToken(): string | undefined {

@@ -1,0 +1,1586 @@
+{
+ "matchId": 47652,
+ "at": "2026-11-08T04:58:34.544Z",
+ "auctionType": "Vickrey",
+ "placement": 1,
+ "nPlayers": 6,
+ "scores": [
+  {
+   "bot": "Astronaut",
+   "score": 97,
+   "balance": 18
+  },
+  {
+   "bot": "Nigel \"Bidderson\" Richards",
+   "score": 92,
+   "balance": 15
+  },
+  {
+   "bot": "SoapConsumers",
+   "score": 82,
+   "balance": 13
+  },
+  {
+   "bot": "Tilewise",
+   "score": 80,
+   "balance": 2
+  },
+  {
+   "bot": "gas",
+   "score": 79,
+   "balance": 19
+  },
+  {
+   "bot": "evol",
+   "score": 57,
+   "balance": 46
+  }
+ ],
+ "myScore": 97,
+ "myLeftover": "",
+ "myWords": [
+  {
+   "bot": "Astronaut",
+   "word": "EQUABLE",
+   "reward": 54
+  },
+  {
+   "bot": "Astronaut",
+   "word": "WAXERS",
+   "reward": 40
+  },
+  {
+   "bot": "Astronaut",
+   "word": "GO",
+   "reward": 3
+  }
+ ],
+ "myWordAttempts": [
+  {
+   "word": "EQUABLE",
+   "at": 1794113899302,
+   "ok": true
+  },
+  {
+   "word": "WAXERS",
+   "at": 1794113907365,
+   "ok": true
+  },
+  {
+   "word": "GO",
+   "at": 1794113913521,
+   "ok": true
+  }
+ ],
+ "won": [
+  {
+   "l": "E",
+   "paid": 12,
+   "bid": 18
+  },
+  {
+   "l": "B",
+   "paid": 16,
+   "bid": 16
+  },
+  {
+   "l": "E",
+   "paid": 10,
+   "bid": 10
+  },
+  {
+   "l": "U",
+   "paid": 13,
+   "bid": 18
+  },
+  {
+   "l": "X",
+   "paid": 36,
+   "bid": 49
+  },
+  {
+   "l": "O",
+   "paid": 14,
+   "bid": 18
+  },
+  {
+   "l": "E",
+   "paid": 16,
+   "bid": 21
+  },
+  {
+   "l": "S",
+   "paid": 17,
+   "bid": 25
+  },
+  {
+   "l": "A",
+   "paid": 20,
+   "bid": 20
+  },
+  {
+   "l": "G",
+   "paid": 25,
+   "bid": 28
+  }
+ ],
+ "missed": [
+  {
+   "l": "N",
+   "bid": 9,
+   "paid": 9,
+   "winner": "gas"
+  },
+  {
+   "l": "N",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Tilewise"
+  },
+  {
+   "l": "R",
+   "bid": 9,
+   "paid": 12,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Tilewise"
+  },
+  {
+   "l": "T",
+   "bid": 8,
+   "paid": 11,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "F",
+   "bid": 17,
+   "paid": 27,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 11,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Tilewise"
+  },
+  {
+   "l": "E",
+   "bid": 11,
+   "paid": 12,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "T",
+   "bid": 11,
+   "paid": 14,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "T",
+   "bid": 9,
+   "paid": 14,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 11,
+   "winner": "evol"
+  },
+  {
+   "l": "M",
+   "bid": 16,
+   "paid": 20,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 10,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "D",
+   "bid": 13,
+   "paid": 13,
+   "winner": "evol"
+  },
+  {
+   "l": "N",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "G",
+   "bid": 11,
+   "paid": 14,
+   "winner": "Tilewise"
+  },
+  {
+   "l": "H",
+   "bid": 19,
+   "paid": 21,
+   "winner": "evol"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 10,
+   "winner": "gas"
+  },
+  {
+   "l": "Y",
+   "bid": 18,
+   "paid": 19,
+   "winner": "Tilewise"
+  },
+  {
+   "l": "H",
+   "bid": 18,
+   "paid": 19,
+   "winner": "gas"
+  },
+  {
+   "l": "M",
+   "bid": 15,
+   "paid": 16,
+   "winner": "gas"
+  },
+  {
+   "l": "W",
+   "bid": 16,
+   "paid": 18,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 10,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 9,
+   "winner": "gas"
+  },
+  {
+   "l": "E",
+   "bid": 9,
+   "paid": 21,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 10,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "O",
+   "bid": 9,
+   "paid": 10,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "O",
+   "bid": 9,
+   "paid": 10,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "G",
+   "bid": 12,
+   "paid": 16,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "O",
+   "bid": 9,
+   "paid": 10,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "A",
+   "bid": 10,
+   "paid": 11,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "T",
+   "bid": 9,
+   "paid": 13,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "R",
+   "bid": 10,
+   "paid": 12,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "O",
+   "bid": 9,
+   "paid": 10,
+   "winner": "Tilewise"
+  },
+  {
+   "l": "T",
+   "bid": 9,
+   "paid": 13,
+   "winner": "Tilewise"
+  },
+  {
+   "l": "R",
+   "bid": 10,
+   "paid": 13,
+   "winner": "Tilewise"
+  },
+  {
+   "l": "T",
+   "bid": 10,
+   "paid": 11,
+   "winner": "SoapConsumers"
+  },
+  {
+   "l": "P",
+   "bid": 16,
+   "paid": 16,
+   "winner": "gas"
+  },
+  {
+   "l": "A",
+   "bid": 10,
+   "paid": 11,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "R",
+   "bid": 10,
+   "paid": 10,
+   "winner": "evol"
+  },
+  {
+   "l": "V",
+   "bid": 16,
+   "paid": 18,
+   "winner": "Tilewise"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 11,
+   "winner": "evol"
+  },
+  {
+   "l": "A",
+   "bid": 10,
+   "paid": 15,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "N",
+   "bid": 10,
+   "paid": 10,
+   "winner": "evol"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 14,
+   "winner": "gas"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 13,
+   "winner": "gas"
+  },
+  {
+   "l": "C",
+   "bid": 17,
+   "paid": 22,
+   "winner": "gas"
+  },
+  {
+   "l": "O",
+   "bid": 3,
+   "paid": 16,
+   "winner": "gas"
+  },
+  {
+   "l": "A",
+   "bid": 21,
+   "paid": 21,
+   "winner": "Tilewise"
+  },
+  {
+   "l": "V",
+   "bid": 12,
+   "paid": 22,
+   "winner": "Tilewise"
+  },
+  {
+   "l": "D",
+   "bid": 16,
+   "paid": 20,
+   "winner": "evol"
+  },
+  {
+   "l": "R",
+   "bid": 18,
+   "paid": 20,
+   "winner": "Tilewise"
+  },
+  {
+   "l": "N",
+   "bid": 15,
+   "paid": 18,
+   "winner": "Nigel \"Bidderson\" Richards"
+  },
+  {
+   "l": "S",
+   "bid": 15,
+   "paid": 15,
+   "winner": "evol"
+  },
+  {
+   "l": "S",
+   "bid": 9,
+   "paid": 16,
+   "winner": "gas"
+  }
+ ],
+ "maxDecisionMs": 139.746399999829,
+ "auctions": [
+  {
+   "id": 3108545,
+   "letter": "N",
+   "winner": "gas",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 22.390909349458525,
+    "v1": 27.162922721141303,
+    "delta": 4.772013371682778,
+    "lambda": 0.6617867174327142,
+    "deny": 0
+   },
+   "ms": 50
+  },
+  {
+   "id": 3108554,
+   "letter": "N",
+   "winner": "Tilewise",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 24.51035552317977,
+    "v1": 28.038406325469577,
+    "delta": 3.5280508022898083,
+    "lambda": 0.6538808859919171,
+    "deny": 0
+   },
+   "ms": 35
+  },
+  {
+   "id": 3108563,
+   "letter": "R",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 12,
+   "myBid": 9,
+   "info": {
+    "v0": 23.294980625161326,
+    "v1": 27.001080650117583,
+    "delta": 3.706100024956257,
+    "lambda": 0.6459587650218012,
+    "deny": 0
+   },
+   "ms": 76
+  },
+  {
+   "id": 3108572,
+   "letter": "E",
+   "winner": "Tilewise",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 23.292570808737764,
+    "v1": 29.707128005528716,
+    "delta": 6.414557196790952,
+    "lambda": 0.6380200654079734,
+    "deny": 0
+   },
+   "ms": 36
+  },
+  {
+   "id": 3108581,
+   "letter": "T",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 11,
+   "myBid": 8,
+   "info": {
+    "v0": 22.33176016417714,
+    "v1": 27.265021848165475,
+    "delta": 4.933261683988334,
+    "lambda": 0.6300644879061076,
+    "deny": 0
+   },
+   "ms": 41
+  },
+  {
+   "id": 3108590,
+   "letter": "F",
+   "winner": "SoapConsumers",
+   "paid": 27,
+   "myBid": 17,
+   "info": {
+    "v0": 23.17151865518586,
+    "v1": 33.540478961172504,
+    "delta": 10.368960305986644,
+    "lambda": 0.6220917225987204,
+    "deny": 0
+   },
+   "ms": 43
+  },
+  {
+   "id": 3108599,
+   "letter": "I",
+   "winner": "SoapConsumers",
+   "paid": 11,
+   "myBid": 9,
+   "info": {
+    "v0": 22.44675927843817,
+    "v1": 27.875275032094876,
+    "delta": 5.428515753656708,
+    "lambda": 0.6141014483122161,
+    "deny": 0
+   },
+   "ms": 62
+  },
+  {
+   "id": 3108608,
+   "letter": "I",
+   "winner": "Tilewise",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 23.114800490852996,
+    "v1": 28.70275825068178,
+    "delta": 5.587957759828782,
+    "lambda": 0.6060933319904902,
+    "deny": 0
+   },
+   "ms": 140
+  },
+  {
+   "id": 3108617,
+   "letter": "E",
+   "winner": "SoapConsumers",
+   "paid": 12,
+   "myBid": 11,
+   "info": {
+    "v0": 31.684939023916794,
+    "v1": 36.556146005209335,
+    "delta": 4.871206981292541,
+    "lambda": 0.4186469196146774,
+    "deny": 0
+   },
+   "ms": 54
+  },
+  {
+   "id": 3108626,
+   "letter": "T",
+   "winner": "SoapConsumers",
+   "paid": 14,
+   "myBid": 11,
+   "info": {
+    "v0": 31.555190263695717,
+    "v1": 36.29397004579056,
+    "delta": 4.738779782094841,
+    "lambda": 0.41301552425592664,
+    "deny": 0
+   },
+   "ms": 36
+  },
+  {
+   "id": 3108634,
+   "letter": "T",
+   "winner": "SoapConsumers",
+   "paid": 14,
+   "myBid": 9,
+   "info": {
+    "v0": 32.36256533662233,
+    "v1": 36.008050511279286,
+    "delta": 3.6454851746569545,
+    "lambda": 0.4073708852442142,
+    "deny": 0
+   },
+   "ms": 72
+  },
+  {
+   "id": 3108643,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 12,
+   "myBid": 18,
+   "info": {
+    "v0": 28.615341455800788,
+    "v1": 36.04389201467938,
+    "delta": 7.428550558878591,
+    "lambda": 0.4017127310678191,
+    "deny": 0
+   },
+   "ms": 34
+  },
+  {
+   "id": 3108652,
+   "letter": "E",
+   "winner": "evol",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 35.14400248484892,
+    "v1": 38.059541749715606,
+    "delta": 2.9155392648666876,
+    "lambda": 0.41746363612463033,
+    "deny": 0
+   },
+   "ms": 36
+  },
+  {
+   "id": 3108661,
+   "letter": "B",
+   "winner": "Astronaut",
+   "paid": 16,
+   "myBid": 16,
+   "info": {
+    "v0": 30.23757226559405,
+    "v1": 38.92969536451256,
+    "delta": 8.692123098918511,
+    "lambda": 0.5878143134661381,
+    "deny": 0
+   },
+   "ms": 59
+  },
+  {
+   "id": 3108670,
+   "letter": "M",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 20,
+   "myBid": 16,
+   "info": {
+    "v0": 38.63978383727699,
+    "v1": 43.06038614143991,
+    "delta": 4.4206023041629265,
+    "lambda": 0.6275802271377445,
+    "deny": 0
+   },
+   "ms": 30
+  },
+  {
+   "id": 3108679,
+   "letter": "I",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 38.28490084044452,
+    "v1": 41.909999379353884,
+    "delta": 3.625098538909363,
+    "lambda": 0.6182556909040061,
+    "deny": 0
+   },
+   "ms": 32
+  },
+  {
+   "id": 3108688,
+   "letter": "E",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 38.00861223985178,
+    "v1": 41.596731505275365,
+    "delta": 3.588119265423586,
+    "lambda": 0.6089065938030068,
+    "deny": 0
+   },
+   "ms": 36
+  },
+  {
+   "id": 3108697,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 40.422577029065785,
+    "v1": 44.30398813082828,
+    "delta": 3.8814111017624953,
+    "lambda": 0.5995323652612521,
+    "deny": 0
+   },
+   "ms": 39
+  },
+  {
+   "id": 3108706,
+   "letter": "D",
+   "winner": "evol",
+   "paid": 13,
+   "myBid": 13,
+   "info": {
+    "v0": 44.11483680941935,
+    "v1": 47.66676814096845,
+    "delta": 3.551931331549099,
+    "lambda": 0.6250812224246601,
+    "deny": 0
+   },
+   "ms": 20
+  },
+  {
+   "id": 3108715,
+   "letter": "N",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 42.371710152714776,
+    "v1": 43.49310443541285,
+    "delta": 1.121394282698077,
+    "lambda": 0.6150966661733626,
+    "deny": 0
+   },
+   "ms": 24
+  },
+  {
+   "id": 3108724,
+   "letter": "G",
+   "winner": "Tilewise",
+   "paid": 14,
+   "myBid": 11,
+   "info": {
+    "v0": 41.035622853464815,
+    "v1": 44.49007024742628,
+    "delta": 3.454447393961466,
+    "lambda": 0.6050834998732091,
+    "deny": 0
+   },
+   "ms": 31
+  },
+  {
+   "id": 3108733,
+   "letter": "H",
+   "winner": "evol",
+   "paid": 21,
+   "myBid": 19,
+   "info": {
+    "v0": 42.4455094987249,
+    "v1": 50.0109809568792,
+    "delta": 7.565471458154299,
+    "lambda": 0.5950409936132068,
+    "deny": 0
+   },
+   "ms": 22
+  },
+  {
+   "id": 3108742,
+   "letter": "E",
+   "winner": "gas",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 43.20841527923889,
+    "v1": 43.84486391106167,
+    "delta": 0.6364486318227804,
+    "lambda": 0.5849683799519735,
+    "deny": 0
+   },
+   "ms": 19
+  },
+  {
+   "id": 3108751,
+   "letter": "Y",
+   "winner": "Tilewise",
+   "paid": 19,
+   "myBid": 18,
+   "info": {
+    "v0": 42.42690180401349,
+    "v1": 53.314739597365666,
+    "delta": 10.887837793352176,
+    "lambda": 0.5748648509371932,
+    "deny": 0
+   },
+   "ms": 20
+  },
+  {
+   "id": 3108759,
+   "letter": "H",
+   "winner": "gas",
+   "paid": 19,
+   "myBid": 18,
+   "info": {
+    "v0": 42.57962208887013,
+    "v1": 50.59756587857286,
+    "delta": 8.017943789702727,
+    "lambda": 0.5647295548015713,
+    "deny": 0
+   },
+   "ms": 30
+  },
+  {
+   "id": 3108768,
+   "letter": "M",
+   "winner": "gas",
+   "paid": 16,
+   "myBid": 15,
+   "info": {
+    "v0": 44.15019023253573,
+    "v1": 46.69533727229023,
+    "delta": 2.5451470397545037,
+    "lambda": 0.5545615922905394,
+    "deny": 0
+   },
+   "ms": 47
+  },
+  {
+   "id": 3108777,
+   "letter": "W",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 18,
+   "myBid": 16,
+   "info": {
+    "v0": 44.949183686374106,
+    "v1": 46.50792253942771,
+    "delta": 1.5587388530536046,
+    "lambda": 0.5443600125694218,
+    "deny": 0
+   },
+   "ms": 16
+  },
+  {
+   "id": 3108786,
+   "letter": "I",
+   "winner": "SoapConsumers",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 45.019948602715004,
+    "v1": 47.63129737704991,
+    "delta": 2.611348774334907,
+    "lambda": 0.5341238086487073,
+    "deny": 0
+   },
+   "ms": 27
+  },
+  {
+   "id": 3108795,
+   "letter": "I",
+   "winner": "gas",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 44.12362614027118,
+    "v1": 46.581020740593296,
+    "delta": 2.457394600322118,
+    "lambda": 0.5238519122551634,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3108804,
+   "letter": "E",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 21,
+   "myBid": 9,
+   "info": {
+    "v0": 46.79801258318673,
+    "v1": 47.30379241157323,
+    "delta": 0.505779828386494,
+    "lambda": 0.5135431880633086,
+    "deny": 0
+   },
+   "ms": 12
+  },
+  {
+   "id": 3108813,
+   "letter": "E",
+   "winner": "SoapConsumers",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 46.42144645003224,
+    "v1": 46.9449167788162,
+    "delta": 0.5234703287839579,
+    "lambda": 0.5031964271856849,
+    "deny": 0
+   },
+   "ms": 15
+  },
+  {
+   "id": 3108822,
+   "letter": "O",
+   "winner": "SoapConsumers",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 46.11008372616944,
+    "v1": 47.59909854616512,
+    "delta": 1.4890148199956812,
+    "lambda": 0.4928103398007017,
+    "deny": 0
+   },
+   "ms": 12
+  },
+  {
+   "id": 3108831,
+   "letter": "O",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 46.0862127273457,
+    "v1": 47.736455798191265,
+    "delta": 1.650243070845562,
+    "lambda": 0.48238354677264794,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3108840,
+   "letter": "G",
+   "winner": "SoapConsumers",
+   "paid": 16,
+   "myBid": 12,
+   "info": {
+    "v0": 45.494894439749515,
+    "v1": 47.0044935686763,
+    "delta": 1.5095991289267872,
+    "lambda": 0.4719145700885715,
+    "deny": 0
+   },
+   "ms": 33
+  },
+  {
+   "id": 3108849,
+   "letter": "O",
+   "winner": "SoapConsumers",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 45.7506786562648,
+    "v1": 47.15287863773721,
+    "delta": 1.4021999814724069,
+    "lambda": 0.4614018218995377,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3108858,
+   "letter": "A",
+   "winner": "SoapConsumers",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 47.877030451683225,
+    "v1": 49.05346452208287,
+    "delta": 1.1764340703996439,
+    "lambda": 0.4508435919072225,
+    "deny": 0
+   },
+   "ms": 14
+  },
+  {
+   "id": 3108867,
+   "letter": "T",
+   "winner": "SoapConsumers",
+   "paid": 13,
+   "myBid": 9,
+   "info": {
+    "v0": 48.338666828580045,
+    "v1": 50.280278936483874,
+    "delta": 1.941612107903829,
+    "lambda": 0.4402380327781479,
+    "deny": 0
+   },
+   "ms": 15
+  },
+  {
+   "id": 3108876,
+   "letter": "R",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 12,
+   "myBid": 10,
+   "info": {
+    "v0": 47.31009660818686,
+    "v1": 47.92919879649934,
+    "delta": 0.6191021883124819,
+    "lambda": 0.4295831431934229,
+    "deny": 0
+   },
+   "ms": 17
+  },
+  {
+   "id": 3108884,
+   "letter": "O",
+   "winner": "Tilewise",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 47.87410749856516,
+    "v1": 49.40096271951595,
+    "delta": 1.526855220950793,
+    "lambda": 0.4188767480467044,
+    "deny": 0
+   },
+   "ms": 14
+  },
+  {
+   "id": 3108892,
+   "letter": "T",
+   "winner": "Tilewise",
+   "paid": 13,
+   "myBid": 9,
+   "info": {
+    "v0": 46.920267192757116,
+    "v1": 48.831244682651224,
+    "delta": 1.9109774898941083,
+    "lambda": 0.4081164751804648,
+    "deny": 0
+   },
+   "ms": 14
+  },
+  {
+   "id": 3108900,
+   "letter": "R",
+   "winner": "Tilewise",
+   "paid": 13,
+   "myBid": 10,
+   "info": {
+    "v0": 48.01587545242884,
+    "v1": 48.76328491348402,
+    "delta": 0.7474094610551845,
+    "lambda": 0.3972997278913156,
+    "deny": 0
+   },
+   "ms": 27
+  },
+  {
+   "id": 3108908,
+   "letter": "T",
+   "winner": "SoapConsumers",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 48.003852680346654,
+    "v1": 49.873651076761014,
+    "delta": 1.8697983964143603,
+    "lambda": 0.3864236522262116,
+    "deny": 0
+   },
+   "ms": 8
+  },
+  {
+   "id": 3108917,
+   "letter": "P",
+   "winner": "gas",
+   "paid": 16,
+   "myBid": 16,
+   "info": {
+    "v0": 48.62366594593942,
+    "v1": 50.22050981673119,
+    "delta": 1.5968438707917656,
+    "lambda": 0.375485097814777,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3108926,
+   "letter": "A",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 48.43258497595405,
+    "v1": 49.57278246919673,
+    "delta": 1.140197493242681,
+    "lambda": 0.3644805706130787,
+    "deny": 0
+   },
+   "ms": 23
+  },
+  {
+   "id": 3108935,
+   "letter": "R",
+   "winner": "evol",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 49.51539762320655,
+    "v1": 50.407407398358394,
+    "delta": 0.8920097751518412,
+    "lambda": 0.35340617543390956,
+    "deny": 0
+   },
+   "ms": 9
+  },
+  {
+   "id": 3108943,
+   "letter": "V",
+   "winner": "Tilewise",
+   "paid": 18,
+   "myBid": 16,
+   "info": {
+    "v0": 51.1871530335573,
+    "v1": 54.38259672242659,
+    "delta": 3.1954436888692896,
+    "lambda": 0.3422575454540232,
+    "deny": 0
+   },
+   "ms": 9
+  },
+  {
+   "id": 3108952,
+   "letter": "I",
+   "winner": "evol",
+   "paid": 11,
+   "myBid": 9,
+   "info": {
+    "v0": 51.25078574214391,
+    "v1": 52.826686758616255,
+    "delta": 1.5759010164723435,
+    "lambda": 0.3310297549397097,
+    "deny": 0
+   },
+   "ms": 8
+  },
+  {
+   "id": 3108961,
+   "letter": "A",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 15,
+   "myBid": 10,
+   "info": {
+    "v0": 51.562523975025876,
+    "v1": 52.547290862013206,
+    "delta": 0.9847668869873303,
+    "lambda": 0.3197172100979777,
+    "deny": 0
+   },
+   "ms": 19
+  },
+  {
+   "id": 3108970,
+   "letter": "N",
+   "winner": "evol",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 51.42437132748821,
+    "v1": 52.28436600777866,
+    "delta": 0.8599946802904483,
+    "lambda": 0.30831351105644866,
+    "deny": 0
+   },
+   "ms": 7
+  },
+  {
+   "id": 3108979,
+   "letter": "E",
+   "winner": "gas",
+   "paid": 14,
+   "myBid": 10,
+   "info": {
+    "v0": 52.62297693801549,
+    "v1": 53.0771051734514,
+    "delta": 0.45412823543590974,
+    "lambda": 0.29681127521174416,
+    "deny": 0
+   },
+   "ms": 7
+  },
+  {
+   "id": 3108988,
+   "letter": "I",
+   "winner": "gas",
+   "paid": 13,
+   "myBid": 9,
+   "info": {
+    "v0": 51.53494476614711,
+    "v1": 54.07982064740542,
+    "delta": 2.5448758812583065,
+    "lambda": 0.28520190810199947,
+    "deny": 0
+   },
+   "ms": 7
+  },
+  {
+   "id": 3108996,
+   "letter": "C",
+   "winner": "gas",
+   "paid": 22,
+   "myBid": 17,
+   "info": {
+    "v0": 51.735439554654505,
+    "v1": 54.845194109601444,
+    "delta": 3.1097545549469388,
+    "lambda": 0.27347530179975726,
+    "deny": 0
+   },
+   "ms": 6
+  },
+  {
+   "id": 3109004,
+   "letter": "U",
+   "winner": "Astronaut",
+   "paid": 13,
+   "myBid": 18,
+   "info": {
+    "v0": 52.57097129059262,
+    "v1": 59.33933529520609,
+    "delta": 6.768364004613474,
+    "lambda": 0.26161943132157994,
+    "deny": 0
+   },
+   "ms": 5
+  },
+  {
+   "id": 3109012,
+   "letter": "X",
+   "winner": "Astronaut",
+   "paid": 36,
+   "myBid": 49,
+   "info": {
+    "v0": 9.540544054160863,
+    "v1": 19.594804061928006,
+    "delta": 10.054260007767143,
+    "lambda": 0.27212059982412434,
+    "deny": 0
+   },
+   "ms": 25
+  },
+  {
+   "id": 3109020,
+   "letter": "O",
+   "winner": "Astronaut",
+   "paid": 14,
+   "myBid": 18,
+   "info": {
+    "v0": 23.15392145191356,
+    "v1": 28.40381274418476,
+    "delta": 5.249891292271197,
+    "lambda": 0.2305342089376222,
+    "deny": 0
+   },
+   "ms": 7
+  },
+  {
+   "id": 3109029,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 16,
+   "myBid": 21,
+   "info": {
+    "v0": 21.455408248843728,
+    "v1": 36.7608664507187,
+    "delta": 15.305458201874973,
+    "lambda": 0.23858773489618645,
+    "deny": 0
+   },
+   "ms": 7
+  },
+  {
+   "id": 3109038,
+   "letter": "O",
+   "winner": "gas",
+   "paid": 16,
+   "myBid": 3,
+   "info": {
+    "v0": 32.78746969293001,
+    "v1": 33.61840105604983,
+    "delta": 0.8309313631198165,
+    "lambda": 0.2549451706371656,
+    "deny": 0
+   },
+   "ms": 10
+  },
+  {
+   "id": 3109047,
+   "letter": "A",
+   "winner": "Tilewise",
+   "paid": 21,
+   "myBid": 21,
+   "info": {
+    "v0": 31.73473771283643,
+    "v1": 40.040270729150215,
+    "delta": 8.305533016313785,
+    "lambda": 0.23958792030044576,
+    "deny": 0
+   },
+   "ms": 27
+  },
+  {
+   "id": 3109056,
+   "letter": "S",
+   "winner": "Astronaut",
+   "paid": 17,
+   "myBid": 25,
+   "info": {
+    "v0": 33.400560626568435,
+    "v1": 39.22014604448362,
+    "delta": 5.819585417915185,
+    "lambda": 0.2238753329086672,
+    "deny": 0
+   },
+   "ms": 19
+  },
+  {
+   "id": 3109065,
+   "letter": "V",
+   "winner": "Tilewise",
+   "paid": 22,
+   "myBid": 12,
+   "info": {
+    "v0": 34.536338015201196,
+    "v1": 37.64864199063813,
+    "delta": 3.1123039754369373,
+    "lambda": 0.24797100645066658,
+    "deny": 0
+   },
+   "ms": 17
+  },
+  {
+   "id": 3109074,
+   "letter": "A",
+   "winner": "Astronaut",
+   "paid": 20,
+   "myBid": 20,
+   "info": {
+    "v0": 30.658786848752367,
+    "v1": 40.28999999999998,
+    "delta": 9.63121315124761,
+    "lambda": 0.22803705510052882,
+    "deny": 0
+   },
+   "ms": 14
+  },
+  {
+   "id": 3109083,
+   "letter": "D",
+   "winner": "evol",
+   "paid": 20,
+   "myBid": 16,
+   "info": {
+    "v0": 0.28999999999999965,
+    "v1": 0.8699999999999997,
+    "delta": 0.5800000000000001,
+    "lambda": 0.29307746598239826,
+    "deny": 0
+   },
+   "ms": 37
+  },
+  {
+   "id": 3109092,
+   "letter": "R",
+   "winner": "Tilewise",
+   "paid": 20,
+   "myBid": 18,
+   "info": {
+    "v0": 0.28999999999999965,
+    "v1": 3.104492504479214,
+    "delta": 2.8144925044792144,
+    "lambda": 0.1512408205197135,
+    "deny": 0
+   },
+   "ms": 3
+  },
+  {
+   "id": 3109101,
+   "letter": "G",
+   "winner": "Astronaut",
+   "paid": 25,
+   "myBid": 28,
+   "info": {
+    "v0": 0.28999999999999965,
+    "v1": 4.007232497299747,
+    "delta": 3.7172324972997477,
+    "lambda": 0.1317892074883223,
+    "deny": 0
+   },
+   "ms": 2
+  },
+  {
+   "id": 3109110,
+   "letter": "N",
+   "winner": "Nigel \"Bidderson\" Richards",
+   "paid": 18,
+   "myBid": 15,
+   "info": {
+    "v0": 0.8699999999999997,
+    "v1": 5.2693149224528595,
+    "delta": 4.399314922452859,
+    "lambda": 0.14375821740933226,
+    "deny": 0
+   },
+   "ms": 2
+  },
+  {
+   "id": 3109119,
+   "letter": "S",
+   "winner": "evol",
+   "paid": 15,
+   "myBid": 15,
+   "info": {
+    "v0": 0.8699999999999997,
+    "v1": 2.996077638371911,
+    "delta": 2.1260776383719113,
+    "lambda": 0.10767373170679048,
+    "deny": 0
+   },
+   "ms": 2
+  },
+  {
+   "id": 3109127,
+   "letter": "S",
+   "winner": "gas",
+   "paid": 16,
+   "myBid": 9,
+   "info": {
+    "v0": 0.8699999999999997,
+    "v1": 1.1599999999999986,
+    "delta": 0.2899999999999989,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 2
+  },
+  {
+   "id": 3109137,
+   "letter": "P",
+   "winner": null,
+   "paid": 0,
+   "myBid": 0,
+   "info": {
+    "v0": 0.8699999999999997,
+    "v1": 1.1599999999999986,
+    "delta": 0.2899999999999989,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 1
+  }
+ ],
+ "words": [
+  {
+   "bot": "SoapConsumers",
+   "word": "JETTIED",
+   "reward": 45
+  },
+  {
+   "bot": "Nigel \"Bidderson\" Richards",
+   "word": "AMORTIZES",
+   "reward": 60
+  },
+  {
+   "bot": "Tilewise",
+   "word": "DEIFYING",
+   "reward": 48
+  },
+  {
+   "bot": "SoapConsumers",
+   "word": "FOLIAGE",
+   "reward": 33
+  },
+  {
+   "bot": "SoapConsumers",
+   "word": "AT",
+   "reward": 2
+  },
+  {
+   "bot": "SoapConsumers",
+   "word": "TO",
+   "reward": 2
+  },
+  {
+   "bot": "evol",
+   "word": "BIRCHED",
+   "reward": 45
+  },
+  {
+   "bot": "Nigel \"Bidderson\" Richards",
+   "word": "UNAWARE",
+   "reward": 30
+  },
+  {
+   "bot": "gas",
+   "word": "HEMPLIKE",
+   "reward": 57
+  },
+  {
+   "bot": "Astronaut",
+   "word": "EQUABLE",
+   "reward": 54
+  },
+  {
+   "bot": "gas",
+   "word": "NUNCIO",
+   "reward": 20
+  },
+  {
+   "bot": "Tilewise",
+   "word": "VOTARY",
+   "reward": 30
+  },
+  {
+   "bot": "Astronaut",
+   "word": "WAXERS",
+   "reward": 40
+  },
+  {
+   "bot": "Tilewise",
+   "word": "OR",
+   "reward": 2
+  },
+  {
+   "bot": "Nigel \"Bidderson\" Richards",
+   "word": "NO",
+   "reward": 2
+  },
+  {
+   "bot": "Astronaut",
+   "word": "GO",
+   "reward": 3
+  },
+  {
+   "bot": "evol",
+   "word": "NIDUS",
+   "reward": 12
+  },
+  {
+   "bot": "gas",
+   "word": "AS",
+   "reward": 2
+  }
+ ]
+}

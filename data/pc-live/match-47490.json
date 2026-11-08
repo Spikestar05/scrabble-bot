@@ -1,0 +1,1572 @@
+{
+ "matchId": 47490,
+ "at": "2026-11-08T04:43:16.810Z",
+ "auctionType": "Vickrey",
+ "placement": 2,
+ "nPlayers": 6,
+ "scores": [
+  {
+   "bot": "LexForge-1107",
+   "score": 112,
+   "balance": 19
+  },
+  {
+   "bot": "Astronaut",
+   "score": 94,
+   "balance": 31
+  },
+  {
+   "bot": "LexForge-Shade-v1",
+   "score": 89,
+   "balance": 8
+  },
+  {
+   "bot": "CasualThinker",
+   "score": 62,
+   "balance": 18
+  },
+  {
+   "bot": "moody",
+   "score": 60,
+   "balance": 41
+  },
+  {
+   "bot": "Odysseus's Voyage",
+   "score": 57,
+   "balance": 6
+  }
+ ],
+ "myScore": 94,
+ "myLeftover": "",
+ "myWords": [
+  {
+   "bot": "Astronaut",
+   "word": "GNOMONS",
+   "reward": 30
+  },
+  {
+   "bot": "Astronaut",
+   "word": "DIGOXIN",
+   "reward": 48
+  },
+  {
+   "bot": "Astronaut",
+   "word": "ARMED",
+   "reward": 16
+  }
+ ],
+ "myWordAttempts": [
+  {
+   "word": "GNOMONS",
+   "at": 1794112934589,
+   "ok": true
+  },
+  {
+   "word": "DIGOXIN",
+   "at": 1794112948887,
+   "ok": true
+  },
+  {
+   "word": "ARMED",
+   "at": 1794112994206,
+   "ok": true
+  }
+ ],
+ "won": [
+  {
+   "l": "O",
+   "paid": 7,
+   "bid": 8
+  },
+  {
+   "l": "G",
+   "paid": 9,
+   "bid": 10
+  },
+  {
+   "l": "D",
+   "paid": 11,
+   "bid": 11
+  },
+  {
+   "l": "N",
+   "paid": 7,
+   "bid": 8
+  },
+  {
+   "l": "G",
+   "paid": 9,
+   "bid": 10
+  },
+  {
+   "l": "S",
+   "paid": 8,
+   "bid": 9
+  },
+  {
+   "l": "I",
+   "paid": 7,
+   "bid": 11
+  },
+  {
+   "l": "R",
+   "paid": 7,
+   "bid": 8
+  },
+  {
+   "l": "I",
+   "paid": 7,
+   "bid": 7
+  },
+  {
+   "l": "X",
+   "paid": 35,
+   "bid": 41
+  },
+  {
+   "l": "D",
+   "paid": 14,
+   "bid": 20
+  },
+  {
+   "l": "M",
+   "paid": 20,
+   "bid": 24
+  },
+  {
+   "l": "E",
+   "paid": 14,
+   "bid": 16
+  },
+  {
+   "l": "A",
+   "paid": 8,
+   "bid": 12
+  }
+ ],
+ "missed": [
+  {
+   "l": "E",
+   "bid": 9,
+   "paid": 9,
+   "winner": "LexForge-1107"
+  },
+  {
+   "l": "Q",
+   "bid": 12,
+   "paid": 31,
+   "winner": "LexForge-1107"
+  },
+  {
+   "l": "D",
+   "bid": 12,
+   "paid": 12,
+   "winner": "moody"
+  },
+  {
+   "l": "A",
+   "bid": 9,
+   "paid": 9,
+   "winner": "LexForge-1107"
+  },
+  {
+   "l": "B",
+   "bid": 13,
+   "paid": 15,
+   "winner": "LexForge-Shade-v1"
+  },
+  {
+   "l": "C",
+   "bid": 14,
+   "paid": 14,
+   "winner": "moody"
+  },
+  {
+   "l": "R",
+   "bid": 8,
+   "paid": 8,
+   "winner": "LexForge-1107"
+  },
+  {
+   "l": "T",
+   "bid": 7,
+   "paid": 8,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "L",
+   "bid": 8,
+   "paid": 8,
+   "winner": "LexForge-1107"
+  },
+  {
+   "l": "N",
+   "bid": 7,
+   "paid": 7,
+   "winner": "LexForge-1107"
+  },
+  {
+   "l": "A",
+   "bid": 7,
+   "paid": 7,
+   "winner": "LexForge-Shade-v1"
+  },
+  {
+   "l": "T",
+   "bid": 7,
+   "paid": 7,
+   "winner": "moody"
+  },
+  {
+   "l": "Y",
+   "bid": 16,
+   "paid": 20,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "W",
+   "bid": 18,
+   "paid": 18,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "L",
+   "bid": 8,
+   "paid": 8,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "T",
+   "bid": 8,
+   "paid": 8,
+   "winner": "LexForge-Shade-v1"
+  },
+  {
+   "l": "E",
+   "bid": 12,
+   "paid": 12,
+   "winner": "CasualThinker"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 9,
+   "winner": "moody"
+  },
+  {
+   "l": "D",
+   "bid": 9,
+   "paid": 14,
+   "winner": "CasualThinker"
+  },
+  {
+   "l": "A",
+   "bid": 7,
+   "paid": 9,
+   "winner": "moody"
+  },
+  {
+   "l": "S",
+   "bid": 9,
+   "paid": 10,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "S",
+   "bid": 10,
+   "paid": 10,
+   "winner": "LexForge-1107"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 10,
+   "winner": "CasualThinker"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 10,
+   "winner": "LexForge-1107"
+  },
+  {
+   "l": "O",
+   "bid": 6,
+   "paid": 14,
+   "winner": "LexForge-Shade-v1"
+  },
+  {
+   "l": "I",
+   "bid": 7,
+   "paid": 8,
+   "winner": "CasualThinker"
+  },
+  {
+   "l": "I",
+   "bid": 10,
+   "paid": 10,
+   "winner": "LexForge-Shade-v1"
+  },
+  {
+   "l": "H",
+   "bid": 15,
+   "paid": 29,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "R",
+   "bid": 8,
+   "paid": 12,
+   "winner": "CasualThinker"
+  },
+  {
+   "l": "E",
+   "bid": 13,
+   "paid": 13,
+   "winner": "CasualThinker"
+  },
+  {
+   "l": "R",
+   "bid": 9,
+   "paid": 12,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "L",
+   "bid": 9,
+   "paid": 17,
+   "winner": "CasualThinker"
+  },
+  {
+   "l": "K",
+   "bid": 15,
+   "paid": 31,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "F",
+   "bid": 15,
+   "paid": 23,
+   "winner": "moody"
+  },
+  {
+   "l": "H",
+   "bid": 15,
+   "paid": 25,
+   "winner": "LexForge-Shade-v1"
+  },
+  {
+   "l": "T",
+   "bid": 14,
+   "paid": 14,
+   "winner": "LexForge-Shade-v1"
+  },
+  {
+   "l": "O",
+   "bid": 8,
+   "paid": 13,
+   "winner": "CasualThinker"
+  },
+  {
+   "l": "E",
+   "bid": 15,
+   "paid": 15,
+   "winner": "Odysseus's Voyage"
+  },
+  {
+   "l": "W",
+   "bid": 15,
+   "paid": 24,
+   "winner": "LexForge-1107"
+  },
+  {
+   "l": "R",
+   "bid": 15,
+   "paid": 16,
+   "winner": "LexForge-Shade-v1"
+  },
+  {
+   "l": "P",
+   "bid": 15,
+   "paid": 24,
+   "winner": "LexForge-Shade-v1"
+  },
+  {
+   "l": "A",
+   "bid": 4,
+   "paid": 11,
+   "winner": "CasualThinker"
+  },
+  {
+   "l": "Z",
+   "bid": 15,
+   "paid": 29,
+   "winner": "LexForge-1107"
+  },
+  {
+   "l": "A",
+   "bid": 9,
+   "paid": 17,
+   "winner": "CasualThinker"
+  },
+  {
+   "l": "P",
+   "bid": 15,
+   "paid": 27,
+   "winner": "LexForge-1107"
+  },
+  {
+   "l": "T",
+   "bid": 15,
+   "paid": 17,
+   "winner": "CasualThinker"
+  },
+  {
+   "l": "A",
+   "bid": 11,
+   "paid": 21,
+   "winner": "LexForge-1107"
+  },
+  {
+   "l": "O",
+   "bid": 15,
+   "paid": 17,
+   "winner": "LexForge-Shade-v1"
+  },
+  {
+   "l": "A",
+   "bid": 13,
+   "paid": 22,
+   "winner": "LexForge-Shade-v1"
+  },
+  {
+   "l": "E",
+   "bid": 15,
+   "paid": 15,
+   "winner": "moody"
+  },
+  {
+   "l": "U",
+   "bid": 15,
+   "paid": 15,
+   "winner": "moody"
+  },
+  {
+   "l": "U",
+   "bid": 15,
+   "paid": 15,
+   "winner": "moody"
+  },
+  {
+   "l": "E",
+   "bid": 9,
+   "paid": 9,
+   "winner": "LexForge-Shade-v1"
+  }
+ ],
+ "maxDecisionMs": 170.52429999999003,
+ "auctions": [
+  {
+   "id": 3097268,
+   "letter": "O",
+   "winner": "Astronaut",
+   "paid": 7,
+   "myBid": 8,
+   "info": {
+    "v0": 17.138759955436985,
+    "v1": 20.74453468139986,
+    "delta": 3.605774725962874,
+    "lambda": 0.6617867174327142,
+    "deny": 0
+   },
+   "ms": 97
+  },
+  {
+   "id": 3097285,
+   "letter": "E",
+   "winner": "LexForge-1107",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 19.362165189427362,
+    "v1": 23.366192949036208,
+    "delta": 4.004027759608846,
+    "lambda": 0.6738295362800906,
+    "deny": 0
+   },
+   "ms": 55
+  },
+  {
+   "id": 3097305,
+   "letter": "Q",
+   "winner": "LexForge-1107",
+   "paid": 31,
+   "myBid": 12,
+   "info": {
+    "v0": 21.899100946015423,
+    "v1": 30.009924091437863,
+    "delta": 8.11082314542244,
+    "lambda": 0.665665726610765,
+    "deny": 0
+   },
+   "ms": 65
+  },
+  {
+   "id": 3097325,
+   "letter": "D",
+   "winner": "moody",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 20.087570809726433,
+    "v1": 25.383657352624926,
+    "delta": 5.296086542898493,
+    "lambda": 0.6574848325151413,
+    "deny": 0
+   },
+   "ms": 57
+  },
+  {
+   "id": 3097345,
+   "letter": "A",
+   "winner": "LexForge-1107",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 19.353289168992426,
+    "v1": 23.544769610851457,
+    "delta": 4.1914804418590315,
+    "lambda": 0.6492865456195233,
+    "deny": 0
+   },
+   "ms": 58
+  },
+  {
+   "id": 3097365,
+   "letter": "G",
+   "winner": "Astronaut",
+   "paid": 9,
+   "myBid": 10,
+   "info": {
+    "v0": 20.720396262795045,
+    "v1": 26.370328408376405,
+    "delta": 5.64993214558136,
+    "lambda": 0.6410705465514407,
+    "deny": 0
+   },
+   "ms": 80
+  },
+  {
+   "id": 3097385,
+   "letter": "B",
+   "winner": "LexForge-Shade-v1",
+   "paid": 15,
+   "myBid": 13,
+   "info": {
+    "v0": 25.618299212250708,
+    "v1": 31.776765502803855,
+    "delta": 6.158466290553147,
+    "lambda": 0.659650771958304,
+    "deny": 0
+   },
+   "ms": 50
+  },
+  {
+   "id": 3097405,
+   "letter": "C",
+   "winner": "moody",
+   "paid": 14,
+   "myBid": 14,
+   "info": {
+    "v0": 26.043969081535437,
+    "v1": 33.55072388265928,
+    "delta": 7.50675480112384,
+    "lambda": 0.6510486751417651,
+    "deny": 0
+   },
+   "ms": 59
+  },
+  {
+   "id": 3097425,
+   "letter": "D",
+   "winner": "Astronaut",
+   "paid": 11,
+   "myBid": 11,
+   "info": {
+    "v0": 29.778045186093006,
+    "v1": 33.21901933749255,
+    "delta": 3.4409741513995407,
+    "lambda": 0.4496989291602919,
+    "deny": 0
+   },
+   "ms": 48
+  },
+  {
+   "id": 3097445,
+   "letter": "N",
+   "winner": "Astronaut",
+   "paid": 7,
+   "myBid": 8,
+   "info": {
+    "v0": 33.2940416249407,
+    "v1": 33.83063995050134,
+    "delta": 0.5365983255606466,
+    "lambda": 0.46915410945781844,
+    "deny": 0
+   },
+   "ms": 44
+  },
+  {
+   "id": 3097465,
+   "letter": "G",
+   "winner": "Astronaut",
+   "paid": 9,
+   "myBid": 10,
+   "info": {
+    "v0": 34.049184626982274,
+    "v1": 34.8550179603156,
+    "delta": 0.8058333333333252,
+    "lambda": 0.48120638826684403,
+    "deny": 0
+   },
+   "ms": 54
+  },
+  {
+   "id": 3097485,
+   "letter": "S",
+   "winner": "Astronaut",
+   "paid": 8,
+   "myBid": 9,
+   "info": {
+    "v0": 35.138167437747065,
+    "v1": 37.026149175119386,
+    "delta": 1.8879817373723213,
+    "lambda": 0.5014883587652756,
+    "deny": 0
+   },
+   "ms": 46
+  },
+  {
+   "id": 3097504,
+   "letter": "R",
+   "winner": "LexForge-1107",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 21.256492514161277,
+    "v1": 25.04685517892157,
+    "delta": 3.790362664760295,
+    "lambda": 0.522283112859979,
+    "deny": 0
+   },
+   "ms": 171
+  },
+  {
+   "id": 3097523,
+   "letter": "I",
+   "winner": "Astronaut",
+   "paid": 7,
+   "myBid": 11,
+   "info": {
+    "v0": 25.284071021702076,
+    "v1": 30.038213621109918,
+    "delta": 4.754142599407842,
+    "lambda": 0.429766418866651,
+    "deny": 0
+   },
+   "ms": 43
+  },
+  {
+   "id": 3097542,
+   "letter": "T",
+   "winner": "Odysseus's Voyage",
+   "paid": 8,
+   "myBid": 7,
+   "info": {
+    "v0": 29.267396457087614,
+    "v1": 31.38487295122276,
+    "delta": 2.117476494135147,
+    "lambda": 0.4393061589964211,
+    "deny": 0
+   },
+   "ms": 41
+  },
+  {
+   "id": 3097560,
+   "letter": "L",
+   "winner": "LexForge-1107",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 31.225519642705546,
+    "v1": 33.75588106218088,
+    "delta": 2.530361419475337,
+    "lambda": 0.43277898363280426,
+    "deny": 0
+   },
+   "ms": 32
+  },
+  {
+   "id": 3097579,
+   "letter": "N",
+   "winner": "LexForge-1107",
+   "paid": 7,
+   "myBid": 7,
+   "info": {
+    "v0": 29.502925402796453,
+    "v1": 32.45034783302577,
+    "delta": 2.94742243022932,
+    "lambda": 0.42623461566210474,
+    "deny": 0
+   },
+   "ms": 85
+  },
+  {
+   "id": 3097597,
+   "letter": "A",
+   "winner": "LexForge-Shade-v1",
+   "paid": 7,
+   "myBid": 7,
+   "info": {
+    "v0": 29.33049176891379,
+    "v1": 31.392302800120248,
+    "delta": 2.0618110312064566,
+    "lambda": 0.4196726556828764,
+    "deny": 0
+   },
+   "ms": 51
+  },
+  {
+   "id": 3097615,
+   "letter": "T",
+   "winner": "moody",
+   "paid": 7,
+   "myBid": 7,
+   "info": {
+    "v0": 32.15341112665015,
+    "v1": 33.81396351856389,
+    "delta": 1.6605523919137397,
+    "lambda": 0.41309268569073965,
+    "deny": 0
+   },
+   "ms": 68
+  },
+  {
+   "id": 3097633,
+   "letter": "Y",
+   "winner": "Odysseus's Voyage",
+   "paid": 20,
+   "myBid": 16,
+   "info": {
+    "v0": 32.842196136607505,
+    "v1": 39.475540873296275,
+    "delta": 6.63334473668877,
+    "lambda": 0.40649426774230113,
+    "deny": 0
+   },
+   "ms": 45
+  },
+  {
+   "id": 3097650,
+   "letter": "R",
+   "winner": "Astronaut",
+   "paid": 7,
+   "myBid": 8,
+   "info": {
+    "v0": 29.806933360369275,
+    "v1": 32.639003923564225,
+    "delta": 2.83207056319495,
+    "lambda": 0.39987694248790684,
+    "deny": 0
+   },
+   "ms": 29
+  },
+  {
+   "id": 3097668,
+   "letter": "I",
+   "winner": "Astronaut",
+   "paid": 7,
+   "myBid": 7,
+   "info": {
+    "v0": 31.991551960443385,
+    "v1": 33.39163640544426,
+    "delta": 1.400084445000875,
+    "lambda": 0.4091121612976962,
+    "deny": 0
+   },
+   "ms": 66
+  },
+  {
+   "id": 3097686,
+   "letter": "W",
+   "winner": "Odysseus's Voyage",
+   "paid": 18,
+   "myBid": 18,
+   "info": {
+    "v0": 33.91334614776816,
+    "v1": 41.54829953431257,
+    "delta": 7.63495338654441,
+    "lambda": 0.41984603500818446,
+    "deny": 0
+   },
+   "ms": 86
+  },
+  {
+   "id": 3097704,
+   "letter": "X",
+   "winner": "Astronaut",
+   "paid": 35,
+   "myBid": 41,
+   "info": {
+    "v0": 35.154639944629196,
+    "v1": 52.20512346060567,
+    "delta": 17.050483515976474,
+    "lambda": 0.41259448647697344,
+    "deny": 0
+   },
+   "ms": 32
+  },
+  {
+   "id": 3097722,
+   "letter": "L",
+   "winner": "Odysseus's Voyage",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 0.28999999999999965,
+    "v1": 1.040093653633369,
+    "delta": 0.7500936536333693,
+    "lambda": 0.5458976884137868,
+    "deny": 0
+   },
+   "ms": 135
+  },
+  {
+   "id": 3097740,
+   "letter": "D",
+   "winner": "Astronaut",
+   "paid": 14,
+   "myBid": 20,
+   "info": {
+    "v0": 8.653788496388655,
+    "v1": 17.758060487548082,
+    "delta": 9.104271991159427,
+    "lambda": 0.36849708613350796,
+    "deny": 0
+   },
+   "ms": 69
+  },
+  {
+   "id": 3097757,
+   "letter": "M",
+   "winner": "Astronaut",
+   "paid": 20,
+   "myBid": 24,
+   "info": {
+    "v0": 11.508510896453664,
+    "v1": 22.34939627837777,
+    "delta": 10.840885381924107,
+    "lambda": 0.3932292537038662,
+    "deny": 0
+   },
+   "ms": 75
+  },
+  {
+   "id": 3097774,
+   "letter": "T",
+   "winner": "LexForge-Shade-v1",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 9.618144390494537,
+    "v1": 13.562571061761446,
+    "delta": 3.9444266712669087,
+    "lambda": 0.4484452987892024,
+    "deny": 0
+   },
+   "ms": 116
+  },
+  {
+   "id": 3097791,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 14,
+   "myBid": 16,
+   "info": {
+    "v0": 9.687829335913003,
+    "v1": 18.377299583832027,
+    "delta": 8.689470247919024,
+    "lambda": 0.4398211117135722,
+    "deny": 0
+   },
+   "ms": 50
+  },
+  {
+   "id": 3097808,
+   "letter": "E",
+   "winner": "CasualThinker",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 12.990652487727944,
+    "v1": 19.180387134914472,
+    "delta": 6.189734647186528,
+    "lambda": 0.4964182180316566,
+    "deny": 0
+   },
+   "ms": 55
+  },
+  {
+   "id": 3097825,
+   "letter": "I",
+   "winner": "moody",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 11.746684201674148,
+    "v1": 18.21971075616756,
+    "delta": 6.473026554493414,
+    "lambda": 0.6948806963899253,
+    "deny": 0
+   },
+   "ms": 64
+  },
+  {
+   "id": 3097842,
+   "letter": "D",
+   "winner": "CasualThinker",
+   "paid": 14,
+   "myBid": 9,
+   "info": {
+    "v0": 11.91737595915154,
+    "v1": 18.413694586862352,
+    "delta": 6.496318627710812,
+    "lambda": 0.6805382025943949,
+    "deny": 0
+   },
+   "ms": 84
+  },
+  {
+   "id": 3097859,
+   "letter": "A",
+   "winner": "Astronaut",
+   "paid": 8,
+   "myBid": 12,
+   "info": {
+    "v0": 11.422243345004802,
+    "v1": 19.533324306241642,
+    "delta": 8.11108096123684,
+    "lambda": 0.6661394970213643,
+    "deny": 0
+   },
+   "ms": 64
+  },
+  {
+   "id": 3097876,
+   "letter": "A",
+   "winner": "moody",
+   "paid": 9,
+   "myBid": 7,
+   "info": {
+    "v0": 19.38623739327023,
+    "v1": 24.908741220047446,
+    "delta": 5.522503826777218,
+    "lambda": 0.7223310606219733,
+    "deny": 0
+   },
+   "ms": 81
+  },
+  {
+   "id": 3097893,
+   "letter": "S",
+   "winner": "Odysseus's Voyage",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 19.69974420786269,
+    "v1": 26.339191643535063,
+    "delta": 6.639447435672373,
+    "lambda": 0.7062398334576767,
+    "deny": 0
+   },
+   "ms": 45
+  },
+  {
+   "id": 3097910,
+   "letter": "S",
+   "winner": "LexForge-1107",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 20.057273635886776,
+    "v1": 27.00531749536025,
+    "delta": 6.948043859473472,
+    "lambda": 0.6900789900507686,
+    "deny": 0
+   },
+   "ms": 40
+  },
+  {
+   "id": 3097927,
+   "letter": "I",
+   "winner": "CasualThinker",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 20.041932035769406,
+    "v1": 26.24426753204551,
+    "delta": 6.202335496276103,
+    "lambda": 0.6738457027997398,
+    "deny": 0
+   },
+   "ms": 94
+  },
+  {
+   "id": 3097943,
+   "letter": "E",
+   "winner": "LexForge-1107",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 20.00984755919411,
+    "v1": 26.875344342049388,
+    "delta": 6.865496782855278,
+    "lambda": 0.6575369084069328,
+    "deny": 0
+   },
+   "ms": 39
+  },
+  {
+   "id": 3097961,
+   "letter": "O",
+   "winner": "LexForge-Shade-v1",
+   "paid": 14,
+   "myBid": 6,
+   "info": {
+    "v0": 20.50874258888182,
+    "v1": 24.705842564529473,
+    "delta": 4.197099975647653,
+    "lambda": 0.6411492775687588,
+    "deny": 0
+   },
+   "ms": 28
+  },
+  {
+   "id": 3097978,
+   "letter": "I",
+   "winner": "CasualThinker",
+   "paid": 8,
+   "myBid": 7,
+   "info": {
+    "v0": 20.740465276622732,
+    "v1": 25.464002471154846,
+    "delta": 4.723537194532113,
+    "lambda": 0.6246791793673113,
+    "deny": 0
+   },
+   "ms": 26
+  },
+  {
+   "id": 3097995,
+   "letter": "I",
+   "winner": "LexForge-Shade-v1",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 20.59233109760771,
+    "v1": 26.808017176755996,
+    "delta": 6.215686079148288,
+    "lambda": 0.6081226391859295,
+    "deny": 0
+   },
+   "ms": 38
+  },
+  {
+   "id": 3098012,
+   "letter": "H",
+   "winner": "Odysseus's Voyage",
+   "paid": 29,
+   "myBid": 15,
+   "info": {
+    "v0": 20.911311512858607,
+    "v1": 31.065922478689888,
+    "delta": 10.154610965831282,
+    "lambda": 0.591475288651478,
+    "deny": 0
+   },
+   "ms": 29
+  },
+  {
+   "id": 3098029,
+   "letter": "R",
+   "winner": "CasualThinker",
+   "paid": 12,
+   "myBid": 8,
+   "info": {
+    "v0": 20.645612848122195,
+    "v1": 25.36325863426167,
+    "delta": 4.7176457861394745,
+    "lambda": 0.5747323056827601,
+    "deny": 0
+   },
+   "ms": 28
+  },
+  {
+   "id": 3098046,
+   "letter": "E",
+   "winner": "CasualThinker",
+   "paid": 13,
+   "myBid": 13,
+   "info": {
+    "v0": 20.65708968421439,
+    "v1": 27.979972681639953,
+    "delta": 7.3228829974255625,
+    "lambda": 0.5578883421582727,
+    "deny": 0
+   },
+   "ms": 28
+  },
+  {
+   "id": 3098063,
+   "letter": "R",
+   "winner": "Odysseus's Voyage",
+   "paid": 12,
+   "myBid": 9,
+   "info": {
+    "v0": 20.884981027391156,
+    "v1": 25.76583927711646,
+    "delta": 4.8808582497253035,
+    "lambda": 0.5409374359507895,
+    "deny": 0
+   },
+   "ms": 24
+  },
+  {
+   "id": 3098080,
+   "letter": "L",
+   "winner": "CasualThinker",
+   "paid": 17,
+   "myBid": 9,
+   "info": {
+    "v0": 21.048698663981604,
+    "v1": 26.247743451590157,
+    "delta": 5.199044787608553,
+    "lambda": 0.5238729030283544,
+    "deny": 0
+   },
+   "ms": 48
+  },
+  {
+   "id": 3098097,
+   "letter": "K",
+   "winner": "Odysseus's Voyage",
+   "paid": 31,
+   "myBid": 15,
+   "info": {
+    "v0": 20.394888475582043,
+    "v1": 32.71629171911029,
+    "delta": 12.321403243528245,
+    "lambda": 0.5066872038686036,
+    "deny": 0
+   },
+   "ms": 24
+  },
+  {
+   "id": 3098114,
+   "letter": "F",
+   "winner": "moody",
+   "paid": 23,
+   "myBid": 15,
+   "info": {
+    "v0": 20.261077095531544,
+    "v1": 33.21074071824116,
+    "delta": 12.949663622709618,
+    "lambda": 0.4893717763912779,
+    "deny": 0
+   },
+   "ms": 26
+  },
+  {
+   "id": 3098131,
+   "letter": "H",
+   "winner": "LexForge-Shade-v1",
+   "paid": 25,
+   "myBid": 15,
+   "info": {
+    "v0": 19.841684947965025,
+    "v1": 31.301971117422287,
+    "delta": 11.460286169457262,
+    "lambda": 0.4719168246992049,
+    "deny": 0
+   },
+   "ms": 15
+  },
+  {
+   "id": 3098148,
+   "letter": "T",
+   "winner": "LexForge-Shade-v1",
+   "paid": 14,
+   "myBid": 14,
+   "info": {
+    "v0": 20.510681353860594,
+    "v1": 27.325282875443833,
+    "delta": 6.8146015215832385,
+    "lambda": 0.4543110486883686,
+    "deny": 0
+   },
+   "ms": 10
+  },
+  {
+   "id": 3098165,
+   "letter": "O",
+   "winner": "CasualThinker",
+   "paid": 13,
+   "myBid": 8,
+   "info": {
+    "v0": 20.760893686859628,
+    "v1": 24.621163336441587,
+    "delta": 3.8602696495819586,
+    "lambda": 0.4365412933363398,
+    "deny": 0
+   },
+   "ms": 11
+  },
+  {
+   "id": 3098182,
+   "letter": "E",
+   "winner": "Odysseus's Voyage",
+   "paid": 15,
+   "myBid": 15,
+   "info": {
+    "v0": 20.924058666647714,
+    "v1": 28.827641572239717,
+    "delta": 7.903582905592003,
+    "lambda": 0.41859208705053874,
+    "deny": 0
+   },
+   "ms": 8
+  },
+  {
+   "id": 3098199,
+   "letter": "W",
+   "winner": "LexForge-1107",
+   "paid": 24,
+   "myBid": 15,
+   "info": {
+    "v0": 20.90106935532999,
+    "v1": 31.567021491991493,
+    "delta": 10.665952136661502,
+    "lambda": 0.4004450239168633,
+    "deny": 0
+   },
+   "ms": 22
+  },
+  {
+   "id": 3098216,
+   "letter": "R",
+   "winner": "LexForge-Shade-v1",
+   "paid": 16,
+   "myBid": 15,
+   "info": {
+    "v0": 20.545994242476826,
+    "v1": 26.481137211316803,
+    "delta": 5.935142968839976,
+    "lambda": 0.3820779216919817,
+    "deny": 0
+   },
+   "ms": 16
+  },
+  {
+   "id": 3098232,
+   "letter": "P",
+   "winner": "LexForge-Shade-v1",
+   "paid": 24,
+   "myBid": 15,
+   "info": {
+    "v0": 20.400873596889387,
+    "v1": 32.12181378997324,
+    "delta": 11.720940193083852,
+    "lambda": 0.3634636499676446,
+    "deny": 0
+   },
+   "ms": 7
+  },
+  {
+   "id": 3098249,
+   "letter": "A",
+   "winner": "CasualThinker",
+   "paid": 11,
+   "myBid": 4,
+   "info": {
+    "v0": 20.606501454731077,
+    "v1": 22.15832732926566,
+    "delta": 1.5518258745345825,
+    "lambda": 0.3445684600743862,
+    "deny": 0
+   },
+   "ms": 23
+  },
+  {
+   "id": 3098266,
+   "letter": "Z",
+   "winner": "LexForge-1107",
+   "paid": 29,
+   "myBid": 15,
+   "info": {
+    "v0": 21.040226152577112,
+    "v1": 41.26145232227233,
+    "delta": 20.22122616969522,
+    "lambda": 0.3253495387065235,
+    "deny": 0
+   },
+   "ms": 35
+  },
+  {
+   "id": 3098283,
+   "letter": "A",
+   "winner": "CasualThinker",
+   "paid": 17,
+   "myBid": 9,
+   "info": {
+    "v0": 21.15071499681904,
+    "v1": 24.075704243034902,
+    "delta": 2.924989246215862,
+    "lambda": 0.3057513078384311,
+    "deny": 0
+   },
+   "ms": 23
+  },
+  {
+   "id": 3098300,
+   "letter": "P",
+   "winner": "LexForge-1107",
+   "paid": 27,
+   "myBid": 15,
+   "info": {
+    "v0": 20.889694191648015,
+    "v1": 32.83405807679076,
+    "delta": 11.944363885142746,
+    "lambda": 0.28569961183248266,
+    "deny": 0
+   },
+   "ms": 17
+  },
+  {
+   "id": 3098317,
+   "letter": "T",
+   "winner": "CasualThinker",
+   "paid": 17,
+   "myBid": 15,
+   "info": {
+    "v0": 21.50763619379198,
+    "v1": 27.54887318454062,
+    "delta": 6.04123699074864,
+    "lambda": 0.2650921565691158,
+    "deny": 0
+   },
+   "ms": 31
+  },
+  {
+   "id": 3098334,
+   "letter": "A",
+   "winner": "LexForge-1107",
+   "paid": 21,
+   "myBid": 11,
+   "info": {
+    "v0": 20.524707070358303,
+    "v1": 23.261040190820783,
+    "delta": 2.7363331204624792,
+    "lambda": 0.24378186619287712,
+    "deny": 0
+   },
+   "ms": 14
+  },
+  {
+   "id": 3098351,
+   "letter": "O",
+   "winner": "LexForge-Shade-v1",
+   "paid": 17,
+   "myBid": 15,
+   "info": {
+    "v0": 20.63599581677882,
+    "v1": 25.279305132511237,
+    "delta": 4.643309315732417,
+    "lambda": 0.22154573996183374,
+    "deny": 0
+   },
+   "ms": 21
+  },
+  {
+   "id": 3098368,
+   "letter": "A",
+   "winner": "LexForge-Shade-v1",
+   "paid": 22,
+   "myBid": 13,
+   "info": {
+    "v0": 20.555084094120264,
+    "v1": 23.134494802366874,
+    "delta": 2.579410708246609,
+    "lambda": 0.1980207166282336,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3098385,
+   "letter": "E",
+   "winner": "moody",
+   "paid": 15,
+   "myBid": 15,
+   "info": {
+    "v0": 20.930644259098305,
+    "v1": 25.825406435098202,
+    "delta": 4.894762175999897,
+    "lambda": 0.1725525768838508,
+    "deny": 0
+   },
+   "ms": 12
+  },
+  {
+   "id": 3098402,
+   "letter": "U",
+   "winner": "moody",
+   "paid": 15,
+   "myBid": 15,
+   "info": {
+    "v0": 20.918656452706045,
+    "v1": 24.28773955169561,
+    "delta": 3.369083098989563,
+    "lambda": 0.14375821740933226,
+    "deny": 0
+   },
+   "ms": 5
+  },
+  {
+   "id": 3098419,
+   "letter": "U",
+   "winner": "moody",
+   "paid": 15,
+   "myBid": 15,
+   "info": {
+    "v0": 20.658554819303998,
+    "v1": 24.492296731760717,
+    "delta": 3.83374191245672,
+    "lambda": 0.10767373170679048,
+    "deny": 0
+   },
+   "ms": 4
+  },
+  {
+   "id": 3098435,
+   "letter": "E",
+   "winner": "LexForge-Shade-v1",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 0,
+    "v1": 0.28999999999999965,
+    "delta": 0.28999999999999965,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 7
+  },
+  {
+   "id": 3098452,
+   "letter": "F",
+   "winner": null,
+   "paid": 0,
+   "myBid": 0,
+   "info": {
+    "v0": 0,
+    "v1": 0.28999999999999965,
+    "delta": 0.28999999999999965,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 1
+  }
+ ],
+ "words": [
+  {
+   "bot": "Astronaut",
+   "word": "GNOMONS",
+   "reward": 30
+  },
+  {
+   "bot": "LexForge-1107",
+   "word": "QUIVERS",
+   "reward": 57
+  },
+  {
+   "bot": "Astronaut",
+   "word": "DIGOXIN",
+   "reward": 48
+  },
+  {
+   "bot": "Odysseus's Voyage",
+   "word": "YELLOWS",
+   "reward": 39
+  },
+  {
+   "bot": "CasualThinker",
+   "word": "EDACITY",
+   "reward": 39
+  },
+  {
+   "bot": "Odysseus's Voyage",
+   "word": "GIRTH",
+   "reward": 18
+  },
+  {
+   "bot": "LexForge-Shade-v1",
+   "word": "JOHNBOAT",
+   "reward": 60
+  },
+  {
+   "bot": "LexForge-1107",
+   "word": "BENZAL",
+   "reward": 42
+  },
+  {
+   "bot": "CasualThinker",
+   "word": "AUREOLA",
+   "reward": 21
+  },
+  {
+   "bot": "LexForge-Shade-v1",
+   "word": "PIERROT",
+   "reward": 27
+  },
+  {
+   "bot": "CasualThinker",
+   "word": "IT",
+   "reward": 2
+  },
+  {
+   "bot": "moody",
+   "word": "DEFECTIVE",
+   "reward": 54
+  },
+  {
+   "bot": "Astronaut",
+   "word": "ARMED",
+   "reward": 16
+  },
+  {
+   "bot": "LexForge-1107",
+   "word": "PAWS",
+   "reward": 13
+  },
+  {
+   "bot": "LexForge-Shade-v1",
+   "word": "AE",
+   "reward": 2
+  },
+  {
+   "bot": "moody",
+   "word": "UNAI",
+   "reward": 6
+  }
+ ]
+}

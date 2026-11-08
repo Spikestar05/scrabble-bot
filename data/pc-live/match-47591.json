@@ -1,0 +1,1533 @@
+{
+ "matchId": 47591,
+ "at": "2026-11-08T04:51:12.509Z",
+ "auctionType": "Vickrey",
+ "placement": 3,
+ "nPlayers": 6,
+ "scores": [
+  {
+   "bot": "Lucy",
+   "score": 106,
+   "balance": 11
+  },
+  {
+   "bot": "pazabol",
+   "score": 101,
+   "balance": 10
+  },
+  {
+   "bot": "Astronaut",
+   "score": 87,
+   "balance": 35
+  },
+  {
+   "bot": "RackMaw-Spend115",
+   "score": 54,
+   "balance": 55
+  },
+  {
+   "bot": "Pegasus v12-larper2000",
+   "score": 45,
+   "balance": 16
+  },
+  {
+   "bot": "Barracuda",
+   "score": 0,
+   "balance": 100
+  }
+ ],
+ "myScore": 87,
+ "myLeftover": "E",
+ "myWords": [
+  {
+   "bot": "Astronaut",
+   "word": "MEDIATRIX",
+   "reward": 57
+  },
+  {
+   "bot": "Astronaut",
+   "word": "REVIEW",
+   "reward": 30
+  }
+ ],
+ "myWordAttempts": [
+  {
+   "word": "MEDIATRIX",
+   "at": 1794113436208,
+   "ok": true
+  },
+  {
+   "word": "REVIEW",
+   "at": 1794113470523,
+   "ok": true
+  }
+ ],
+ "won": [
+  {
+   "l": "I",
+   "paid": 9,
+   "bid": 9
+  },
+  {
+   "l": "D",
+   "paid": 14,
+   "bid": 15
+  },
+  {
+   "l": "X",
+   "paid": 38,
+   "bid": 47
+  },
+  {
+   "l": "T",
+   "paid": 9,
+   "bid": 16
+  },
+  {
+   "l": "E",
+   "paid": 8,
+   "bid": 15
+  },
+  {
+   "l": "E",
+   "paid": 8,
+   "bid": 9
+  },
+  {
+   "l": "E",
+   "paid": 9,
+   "bid": 9
+  },
+  {
+   "l": "W",
+   "paid": 17,
+   "bid": 25
+  },
+  {
+   "l": "R",
+   "paid": 15,
+   "bid": 16
+  },
+  {
+   "l": "E",
+   "paid": 8,
+   "bid": 10
+  },
+  {
+   "l": "V",
+   "paid": 17,
+   "bid": 22
+  }
+ ],
+ "missed": [
+  {
+   "l": "N",
+   "bid": 9,
+   "paid": 12,
+   "winner": "Lucy"
+  },
+  {
+   "l": "R",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "Q",
+   "bid": 16,
+   "paid": 27,
+   "winner": "RackMaw-Spend115"
+  },
+  {
+   "l": "O",
+   "bid": 8,
+   "paid": 11,
+   "winner": "pazabol"
+  },
+  {
+   "l": "C",
+   "bid": 16,
+   "paid": 20,
+   "winner": "pazabol"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 10,
+   "winner": "pazabol"
+  },
+  {
+   "l": "W",
+   "bid": 16,
+   "paid": 16,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "D",
+   "bid": 12,
+   "paid": 13,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "S",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "H",
+   "bid": 19,
+   "paid": 19,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "L",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "S",
+   "bid": 10,
+   "paid": 10,
+   "winner": "Lucy"
+  },
+  {
+   "l": "I",
+   "bid": 8,
+   "paid": 8,
+   "winner": "Lucy"
+  },
+  {
+   "l": "T",
+   "bid": 8,
+   "paid": 9,
+   "winner": "Lucy"
+  },
+  {
+   "l": "R",
+   "bid": 9,
+   "paid": 10,
+   "winner": "Lucy"
+  },
+  {
+   "l": "P",
+   "bid": 16,
+   "paid": 18,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "N",
+   "bid": 9,
+   "paid": 9,
+   "winner": "RackMaw-Spend115"
+  },
+  {
+   "l": "D",
+   "bid": 12,
+   "paid": 12,
+   "winner": "RackMaw-Spend115"
+  },
+  {
+   "l": "Y",
+   "bid": 21,
+   "paid": 22,
+   "winner": "Lucy"
+  },
+  {
+   "l": "A",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Lucy"
+  },
+  {
+   "l": "B",
+   "bid": 14,
+   "paid": 16,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "T",
+   "bid": 8,
+   "paid": 8,
+   "winner": "RackMaw-Spend115"
+  },
+  {
+   "l": "G",
+   "bid": 10,
+   "paid": 12,
+   "winner": "RackMaw-Spend115"
+  },
+  {
+   "l": "B",
+   "bid": 14,
+   "paid": 15,
+   "winner": "RackMaw-Spend115"
+  },
+  {
+   "l": "O",
+   "bid": 8,
+   "paid": 10,
+   "winner": "Lucy"
+  },
+  {
+   "l": "A",
+   "bid": 2,
+   "paid": 8,
+   "winner": "RackMaw-Spend115"
+  },
+  {
+   "l": "L",
+   "bid": 2,
+   "paid": 9,
+   "winner": "Lucy"
+  },
+  {
+   "l": "N",
+   "bid": 3,
+   "paid": 9,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "U",
+   "bid": 8,
+   "paid": 8,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "I",
+   "bid": 8,
+   "paid": 8,
+   "winner": "RackMaw-Spend115"
+  },
+  {
+   "l": "E",
+   "bid": 8,
+   "paid": 8,
+   "winner": "Lucy"
+  },
+  {
+   "l": "E",
+   "bid": 8,
+   "paid": 8,
+   "winner": "Lucy"
+  },
+  {
+   "l": "E",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Lucy"
+  },
+  {
+   "l": "O",
+   "bid": 7,
+   "paid": 7,
+   "winner": "Lucy"
+  },
+  {
+   "l": "Z",
+   "bid": 30,
+   "paid": 32,
+   "winner": "pazabol"
+  },
+  {
+   "l": "O",
+   "bid": 1,
+   "paid": 7,
+   "winner": "pazabol"
+  },
+  {
+   "l": "M",
+   "bid": 8,
+   "paid": 10,
+   "winner": "Lucy"
+  },
+  {
+   "l": "S",
+   "bid": 7,
+   "paid": 7,
+   "winner": "Lucy"
+  },
+  {
+   "l": "O",
+   "bid": 3,
+   "paid": 3,
+   "winner": "Lucy"
+  },
+  {
+   "l": "I",
+   "bid": 2,
+   "paid": 9,
+   "winner": "Lucy"
+  },
+  {
+   "l": "D",
+   "bid": 15,
+   "paid": 15,
+   "winner": "Lucy"
+  },
+  {
+   "l": "R",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Lucy"
+  },
+  {
+   "l": "U",
+   "bid": 1,
+   "paid": 4,
+   "winner": "pazabol"
+  },
+  {
+   "l": "T",
+   "bid": 6,
+   "paid": 7,
+   "winner": "pazabol"
+  },
+  {
+   "l": "J",
+   "bid": 22,
+   "paid": 22,
+   "winner": "pazabol"
+  },
+  {
+   "l": "A",
+   "bid": 5,
+   "paid": 8,
+   "winner": "pazabol"
+  },
+  {
+   "l": "T",
+   "bid": 2,
+   "paid": 3,
+   "winner": "pazabol"
+  },
+  {
+   "l": "A",
+   "bid": 5,
+   "paid": 5,
+   "winner": "pazabol"
+  },
+  {
+   "l": "L",
+   "bid": 2,
+   "paid": 4,
+   "winner": "pazabol"
+  },
+  {
+   "l": "A",
+   "bid": 5,
+   "paid": 5,
+   "winner": "pazabol"
+  },
+  {
+   "l": "O",
+   "bid": 4,
+   "paid": 5,
+   "winner": "pazabol"
+  },
+  {
+   "l": "T",
+   "bid": 5,
+   "paid": 5,
+   "winner": "pazabol"
+  },
+  {
+   "l": "R",
+   "bid": 5,
+   "paid": 8,
+   "winner": "pazabol"
+  },
+  {
+   "l": "Y",
+   "bid": 35,
+   "paid": 35,
+   "winner": "pazabol"
+  }
+ ],
+ "maxDecisionMs": 140.85899999993853,
+ "auctions": [
+  {
+   "id": 3104173,
+   "letter": "N",
+   "winner": "Lucy",
+   "paid": 12,
+   "myBid": 9,
+   "info": {
+    "v0": 18.229769079245862,
+    "v1": 23.55943225806716,
+    "delta": 5.329663178821299,
+    "lambda": 0.6617867174327142,
+    "deny": 0
+   },
+   "ms": 50
+  },
+  {
+   "id": 3104189,
+   "letter": "R",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 16.724841122400324,
+    "v1": 18.34740579753475,
+    "delta": 1.6225646751344271,
+    "lambda": 0.6538808859919171,
+    "deny": 0
+   },
+   "ms": 57
+  },
+  {
+   "id": 3104205,
+   "letter": "I",
+   "winner": "Astronaut",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 18.845829593800683,
+    "v1": 19.56284103909479,
+    "delta": 0.717011445294105,
+    "lambda": 0.6459587650218012,
+    "deny": 0
+   },
+   "ms": 57
+  },
+  {
+   "id": 3104221,
+   "letter": "Q",
+   "winner": "RackMaw-Spend115",
+   "paid": 27,
+   "myBid": 16,
+   "info": {
+    "v0": 19.427948374565876,
+    "v1": 30.598928644013217,
+    "delta": 11.170980269447341,
+    "lambda": 0.6633816755229751,
+    "deny": 0
+   },
+   "ms": 67
+  },
+  {
+   "id": 3104237,
+   "letter": "O",
+   "winner": "pazabol",
+   "paid": 11,
+   "myBid": 8,
+   "info": {
+    "v0": 19.015213273674238,
+    "v1": 23.528952352580564,
+    "delta": 4.513739078906326,
+    "lambda": 0.6551098599186086,
+    "deny": 0
+   },
+   "ms": 54
+  },
+  {
+   "id": 3104252,
+   "letter": "C",
+   "winner": "pazabol",
+   "paid": 20,
+   "myBid": 16,
+   "info": {
+    "v0": 19.479196339378227,
+    "v1": 27.512271510815165,
+    "delta": 8.033075171436938,
+    "lambda": 0.6468201732850324,
+    "deny": 0
+   },
+   "ms": 65
+  },
+  {
+   "id": 3104267,
+   "letter": "E",
+   "winner": "pazabol",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 18.316049525661445,
+    "v1": 23.4806482185835,
+    "delta": 5.1645986929220555,
+    "lambda": 0.6385122816818427,
+    "deny": 0
+   },
+   "ms": 75
+  },
+  {
+   "id": 3104282,
+   "letter": "W",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 16,
+   "myBid": 16,
+   "info": {
+    "v0": 19.067541650008714,
+    "v1": 25.735099079340824,
+    "delta": 6.66755742933211,
+    "lambda": 0.630185838813792,
+    "deny": 0
+   },
+   "ms": 56
+  },
+  {
+   "id": 3104297,
+   "letter": "D",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 13,
+   "myBid": 12,
+   "info": {
+    "v0": 24.945347455759954,
+    "v1": 30.568100998053307,
+    "delta": 5.622753542293353,
+    "lambda": 0.43528833973102543,
+    "deny": 0
+   },
+   "ms": 50
+  },
+  {
+   "id": 3104312,
+   "letter": "S",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 26.5534622298871,
+    "v1": 31.076644097485538,
+    "delta": 4.5231818675984385,
+    "lambda": 0.4294330936483939,
+    "deny": 0
+   },
+   "ms": 44
+  },
+  {
+   "id": 3104327,
+   "letter": "H",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 19,
+   "myBid": 19,
+   "info": {
+    "v0": 26.661296897696058,
+    "v1": 34.85332686056322,
+    "delta": 8.192029962867164,
+    "lambda": 0.4235640774711084,
+    "deny": 0
+   },
+   "ms": 36
+  },
+  {
+   "id": 3104343,
+   "letter": "L",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 25.649750636533426,
+    "v1": 29.88549143983319,
+    "delta": 4.2357408032997625,
+    "lambda": 0.41768100889472404,
+    "deny": 0
+   },
+   "ms": 44
+  },
+  {
+   "id": 3104358,
+   "letter": "S",
+   "winner": "Lucy",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 26.4616061421419,
+    "v1": 29.993651360508792,
+    "delta": 3.5320452183668927,
+    "lambda": 0.4117835940942084,
+    "deny": 0
+   },
+   "ms": 44
+  },
+  {
+   "id": 3104373,
+   "letter": "I",
+   "winner": "Lucy",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 27.054366123629553,
+    "v1": 27.344366123629555,
+    "delta": 0.2900000000000027,
+    "lambda": 0.40587152700119317,
+    "deny": 0
+   },
+   "ms": 45
+  },
+  {
+   "id": 3104388,
+   "letter": "T",
+   "winner": "Lucy",
+   "paid": 9,
+   "myBid": 8,
+   "info": {
+    "v0": 26.845625844964346,
+    "v1": 30.40459898562005,
+    "delta": 3.5589731406557057,
+    "lambda": 0.399944488519281,
+    "deny": 0
+   },
+   "ms": 34
+  },
+  {
+   "id": 3104403,
+   "letter": "R",
+   "winner": "Lucy",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 26.18909971664621,
+    "v1": 27.66684938249729,
+    "delta": 1.4777496658510785,
+    "lambda": 0.39400214567063757,
+    "deny": 0
+   },
+   "ms": 32
+  },
+  {
+   "id": 3104418,
+   "letter": "D",
+   "winner": "Astronaut",
+   "paid": 14,
+   "myBid": 15,
+   "info": {
+    "v0": 27.64269036328172,
+    "v1": 33.52096300006408,
+    "delta": 5.878272636782359,
+    "lambda": 0.38804415066619086,
+    "deny": 0
+   },
+   "ms": 24
+  },
+  {
+   "id": 3104434,
+   "letter": "P",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 18,
+   "myBid": 16,
+   "info": {
+    "v0": 31.84246616047727,
+    "v1": 38.73985943760257,
+    "delta": 6.8973932771253,
+    "lambda": 0.40871325225738514,
+    "deny": 0
+   },
+   "ms": 50
+  },
+  {
+   "id": 3104450,
+   "letter": "N",
+   "winner": "RackMaw-Spend115",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 31.94093901801139,
+    "v1": 35.264734736512786,
+    "delta": 3.323795718501394,
+    "lambda": 0.40230511272571556,
+    "deny": 0
+   },
+   "ms": 21
+  },
+  {
+   "id": 3104466,
+   "letter": "D",
+   "winner": "RackMaw-Spend115",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 34.59762362236682,
+    "v1": 37.07675167070269,
+    "delta": 2.4791280483358733,
+    "lambda": 0.3958790069908265,
+    "deny": 0
+   },
+   "ms": 35
+  },
+  {
+   "id": 3104482,
+   "letter": "Y",
+   "winner": "Lucy",
+   "paid": 22,
+   "myBid": 21,
+   "info": {
+    "v0": 30.62238023127485,
+    "v1": 39.13961943180522,
+    "delta": 8.517239200530373,
+    "lambda": 0.38943448769859956,
+    "deny": 0
+   },
+   "ms": 36
+  },
+  {
+   "id": 3104498,
+   "letter": "A",
+   "winner": "Lucy",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 32.42290475450567,
+    "v1": 34.163937874148054,
+    "delta": 1.7410331196423812,
+    "lambda": 0.3829710850750056,
+    "deny": 0
+   },
+   "ms": 63
+  },
+  {
+   "id": 3104513,
+   "letter": "B",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 16,
+   "myBid": 14,
+   "info": {
+    "v0": 33.02152198135024,
+    "v1": 38.39734938860188,
+    "delta": 5.375827407251641,
+    "lambda": 0.3764883051912865,
+    "deny": 0
+   },
+   "ms": 26
+  },
+  {
+   "id": 3104528,
+   "letter": "T",
+   "winner": "RackMaw-Spend115",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 33.661923989680496,
+    "v1": 35.30691415345668,
+    "delta": 1.6449901637761855,
+    "lambda": 0.3699856280456638,
+    "deny": 0
+   },
+   "ms": 29
+  },
+  {
+   "id": 3104543,
+   "letter": "G",
+   "winner": "RackMaw-Spend115",
+   "paid": 12,
+   "myBid": 10,
+   "info": {
+    "v0": 33.69567198284364,
+    "v1": 36.54422994551276,
+    "delta": 2.848557962669119,
+    "lambda": 0.36346250543683944,
+    "deny": 0
+   },
+   "ms": 53
+  },
+  {
+   "id": 3104558,
+   "letter": "B",
+   "winner": "RackMaw-Spend115",
+   "paid": 15,
+   "myBid": 14,
+   "info": {
+    "v0": 33.43543706737517,
+    "v1": 38.46723789072275,
+    "delta": 5.031800823347581,
+    "lambda": 0.3569183586004904,
+    "deny": 0
+   },
+   "ms": 32
+  },
+  {
+   "id": 3104574,
+   "letter": "X",
+   "winner": "Astronaut",
+   "paid": 38,
+   "myBid": 47,
+   "info": {
+    "v0": 32.88128670226826,
+    "v1": 50.08707008859616,
+    "delta": 17.205783386327894,
+    "lambda": 0.35035257557510247,
+    "deny": 0
+   },
+   "ms": 27
+  },
+  {
+   "id": 3104590,
+   "letter": "O",
+   "winner": "Lucy",
+   "paid": 10,
+   "myBid": 8,
+   "info": {
+    "v0": 45.3923054763731,
+    "v1": 49.1370877742562,
+    "delta": 3.7447822978830985,
+    "lambda": 0.44077900228276135,
+    "deny": 0
+   },
+   "ms": 33
+  },
+  {
+   "id": 3104606,
+   "letter": "A",
+   "winner": "RackMaw-Spend115",
+   "paid": 8,
+   "myBid": 2,
+   "info": {
+    "v0": 45.46121576661637,
+    "v1": 46.396163285999684,
+    "delta": 0.9349475193833143,
+    "lambda": 0.43230224807224843,
+    "deny": 0
+   },
+   "ms": 20
+  },
+  {
+   "id": 3104622,
+   "letter": "T",
+   "winner": "Astronaut",
+   "paid": 9,
+   "myBid": 16,
+   "info": {
+    "v0": 44.5392347318735,
+    "v1": 52.416694618005806,
+    "delta": 7.877459886132307,
+    "lambda": 0.42379510218113076,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3104638,
+   "letter": "L",
+   "winner": "Lucy",
+   "paid": 9,
+   "myBid": 2,
+   "info": {
+    "v0": 51.7113485505559,
+    "v1": 52.71829604157066,
+    "delta": 1.0069474910147633,
+    "lambda": 0.4510840934743182,
+    "deny": 0
+   },
+   "ms": 20
+  },
+  {
+   "id": 3104654,
+   "letter": "N",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 9,
+   "myBid": 3,
+   "info": {
+    "v0": 50.60812044303669,
+    "v1": 52.160291176937996,
+    "delta": 1.5521707339013062,
+    "lambda": 0.44177361637295476,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3104670,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 8,
+   "myBid": 15,
+   "info": {
+    "v0": 50.968843604010424,
+    "v1": 57.70820583749673,
+    "delta": 6.739362233486304,
+    "lambda": 0.43242664921102697,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3104686,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 8,
+   "myBid": 9,
+   "info": {
+    "v0": 0.28999999999999965,
+    "v1": 0.5799999999999993,
+    "delta": 0.28999999999999965,
+    "lambda": 0.46157651853750076,
+    "deny": 0
+   },
+   "ms": 141
+  },
+  {
+   "id": 3104701,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 14.080326622400834,
+    "v1": 17.104189158354192,
+    "delta": 3.0238625359533575,
+    "lambda": 0.30659394604737394,
+    "deny": 0
+   },
+   "ms": 30
+  },
+  {
+   "id": 3104716,
+   "letter": "U",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 16.145676815245555,
+    "v1": 17.739860479268458,
+    "delta": 1.5941836640229035,
+    "lambda": 0.31559051433505575,
+    "deny": 0
+   },
+   "ms": 29
+  },
+  {
+   "id": 3104731,
+   "letter": "I",
+   "winner": "RackMaw-Spend115",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 12.569281384672204,
+    "v1": 14.314464526413905,
+    "delta": 1.7451831417417019,
+    "lambda": 0.4402380327781479,
+    "deny": 0
+   },
+   "ms": 26
+  },
+  {
+   "id": 3104746,
+   "letter": "E",
+   "winner": "Lucy",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 11.341248653796105,
+    "v1": 14.930986098951216,
+    "delta": 3.5897374451551105,
+    "lambda": 0.4295831431934229,
+    "deny": 0
+   },
+   "ms": 28
+  },
+  {
+   "id": 3104761,
+   "letter": "W",
+   "winner": "Astronaut",
+   "paid": 17,
+   "myBid": 25,
+   "info": {
+    "v0": 12.708334722607974,
+    "v1": 23.31169741492251,
+    "delta": 10.603362692314535,
+    "lambda": 0.4188767480467044,
+    "deny": 0
+   },
+   "ms": 26
+  },
+  {
+   "id": 3104776,
+   "letter": "E",
+   "winner": "Lucy",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 19.68240468667184,
+    "v1": 23.256407024091505,
+    "delta": 3.574002337419664,
+    "lambda": 0.45838919808265055,
+    "deny": 0
+   },
+   "ms": 49
+  },
+  {
+   "id": 3104791,
+   "letter": "E",
+   "winner": "Lucy",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 19.230385391787,
+    "v1": 23.545412361376254,
+    "delta": 4.315026969589255,
+    "lambda": 0.44624001906814686,
+    "deny": 0
+   },
+   "ms": 23
+  },
+  {
+   "id": 3104806,
+   "letter": "O",
+   "winner": "Lucy",
+   "paid": 7,
+   "myBid": 7,
+   "info": {
+    "v0": 20.204118105485502,
+    "v1": 23.425773008202935,
+    "delta": 3.2216549027174324,
+    "lambda": 0.4340242034723448,
+    "deny": 0
+   },
+   "ms": 26
+  },
+  {
+   "id": 3104821,
+   "letter": "R",
+   "winner": "Astronaut",
+   "paid": 15,
+   "myBid": 16,
+   "info": {
+    "v0": 23.043890057153153,
+    "v1": 30.37950320114714,
+    "delta": 7.335613143993989,
+    "lambda": 0.42173821285502466,
+    "deny": 0
+   },
+   "ms": 16
+  },
+  {
+   "id": 3104836,
+   "letter": "Z",
+   "winner": "pazabol",
+   "paid": 32,
+   "myBid": 30,
+   "info": {
+    "v0": 25.02834829204456,
+    "v1": 43.50909941921881,
+    "delta": 18.480751127174255,
+    "lambda": 0.4667628751531918,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3104851,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 8,
+   "myBid": 10,
+   "info": {
+    "v0": 24.15820074550958,
+    "v1": 28.939460364687946,
+    "delta": 4.781259619178368,
+    "lambda": 0.4525807295158624,
+    "deny": 0
+   },
+   "ms": 18
+  },
+  {
+   "id": 3104866,
+   "letter": "O",
+   "winner": "Lucy",
+   "paid": 6,
+   "myBid": 0,
+   "info": {
+    "v0": 25.737769138048247,
+    "v1": 26.206664047517275,
+    "delta": 0.4688949094690287,
+    "lambda": 0.4782283437572435,
+    "deny": 0
+   },
+   "ms": 39
+  },
+  {
+   "id": 3104881,
+   "letter": "E",
+   "winner": "Lucy",
+   "paid": 5,
+   "myBid": 0,
+   "info": {
+    "v0": 25.380788627860042,
+    "v1": 25.67078862786005,
+    "delta": 0.29000000000000625,
+    "lambda": 0.462540018596755,
+    "deny": 0
+   },
+   "ms": 26
+  },
+  {
+   "id": 3104895,
+   "letter": "O",
+   "winner": "pazabol",
+   "paid": 7,
+   "myBid": 1,
+   "info": {
+    "v0": 25.298653173586043,
+    "v1": 25.994170063402475,
+    "delta": 0.6955168898164317,
+    "lambda": 0.4467332682264617,
+    "deny": 0
+   },
+   "ms": 71
+  },
+  {
+   "id": 3104910,
+   "letter": "M",
+   "winner": "Lucy",
+   "paid": 10,
+   "myBid": 8,
+   "info": {
+    "v0": 29.609294922194973,
+    "v1": 33.22925135280219,
+    "delta": 3.619956430607214,
+    "lambda": 0.43079915025660936,
+    "deny": 0
+   },
+   "ms": 17
+  },
+  {
+   "id": 3104925,
+   "letter": "S",
+   "winner": "Lucy",
+   "paid": 7,
+   "myBid": 7,
+   "info": {
+    "v0": 30.333158741049107,
+    "v1": 33.58118925954951,
+    "delta": 3.2480305185004035,
+    "lambda": 0.4147273491507455,
+    "deny": 0
+   },
+   "ms": 17
+  },
+  {
+   "id": 3104940,
+   "letter": "O",
+   "winner": "Lucy",
+   "paid": 3,
+   "myBid": 3,
+   "info": {
+    "v0": 30.79507847578593,
+    "v1": 32.18398589878401,
+    "delta": 1.3889074229980771,
+    "lambda": 0.3985058560713216,
+    "deny": 0
+   },
+   "ms": 15
+  },
+  {
+   "id": 3104954,
+   "letter": "I",
+   "winner": "Lucy",
+   "paid": 9,
+   "myBid": 2,
+   "info": {
+    "v0": 32.04376190592992,
+    "v1": 32.87939574244437,
+    "delta": 0.8356338365144538,
+    "lambda": 0.3821205474512437,
+    "deny": 0
+   },
+   "ms": 11
+  },
+  {
+   "id": 3104967,
+   "letter": "D",
+   "winner": "Lucy",
+   "paid": 15,
+   "myBid": 15,
+   "info": {
+    "v0": 31.002079365905583,
+    "v1": 36.55523093999672,
+    "delta": 5.553151574091135,
+    "lambda": 0.36555462106660297,
+    "deny": 0
+   },
+   "ms": 20
+  },
+  {
+   "id": 3104980,
+   "letter": "R",
+   "winner": "Lucy",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 31.14966313750132,
+    "v1": 34.37995683076645,
+    "delta": 3.230293693265132,
+    "lambda": 0.348787827392318,
+    "deny": 0
+   },
+   "ms": 16
+  },
+  {
+   "id": 3104993,
+   "letter": "U",
+   "winner": "pazabol",
+   "paid": 4,
+   "myBid": 1,
+   "info": {
+    "v0": 31.120362506182303,
+    "v1": 31.467299236574103,
+    "delta": 0.34693673039179984,
+    "lambda": 0.3317953998674013,
+    "deny": 0
+   },
+   "ms": 11
+  },
+  {
+   "id": 3105007,
+   "letter": "T",
+   "winner": "pazabol",
+   "paid": 7,
+   "myBid": 6,
+   "info": {
+    "v0": 32.91897606752419,
+    "v1": 35.094949226647934,
+    "delta": 2.1759731591237426,
+    "lambda": 0.3145465303125992,
+    "deny": 0
+   },
+   "ms": 16
+  },
+  {
+   "id": 3105021,
+   "letter": "J",
+   "winner": "pazabol",
+   "paid": 22,
+   "myBid": 22,
+   "info": {
+    "v0": 32.839088385654335,
+    "v1": 45.127919191026386,
+    "delta": 12.28883080537205,
+    "lambda": 0.29700213570577183,
+    "deny": 0
+   },
+   "ms": 18
+  },
+  {
+   "id": 3105034,
+   "letter": "V",
+   "winner": "Astronaut",
+   "paid": 17,
+   "myBid": 22,
+   "info": {
+    "v0": 31.476414408225438,
+    "v1": 39.543295339926516,
+    "delta": 8.066880931701078,
+    "lambda": 0.2791114804830247,
+    "deny": 0
+   },
+   "ms": 42
+  },
+  {
+   "id": 3105047,
+   "letter": "A",
+   "winner": "pazabol",
+   "paid": 8,
+   "myBid": 5,
+   "info": {
+    "v0": 37.05802114646056,
+    "v1": 39.795496637419866,
+    "delta": 2.737475490959305,
+    "lambda": 0.3380443395203117,
+    "deny": 0
+   },
+   "ms": 40
+  },
+  {
+   "id": 3105060,
+   "letter": "T",
+   "winner": "pazabol",
+   "paid": 3,
+   "myBid": 2,
+   "info": {
+    "v0": 37.67369272660341,
+    "v1": 38.437603732086224,
+    "delta": 0.7639110054828109,
+    "lambda": 0.3136612696273648,
+    "deny": 0
+   },
+   "ms": 33
+  },
+  {
+   "id": 3105073,
+   "letter": "A",
+   "winner": "pazabol",
+   "paid": 5,
+   "myBid": 5,
+   "info": {
+    "v0": 37.39513809367159,
+    "v1": 39.719974014307176,
+    "delta": 2.3248359206355858,
+    "lambda": 0.2884465940139952,
+    "deny": 0
+   },
+   "ms": 12
+  },
+  {
+   "id": 3105086,
+   "letter": "L",
+   "winner": "pazabol",
+   "paid": 4,
+   "myBid": 2,
+   "info": {
+    "v0": 37.71242535292882,
+    "v1": 38.40195836481208,
+    "delta": 0.6895330118832632,
+    "lambda": 0.26213645464400986,
+    "deny": 0
+   },
+   "ms": 12
+  },
+  {
+   "id": 3105099,
+   "letter": "A",
+   "winner": "pazabol",
+   "paid": 5,
+   "myBid": 5,
+   "info": {
+    "v0": 36.617846739683266,
+    "v1": 40.00729255059923,
+    "delta": 3.3894458109159658,
+    "lambda": 0.23430127165583814,
+    "deny": 0
+   },
+   "ms": 28
+  },
+  {
+   "id": 3105112,
+   "letter": "O",
+   "winner": "pazabol",
+   "paid": 5,
+   "myBid": 4,
+   "info": {
+    "v0": 36.45003385121124,
+    "v1": 37.40412971982174,
+    "delta": 0.9540958686105014,
+    "lambda": 0.2041669623248584,
+    "deny": 0
+   },
+   "ms": 11
+  },
+  {
+   "id": 3105125,
+   "letter": "T",
+   "winner": "pazabol",
+   "paid": 5,
+   "myBid": 5,
+   "info": {
+    "v0": 35.571440669126,
+    "v1": 36.573778976323005,
+    "delta": 1.0023383071970073,
+    "lambda": 0.17009701673395797,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3105138,
+   "letter": "R",
+   "winner": "pazabol",
+   "paid": 8,
+   "myBid": 5,
+   "info": {
+    "v0": 33.618053230270554,
+    "v1": 34.95479211088463,
+    "delta": 1.336738880614078,
+    "lambda": 0.12740127746428706,
+    "deny": 0
+   },
+   "ms": 7
+  },
+  {
+   "id": 3105151,
+   "letter": "Y",
+   "winner": "pazabol",
+   "paid": 35,
+   "myBid": 35,
+   "info": {
+    "v0": 0.28999999999999965,
+    "v1": 1.450000000000001,
+    "delta": 1.1600000000000015,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 3
+  },
+  {
+   "id": 3105163,
+   "letter": "V",
+   "winner": null,
+   "paid": 0,
+   "myBid": 0,
+   "info": {
+    "v0": 0.28999999999999965,
+    "v1": 1.450000000000001,
+    "delta": 1.1600000000000015,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 2
+  }
+ ],
+ "words": [
+  {
+   "bot": "Pegasus v12-larper2000",
+   "word": "FRISKED",
+   "reward": 45
+  },
+  {
+   "bot": "Lucy",
+   "word": "FISHING",
+   "reward": 42
+  },
+  {
+   "bot": "RackMaw-Spend115",
+   "word": "ANTIQUED",
+   "reward": 54
+  },
+  {
+   "bot": "Astronaut",
+   "word": "MEDIATRIX",
+   "reward": 57
+  },
+  {
+   "bot": "Lucy",
+   "word": "TORULAE",
+   "reward": 21
+  },
+  {
+   "bot": "Lucy",
+   "word": "EYESOME",
+   "reward": 36
+  },
+  {
+   "bot": "Lucy",
+   "word": "DOOR",
+   "reward": 7
+  },
+  {
+   "bot": "pazabol",
+   "word": "OZONOUS",
+   "reward": 48
+  },
+  {
+   "bot": "pazabol",
+   "word": "JACANA",
+   "reward": 37
+  },
+  {
+   "bot": "pazabol",
+   "word": "LOTTE",
+   "reward": 10
+  },
+  {
+   "bot": "Astronaut",
+   "word": "REVIEW",
+   "reward": 30
+  },
+  {
+   "bot": "pazabol",
+   "word": "TRY",
+   "reward": 6
+  }
+ ]
+}

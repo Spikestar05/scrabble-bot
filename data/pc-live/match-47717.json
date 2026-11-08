@@ -1,0 +1,1556 @@
+{
+ "matchId": 47717,
+ "at": "2026-11-08T05:06:21.174Z",
+ "auctionType": "Vickrey",
+ "placement": 3,
+ "nPlayers": 6,
+ "scores": [
+  {
+   "bot": "aipom",
+   "score": 104,
+   "balance": 27
+  },
+  {
+   "bot": "Primey",
+   "score": 90,
+   "balance": 16
+  },
+  {
+   "bot": "Astronaut",
+   "score": 86,
+   "balance": 32
+  },
+  {
+   "bot": "QuertyBot",
+   "score": 72,
+   "balance": 11
+  },
+  {
+   "bot": "zcrabble",
+   "score": 69,
+   "balance": 16
+  },
+  {
+   "bot": "Lime-Sparring-08",
+   "score": 0,
+   "balance": 100
+  }
+ ],
+ "myScore": 86,
+ "myLeftover": "W",
+ "myWords": [
+  {
+   "bot": "Astronaut",
+   "word": "WARISON",
+   "reward": 30
+  },
+  {
+   "bot": "Astronaut",
+   "word": "OXIDANT",
+   "reward": 45
+  },
+  {
+   "bot": "Astronaut",
+   "word": "GUV",
+   "reward": 7
+  },
+  {
+   "bot": "Astronaut",
+   "word": "MI",
+   "reward": 4
+  }
+ ],
+ "myWordAttempts": [
+  {
+   "word": "WARISON",
+   "at": 1794114320453,
+   "ok": true
+  },
+  {
+   "word": "OXIDANT",
+   "at": 1794114376123,
+   "ok": true
+  },
+  {
+   "word": "GUV",
+   "at": 1794114380154,
+   "ok": true
+  },
+  {
+   "word": "MI",
+   "at": 1794114380154,
+   "ok": true
+  }
+ ],
+ "won": [
+  {
+   "l": "N",
+   "paid": 7,
+   "bid": 10
+  },
+  {
+   "l": "S",
+   "paid": 9,
+   "bid": 10
+  },
+  {
+   "l": "R",
+   "paid": 7,
+   "bid": 8
+  },
+  {
+   "l": "T",
+   "paid": 6,
+   "bid": 8
+  },
+  {
+   "l": "A",
+   "paid": 12,
+   "bid": 13
+  },
+  {
+   "l": "V",
+   "paid": 18,
+   "bid": 23
+  },
+  {
+   "l": "D",
+   "paid": 13,
+   "bid": 13
+  },
+  {
+   "l": "X",
+   "paid": 27,
+   "bid": 39
+  },
+  {
+   "l": "O",
+   "paid": 12,
+   "bid": 16
+  },
+  {
+   "l": "I",
+   "paid": 12,
+   "bid": 17
+  },
+  {
+   "l": "N",
+   "paid": 6,
+   "bid": 7
+  },
+  {
+   "l": "W",
+   "paid": 5,
+   "bid": 24
+  },
+  {
+   "l": "G",
+   "paid": 4,
+   "bid": 32
+  },
+  {
+   "l": "M",
+   "paid": 11,
+   "bid": 17
+  },
+  {
+   "l": "U",
+   "paid": 5,
+   "bid": 9
+  }
+ ],
+ "missed": [
+  {
+   "l": "E",
+   "bid": 9,
+   "paid": 11,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "D",
+   "bid": 11,
+   "paid": 12,
+   "winner": "zcrabble"
+  },
+  {
+   "l": "Y",
+   "bid": 16,
+   "paid": 25,
+   "winner": "aipom"
+  },
+  {
+   "l": "I",
+   "bid": 8,
+   "paid": 12,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "E",
+   "bid": 12,
+   "paid": 12,
+   "winner": "zcrabble"
+  },
+  {
+   "l": "V",
+   "bid": 18,
+   "paid": 19,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "A",
+   "bid": 10,
+   "paid": 11,
+   "winner": "Primey"
+  },
+  {
+   "l": "T",
+   "bid": 8,
+   "paid": 8,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "H",
+   "bid": 19,
+   "paid": 24,
+   "winner": "zcrabble"
+  },
+  {
+   "l": "Z",
+   "bid": 42,
+   "paid": 42,
+   "winner": "zcrabble"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 11,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "S",
+   "bid": 11,
+   "paid": 11,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "N",
+   "bid": 9,
+   "paid": 9,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 11,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "O",
+   "bid": 8,
+   "paid": 10,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "J",
+   "bid": 31,
+   "paid": 31,
+   "winner": "zcrabble"
+  },
+  {
+   "l": "O",
+   "bid": 9,
+   "paid": 9,
+   "winner": "aipom"
+  },
+  {
+   "l": "U",
+   "bid": 9,
+   "paid": 11,
+   "winner": "Primey"
+  },
+  {
+   "l": "L",
+   "bid": 9,
+   "paid": 9,
+   "winner": "aipom"
+  },
+  {
+   "l": "P",
+   "bid": 15,
+   "paid": 18,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "C",
+   "bid": 7,
+   "paid": 19,
+   "winner": "aipom"
+  },
+  {
+   "l": "O",
+   "bid": 4,
+   "paid": 9,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "F",
+   "bid": 7,
+   "paid": 24,
+   "winner": "Primey"
+  },
+  {
+   "l": "A",
+   "bid": 2,
+   "paid": 12,
+   "winner": "aipom"
+  },
+  {
+   "l": "I",
+   "bid": 1,
+   "paid": 9,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "E",
+   "bid": 7,
+   "paid": 11,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "Q",
+   "bid": 4,
+   "paid": 21,
+   "winner": "aipom"
+  },
+  {
+   "l": "E",
+   "bid": 7,
+   "paid": 12,
+   "winner": "aipom"
+  },
+  {
+   "l": "P",
+   "bid": 3,
+   "paid": 13,
+   "winner": "Primey"
+  },
+  {
+   "l": "E",
+   "bid": 7,
+   "paid": 12,
+   "winner": "Primey"
+  },
+  {
+   "l": "A",
+   "bid": 3,
+   "paid": 14,
+   "winner": "aipom"
+  },
+  {
+   "l": "E",
+   "bid": 7,
+   "paid": 16,
+   "winner": "Primey"
+  },
+  {
+   "l": "G",
+   "bid": 4,
+   "paid": 14,
+   "winner": "Primey"
+  },
+  {
+   "l": "A",
+   "bid": 4,
+   "paid": 12,
+   "winner": "QuertyBot"
+  },
+  {
+   "l": "S",
+   "bid": 3,
+   "paid": 15,
+   "winner": "aipom"
+  },
+  {
+   "l": "I",
+   "bid": 3,
+   "paid": 8,
+   "winner": "Primey"
+  },
+  {
+   "l": "B",
+   "bid": 1,
+   "paid": 15,
+   "winner": "Primey"
+  },
+  {
+   "l": "E",
+   "bid": 7,
+   "paid": 7,
+   "winner": "Primey"
+  },
+  {
+   "l": "R",
+   "bid": 7,
+   "paid": 9,
+   "winner": "aipom"
+  },
+  {
+   "l": "H",
+   "bid": 2,
+   "paid": 16,
+   "winner": "Primey"
+  },
+  {
+   "l": "A",
+   "bid": 2,
+   "paid": 9,
+   "winner": "Primey"
+  },
+  {
+   "l": "G",
+   "bid": 5,
+   "paid": 10,
+   "winner": "Primey"
+  },
+  {
+   "l": "K",
+   "bid": 3,
+   "paid": 7,
+   "winner": "aipom"
+  },
+  {
+   "l": "L",
+   "bid": 4,
+   "paid": 7,
+   "winner": "aipom"
+  },
+  {
+   "l": "R",
+   "bid": 7,
+   "paid": 7,
+   "winner": "zcrabble"
+  },
+  {
+   "l": "E",
+   "bid": 7,
+   "paid": 7,
+   "winner": "zcrabble"
+  },
+  {
+   "l": "O",
+   "bid": 1,
+   "paid": 4,
+   "winner": "zcrabble"
+  }
+ ],
+ "maxDecisionMs": 272.7402999999995,
+ "auctions": [
+  {
+   "id": 3113061,
+   "letter": "N",
+   "winner": "Astronaut",
+   "paid": 7,
+   "myBid": 10,
+   "info": {
+    "v0": 12.673793244277986,
+    "v1": 19.79446314511202,
+    "delta": 7.120669900834033,
+    "lambda": 0.6617867174327142,
+    "deny": 0
+   },
+   "ms": 133
+  },
+  {
+   "id": 3113070,
+   "letter": "E",
+   "winner": "QuertyBot",
+   "paid": 11,
+   "myBid": 9,
+   "info": {
+    "v0": 20.203992836042172,
+    "v1": 24.400085608240293,
+    "delta": 4.196092772198121,
+    "lambda": 0.6738295362800906,
+    "deny": 0
+   },
+   "ms": 103
+  },
+  {
+   "id": 3113079,
+   "letter": "S",
+   "winner": "Astronaut",
+   "paid": 9,
+   "myBid": 10,
+   "info": {
+    "v0": 20.752814262025023,
+    "v1": 27.06894813051098,
+    "delta": 6.316133868485956,
+    "lambda": 0.665665726610765,
+    "deny": 0
+   },
+   "ms": 110
+  },
+  {
+   "id": 3113088,
+   "letter": "D",
+   "winner": "zcrabble",
+   "paid": 12,
+   "myBid": 11,
+   "info": {
+    "v0": 26.196786753966872,
+    "v1": 32.010878399903255,
+    "delta": 5.814091645936383,
+    "lambda": 0.6853434881613923,
+    "deny": 0
+   },
+   "ms": 110
+  },
+  {
+   "id": 3113097,
+   "letter": "R",
+   "winner": "Astronaut",
+   "paid": 7,
+   "myBid": 8,
+   "info": {
+    "v0": 27.050669149024884,
+    "v1": 31.26437459596511,
+    "delta": 4.213705446940224,
+    "lambda": 0.6767978270904029,
+    "deny": 0
+   },
+   "ms": 91
+  },
+  {
+   "id": 3113106,
+   "letter": "Y",
+   "winner": "aipom",
+   "paid": 25,
+   "myBid": 16,
+   "info": {
+    "v0": 31.813075196027494,
+    "v1": 38.1010573739859,
+    "delta": 6.287982177958408,
+    "lambda": 0.6919252489205946,
+    "deny": 0
+   },
+   "ms": 216
+  },
+  {
+   "id": 3113115,
+   "letter": "I",
+   "winner": "QuertyBot",
+   "paid": 12,
+   "myBid": 8,
+   "info": {
+    "v0": 31.753743442550487,
+    "v1": 32.043743442550486,
+    "delta": 0.28999999999999915,
+    "lambda": 0.683038018430631,
+    "deny": 0
+   },
+   "ms": 176
+  },
+  {
+   "id": 3113124,
+   "letter": "T",
+   "winner": "Astronaut",
+   "paid": 6,
+   "myBid": 8,
+   "info": {
+    "v0": 31.355222557510633,
+    "v1": 32.73957723863192,
+    "delta": 1.384354681121284,
+    "lambda": 0.6741309430299999,
+    "deny": 0
+   },
+   "ms": 176
+  },
+  {
+   "id": 3113133,
+   "letter": "E",
+   "winner": "zcrabble",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 7.690849925908931,
+    "v1": 13.893759387171912,
+    "delta": 6.202909461262981,
+    "lambda": 0.4807483771762679,
+    "deny": 0
+   },
+   "ms": 273
+  },
+  {
+   "id": 3113142,
+   "letter": "V",
+   "winner": "QuertyBot",
+   "paid": 19,
+   "myBid": 18,
+   "info": {
+    "v0": 11.546706997827641,
+    "v1": 19.08201485134411,
+    "delta": 7.535307853516468,
+    "lambda": 0.4113053076996239,
+    "deny": 0
+   },
+   "ms": 61
+  },
+  {
+   "id": 3113150,
+   "letter": "A",
+   "winner": "Primey",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 11.332178021236423,
+    "v1": 15.403541625088584,
+    "delta": 4.071363603852161,
+    "lambda": 0.40568404203473557,
+    "deny": 0
+   },
+   "ms": 144
+  },
+  {
+   "id": 3113159,
+   "letter": "T",
+   "winner": "QuertyBot",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 11.337963416935565,
+    "v1": 13.871745585881042,
+    "delta": 2.5337821689454767,
+    "lambda": 0.40004931716881975,
+    "deny": 0
+   },
+   "ms": 46
+  },
+  {
+   "id": 3113168,
+   "letter": "A",
+   "winner": "Astronaut",
+   "paid": 12,
+   "myBid": 13,
+   "info": {
+    "v0": 11.058571520523012,
+    "v1": 16.55538577708074,
+    "delta": 5.4968142565577285,
+    "lambda": 0.39440085168016686,
+    "deny": 0
+   },
+   "ms": 60
+  },
+  {
+   "id": 3113177,
+   "letter": "V",
+   "winner": "Astronaut",
+   "paid": 18,
+   "myBid": 23,
+   "info": {
+    "v0": 14.029992553041906,
+    "v1": 23.591022332677117,
+    "delta": 9.561029779635211,
+    "lambda": 0.40957819322417643,
+    "deny": 0
+   },
+   "ms": 105
+  },
+  {
+   "id": 3113186,
+   "letter": "H",
+   "winner": "zcrabble",
+   "paid": 24,
+   "myBid": 19,
+   "info": {
+    "v0": 21.73572083234807,
+    "v1": 30.238128643780666,
+    "delta": 8.502407811432597,
+    "lambda": 0.44171333405127855,
+    "deny": 0
+   },
+   "ms": 33
+  },
+  {
+   "id": 3113194,
+   "letter": "Z",
+   "winner": "zcrabble",
+   "paid": 42,
+   "myBid": 42,
+   "info": {
+    "v0": 20.436825901239626,
+    "v1": 39.09536556909459,
+    "delta": 18.658539667854964,
+    "lambda": 0.4351503930754748,
+    "deny": 0
+   },
+   "ms": 82
+  },
+  {
+   "id": 3113203,
+   "letter": "D",
+   "winner": "Astronaut",
+   "paid": 13,
+   "myBid": 13,
+   "info": {
+    "v0": 21.975510054538102,
+    "v1": 27.108486991934893,
+    "delta": 5.132976937396791,
+    "lambda": 0.428570165285817,
+    "deny": 0
+   },
+   "ms": 46
+  },
+  {
+   "id": 3113212,
+   "letter": "I",
+   "winner": "QuertyBot",
+   "paid": 11,
+   "myBid": 9,
+   "info": {
+    "v0": 25.761458491529634,
+    "v1": 29.597656519623172,
+    "delta": 3.8361980280935377,
+    "lambda": 0.4557821213819061,
+    "deny": 0
+   },
+   "ms": 114
+  },
+  {
+   "id": 3113221,
+   "letter": "S",
+   "winner": "QuertyBot",
+   "paid": 11,
+   "myBid": 11,
+   "info": {
+    "v0": 25.503665333284527,
+    "v1": 29.94199126079079,
+    "delta": 4.438325927506263,
+    "lambda": 0.448635997751894,
+    "deny": 0
+   },
+   "ms": 40
+  },
+  {
+   "id": 3113230,
+   "letter": "N",
+   "winner": "QuertyBot",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 27.229562841251482,
+    "v1": 30.739869940425844,
+    "delta": 3.510307099174362,
+    "lambda": 0.44146983886691693,
+    "deny": 0
+   },
+   "ms": 38
+  },
+  {
+   "id": 3113239,
+   "letter": "I",
+   "winner": "QuertyBot",
+   "paid": 11,
+   "myBid": 9,
+   "info": {
+    "v0": 26.49474602240991,
+    "v1": 30.073361532326818,
+    "delta": 3.578615509916908,
+    "lambda": 0.4342831458539679,
+    "deny": 0
+   },
+   "ms": 77
+  },
+  {
+   "id": 3113248,
+   "letter": "O",
+   "winner": "QuertyBot",
+   "paid": 10,
+   "myBid": 8,
+   "info": {
+    "v0": 27.154593162028362,
+    "v1": 30.533530397308628,
+    "delta": 3.378937235280265,
+    "lambda": 0.42707539483817275,
+    "deny": 0
+   },
+   "ms": 45
+  },
+  {
+   "id": 3113257,
+   "letter": "J",
+   "winner": "zcrabble",
+   "paid": 31,
+   "myBid": 31,
+   "info": {
+    "v0": 26.560414762913837,
+    "v1": 39.707565722396346,
+    "delta": 13.14715095948251,
+    "lambda": 0.41984603500818446,
+    "deny": 0
+   },
+   "ms": 106
+  },
+  {
+   "id": 3113265,
+   "letter": "O",
+   "winner": "aipom",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 26.504196854324878,
+    "v1": 30.216361814744445,
+    "delta": 3.7121649604195674,
+    "lambda": 0.41259448647697344,
+    "deny": 0
+   },
+   "ms": 120
+  },
+  {
+   "id": 3113274,
+   "letter": "U",
+   "winner": "Primey",
+   "paid": 11,
+   "myBid": 9,
+   "info": {
+    "v0": 27.425387972010032,
+    "v1": 30.684096992907484,
+    "delta": 3.2587090208974523,
+    "lambda": 0.40532013791043386,
+    "deny": 0
+   },
+   "ms": 103
+  },
+  {
+   "id": 3113283,
+   "letter": "L",
+   "winner": "aipom",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 26.659704319626595,
+    "v1": 30.028223413810878,
+    "delta": 3.3685190941842826,
+    "lambda": 0.3980223438916886,
+    "deny": 0
+   },
+   "ms": 89
+  },
+  {
+   "id": 3113292,
+   "letter": "P",
+   "winner": "QuertyBot",
+   "paid": 18,
+   "myBid": 15,
+   "info": {
+    "v0": 28.11767076624423,
+    "v1": 34.2021578813664,
+    "delta": 6.084487115122165,
+    "lambda": 0.3907004219835629,
+    "deny": 0
+   },
+   "ms": 35
+  },
+  {
+   "id": 3113301,
+   "letter": "X",
+   "winner": "Astronaut",
+   "paid": 27,
+   "myBid": 39,
+   "info": {
+    "v0": 27.588782176268925,
+    "v1": 42.613299678564466,
+    "delta": 15.024517502295542,
+    "lambda": 0.38335364944519085,
+    "deny": 0
+   },
+   "ms": 74
+  },
+  {
+   "id": 3113310,
+   "letter": "O",
+   "winner": "Astronaut",
+   "paid": 12,
+   "myBid": 16,
+   "info": {
+    "v0": 35.02057111878998,
+    "v1": 46.89933252044056,
+    "delta": 11.878761401650578,
+    "lambda": 0.46497372448661883,
+    "deny": 0
+   },
+   "ms": 53
+  },
+  {
+   "id": 3113319,
+   "letter": "I",
+   "winner": "Astronaut",
+   "paid": 12,
+   "myBid": 17,
+   "info": {
+    "v0": 40.74023392800074,
+    "v1": 52.64796530797705,
+    "delta": 11.907731379976312,
+    "lambda": 0.5212542818942418,
+    "deny": 0
+   },
+   "ms": 23
+  },
+  {
+   "id": 3113327,
+   "letter": "C",
+   "winner": "aipom",
+   "paid": 19,
+   "myBid": 7,
+   "info": {
+    "v0": 45.90581913931097,
+    "v1": 50.32393231885853,
+    "delta": 4.418113179547561,
+    "lambda": 0.6138477000544393,
+    "deny": 0
+   },
+   "ms": 21
+  },
+  {
+   "id": 3113336,
+   "letter": "O",
+   "winner": "QuertyBot",
+   "paid": 9,
+   "myBid": 4,
+   "info": {
+    "v0": 43.272208063642275,
+    "v1": 46.22702429355905,
+    "delta": 2.954816229916773,
+    "lambda": 0.6011777455209908,
+    "deny": 0
+   },
+   "ms": 22
+  },
+  {
+   "id": 3113345,
+   "letter": "F",
+   "winner": "Primey",
+   "paid": 24,
+   "myBid": 7,
+   "info": {
+    "v0": 47.276154883021825,
+    "v1": 52.36174612691314,
+    "delta": 5.085591243891315,
+    "lambda": 0.5884581343047278,
+    "deny": 0
+   },
+   "ms": 29
+  },
+  {
+   "id": 3113354,
+   "letter": "A",
+   "winner": "aipom",
+   "paid": 12,
+   "myBid": 2,
+   "info": {
+    "v0": 46.677971876170176,
+    "v1": 48.189576803990896,
+    "delta": 1.51160492782072,
+    "lambda": 0.5756870633824128,
+    "deny": 0
+   },
+   "ms": 41
+  },
+  {
+   "id": 3113363,
+   "letter": "T",
+   "winner": "aipom",
+   "paid": 12,
+   "myBid": 0,
+   "info": {
+    "v0": 46.98064176868127,
+    "v1": 47.27064176868126,
+    "delta": 0.28999999999999204,
+    "lambda": 0.562862595742247,
+    "deny": 0
+   },
+   "ms": 74
+  },
+  {
+   "id": 3113372,
+   "letter": "I",
+   "winner": "QuertyBot",
+   "paid": 9,
+   "myBid": 1,
+   "info": {
+    "v0": 46.98039586006609,
+    "v1": 47.83038298509825,
+    "delta": 0.8499871250321576,
+    "lambda": 0.549982644996816,
+    "deny": 0
+   },
+   "ms": 32
+  },
+  {
+   "id": 3113381,
+   "letter": "E",
+   "winner": "QuertyBot",
+   "paid": 11,
+   "myBid": 7,
+   "info": {
+    "v0": 44.55051668625759,
+    "v1": 60,
+    "delta": 15.449483313742412,
+    "lambda": 0.7672070822713752,
+    "deny": 0
+   },
+   "ms": 44
+  },
+  {
+   "id": 3113390,
+   "letter": "Q",
+   "winner": "aipom",
+   "paid": 21,
+   "myBid": 4,
+   "info": {
+    "v0": 45.867067513640585,
+    "v1": 49.33587775950028,
+    "delta": 3.468810245859693,
+    "lambda": 0.7486387030274585,
+    "deny": 0
+   },
+   "ms": 32
+  },
+  {
+   "id": 3113399,
+   "letter": "E",
+   "winner": "aipom",
+   "paid": 12,
+   "myBid": 7,
+   "info": {
+    "v0": 46.428655811594915,
+    "v1": 60,
+    "delta": 13.571344188405085,
+    "lambda": 0.7299805645419596,
+    "deny": 0
+   },
+   "ms": 27
+  },
+  {
+   "id": 3113408,
+   "letter": "P",
+   "winner": "Primey",
+   "paid": 13,
+   "myBid": 3,
+   "info": {
+    "v0": 46.76207714461831,
+    "v1": 49.549737837609165,
+    "delta": 2.7876606929908547,
+    "lambda": 0.711228532832987,
+    "deny": 0
+   },
+   "ms": 29
+  },
+  {
+   "id": 3113417,
+   "letter": "E",
+   "winner": "Primey",
+   "paid": 12,
+   "myBid": 7,
+   "info": {
+    "v0": 48.9943293508212,
+    "v1": 60,
+    "delta": 11.005670649178803,
+    "lambda": 0.6923780826004036,
+    "deny": 0
+   },
+   "ms": 32
+  },
+  {
+   "id": 3113426,
+   "letter": "A",
+   "winner": "aipom",
+   "paid": 14,
+   "myBid": 3,
+   "info": {
+    "v0": 48.203300037485235,
+    "v1": 50.42997704796358,
+    "delta": 2.2266770104783475,
+    "lambda": 0.673424240232604,
+    "deny": 0
+   },
+   "ms": 18
+  },
+  {
+   "id": 3113435,
+   "letter": "E",
+   "winner": "Primey",
+   "paid": 16,
+   "myBid": 7,
+   "info": {
+    "v0": 44.469518609627784,
+    "v1": 60,
+    "delta": 15.530481390372216,
+    "lambda": 0.6543615155486318,
+    "deny": 0
+   },
+   "ms": 23
+  },
+  {
+   "id": 3113444,
+   "letter": "G",
+   "winner": "Primey",
+   "paid": 14,
+   "myBid": 4,
+   "info": {
+    "v0": 45.01380468070897,
+    "v1": 48.12068246061665,
+    "delta": 3.106877779907677,
+    "lambda": 0.6351838194442936,
+    "deny": 0
+   },
+   "ms": 20
+  },
+  {
+   "id": 3113453,
+   "letter": "A",
+   "winner": "QuertyBot",
+   "paid": 12,
+   "myBid": 4,
+   "info": {
+    "v0": 44.40630379711069,
+    "v1": 47.070690741383125,
+    "delta": 2.6643869442724366,
+    "lambda": 0.6158843637391294,
+    "deny": 0
+   },
+   "ms": 28
+  },
+  {
+   "id": 3113462,
+   "letter": "U",
+   "winner": "zcrabble",
+   "paid": 8,
+   "myBid": 0,
+   "info": {
+    "v0": 43.86195155693255,
+    "v1": 44.15195155693254,
+    "delta": 0.28999999999998494,
+    "lambda": 0.596455538327986,
+    "deny": 0
+   },
+   "ms": 24
+  },
+  {
+   "id": 3113471,
+   "letter": "S",
+   "winner": "aipom",
+   "paid": 15,
+   "myBid": 3,
+   "info": {
+    "v0": 48.288519319175215,
+    "v1": 50.43685265250855,
+    "delta": 2.1483333333333334,
+    "lambda": 0.5768887590870349,
+    "deny": 0
+   },
+   "ms": 8
+  },
+  {
+   "id": 3113480,
+   "letter": "I",
+   "winner": "Primey",
+   "paid": 8,
+   "myBid": 3,
+   "info": {
+    "v0": 47.1443660981138,
+    "v1": 48.86423024376372,
+    "delta": 1.7198641456499217,
+    "lambda": 0.5571742776590682,
+    "deny": 0
+   },
+   "ms": 19
+  },
+  {
+   "id": 3113489,
+   "letter": "B",
+   "winner": "Primey",
+   "paid": 15,
+   "myBid": 1,
+   "info": {
+    "v0": 49.55108846011883,
+    "v1": 50.42108846011882,
+    "delta": 0.8699999999999903,
+    "lambda": 0.5373009409245266,
+    "deny": 0
+   },
+   "ms": 10
+  },
+  {
+   "id": 3113498,
+   "letter": "E",
+   "winner": "Primey",
+   "paid": 7,
+   "myBid": 7,
+   "info": {
+    "v0": 47.24718422914405,
+    "v1": 60,
+    "delta": 12.752815770855953,
+    "lambda": 0.5172558831490208,
+    "deny": 0
+   },
+   "ms": 19
+  },
+  {
+   "id": 3113507,
+   "letter": "R",
+   "winner": "aipom",
+   "paid": 9,
+   "myBid": 7,
+   "info": {
+    "v0": 48.714356549323206,
+    "v1": 52.659457424271615,
+    "delta": 3.945100874948409,
+    "lambda": 0.4970241266806445,
+    "deny": 0
+   },
+   "ms": 15
+  },
+  {
+   "id": 3113516,
+   "letter": "T",
+   "winner": "Primey",
+   "paid": 8,
+   "myBid": 0,
+   "info": {
+    "v0": 48.594612192244576,
+    "v1": 48.88461219224459,
+    "delta": 0.29000000000001336,
+    "lambda": 0.4765880563363495,
+    "deny": 0
+   },
+   "ms": 12
+  },
+  {
+   "id": 3113525,
+   "letter": "H",
+   "winner": "Primey",
+   "paid": 16,
+   "myBid": 2,
+   "info": {
+    "v0": 49.47176871727478,
+    "v1": 50.647579779003195,
+    "delta": 1.1758110617284174,
+    "lambda": 0.45592671606106805,
+    "deny": 0
+   },
+   "ms": 14
+  },
+  {
+   "id": 3113534,
+   "letter": "A",
+   "winner": "Primey",
+   "paid": 9,
+   "myBid": 2,
+   "info": {
+    "v0": 52.02881637027232,
+    "v1": 53.08082449753645,
+    "delta": 1.0520081272641306,
+    "lambda": 0.435014850259767,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3113543,
+   "letter": "G",
+   "winner": "Primey",
+   "paid": 10,
+   "myBid": 5,
+   "info": {
+    "v0": 52.50594054802519,
+    "v1": 54.86906554802516,
+    "delta": 2.3631249999999753,
+    "lambda": 0.4138215696038252,
+    "deny": 0
+   },
+   "ms": 6
+  },
+  {
+   "id": 3113552,
+   "letter": "K",
+   "winner": "aipom",
+   "paid": 7,
+   "myBid": 3,
+   "info": {
+    "v0": 53.12648174632733,
+    "v1": 54.57648174632729,
+    "delta": 1.4499999999999602,
+    "lambda": 0.39230844954275007,
+    "deny": 0
+   },
+   "ms": 5
+  },
+  {
+   "id": 3113561,
+   "letter": "L",
+   "winner": "aipom",
+   "paid": 7,
+   "myBid": 4,
+   "info": {
+    "v0": 43.518710949049826,
+    "v1": 45.20640206405529,
+    "delta": 1.6876911150054639,
+    "lambda": 0.3704267449837126,
+    "deny": 0
+   },
+   "ms": 22
+  },
+  {
+   "id": 3113570,
+   "letter": "R",
+   "winner": "zcrabble",
+   "paid": 7,
+   "myBid": 7,
+   "info": {
+    "v0": 43.62913946047493,
+    "v1": 48.634962829214345,
+    "delta": 5.005823368739414,
+    "lambda": 0.3481131775609067,
+    "deny": 0
+   },
+   "ms": 20
+  },
+  {
+   "id": 3113579,
+   "letter": "A",
+   "winner": "aipom",
+   "paid": 6,
+   "myBid": 0,
+   "info": {
+    "v0": 43.19311176906283,
+    "v1": 43.51602843572952,
+    "delta": 0.3229166666666856,
+    "lambda": 0.325283317366802,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3113588,
+   "letter": "T",
+   "winner": "zcrabble",
+   "paid": 6,
+   "myBid": 0,
+   "info": {
+    "v0": 43.694004449271084,
+    "v1": 43.98400444927109,
+    "delta": 0.29000000000000625,
+    "lambda": 0.3018206974228647,
+    "deny": 0
+   },
+   "ms": 9
+  },
+  {
+   "id": 3113597,
+   "letter": "E",
+   "winner": "zcrabble",
+   "paid": 7,
+   "myBid": 7,
+   "info": {
+    "v0": 43.1420369870525,
+    "v1": 46.629207321696164,
+    "delta": 3.4871703346436647,
+    "lambda": 0.2775578645013514,
+    "deny": 0
+   },
+   "ms": 9
+  },
+  {
+   "id": 3113606,
+   "letter": "O",
+   "winner": "zcrabble",
+   "paid": 4,
+   "myBid": 1,
+   "info": {
+    "v0": 43.267657533823495,
+    "v1": 43.70749884941685,
+    "delta": 0.4398413155933554,
+    "lambda": 0.25224092108855534,
+    "deny": 0
+   },
+   "ms": 8
+  },
+  {
+   "id": 3113615,
+   "letter": "N",
+   "winner": "Astronaut",
+   "paid": 6,
+   "myBid": 7,
+   "info": {
+    "v0": 42.37659692161828,
+    "v1": 46.73855711233881,
+    "delta": 4.361960190720531,
+    "lambda": 0.22545650376994963,
+    "deny": 0
+   },
+   "ms": 9
+  },
+  {
+   "id": 3113624,
+   "letter": "W",
+   "winner": "Astronaut",
+   "paid": 5,
+   "myBid": 24,
+   "info": {
+    "v0": 1.450000000000001,
+    "v1": 4.5116601389355955,
+    "delta": 3.0616601389355944,
+    "lambda": 0.2227644188721097,
+    "deny": 0
+   },
+   "ms": 10
+  },
+  {
+   "id": 3113633,
+   "letter": "G",
+   "winner": "Astronaut",
+   "paid": 4,
+   "myBid": 32,
+   "info": {
+    "v0": 7.973135970599675,
+    "v1": 11.461197503792539,
+    "delta": 3.4880615331928633,
+    "lambda": 0.10889345654254785,
+    "deny": 0
+   },
+   "ms": 3
+  },
+  {
+   "id": 3113642,
+   "letter": "M",
+   "winner": "Astronaut",
+   "paid": 11,
+   "myBid": 17,
+   "info": {
+    "v0": 9.231120918128019,
+    "v1": 10.736853836172978,
+    "delta": 1.5057329180449592,
+    "lambda": 0.0843735571664349,
+    "deny": 0
+   },
+   "ms": 2
+  },
+  {
+   "id": 3113651,
+   "letter": "U",
+   "winner": "Astronaut",
+   "paid": 5,
+   "myBid": 9,
+   "info": {
+    "v0": 4.060000000000001,
+    "v1": 4.349999999999997,
+    "delta": 0.2899999999999956,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 4
+  },
+  {
+   "id": 3113660,
+   "letter": "O",
+   "winner": null,
+   "paid": 0,
+   "myBid": 0,
+   "info": {
+    "v0": 4.060000000000001,
+    "v1": 4.349999999999997,
+    "delta": 0.2899999999999956,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 2
+  }
+ ],
+ "words": [
+  {
+   "bot": "Astronaut",
+   "word": "WARISON",
+   "reward": 30
+  },
+  {
+   "bot": "QuertyBot",
+   "word": "ENVIERS",
+   "reward": 30
+  },
+  {
+   "bot": "zcrabble",
+   "word": "HAZED",
+   "reward": 36
+  },
+  {
+   "bot": "QuertyBot",
+   "word": "PIOSITY",
+   "reward": 36
+  },
+  {
+   "bot": "aipom",
+   "word": "CALYCLE",
+   "reward": 42
+  },
+  {
+   "bot": "Primey",
+   "word": "PREFADE",
+   "reward": 39
+  },
+  {
+   "bot": "aipom",
+   "word": "LOQUAT",
+   "reward": 37
+  },
+  {
+   "bot": "Primey",
+   "word": "FIREBUG",
+   "reward": 39
+  },
+  {
+   "bot": "QuertyBot",
+   "word": "AEON",
+   "reward": 6
+  },
+  {
+   "bot": "zcrabble",
+   "word": "BURDEN",
+   "reward": 22
+  },
+  {
+   "bot": "Astronaut",
+   "word": "OXIDANT",
+   "reward": 45
+  },
+  {
+   "bot": "Primey",
+   "word": "GHAT",
+   "reward": 12
+  },
+  {
+   "bot": "Astronaut",
+   "word": "GUV",
+   "reward": 7
+  },
+  {
+   "bot": "Astronaut",
+   "word": "MI",
+   "reward": 4
+  },
+  {
+   "bot": "aipom",
+   "word": "LAKERS",
+   "reward": 25
+  },
+  {
+   "bot": "zcrabble",
+   "word": "JO",
+   "reward": 9
+  },
+  {
+   "bot": "zcrabble",
+   "word": "ET",
+   "reward": 2
+  }
+ ]
+}

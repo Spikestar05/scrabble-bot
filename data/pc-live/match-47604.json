@@ -1,0 +1,1574 @@
+{
+ "matchId": 47604,
+ "at": "2026-11-08T04:52:28.279Z",
+ "auctionType": "Vickrey",
+ "placement": 5,
+ "nPlayers": 6,
+ "scores": [
+  {
+   "bot": "scrabblemaxxing",
+   "score": 91,
+   "balance": 9
+  },
+  {
+   "bot": "LongWords",
+   "score": 90,
+   "balance": 16
+  },
+  {
+   "bot": "Bron",
+   "score": 84,
+   "balance": 12
+  },
+  {
+   "bot": "evol",
+   "score": 67,
+   "balance": 34
+  },
+  {
+   "bot": "Astronaut",
+   "score": 65,
+   "balance": 19
+  },
+  {
+   "bot": "Lbender",
+   "score": 31,
+   "balance": 46
+  }
+ ],
+ "myScore": 65,
+ "myLeftover": "V",
+ "myWords": [
+  {
+   "bot": "Astronaut",
+   "word": "DJINNS",
+   "reward": 35
+  },
+  {
+   "bot": "Astronaut",
+   "word": "DAWTED",
+   "reward": 27
+  },
+  {
+   "bot": "Astronaut",
+   "word": "GO",
+   "reward": 3
+  }
+ ],
+ "myWordAttempts": [
+  {
+   "word": "DJINNS",
+   "at": 1794113536113,
+   "ok": true
+  },
+  {
+   "word": "DAWTED",
+   "at": 1794113546294,
+   "ok": true
+  },
+  {
+   "word": "GO",
+   "at": 1794113547241,
+   "ok": true
+  }
+ ],
+ "won": [
+  {
+   "l": "D",
+   "paid": 14,
+   "bid": 14
+  },
+  {
+   "l": "J",
+   "paid": 28,
+   "bid": 40
+  },
+  {
+   "l": "N",
+   "paid": 10,
+   "bid": 10
+  },
+  {
+   "l": "S",
+   "paid": 10,
+   "bid": 11
+  },
+  {
+   "l": "I",
+   "paid": 9,
+   "bid": 12
+  },
+  {
+   "l": "W",
+   "paid": 18,
+   "bid": 28
+  },
+  {
+   "l": "D",
+   "paid": 16,
+   "bid": 16
+  },
+  {
+   "l": "O",
+   "paid": 12,
+   "bid": 15
+  },
+  {
+   "l": "G",
+   "paid": 14,
+   "bid": 18
+  },
+  {
+   "l": "V",
+   "paid": 15,
+   "bid": 31
+  }
+ ],
+ "missed": [
+  {
+   "l": "E",
+   "bid": 9,
+   "paid": 17,
+   "winner": "LongWords"
+  },
+  {
+   "l": "L",
+   "bid": 11,
+   "paid": 12,
+   "winner": "LongWords"
+  },
+  {
+   "l": "A",
+   "bid": 10,
+   "paid": 15,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "T",
+   "bid": 10,
+   "paid": 13,
+   "winner": "LongWords"
+  },
+  {
+   "l": "Y",
+   "bid": 21,
+   "paid": 22,
+   "winner": "evol"
+  },
+  {
+   "l": "D",
+   "bid": 14,
+   "paid": 14,
+   "winner": "evol"
+  },
+  {
+   "l": "T",
+   "bid": 10,
+   "paid": 12,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "F",
+   "bid": 19,
+   "paid": 22,
+   "winner": "LongWords"
+  },
+  {
+   "l": "N",
+   "bid": 10,
+   "paid": 11,
+   "winner": "Bron"
+  },
+  {
+   "l": "V",
+   "bid": 17,
+   "paid": 19,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "B",
+   "bid": 16,
+   "paid": 16,
+   "winner": "evol"
+  },
+  {
+   "l": "U",
+   "bid": 10,
+   "paid": 19,
+   "winner": "LongWords"
+  },
+  {
+   "l": "B",
+   "bid": 17,
+   "paid": 17,
+   "winner": "LongWords"
+  },
+  {
+   "l": "S",
+   "bid": 12,
+   "paid": 12,
+   "winner": "LongWords"
+  },
+  {
+   "l": "E",
+   "bid": 11,
+   "paid": 11,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "U",
+   "bid": 10,
+   "paid": 11,
+   "winner": "LongWords"
+  },
+  {
+   "l": "R",
+   "bid": 11,
+   "paid": 11,
+   "winner": "Bron"
+  },
+  {
+   "l": "H",
+   "bid": 22,
+   "paid": 22,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "T",
+   "bid": 10,
+   "paid": 10,
+   "winner": "evol"
+  },
+  {
+   "l": "G",
+   "bid": 12,
+   "paid": 12,
+   "winner": "Bron"
+  },
+  {
+   "l": "T",
+   "bid": 9,
+   "paid": 9,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "A",
+   "bid": 10,
+   "paid": 10,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "E",
+   "bid": 10,
+   "paid": 10,
+   "winner": "LongWords"
+  },
+  {
+   "l": "A",
+   "bid": 3,
+   "paid": 10,
+   "winner": "LongWords"
+  },
+  {
+   "l": "I",
+   "bid": 8,
+   "paid": 10,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 10,
+   "winner": "LongWords"
+  },
+  {
+   "l": "K",
+   "bid": 12,
+   "paid": 28,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "O",
+   "bid": 6,
+   "paid": 10,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "I",
+   "bid": 9,
+   "paid": 9,
+   "winner": "LongWords"
+  },
+  {
+   "l": "A",
+   "bid": 4,
+   "paid": 10,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "W",
+   "bid": 10,
+   "paid": 18,
+   "winner": "Bron"
+  },
+  {
+   "l": "I",
+   "bid": 8,
+   "paid": 8,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "E",
+   "bid": 3,
+   "paid": 9,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "R",
+   "bid": 3,
+   "paid": 10,
+   "winner": "Bron"
+  },
+  {
+   "l": "A",
+   "bid": 3,
+   "paid": 10,
+   "winner": "Bron"
+  },
+  {
+   "l": "M",
+   "bid": 6,
+   "paid": 16,
+   "winner": "Bron"
+  },
+  {
+   "l": "E",
+   "bid": 3,
+   "paid": 10,
+   "winner": "Bron"
+  },
+  {
+   "l": "I",
+   "bid": 8,
+   "paid": 9,
+   "winner": "scrabblemaxxing"
+  },
+  {
+   "l": "O",
+   "bid": 5,
+   "paid": 6,
+   "winner": "evol"
+  },
+  {
+   "l": "U",
+   "bid": 9,
+   "paid": 9,
+   "winner": "evol"
+  },
+  {
+   "l": "R",
+   "bid": 3,
+   "paid": 11,
+   "winner": "evol"
+  },
+  {
+   "l": "O",
+   "bid": 7,
+   "paid": 7,
+   "winner": "evol"
+  },
+  {
+   "l": "A",
+   "bid": 4,
+   "paid": 10,
+   "winner": "Bron"
+  },
+  {
+   "l": "A",
+   "bid": 3,
+   "paid": 6,
+   "winner": "evol"
+  },
+  {
+   "l": "A",
+   "bid": 5,
+   "paid": 6,
+   "winner": "evol"
+  },
+  {
+   "l": "T",
+   "bid": 1,
+   "paid": 12,
+   "winner": "Bron"
+  },
+  {
+   "l": "P",
+   "bid": 3,
+   "paid": 16,
+   "winner": "Lbender"
+  },
+  {
+   "l": "Z",
+   "bid": 29,
+   "paid": 40,
+   "winner": "Lbender"
+  },
+  {
+   "l": "F",
+   "bid": 8,
+   "paid": 14,
+   "winner": "evol"
+  },
+  {
+   "l": "L",
+   "bid": 12,
+   "paid": 12,
+   "winner": "evol"
+  },
+  {
+   "l": "E",
+   "bid": 8,
+   "paid": 12,
+   "winner": "Bron"
+  },
+  {
+   "l": "P",
+   "bid": 18,
+   "paid": 18,
+   "winner": "Lbender"
+  },
+  {
+   "l": "N",
+   "bid": 4,
+   "paid": 10,
+   "winner": "Bron"
+  },
+  {
+   "l": "Y",
+   "bid": 4,
+   "paid": 15,
+   "winner": "Bron"
+  },
+  {
+   "l": "E",
+   "bid": 4,
+   "paid": 15,
+   "winner": "Bron"
+  }
+ ],
+ "maxDecisionMs": 126.88640000007581,
+ "auctions": [
+  {
+   "id": 3105246,
+   "letter": "E",
+   "winner": "LongWords",
+   "paid": 17,
+   "myBid": 9,
+   "info": {
+    "v0": 18.866209021887375,
+    "v1": 22.37622712613296,
+    "delta": 3.510018104245585,
+    "lambda": 0.6617867174327142,
+    "deny": 0
+   },
+   "ms": 85
+  },
+  {
+   "id": 3105257,
+   "letter": "L",
+   "winner": "LongWords",
+   "paid": 12,
+   "myBid": 11,
+   "info": {
+    "v0": 17.295135314264694,
+    "v1": 20.940531797116112,
+    "delta": 3.6453964828514174,
+    "lambda": 0.6538808859919171,
+    "deny": 0
+   },
+   "ms": 70
+  },
+  {
+   "id": 3105269,
+   "letter": "A",
+   "winner": "scrabblemaxxing",
+   "paid": 15,
+   "myBid": 10,
+   "info": {
+    "v0": 17.325848237283072,
+    "v1": 20.60487849075412,
+    "delta": 3.279030253471049,
+    "lambda": 0.6459587650218012,
+    "deny": 0
+   },
+   "ms": 101
+  },
+  {
+   "id": 3105281,
+   "letter": "T",
+   "winner": "LongWords",
+   "paid": 13,
+   "myBid": 10,
+   "info": {
+    "v0": 16.92379860050293,
+    "v1": 19.96014816361788,
+    "delta": 3.0363495631149497,
+    "lambda": 0.6380200654079734,
+    "deny": 0
+   },
+   "ms": 62
+  },
+  {
+   "id": 3105293,
+   "letter": "Y",
+   "winner": "evol",
+   "paid": 22,
+   "myBid": 21,
+   "info": {
+    "v0": 16.3945215204985,
+    "v1": 23.735516591628535,
+    "delta": 7.340995071130035,
+    "lambda": 0.6300644879061076,
+    "deny": 0
+   },
+   "ms": 54
+  },
+  {
+   "id": 3105304,
+   "letter": "D",
+   "winner": "evol",
+   "paid": 14,
+   "myBid": 14,
+   "info": {
+    "v0": 17.014065370140596,
+    "v1": 21.686231608435303,
+    "delta": 4.672166238294707,
+    "lambda": 0.6220917225987204,
+    "deny": 0
+   },
+   "ms": 58
+  },
+  {
+   "id": 3105315,
+   "letter": "D",
+   "winner": "Astronaut",
+   "paid": 14,
+   "myBid": 14,
+   "info": {
+    "v0": 17.466694701793795,
+    "v1": 21.46858348427361,
+    "delta": 4.0018887824798135,
+    "lambda": 0.6141014483122161,
+    "deny": 0
+   },
+   "ms": 54
+  },
+  {
+   "id": 3105326,
+   "letter": "T",
+   "winner": "scrabblemaxxing",
+   "paid": 12,
+   "myBid": 10,
+   "info": {
+    "v0": 22.142796878870126,
+    "v1": 23.816956007785162,
+    "delta": 1.6741591289150364,
+    "lambda": 0.6448774583754312,
+    "deny": 0
+   },
+   "ms": 59
+  },
+  {
+   "id": 3105337,
+   "letter": "F",
+   "winner": "LongWords",
+   "paid": 22,
+   "myBid": 19,
+   "info": {
+    "v0": 26.006123678806873,
+    "v1": 33.821684446767044,
+    "delta": 7.8155607679601715,
+    "lambda": 0.4454362838660179,
+    "deny": 0
+   },
+   "ms": 51
+  },
+  {
+   "id": 3105348,
+   "letter": "N",
+   "winner": "Bron",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 27.335943117648906,
+    "v1": 28.590289641000926,
+    "delta": 1.2543465233520195,
+    "lambda": 0.439444533529264,
+    "deny": 0
+   },
+   "ms": 46
+  },
+  {
+   "id": 3105359,
+   "letter": "V",
+   "winner": "scrabblemaxxing",
+   "paid": 19,
+   "myBid": 17,
+   "info": {
+    "v0": 27.092522684832144,
+    "v1": 33.6964042899149,
+    "delta": 6.6038816050827585,
+    "lambda": 0.43343869207351765,
+    "deny": 0
+   },
+   "ms": 49
+  },
+  {
+   "id": 3105370,
+   "letter": "B",
+   "winner": "evol",
+   "paid": 16,
+   "myBid": 16,
+   "info": {
+    "v0": 28.204678236831384,
+    "v1": 33.673811093664845,
+    "delta": 5.469132856833461,
+    "lambda": 0.427418470612927,
+    "deny": 0
+   },
+   "ms": 34
+  },
+  {
+   "id": 3105381,
+   "letter": "U",
+   "winner": "LongWords",
+   "paid": 19,
+   "myBid": 10,
+   "info": {
+    "v0": 27.05550081340105,
+    "v1": 31.386703002122662,
+    "delta": 4.331202188721612,
+    "lambda": 0.4213835684724713,
+    "deny": 0
+   },
+   "ms": 35
+  },
+  {
+   "id": 3105392,
+   "letter": "B",
+   "winner": "LongWords",
+   "paid": 17,
+   "myBid": 17,
+   "info": {
+    "v0": 25.861428000622237,
+    "v1": 32.409985548818646,
+    "delta": 6.54855754819641,
+    "lambda": 0.41533367244836333,
+    "deny": 0
+   },
+   "ms": 41
+  },
+  {
+   "id": 3105403,
+   "letter": "S",
+   "winner": "LongWords",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 26.08147218727548,
+    "v1": 29.74726823474937,
+    "delta": 3.66579604747389,
+    "lambda": 0.40926845600506234,
+    "deny": 0
+   },
+   "ms": 51
+  },
+  {
+   "id": 3105414,
+   "letter": "E",
+   "winner": "scrabblemaxxing",
+   "paid": 11,
+   "myBid": 11,
+   "info": {
+    "v0": 26.902571193086377,
+    "v1": 30.331217308296534,
+    "delta": 3.4286461152101566,
+    "lambda": 0.4031875784019703,
+    "deny": 0
+   },
+   "ms": 61
+  },
+  {
+   "id": 3105425,
+   "letter": "U",
+   "winner": "LongWords",
+   "paid": 11,
+   "myBid": 10,
+   "info": {
+    "v0": 27.11758537641596,
+    "v1": 30.195830400221364,
+    "delta": 3.0782450238054047,
+    "lambda": 0.39709068374195483,
+    "deny": 0
+   },
+   "ms": 71
+  },
+  {
+   "id": 3105436,
+   "letter": "R",
+   "winner": "Bron",
+   "paid": 11,
+   "myBid": 11,
+   "info": {
+    "v0": 27.555126297512242,
+    "v1": 29.42532113355827,
+    "delta": 1.8701948360460285,
+    "lambda": 0.3909773999327751,
+    "deny": 0
+   },
+   "ms": 53
+  },
+  {
+   "id": 3105447,
+   "letter": "H",
+   "winner": "scrabblemaxxing",
+   "paid": 22,
+   "myBid": 22,
+   "info": {
+    "v0": 28.694111420735467,
+    "v1": 37.49011293375589,
+    "delta": 8.796001513020421,
+    "lambda": 0.38484733755123807,
+    "deny": 0
+   },
+   "ms": 39
+  },
+  {
+   "id": 3105458,
+   "letter": "T",
+   "winner": "evol",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 29.45687397272832,
+    "v1": 30.567634300645803,
+    "delta": 1.1107603279174825,
+    "lambda": 0.37870008859847404,
+    "deny": 0
+   },
+   "ms": 36
+  },
+  {
+   "id": 3105468,
+   "letter": "G",
+   "winner": "Bron",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 28.798837567144997,
+    "v1": 31.665415037326877,
+    "delta": 2.8665774701818805,
+    "lambda": 0.37253522513301257,
+    "deny": 0
+   },
+   "ms": 31
+  },
+  {
+   "id": 3105479,
+   "letter": "J",
+   "winner": "Astronaut",
+   "paid": 28,
+   "myBid": 40,
+   "info": {
+    "v0": 28.54336554522781,
+    "v1": 43.546406805014946,
+    "delta": 15.003041259787135,
+    "lambda": 0.36635229776637046,
+    "deny": 0
+   },
+   "ms": 24
+  },
+  {
+   "id": 3105490,
+   "letter": "N",
+   "winner": "Astronaut",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 41.92931704491563,
+    "v1": 42.62157000389451,
+    "delta": 0.6922529589788837,
+    "lambda": 0.41984603500818446,
+    "deny": 0
+   },
+   "ms": 33
+  },
+  {
+   "id": 3105501,
+   "letter": "T",
+   "winner": "scrabblemaxxing",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 41.524439462029946,
+    "v1": 42.23652908505124,
+    "delta": 0.7120896230212921,
+    "lambda": 0.4418921281920942,
+    "deny": 0
+   },
+   "ms": 22
+  },
+  {
+   "id": 3105512,
+   "letter": "A",
+   "winner": "scrabblemaxxing",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 41.466157303689506,
+    "v1": 43.48496788633356,
+    "delta": 2.0188105826440506,
+    "lambda": 0.4341012403478896,
+    "deny": 0
+   },
+   "ms": 27
+  },
+  {
+   "id": 3105523,
+   "letter": "E",
+   "winner": "LongWords",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 42.85641297525449,
+    "v1": 45.059672181958,
+    "delta": 2.203259206703507,
+    "lambda": 0.4262852422292845,
+    "deny": 0
+   },
+   "ms": 18
+  },
+  {
+   "id": 3105534,
+   "letter": "S",
+   "winner": "Astronaut",
+   "paid": 10,
+   "myBid": 11,
+   "info": {
+    "v0": 43.60251043289176,
+    "v1": 45.7122621777313,
+    "delta": 2.109751744839535,
+    "lambda": 0.4184434029403862,
+    "deny": 0
+   },
+   "ms": 11
+  },
+  {
+   "id": 3105545,
+   "letter": "A",
+   "winner": "LongWords",
+   "paid": 10,
+   "myBid": 3,
+   "info": {
+    "v0": 44.891958157657065,
+    "v1": 46.62974678486673,
+    "delta": 1.7377886272096674,
+    "lambda": 0.4445625824287131,
+    "deny": 0
+   },
+   "ms": 16
+  },
+  {
+   "id": 3105556,
+   "letter": "I",
+   "winner": "scrabblemaxxing",
+   "paid": 10,
+   "myBid": 8,
+   "info": {
+    "v0": 44.68407246878865,
+    "v1": 48.36036700508472,
+    "delta": 3.6762945362960693,
+    "lambda": 0.43601306504489346,
+    "deny": 0
+   },
+   "ms": 16
+  },
+  {
+   "id": 3105566,
+   "letter": "I",
+   "winner": "LongWords",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 43.58192697886551,
+    "v1": 47.81223289257152,
+    "delta": 4.230305913706012,
+    "lambda": 0.4274328951028895,
+    "deny": 0
+   },
+   "ms": 42
+  },
+  {
+   "id": 3105576,
+   "letter": "K",
+   "winner": "scrabblemaxxing",
+   "paid": 28,
+   "myBid": 12,
+   "info": {
+    "v0": 45.01835858605676,
+    "v1": 50.14444060068582,
+    "delta": 5.1260820146290555,
+    "lambda": 0.41882106642001193,
+    "deny": 0
+   },
+   "ms": 17
+  },
+  {
+   "id": 3105586,
+   "letter": "O",
+   "winner": "scrabblemaxxing",
+   "paid": 10,
+   "myBid": 6,
+   "info": {
+    "v0": 45.14061456267664,
+    "v1": 47.8316435603484,
+    "delta": 2.691028997671758,
+    "lambda": 0.4101765054503751,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3105596,
+   "letter": "I",
+   "winner": "LongWords",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 44.505928317517146,
+    "v1": 48.27484240405462,
+    "delta": 3.768914086537471,
+    "lambda": 0.40149806431005514,
+    "deny": 0
+   },
+   "ms": 14
+  },
+  {
+   "id": 3105606,
+   "letter": "A",
+   "winner": "scrabblemaxxing",
+   "paid": 10,
+   "myBid": 4,
+   "info": {
+    "v0": 46.51264244252806,
+    "v1": 48.353708109071846,
+    "delta": 1.8410656665437841,
+    "lambda": 0.39278451281750226,
+    "deny": 0
+   },
+   "ms": 9
+  },
+  {
+   "id": 3105616,
+   "letter": "W",
+   "winner": "Bron",
+   "paid": 18,
+   "myBid": 10,
+   "info": {
+    "v0": 45.32014238252632,
+    "v1": 49.41293184019551,
+    "delta": 4.092789457669191,
+    "lambda": 0.38403452937234656,
+    "deny": 0
+   },
+   "ms": 10
+  },
+  {
+   "id": 3105626,
+   "letter": "I",
+   "winner": "scrabblemaxxing",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 46.14307617740388,
+    "v1": 49.20224084257859,
+    "delta": 3.0591646651747126,
+    "lambda": 0.3752466904569931,
+    "deny": 0
+   },
+   "ms": 10
+  },
+  {
+   "id": 3105636,
+   "letter": "N",
+   "winner": "LongWords",
+   "paid": 12,
+   "myBid": 0,
+   "info": {
+    "v0": 44.12879002524293,
+    "v1": 44.418790025242934,
+    "delta": 0.29000000000000625,
+    "lambda": 0.5234563692808276,
+    "deny": 0
+   },
+   "ms": 15
+  },
+  {
+   "id": 3105645,
+   "letter": "E",
+   "winner": "scrabblemaxxing",
+   "paid": 9,
+   "myBid": 3,
+   "info": {
+    "v0": 44.119132273665265,
+    "v1": 46.11964560543799,
+    "delta": 2.000513331772723,
+    "lambda": 0.5107873825013075,
+    "deny": 0
+   },
+   "ms": 11
+  },
+  {
+   "id": 3105654,
+   "letter": "R",
+   "winner": "Bron",
+   "paid": 10,
+   "myBid": 3,
+   "info": {
+    "v0": 44.1835243923746,
+    "v1": 46.16781681044046,
+    "delta": 1.9842924180658628,
+    "lambda": 0.4980571540468947,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3105663,
+   "letter": "A",
+   "winner": "Bron",
+   "paid": 10,
+   "myBid": 3,
+   "info": {
+    "v0": 43.54471181856084,
+    "v1": 45.249400817123295,
+    "delta": 1.7046889985624532,
+    "lambda": 0.4852628633503632,
+    "deny": 0
+   },
+   "ms": 23
+  },
+  {
+   "id": 3105672,
+   "letter": "M",
+   "winner": "Bron",
+   "paid": 16,
+   "myBid": 6,
+   "info": {
+    "v0": 45.29277190958084,
+    "v1": 48.48713039485995,
+    "delta": 3.1943584852791105,
+    "lambda": 0.4724014228526505,
+    "deny": 0
+   },
+   "ms": 16
+  },
+  {
+   "id": 3105681,
+   "letter": "E",
+   "winner": "Bron",
+   "paid": 10,
+   "myBid": 3,
+   "info": {
+    "v0": 45.10449714996788,
+    "v1": 46.87811544684556,
+    "delta": 1.773618296877686,
+    "lambda": 0.4594694391170519,
+    "deny": 0
+   },
+   "ms": 8
+  },
+  {
+   "id": 3105690,
+   "letter": "I",
+   "winner": "scrabblemaxxing",
+   "paid": 9,
+   "myBid": 8,
+   "info": {
+    "v0": 45.28782278963758,
+    "v1": 48.95589751861923,
+    "delta": 3.668074728981651,
+    "lambda": 0.44646316625766946,
+    "deny": 0
+   },
+   "ms": 9
+  },
+  {
+   "id": 3105699,
+   "letter": "O",
+   "winner": "evol",
+   "paid": 6,
+   "myBid": 5,
+   "info": {
+    "v0": 45.078295786147926,
+    "v1": 47.47340899332904,
+    "delta": 2.3951132071811116,
+    "lambda": 0.43337844975032497,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3105708,
+   "letter": "I",
+   "winner": "Astronaut",
+   "paid": 9,
+   "myBid": 12,
+   "info": {
+    "v0": 45.28130355913721,
+    "v1": 50.447817946344365,
+    "delta": 5.166514387207158,
+    "lambda": 0.42021065809932445,
+    "deny": 0
+   },
+   "ms": 8
+  },
+  {
+   "id": 3105717,
+   "letter": "U",
+   "winner": "evol",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 48.29721162579173,
+    "v1": 52.49243310742844,
+    "delta": 4.1952214816367075,
+    "lambda": 0.44275341293139325,
+    "deny": 0
+   },
+   "ms": 99
+  },
+  {
+   "id": 3105726,
+   "letter": "R",
+   "winner": "evol",
+   "paid": 11,
+   "myBid": 3,
+   "info": {
+    "v0": 48.85498661244811,
+    "v1": 50.188251379825374,
+    "delta": 1.3332647673772655,
+    "lambda": 0.42822884616604556,
+    "deny": 0
+   },
+   "ms": 118
+  },
+  {
+   "id": 3105735,
+   "letter": "O",
+   "winner": "evol",
+   "paid": 7,
+   "myBid": 7,
+   "info": {
+    "v0": 50.01902023396385,
+    "v1": 53.09940077287235,
+    "delta": 3.0803805389085,
+    "lambda": 0.41359463896114074,
+    "deny": 0
+   },
+   "ms": 66
+  },
+  {
+   "id": 3105744,
+   "letter": "A",
+   "winner": "Bron",
+   "paid": 10,
+   "myBid": 4,
+   "info": {
+    "v0": 48.99200467861724,
+    "v1": 50.702827704959226,
+    "delta": 1.7108230263419841,
+    "lambda": 0.39884251227250456,
+    "deny": 0
+   },
+   "ms": 74
+  },
+  {
+   "id": 3105753,
+   "letter": "A",
+   "winner": "evol",
+   "paid": 6,
+   "myBid": 3,
+   "info": {
+    "v0": 49.02906669165201,
+    "v1": 50.206440872859055,
+    "delta": 1.1773741812070426,
+    "lambda": 0.3839629157691489,
+    "deny": 0
+   },
+   "ms": 62
+  },
+  {
+   "id": 3105762,
+   "letter": "A",
+   "winner": "evol",
+   "paid": 6,
+   "myBid": 5,
+   "info": {
+    "v0": 49.70623480934477,
+    "v1": 51.811843080792606,
+    "delta": 2.105608271447835,
+    "lambda": 0.36894473142789697,
+    "deny": 0
+   },
+   "ms": 127
+  },
+  {
+   "id": 3105771,
+   "letter": "T",
+   "winner": "Bron",
+   "paid": 12,
+   "myBid": 1,
+   "info": {
+    "v0": 50.4044546986965,
+    "v1": 50.99753930607548,
+    "delta": 0.5930846073789837,
+    "lambda": 0.3537748833664524,
+    "deny": 0
+   },
+   "ms": 56
+  },
+  {
+   "id": 3105780,
+   "letter": "P",
+   "winner": "Lbender",
+   "paid": 16,
+   "myBid": 3,
+   "info": {
+    "v0": 51.62267552206206,
+    "v1": 52.891248947896116,
+    "delta": 1.268573425834056,
+    "lambda": 0.3384378157481996,
+    "deny": 0
+   },
+   "ms": 53
+  },
+  {
+   "id": 3105789,
+   "letter": "N",
+   "winner": "Lbender",
+   "paid": 11,
+   "myBid": 0,
+   "info": {
+    "v0": 51.11299472856094,
+    "v1": 51.40299472856094,
+    "delta": 0.28999999999999915,
+    "lambda": 0.3229147811558073,
+    "deny": 0
+   },
+   "ms": 64
+  },
+  {
+   "id": 3105798,
+   "letter": "Z",
+   "winner": "Lbender",
+   "paid": 40,
+   "myBid": 29,
+   "info": {
+    "v0": 50.7389876528597,
+    "v1": 65.89846233555473,
+    "delta": 15.159474682695027,
+    "lambda": 0.3071828502093111,
+    "deny": 0
+   },
+   "ms": 80
+  },
+  {
+   "id": 3105807,
+   "letter": "F",
+   "winner": "evol",
+   "paid": 14,
+   "myBid": 8,
+   "info": {
+    "v0": 51.27563792888983,
+    "v1": 53.84229229679388,
+    "delta": 2.56665436790405,
+    "lambda": 0.2912135000771205,
+    "deny": 0
+   },
+   "ms": 47
+  },
+  {
+   "id": 3105816,
+   "letter": "W",
+   "winner": "Astronaut",
+   "paid": 18,
+   "myBid": 28,
+   "info": {
+    "v0": 16.483236766605874,
+    "v1": 28.868982088612977,
+    "delta": 12.385745322007104,
+    "lambda": 0.2749705469117786,
+    "deny": 0
+   },
+   "ms": 45
+  },
+  {
+   "id": 3105825,
+   "letter": "L",
+   "winner": "evol",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 32.54479688696638,
+    "v1": 35.236374941886076,
+    "delta": 2.6915780549196953,
+    "lambda": 0.22265393648643936,
+    "deny": 0
+   },
+   "ms": 11
+  },
+  {
+   "id": 3105834,
+   "letter": "D",
+   "winner": "Astronaut",
+   "paid": 16,
+   "myBid": 16,
+   "info": {
+    "v0": 32.59239350093525,
+    "v1": 35.928719530070225,
+    "delta": 3.3363260291349732,
+    "lambda": 0.2080519088433947,
+    "deny": 0
+   },
+   "ms": 10
+  },
+  {
+   "id": 3105843,
+   "letter": "O",
+   "winner": "Astronaut",
+   "paid": 12,
+   "myBid": 15,
+   "info": {
+    "v0": 32.453776768008886,
+    "v1": 36.056116665379434,
+    "delta": 3.6023398973705483,
+    "lambda": 0.22179201074909172,
+    "deny": 0
+   },
+   "ms": 18
+  },
+  {
+   "id": 3105852,
+   "letter": "E",
+   "winner": "Bron",
+   "paid": 12,
+   "myBid": 8,
+   "info": {
+    "v0": 32.54578901253409,
+    "v1": 34.48102495005374,
+    "delta": 1.93523593751965,
+    "lambda": 0.23396108200639204,
+    "deny": 0
+   },
+   "ms": 18
+  },
+  {
+   "id": 3105861,
+   "letter": "P",
+   "winner": "Lbender",
+   "paid": 18,
+   "myBid": 18,
+   "info": {
+    "v0": 31.959379017460563,
+    "v1": 37.31462702014897,
+    "delta": 5.3552480026884055,
+    "lambda": 0.21262074101265477,
+    "deny": 0
+   },
+   "ms": 19
+  },
+  {
+   "id": 3105870,
+   "letter": "G",
+   "winner": "Astronaut",
+   "paid": 14,
+   "myBid": 18,
+   "info": {
+    "v0": 31.378293264151367,
+    "v1": 35.839720576761245,
+    "delta": 4.461427312609878,
+    "lambda": 0.19004342630377458,
+    "deny": 0
+   },
+   "ms": 12
+  },
+  {
+   "id": 3105879,
+   "letter": "N",
+   "winner": "Bron",
+   "paid": 10,
+   "myBid": 4,
+   "info": {
+    "v0": 31.83116531666916,
+    "v1": 37.25073857379328,
+    "delta": 5.419573257124117,
+    "lambda": 0.2083770333458084,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3105888,
+   "letter": "Y",
+   "winner": "Bron",
+   "paid": 15,
+   "myBid": 4,
+   "info": {
+    "v0": 31.253832041732196,
+    "v1": 35.138409884291015,
+    "delta": 3.8845778425588193,
+    "lambda": 0.17360454073660359,
+    "deny": 0
+   },
+   "ms": 12
+  },
+  {
+   "id": 3105897,
+   "letter": "E",
+   "winner": "Bron",
+   "paid": 15,
+   "myBid": 4,
+   "info": {
+    "v0": 30.838072670807374,
+    "v1": 32.83697203651531,
+    "delta": 1.9988993657079384,
+    "lambda": 0.13002838431926866,
+    "deny": 0
+   },
+   "ms": 4
+  },
+  {
+   "id": 3105906,
+   "letter": "V",
+   "winner": "Astronaut",
+   "paid": 15,
+   "myBid": 31,
+   "info": {
+    "v0": 0.8699999999999997,
+    "v1": 2.0300000000000007,
+    "delta": 1.160000000000001,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 8
+  },
+  {
+   "id": 3105915,
+   "letter": "R",
+   "winner": null,
+   "paid": 0,
+   "myBid": 0,
+   "info": {
+    "v0": 0.8699999999999997,
+    "v1": 2.0300000000000007,
+    "delta": 1.160000000000001,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 1
+  }
+ ],
+ "words": [
+  {
+   "bot": "LongWords",
+   "word": "QUESTOR",
+   "reward": 48
+  },
+  {
+   "bot": "scrabblemaxxing",
+   "word": "EXARCHS",
+   "reward": 57
+  },
+  {
+   "bot": "LongWords",
+   "word": "BEFOULS",
+   "reward": 36
+  },
+  {
+   "bot": "scrabblemaxxing",
+   "word": "VATIC",
+   "reward": 20
+  },
+  {
+   "bot": "LongWords",
+   "word": "INIA",
+   "reward": 6
+  },
+  {
+   "bot": "scrabblemaxxing",
+   "word": "IKAT",
+   "reward": 12
+  },
+  {
+   "bot": "Bron",
+   "word": "WHIRRING",
+   "reward": 45
+  },
+  {
+   "bot": "evol",
+   "word": "BIGOTEDLY",
+   "reward": 48
+  },
+  {
+   "bot": "Astronaut",
+   "word": "DJINNS",
+   "reward": 35
+  },
+  {
+   "bot": "scrabblemaxxing",
+   "word": "OE",
+   "reward": 2
+  },
+  {
+   "bot": "Bron",
+   "word": "MEATMAN",
+   "reward": 33
+  },
+  {
+   "bot": "Astronaut",
+   "word": "DAWTED",
+   "reward": 27
+  },
+  {
+   "bot": "evol",
+   "word": "AFOUL",
+   "reward": 16
+  },
+  {
+   "bot": "Astronaut",
+   "word": "GO",
+   "reward": 3
+  },
+  {
+   "bot": "Lbender",
+   "word": "ZONE",
+   "reward": 19
+  },
+  {
+   "bot": "Lbender",
+   "word": "PEEP",
+   "reward": 12
+  },
+  {
+   "bot": "Bron",
+   "word": "EYE",
+   "reward": 6
+  },
+  {
+   "bot": "evol",
+   "word": "OAR",
+   "reward": 3
+  }
+ ]
+}

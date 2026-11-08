@@ -1,0 +1,1577 @@
+{
+ "matchId": 47508,
+ "at": "2026-11-08T04:44:50.399Z",
+ "auctionType": "Vickrey",
+ "placement": 1,
+ "nPlayers": 6,
+ "scores": [
+  {
+   "bot": "Astronaut",
+   "score": 113,
+   "balance": 14
+  },
+  {
+   "bot": "moody",
+   "score": 82,
+   "balance": 13
+  },
+  {
+   "bot": "LexForge-Liquid03-v1",
+   "score": 81,
+   "balance": 21
+  },
+  {
+   "bot": "Pegasus v12-larper2000",
+   "score": 66,
+   "balance": 11
+  },
+  {
+   "bot": "Pegasus v5",
+   "score": 59,
+   "balance": 3
+  },
+  {
+   "bot": "Lime-Sparring-07",
+   "score": 0,
+   "balance": 100
+  }
+ ],
+ "myScore": 113,
+ "myLeftover": "",
+ "myWords": [
+  {
+   "bot": "Astronaut",
+   "word": "FIXATED",
+   "reward": 54
+  },
+  {
+   "bot": "Astronaut",
+   "word": "DECKING",
+   "reward": 45
+  },
+  {
+   "bot": "Astronaut",
+   "word": "PULER",
+   "reward": 14
+  }
+ ],
+ "myWordAttempts": [
+  {
+   "word": "FIXATED",
+   "at": 1794113051005,
+   "ok": true
+  },
+  {
+   "word": "DECKING",
+   "at": 1794113066714,
+   "ok": true
+  },
+  {
+   "word": "PULER",
+   "at": 1794113083420,
+   "ok": true
+  }
+ ],
+ "won": [
+  {
+   "l": "A",
+   "paid": 9,
+   "bid": 9
+  },
+  {
+   "l": "T",
+   "paid": 4,
+   "bid": 8
+  },
+  {
+   "l": "I",
+   "paid": 8,
+   "bid": 8
+  },
+  {
+   "l": "F",
+   "paid": 16,
+   "bid": 20
+  },
+  {
+   "l": "X",
+   "paid": 29,
+   "bid": 43
+  },
+  {
+   "l": "D",
+   "paid": 12,
+   "bid": 19
+  },
+  {
+   "l": "K",
+   "paid": 25,
+   "bid": 26
+  },
+  {
+   "l": "E",
+   "paid": 14,
+   "bid": 17
+  },
+  {
+   "l": "N",
+   "paid": 9,
+   "bid": 11
+  },
+  {
+   "l": "C",
+   "paid": 19,
+   "bid": 27
+  },
+  {
+   "l": "R",
+   "paid": 12,
+   "bid": 13
+  },
+  {
+   "l": "E",
+   "paid": 15,
+   "bid": 17
+  },
+  {
+   "l": "P",
+   "paid": 19,
+   "bid": 23
+  },
+  {
+   "l": "U",
+   "paid": 8,
+   "bid": 8
+  }
+ ],
+ "missed": [
+  {
+   "l": "N",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Pegasus v5"
+  },
+  {
+   "l": "O",
+   "bid": 8,
+   "paid": 8,
+   "winner": "Pegasus v5"
+  },
+  {
+   "l": "E",
+   "bid": 9,
+   "paid": 10,
+   "winner": "Pegasus v5"
+  },
+  {
+   "l": "I",
+   "bid": 8,
+   "paid": 9,
+   "winner": "Pegasus v5"
+  },
+  {
+   "l": "O",
+   "bid": 8,
+   "paid": 9,
+   "winner": "Pegasus v5"
+  },
+  {
+   "l": "W",
+   "bid": 16,
+   "paid": 24,
+   "winner": "Pegasus v5"
+  },
+  {
+   "l": "E",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "T",
+   "bid": 8,
+   "paid": 8,
+   "winner": "moody"
+  },
+  {
+   "l": "B",
+   "bid": 14,
+   "paid": 18,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "L",
+   "bid": 9,
+   "paid": 9,
+   "winner": "moody"
+  },
+  {
+   "l": "A",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "H",
+   "bid": 19,
+   "paid": 19,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "B",
+   "bid": 14,
+   "paid": 14,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "I",
+   "bid": 8,
+   "paid": 8,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "A",
+   "bid": 8,
+   "paid": 8,
+   "winner": "LexForge-Liquid03-v1"
+  },
+  {
+   "l": "S",
+   "bid": 9,
+   "paid": 10,
+   "winner": "Pegasus v5"
+  },
+  {
+   "l": "G",
+   "bid": 10,
+   "paid": 12,
+   "winner": "Pegasus v5"
+  },
+  {
+   "l": "I",
+   "bid": 8,
+   "paid": 8,
+   "winner": "Pegasus v5"
+  },
+  {
+   "l": "J",
+   "bid": 33,
+   "paid": 35,
+   "winner": "LexForge-Liquid03-v1"
+  },
+  {
+   "l": "E",
+   "bid": 9,
+   "paid": 9,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "V",
+   "bid": 21,
+   "paid": 21,
+   "winner": "moody"
+  },
+  {
+   "l": "U",
+   "bid": 8,
+   "paid": 10,
+   "winner": "LexForge-Liquid03-v1"
+  },
+  {
+   "l": "R",
+   "bid": 9,
+   "paid": 11,
+   "winner": "Pegasus v5"
+  },
+  {
+   "l": "S",
+   "bid": 10,
+   "paid": 10,
+   "winner": "LexForge-Liquid03-v1"
+  },
+  {
+   "l": "P",
+   "bid": 14,
+   "paid": 14,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "I",
+   "bid": 8,
+   "paid": 8,
+   "winner": "LexForge-Liquid03-v1"
+  },
+  {
+   "l": "T",
+   "bid": 8,
+   "paid": 10,
+   "winner": "Pegasus v5"
+  },
+  {
+   "l": "W",
+   "bid": 15,
+   "paid": 17,
+   "winner": "moody"
+  },
+  {
+   "l": "E",
+   "bid": 9,
+   "paid": 10,
+   "winner": "Pegasus v5"
+  },
+  {
+   "l": "U",
+   "bid": 8,
+   "paid": 10,
+   "winner": "LexForge-Liquid03-v1"
+  },
+  {
+   "l": "A",
+   "bid": 9,
+   "paid": 10,
+   "winner": "Pegasus v5"
+  },
+  {
+   "l": "D",
+   "bid": 12,
+   "paid": 12,
+   "winner": "LexForge-Liquid03-v1"
+  },
+  {
+   "l": "T",
+   "bid": 8,
+   "paid": 9,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "I",
+   "bid": 8,
+   "paid": 8,
+   "winner": "Pegasus v5"
+  },
+  {
+   "l": "O",
+   "bid": 12,
+   "paid": 12,
+   "winner": "moody"
+  },
+  {
+   "l": "D",
+   "bid": 12,
+   "paid": 12,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "A",
+   "bid": 12,
+   "paid": 12,
+   "winner": "LexForge-Liquid03-v1"
+  },
+  {
+   "l": "T",
+   "bid": 5,
+   "paid": 8,
+   "winner": "LexForge-Liquid03-v1"
+  },
+  {
+   "l": "F",
+   "bid": 17,
+   "paid": 19,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "Z",
+   "bid": 9,
+   "paid": 33,
+   "winner": "LexForge-Liquid03-v1"
+  },
+  {
+   "l": "R",
+   "bid": 4,
+   "paid": 15,
+   "winner": "Pegasus v12-larper2000"
+  },
+  {
+   "l": "L",
+   "bid": 8,
+   "paid": 11,
+   "winner": "moody"
+  },
+  {
+   "l": "C",
+   "bid": 8,
+   "paid": 11,
+   "winner": "moody"
+  },
+  {
+   "l": "E",
+   "bid": 8,
+   "paid": 11,
+   "winner": "moody"
+  },
+  {
+   "l": "A",
+   "bid": 8,
+   "paid": 11,
+   "winner": "moody"
+  },
+  {
+   "l": "U",
+   "bid": 8,
+   "paid": 8,
+   "winner": "Pegasus v5"
+  },
+  {
+   "l": "E",
+   "bid": 8,
+   "paid": 8,
+   "winner": "moody"
+  },
+  {
+   "l": "Y",
+   "bid": 8,
+   "paid": 11,
+   "winner": "moody"
+  },
+  {
+   "l": "E",
+   "bid": 1,
+   "paid": 8,
+   "winner": "moody"
+  },
+  {
+   "l": "R",
+   "bid": 1,
+   "paid": 9,
+   "winner": "moody"
+  },
+  {
+   "l": "O",
+   "bid": 1,
+   "paid": 8,
+   "winner": "moody"
+  },
+  {
+   "l": "Q",
+   "bid": 14,
+   "paid": 14,
+   "winner": "moody"
+  },
+  {
+   "l": "M",
+   "bid": 14,
+   "paid": 14,
+   "winner": "LexForge-Liquid03-v1"
+  }
+ ],
+ "maxDecisionMs": 208.52860000001965,
+ "auctions": [
+  {
+   "id": 3098579,
+   "letter": "N",
+   "winner": "Pegasus v5",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 19.778457367957255,
+    "v1": 25.947125838747525,
+    "delta": 6.168668470790269,
+    "lambda": 0.6617867174327142,
+    "deny": 0
+   },
+   "ms": 78
+  },
+  {
+   "id": 3098586,
+   "letter": "O",
+   "winner": "Pegasus v5",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 19.555423537930867,
+    "v1": 23.642593656548645,
+    "delta": 4.087170118617777,
+    "lambda": 0.6538808859919171,
+    "deny": 0
+   },
+   "ms": 53
+  },
+  {
+   "id": 3098603,
+   "letter": "E",
+   "winner": "Pegasus v5",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 21.73928488156945,
+    "v1": 25.307943872494715,
+    "delta": 3.5686589909252646,
+    "lambda": 0.6459587650218012,
+    "deny": 0
+   },
+   "ms": 82
+  },
+  {
+   "id": 3098620,
+   "letter": "I",
+   "winner": "Pegasus v5",
+   "paid": 9,
+   "myBid": 8,
+   "info": {
+    "v0": 20.497884684969822,
+    "v1": 22.782167071879417,
+    "delta": 2.284282386909595,
+    "lambda": 0.6380200654079734,
+    "deny": 0
+   },
+   "ms": 48
+  },
+  {
+   "id": 3098637,
+   "letter": "O",
+   "winner": "Pegasus v5",
+   "paid": 9,
+   "myBid": 8,
+   "info": {
+    "v0": 20.95454315013868,
+    "v1": 25.030286868857445,
+    "delta": 4.0757437187187655,
+    "lambda": 0.6300644879061076,
+    "deny": 0
+   },
+   "ms": 49
+  },
+  {
+   "id": 3098654,
+   "letter": "W",
+   "winner": "Pegasus v5",
+   "paid": 24,
+   "myBid": 16,
+   "info": {
+    "v0": 20.837048348741373,
+    "v1": 30.85356981181798,
+    "delta": 10.016521463076607,
+    "lambda": 0.6220917225987204,
+    "deny": 0
+   },
+   "ms": 46
+  },
+  {
+   "id": 3098671,
+   "letter": "E",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 22.234674390251026,
+    "v1": 25.635840712639354,
+    "delta": 3.4011663223883275,
+    "lambda": 0.6141014483122161,
+    "deny": 0
+   },
+   "ms": 47
+  },
+  {
+   "id": 3098688,
+   "letter": "T",
+   "winner": "moody",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 21.851985399692037,
+    "v1": 24.72755797289686,
+    "delta": 2.875572573204824,
+    "lambda": 0.6060933319904902,
+    "deny": 0
+   },
+   "ms": 76
+  },
+  {
+   "id": 3098705,
+   "letter": "B",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 18,
+   "myBid": 14,
+   "info": {
+    "v0": 27.96456141249756,
+    "v1": 33.852063149579585,
+    "delta": 5.887501737082026,
+    "lambda": 0.4186469196146774,
+    "deny": 0
+   },
+   "ms": 64
+  },
+  {
+   "id": 3098721,
+   "letter": "L",
+   "winner": "moody",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 27.286894676358187,
+    "v1": 29.358433966758128,
+    "delta": 2.07153929039994,
+    "lambda": 0.41301552425592664,
+    "deny": 0
+   },
+   "ms": 45
+  },
+  {
+   "id": 3098739,
+   "letter": "A",
+   "winner": "Astronaut",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 28.79655728815028,
+    "v1": 31.554645684437364,
+    "delta": 2.7580883962870857,
+    "lambda": 0.4073708852442142,
+    "deny": 0
+   },
+   "ms": 40
+  },
+  {
+   "id": 3098756,
+   "letter": "A",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 30.448010706732806,
+    "v1": 31.44891338676886,
+    "delta": 1.0009026800360559,
+    "lambda": 0.41768100889472404,
+    "deny": 0
+   },
+   "ms": 80
+  },
+  {
+   "id": 3098773,
+   "letter": "H",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 19,
+   "myBid": 19,
+   "info": {
+    "v0": 31.49691474522464,
+    "v1": 39.62056491301305,
+    "delta": 8.123650167788409,
+    "lambda": 0.4117835940942084,
+    "deny": 0
+   },
+   "ms": 70
+  },
+  {
+   "id": 3098790,
+   "letter": "B",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 14,
+   "myBid": 14,
+   "info": {
+    "v0": 32.3819124450896,
+    "v1": 37.72809861237332,
+    "delta": 5.346186167283726,
+    "lambda": 0.40587152700119317,
+    "deny": 0
+   },
+   "ms": 36
+  },
+  {
+   "id": 3098807,
+   "letter": "I",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 29.714980403187905,
+    "v1": 30.969348751246798,
+    "delta": 1.2543683480588932,
+    "lambda": 0.399944488519281,
+    "deny": 0
+   },
+   "ms": 48
+  },
+  {
+   "id": 3098822,
+   "letter": "A",
+   "winner": "LexForge-Liquid03-v1",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 32.22257573750086,
+    "v1": 33.164678522878866,
+    "delta": 0.9421027853780046,
+    "lambda": 0.39400214567063757,
+    "deny": 0
+   },
+   "ms": 49
+  },
+  {
+   "id": 3098838,
+   "letter": "T",
+   "winner": "Astronaut",
+   "paid": 4,
+   "myBid": 8,
+   "info": {
+    "v0": 34.55706107096317,
+    "v1": 36.20014036148355,
+    "delta": 1.643079290520376,
+    "lambda": 0.38804415066619086,
+    "deny": 0
+   },
+   "ms": 28
+  },
+  {
+   "id": 3098855,
+   "letter": "S",
+   "winner": "Pegasus v5",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 35.905528488911976,
+    "v1": 38.112512427758,
+    "delta": 2.2069839388460224,
+    "lambda": 0.38914611398738264,
+    "deny": 0
+   },
+   "ms": 101
+  },
+  {
+   "id": 3098872,
+   "letter": "G",
+   "winner": "Pegasus v5",
+   "paid": 12,
+   "myBid": 10,
+   "info": {
+    "v0": 36.82357749595244,
+    "v1": 39.10533941247575,
+    "delta": 2.2817619165233083,
+    "lambda": 0.38304476399967113,
+    "deny": 0
+   },
+   "ms": 86
+  },
+  {
+   "id": 3098889,
+   "letter": "I",
+   "winner": "Pegasus v5",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 36.40098452859512,
+    "v1": 38.203503582937905,
+    "delta": 1.8025190543427883,
+    "lambda": 0.37692630794033755,
+    "deny": 0
+   },
+   "ms": 74
+  },
+  {
+   "id": 3098906,
+   "letter": "J",
+   "winner": "LexForge-Liquid03-v1",
+   "paid": 35,
+   "myBid": 33,
+   "info": {
+    "v0": 34.89265112333932,
+    "v1": 47.26885340108158,
+    "delta": 12.376202277742259,
+    "lambda": 0.37079031987233263,
+    "deny": 0
+   },
+   "ms": 60
+  },
+  {
+   "id": 3098923,
+   "letter": "E",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 9,
+   "myBid": 9,
+   "info": {
+    "v0": 34.953142610930875,
+    "v1": 36.47623609359909,
+    "delta": 1.5230934826682159,
+    "lambda": 0.36463635251204857,
+    "deny": 0
+   },
+   "ms": 82
+  },
+  {
+   "id": 3098940,
+   "letter": "V",
+   "winner": "moody",
+   "paid": 21,
+   "myBid": 21,
+   "info": {
+    "v0": 34.79173196578065,
+    "v1": 42.35012819864385,
+    "delta": 7.558396232863203,
+    "lambda": 0.3584639355775564,
+    "deny": 0
+   },
+   "ms": 133
+  },
+  {
+   "id": 3098957,
+   "letter": "U",
+   "winner": "LexForge-Liquid03-v1",
+   "paid": 10,
+   "myBid": 8,
+   "info": {
+    "v0": 34.87735537419105,
+    "v1": 37.86568297596494,
+    "delta": 2.9883276017738893,
+    "lambda": 0.3522725739621516,
+    "deny": 0
+   },
+   "ms": 80
+  },
+  {
+   "id": 3098974,
+   "letter": "I",
+   "winner": "Astronaut",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 34.12789857967891,
+    "v1": 36.14286357625916,
+    "delta": 2.0149649965802467,
+    "lambda": 0.34606174570966164,
+    "deny": 0
+   },
+   "ms": 138
+  },
+  {
+   "id": 3098991,
+   "letter": "R",
+   "winner": "Pegasus v5",
+   "paid": 11,
+   "myBid": 9,
+   "info": {
+    "v0": 36.54057577347715,
+    "v1": 37.91371858852745,
+    "delta": 1.3731428150503007,
+    "lambda": 0.3532947281152472,
+    "deny": 0
+   },
+   "ms": 142
+  },
+  {
+   "id": 3099008,
+   "letter": "S",
+   "winner": "LexForge-Liquid03-v1",
+   "paid": 10,
+   "myBid": 10,
+   "info": {
+    "v0": 36.91616809222173,
+    "v1": 38.093846335392215,
+    "delta": 1.177678243170483,
+    "lambda": 0.34679560451198477,
+    "deny": 0
+   },
+   "ms": 115
+  },
+  {
+   "id": 3099025,
+   "letter": "P",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 14,
+   "myBid": 14,
+   "info": {
+    "v0": 38.93805823238596,
+    "v1": 43.360746840096795,
+    "delta": 4.422688607710832,
+    "lambda": 0.34027442285898934,
+    "deny": 0
+   },
+   "ms": 122
+  },
+  {
+   "id": 3099042,
+   "letter": "I",
+   "winner": "LexForge-Liquid03-v1",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 39.8036473558812,
+    "v1": 40.373894752699734,
+    "delta": 0.5702473968185302,
+    "lambda": 0.33373050259109627,
+    "deny": 0
+   },
+   "ms": 103
+  },
+  {
+   "id": 3099059,
+   "letter": "F",
+   "winner": "Astronaut",
+   "paid": 16,
+   "myBid": 20,
+   "info": {
+    "v0": 36.74445164457966,
+    "v1": 43.47340246249291,
+    "delta": 6.728950817913251,
+    "lambda": 0.327163120426144,
+    "deny": 0
+   },
+   "ms": 82
+  },
+  {
+   "id": 3099076,
+   "letter": "T",
+   "winner": "Pegasus v5",
+   "paid": 10,
+   "myBid": 8,
+   "info": {
+    "v0": 45.348323300223136,
+    "v1": 45.63832330022314,
+    "delta": 0.29000000000000625,
+    "lambda": 0.35010915628785666,
+    "deny": 0
+   },
+   "ms": 107
+  },
+  {
+   "id": 3099093,
+   "letter": "W",
+   "winner": "moody",
+   "paid": 17,
+   "myBid": 15,
+   "info": {
+    "v0": 45.40937358393473,
+    "v1": 49.42210927009656,
+    "delta": 4.012735686161832,
+    "lambda": 0.3428828245910566,
+    "deny": 0
+   },
+   "ms": 129
+  },
+  {
+   "id": 3099110,
+   "letter": "E",
+   "winner": "Pegasus v5",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 45.51144040068868,
+    "v1": 46.52250396151897,
+    "delta": 1.0110635608302943,
+    "lambda": 0.33562817111456655,
+    "deny": 0
+   },
+   "ms": 111
+  },
+  {
+   "id": 3099127,
+   "letter": "U",
+   "winner": "LexForge-Liquid03-v1",
+   "paid": 10,
+   "myBid": 8,
+   "info": {
+    "v0": 44.84494453655239,
+    "v1": 47.25257683202108,
+    "delta": 2.4076322954686873,
+    "lambda": 0.3283441675007915,
+    "deny": 0
+   },
+   "ms": 104
+  },
+  {
+   "id": 3099144,
+   "letter": "A",
+   "winner": "Pegasus v5",
+   "paid": 10,
+   "myBid": 9,
+   "info": {
+    "v0": 45.34863724629227,
+    "v1": 45.72594377102356,
+    "delta": 0.37730652473128856,
+    "lambda": 0.3210297089715159,
+    "deny": 0
+   },
+   "ms": 127
+  },
+  {
+   "id": 3099161,
+   "letter": "X",
+   "winner": "Astronaut",
+   "paid": 29,
+   "myBid": 43,
+   "info": {
+    "v0": 45.35018103733446,
+    "v1": 58.85393835571572,
+    "delta": 13.503757318381261,
+    "lambda": 0.3136836055518695,
+    "deny": 0
+   },
+   "ms": 143
+  },
+  {
+   "id": 3099178,
+   "letter": "D",
+   "winner": "Astronaut",
+   "paid": 12,
+   "myBid": 19,
+   "info": {
+    "v0": 4.9972386600162935,
+    "v1": 12.3335330552466,
+    "delta": 7.336294395230306,
+    "lambda": 0.542497330448435,
+    "deny": 0
+   },
+   "ms": 209
+  },
+  {
+   "id": 3099195,
+   "letter": "D",
+   "winner": "LexForge-Liquid03-v1",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 24.176692790913503,
+    "v1": 28.073128490747603,
+    "delta": 3.8964356998341003,
+    "lambda": 0.39702562767706334,
+    "deny": 0
+   },
+   "ms": 25
+  },
+  {
+   "id": 3099212,
+   "letter": "T",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 9,
+   "myBid": 8,
+   "info": {
+    "v0": 25.04482698395366,
+    "v1": 27.602344905314386,
+    "delta": 2.557517921360727,
+    "lambda": 0.38713065549150294,
+    "deny": 0
+   },
+   "ms": 28
+  },
+  {
+   "id": 3099229,
+   "letter": "I",
+   "winner": "Pegasus v5",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 25.225341076924888,
+    "v1": 28.477216224768593,
+    "delta": 3.2518751478437053,
+    "lambda": 0.37718588890467314,
+    "deny": 0
+   },
+   "ms": 25
+  },
+  {
+   "id": 3099245,
+   "letter": "K",
+   "winner": "Astronaut",
+   "paid": 25,
+   "myBid": 26,
+   "info": {
+    "v0": 24.793493589108156,
+    "v1": 34.578883258370105,
+    "delta": 9.78538966926195,
+    "lambda": 0.3671889280137637,
+    "deny": 0
+   },
+   "ms": 24
+  },
+  {
+   "id": 3099263,
+   "letter": "O",
+   "winner": "moody",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 30.895533204281126,
+    "v1": 36.238166923661005,
+    "delta": 5.342633719379879,
+    "lambda": 0.41528041769840734,
+    "deny": 0
+   },
+   "ms": 25
+  },
+  {
+   "id": 3099280,
+   "letter": "D",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 30.226517320037644,
+    "v1": 34.06235450596376,
+    "delta": 3.835837185926117,
+    "lambda": 0.4035250103395997,
+    "deny": 0
+   },
+   "ms": 28
+  },
+  {
+   "id": 3099297,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 14,
+   "myBid": 17,
+   "info": {
+    "v0": 31.248878088435045,
+    "v1": 38.8366888074022,
+    "delta": 7.587810718967152,
+    "lambda": 0.39169870357352343,
+    "deny": 0
+   },
+   "ms": 19
+  },
+  {
+   "id": 3099314,
+   "letter": "N",
+   "winner": "Astronaut",
+   "paid": 9,
+   "myBid": 11,
+   "info": {
+    "v0": 34.791523151939465,
+    "v1": 39.45465440154821,
+    "delta": 4.663131249608746,
+    "lambda": 0.42388068985984906,
+    "deny": 0
+   },
+   "ms": 29
+  },
+  {
+   "id": 3099331,
+   "letter": "A",
+   "winner": "LexForge-Liquid03-v1",
+   "paid": 12,
+   "myBid": 12,
+   "info": {
+    "v0": 38.26280074876937,
+    "v1": 43.75266315323639,
+    "delta": 5.489862404467019,
+    "lambda": 0.4473416537459895,
+    "deny": 0
+   },
+   "ms": 19
+  },
+  {
+   "id": 3099348,
+   "letter": "T",
+   "winner": "LexForge-Liquid03-v1",
+   "paid": 8,
+   "myBid": 5,
+   "info": {
+    "v0": 37.99299896174995,
+    "v1": 40.18346648825356,
+    "delta": 2.1904675265036104,
+    "lambda": 0.43266656931527614,
+    "deny": 0
+   },
+   "ms": 20
+  },
+  {
+   "id": 3099365,
+   "letter": "F",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 19,
+   "myBid": 17,
+   "info": {
+    "v0": 38.614014920629295,
+    "v1": 45.986329749801236,
+    "delta": 7.372314829171941,
+    "lambda": 0.4178807082443012,
+    "deny": 0
+   },
+   "ms": 19
+  },
+  {
+   "id": 3099382,
+   "letter": "C",
+   "winner": "Astronaut",
+   "paid": 19,
+   "myBid": 27,
+   "info": {
+    "v0": 38.49745711728473,
+    "v1": 49.50669250594592,
+    "delta": 11.009235388661189,
+    "lambda": 0.40297570569339497,
+    "deny": 0
+   },
+   "ms": 10
+  },
+  {
+   "id": 3099399,
+   "letter": "Z",
+   "winner": "LexForge-Liquid03-v1",
+   "paid": 33,
+   "myBid": 9,
+   "info": {
+    "v0": 0.28999999999999965,
+    "v1": 3.189999999999998,
+    "delta": 2.8999999999999986,
+    "lambda": 0.49910086443839297,
+    "deny": 0
+   },
+   "ms": 138
+  },
+  {
+   "id": 3099416,
+   "letter": "R",
+   "winner": "Astronaut",
+   "paid": 12,
+   "myBid": 13,
+   "info": {
+    "v0": 1.258003774386628,
+    "v1": 5.3832945618832175,
+    "delta": 4.125290787496589,
+    "lambda": 0.30022267698825916,
+    "deny": 0
+   },
+   "ms": 30
+  },
+  {
+   "id": 3099433,
+   "letter": "E",
+   "winner": "Astronaut",
+   "paid": 15,
+   "myBid": 17,
+   "info": {
+    "v0": 2.3564358489203587,
+    "v1": 7.832194191208384,
+    "delta": 5.4757583422880245,
+    "lambda": 0.31450618581911927,
+    "deny": 0
+   },
+   "ms": 11
+  },
+  {
+   "id": 3099450,
+   "letter": "P",
+   "winner": "Astronaut",
+   "paid": 19,
+   "myBid": 23,
+   "info": {
+    "v0": 3.8881422006690762,
+    "v1": 11.895928647777417,
+    "delta": 8.00778644710834,
+    "lambda": 0.34556360381673995,
+    "deny": 0
+   },
+   "ms": 13
+  },
+  {
+   "id": 3099467,
+   "letter": "R",
+   "winner": "Pegasus v12-larper2000",
+   "paid": 15,
+   "myBid": 4,
+   "info": {
+    "v0": 11.039467687092683,
+    "v1": 13.012285027373778,
+    "delta": 1.972817340281095,
+    "lambda": 0.42717610280255625,
+    "deny": 0
+   },
+   "ms": 15
+  },
+  {
+   "id": 3099484,
+   "letter": "L",
+   "winner": "moody",
+   "paid": 11,
+   "myBid": 8,
+   "info": {
+    "v0": 10.547955949509914,
+    "v1": 14.495583028793293,
+    "delta": 3.9476270792833787,
+    "lambda": 0.4063647143389213,
+    "deny": 0
+   },
+   "ms": 15
+  },
+  {
+   "id": 3099501,
+   "letter": "C",
+   "winner": "moody",
+   "paid": 11,
+   "myBid": 8,
+   "info": {
+    "v0": 10.766746778803693,
+    "v1": 17.341354325428743,
+    "delta": 6.5746075466250495,
+    "lambda": 0.38523924981437485,
+    "deny": 0
+   },
+   "ms": 12
+  },
+  {
+   "id": 3099518,
+   "letter": "E",
+   "winner": "moody",
+   "paid": 11,
+   "myBid": 8,
+   "info": {
+    "v0": 11.671708649273784,
+    "v1": 17.8538232605854,
+    "delta": 6.182114611311617,
+    "lambda": 0.3637518424979928,
+    "deny": 0
+   },
+   "ms": 8
+  },
+  {
+   "id": 3099535,
+   "letter": "A",
+   "winner": "moody",
+   "paid": 11,
+   "myBid": 8,
+   "info": {
+    "v0": 11.669423336248208,
+    "v1": 19.04003051828347,
+    "delta": 7.370607182035261,
+    "lambda": 0.34184035426809806,
+    "deny": 0
+   },
+   "ms": 4
+  },
+  {
+   "id": 3099552,
+   "letter": "U",
+   "winner": "Pegasus v5",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 12.155326713058846,
+    "v1": 17.53389292588253,
+    "delta": 5.378566212823683,
+    "lambda": 0.3194218766013673,
+    "deny": 0
+   },
+   "ms": 4
+  },
+  {
+   "id": 3099569,
+   "letter": "E",
+   "winner": "moody",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 11.430213969872776,
+    "v1": 17.702671298470797,
+    "delta": 6.272457328598021,
+    "lambda": 0.29638204119528017,
+    "deny": 0
+   },
+   "ms": 5
+  },
+  {
+   "id": 3099586,
+   "letter": "Y",
+   "winner": "moody",
+   "paid": 11,
+   "myBid": 8,
+   "info": {
+    "v0": 11.62867273789653,
+    "v1": 24.135335042887903,
+    "delta": 12.506662304991373,
+    "lambda": 0.27255641224451554,
+    "deny": 0
+   },
+   "ms": 3
+  },
+  {
+   "id": 3099603,
+   "letter": "U",
+   "winner": "Astronaut",
+   "paid": 8,
+   "myBid": 8,
+   "info": {
+    "v0": 10.928668801181258,
+    "v1": 17.466117293695508,
+    "delta": 6.537448492514249,
+    "lambda": 0.24769566734007592,
+    "deny": 0
+   },
+   "ms": 3
+  },
+  {
+   "id": 3099620,
+   "letter": "E",
+   "winner": "moody",
+   "paid": 8,
+   "myBid": 1,
+   "info": {
+    "v0": 0,
+    "v1": 0.28999999999999965,
+    "delta": 0.28999999999999965,
+    "lambda": 0.2619567853185494,
+    "deny": 0
+   },
+   "ms": 4
+  },
+  {
+   "id": 3099637,
+   "letter": "R",
+   "winner": "moody",
+   "paid": 9,
+   "myBid": 1,
+   "info": {
+    "v0": 0,
+    "v1": 0.28999999999999965,
+    "delta": 0.28999999999999965,
+    "lambda": 0.17507172585778563,
+    "deny": 0
+   },
+   "ms": 2
+  },
+  {
+   "id": 3099654,
+   "letter": "O",
+   "winner": "moody",
+   "paid": 8,
+   "myBid": 1,
+   "info": {
+    "v0": 0,
+    "v1": 0.28999999999999965,
+    "delta": 0.28999999999999965,
+    "lambda": 0.1458569885341772,
+    "deny": 0
+   },
+   "ms": 2
+  },
+  {
+   "id": 3099671,
+   "letter": "Q",
+   "winner": "moody",
+   "paid": 14,
+   "myBid": 14,
+   "info": {
+    "v0": 0,
+    "v1": 2.900000000000002,
+    "delta": 2.900000000000002,
+    "lambda": 0.10924569415236714,
+    "deny": 0
+   },
+   "ms": 2
+  },
+  {
+   "id": 3099688,
+   "letter": "M",
+   "winner": "LexForge-Liquid03-v1",
+   "paid": 14,
+   "myBid": 14,
+   "info": {
+    "v0": 0,
+    "v1": 0.8699999999999997,
+    "delta": 0.8699999999999997,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 2
+  },
+  {
+   "id": 3099705,
+   "letter": "M",
+   "winner": null,
+   "paid": 0,
+   "myBid": 0,
+   "info": {
+    "v0": 0,
+    "v1": 0.8699999999999997,
+    "delta": 0.8699999999999997,
+    "lambda": 0.03,
+    "deny": 0
+   },
+   "ms": 2
+  }
+ ],
+ "words": [
+  {
+   "bot": "Pegasus v5",
+   "word": "ANGORAS",
+   "reward": 24
+  },
+  {
+   "bot": "Pegasus v12-larper2000",
+   "word": "EOBIONT",
+   "reward": 27
+  },
+  {
+   "bot": "LexForge-Liquid03-v1",
+   "word": "JEALOUSY",
+   "reward": 54
+  },
+  {
+   "bot": "Pegasus v5",
+   "word": "WIRIEST",
+   "reward": 30
+  },
+  {
+   "bot": "Pegasus v5",
+   "word": "GO",
+   "reward": 3
+  },
+  {
+   "bot": "Astronaut",
+   "word": "FIXATED",
+   "reward": 54
+  },
+  {
+   "bot": "Pegasus v5",
+   "word": "AE",
+   "reward": 2
+  },
+  {
+   "bot": "Pegasus v12-larper2000",
+   "word": "HABITED",
+   "reward": 39
+  },
+  {
+   "bot": "Astronaut",
+   "word": "DECKING",
+   "reward": 45
+  },
+  {
+   "bot": "moody",
+   "word": "LOWLIVES",
+   "reward": 42
+  },
+  {
+   "bot": "moody",
+   "word": "CYANATE",
+   "reward": 36
+  },
+  {
+   "bot": "Astronaut",
+   "word": "PULER",
+   "reward": 14
+  },
+  {
+   "bot": "LexForge-Liquid03-v1",
+   "word": "DITZ",
+   "reward": 21
+  },
+  {
+   "bot": "LexForge-Liquid03-v1",
+   "word": "NU",
+   "reward": 2
+  },
+  {
+   "bot": "LexForge-Liquid03-v1",
+   "word": "AM",
+   "reward": 4
+  },
+  {
+   "bot": "moody",
+   "word": "ER",
+   "reward": 2
+  },
+  {
+   "bot": "moody",
+   "word": "OE",
+   "reward": 2
+  }
+ ]
+}
